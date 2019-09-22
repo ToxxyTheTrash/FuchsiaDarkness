@@ -7,7 +7,7 @@ The theme can contain lots of unintentional bugs/glitches and profanity (clearly
 To download the theme, follow the next steps:
 1. open `SimplyDarkFuchsiaDarkness.theme.css` in the `master` repo up there.
 2. click the `Raw` button in the top right corner of the file
-3. right click the page after ,press `Save as...` and save it to your themes folder for BetterDiscord (full installation guide is at the bottom of this readme!)
+3. right click the page, click `Save as...` and save it to your themes folder for BetterDiscord (full installation guide is at the bottom of this readme!)
 
 The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
 
