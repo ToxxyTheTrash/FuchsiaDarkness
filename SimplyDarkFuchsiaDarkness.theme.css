@@ -1,10 +1,9 @@
 /**
  * @name SimplyDark - Fuchsia Darkness edition
  * @author toxxylover621trash#5015 and Gibbu#1211
- * @version 6.2.1
+ * @version v6.2.1
  * @description makes discord sharp, simple and sexy.
- * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
- * @website https://gibbu.me/
+ * @source https://github.com/ToxicMethASS/SDToxxy
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
@@ -1736,29 +1735,29 @@ html.platform-win .container-1r6BKw {
   #app-mount .container-3ayLPN .option-96V44q.selected-rZcOL- {
     background-color: var(--bg7); }
 
-#app-mount .layer-v9HyYc[style*="bottom: 57px;"] {
+#app-mount .layer-v9HyYc[style*="bottom"] {
   position: fixed;
   transform: none !important;
-  margin-left: 0px;
+  margin-left: -10px;
   margin-bottom: 0px; }
-  #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .scale-3iLZhb.animatorTop-2Y7x2r {
+  #app-mount .layer-v9HyYc[style*="bottom"] .scale-3iLZhb.animatorTop-2Y7x2r {
     transform: none !important; }
-  #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 {
+  #app-mount .layer-v9HyYc[style*="bottom"] .menu-Sp6bN1 {
     transform: none !important;
     box-shadow: none;
     width: 250px;
     background-color: var(--bg5);
     animation: slideIn 0.5s ease forwards;
     transform-origin: bottom center; }
-    #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 .separator-2zcjq8, #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 .helper-2c73HK {
+    #app-mount .layer-v9HyYc[style*="bottom"] .menu-Sp6bN1 .separator-2zcjq8, #app-mount .layer-v9HyYc[style*="bottom"] .menu-Sp6bN1 .helper-2c73HK {
       display: none; }
-    #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 [mask*="status"] {
+    #app-mount .layer-v9HyYc[style*="bottom"] .menu-Sp6bN1 [mask*="status"] {
       mask: none !important; }
-    #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 .statusItem-2uzPIV {
+    #app-mount .layer-v9HyYc[style*="bottom"] .menu-Sp6bN1 .statusItem-2uzPIV {
       opacity: 0;
       animation: fadeInLeft 0.5s ease forwards;
       animation-delay: 0.5s; }
-      #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 .statusItem-2uzPIV:hover {
+      #app-mount .layer-v9HyYc[style*="bottom"] .menu-Sp6bN1 .statusItem-2uzPIV:hover {
         background: var(--bg6); }
 
 #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] {
@@ -2614,3 +2613,43 @@ button[type="button"] .contents-18-Yxp > span {
 .item-3HpYcP.item-PXvHYJ[aria-label="Add Friend"] {
   background: rgba(233, 30, 99, 0.25) !important;
   color: #e91e63 !important; }
+
+.app-2rEoOp button {
+  color: #e91e63; }
+
+#app-mount svg.homeIcon-tEMBK1 {
+  color: transparent;
+  background: url("https://i.imgur.com/IlW72no.png") no-repeat center/cover;
+  height: 70%;
+  width: 70%; }
+
+#app-mount .contents-18-Yxp {
+  background-color: transparent; }
+
+#app-mount div.sprite-2iCowe {
+  -webkit-mask: url("https://i.imgur.com/IlW72no.png") no-repeat center/cover;
+  background-image: none;
+  background-color: #e91e63;
+  margin-bottom: 0px;
+  transition: 0ms; }
+
+.bd-modal-wrapper .bd-modal-body {
+  background-color: #000;
+  color: #e91e63;
+  flex-direction: row;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  contain: layout;
+  position: relative; }
+
+.bd-modal-wrapper .header {
+  background-color: #000;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  z-index: 1;
+  color: #e91e63;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px; }
