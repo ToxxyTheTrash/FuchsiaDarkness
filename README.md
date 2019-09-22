@@ -1,7 +1,7 @@
 # SimplyDark - Fuchsia Darkness by Toxxy
 A theme for BetterDiscord made by Gibbu. The theme has been completely recolored and lightly re-designed by me.
 
-The theme can contain lots of unintentional bugs/glitches and profanity (clearly meant as a jokes)!
+The theme can contain lots of unintentional bugs/glitches and profanity (clearly meant as jokes)!
 
 
 To download the theme, follow the next steps:
