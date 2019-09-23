@@ -1,5 +1,5 @@
 /**
- * @name SimplyDark - Fuchsia Darkness edition
+ * @name SimplyDark - Fuchsia Darkness
  * @author toxxylover621trash#5015 and Gibbu#1211
  * @version v6.2.1
  * @description makes discord sharp, simple and sexy.
@@ -18,7 +18,7 @@
   /* Height of the emojipicker. Changing this may cause issues in some places. | DEFAULT: 224px */
   --SD-roundness: 0px;
   /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 50px */
-  --SD-avatar-status-width: 2px;
+  --SD-avatar-status-width: 2.5px;
   /* Width of status border around avatars (must end in px) | DEFAULT: 2px */ }
 
 :root {
@@ -47,7 +47,7 @@
   --purpleDark: #432870;
   --blurple: #e91e63;
   --nitro: #ff73fa;
-  --HSL-btns: calc(var(--HSL-size) + 20px);
+  --HSL-btns: calc(var(--HSL-size) + 1014px);
   --HSL-btns-SF-opened: calc(var(--HSL-btns) + 55px); }
 
 .platform-win .wrapper-1Rf91z .scroller-2TZvBN {
@@ -323,7 +323,7 @@
   top: -25px;
   right: 25px;
   pointer-events: none;
-  opacity: .5;
+  opacity: 1;
   color: #e91e63; }
 
 #app-mount .chat-3bRxxu .inner-zqa7da {
@@ -336,10 +336,10 @@
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY {
   background: var(--bg2); }
   #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .container-1YxwTf:last-child {
-    margin-bottom: 0px; }
+    margin-bottom: 10px; }
   #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY time {
     color: #e91e63;
-    font-weight: 500; }
+    font-weight: 700; }
 
 #app-mount .chat-3bRxxu .hasMore-3e72_v {
   margin: 0; }
@@ -360,7 +360,7 @@
 
 #app-mount .chat-3bRxxu form {
   margin: 0;
-  background: transparent;
+  background: #000;
   position: relative; }
   #app-mount .chat-3bRxxu form .channelTextArea-1LDbYG {
     border: none;
@@ -384,7 +384,7 @@
         display: block;
         background-size: cover;
         opacity: .25;
-        transition: 0.5s ease;
+        transition: 0s ease;
         padding: 0 5px; }
       #app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA:hover:after {
         opacity: 1; }
@@ -394,7 +394,7 @@
     padding: 0 15px;
     box-sizing: border-box;
     top: -25px;
-    background: var(--bg6); }
+    background: transparent; }
 
 #app-mount .chat-3bRxxu .embedInner-1-fpTo {
   border: none;
@@ -452,11 +452,11 @@
   background: transparent; }
 
 .containerCozy-jafyvG {
-  padding-bottom: 25px !important;
-  padding-top: 25px !important; }
+  padding-bottom: 20px !important;
+  padding-top: 20px !important; }
 
 .theme-dark .dividerEnabled-2TTlcf {
-  border-bottom-color: #050505 !important; }
+  border-bottom-color: transparent !important; }
 
 .containerCozy-jafyvG .divider-32i8lo {
   border: none;
@@ -474,7 +474,25 @@
   content: none; }
 
 #app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after {
-  border-color: #e91e63; }
+  background-color: #e91e63; }
+
+.markup-2BOw-j {
+  font-size: 1rem;
+  line-height: 1fr;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  color: var(--text-normal);
+  font-weight: 500; }
+
+.username-_4ZSMR {
+  font-size: 17.5px;
+  font-weight: 600;
+  line-height: 10px;
+  cursor: pointer; }
 
 #app-mount .membersWrap-2h-GB4 .scroller-2FKFPG {
   background: var(--bg4); }
@@ -2614,7 +2632,10 @@ button[type="button"] .contents-18-Yxp > span {
   background: rgba(233, 30, 99, 0.25) !important;
   color: #e91e63 !important; }
 
-.app-2rEoOp button {
+#app-mount .sidebar-2K8pFh .button-14-BFJ {
+  color: rgba(233, 30, 99, 0.5); }
+
+#app-mount .sidebar-2K8pFh .button-14-BFJ:hover {
   color: #e91e63; }
 
 #app-mount svg.homeIcon-tEMBK1 {
@@ -2629,9 +2650,10 @@ button[type="button"] .contents-18-Yxp > span {
 #app-mount div.sprite-2iCowe {
   -webkit-mask: url("https://i.imgur.com/IlW72no.png") no-repeat center/cover;
   background-image: none;
-  background-color: #e91e63;
+  background-color: rgba(233, 30, 99, 0.5);
   margin-bottom: 0px;
-  transition: 0ms; }
+  transition: 0ms none !important;
+  filter: grayscale(0%) !important; }
 
 .bd-modal-wrapper .bd-modal-body {
   background-color: #000;
@@ -2653,3 +2675,6 @@ button[type="button"] .contents-18-Yxp > span {
   font-size: 15px;
   font-weight: 800;
   line-height: 20px; }
+
+#app-mount .clickable-3rdHwn:nth-child(1) {
+  display: none !important; }
