@@ -11,7 +11,7 @@ To download the theme, follow the next steps:
 
 The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
 
-Works great with:
+# Recommended you install these themes with it!
 
 HorizontalServerList (by Gibbu): https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist
 
