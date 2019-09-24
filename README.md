@@ -28,7 +28,7 @@ Screenshot of the theme with HSL enabled:
 
 Screenshot of the theme with CS enabled:
 
-![alt text](https://i.imgur.com/MbRRsur.png)
+![alt text](https://i.imgur.com/Iljkat1.png)
 
 User popouts with PermissionViewer enabled (https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/PermissionsViewer):
 
