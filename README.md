@@ -20,11 +20,11 @@ CompactSettings (by Satoru): if you want to get the theme, you'll have to reques
 Blurple Recolor (by DevilBro): https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
 
 
-
+# Screenshots
 
 Screenshot of the theme with HSL enabled:
 
-![alt text](https://i.imgur.com/U2l9gsh.png)
+![alt text](https://i.imgur.com/HUfweB3.png)
 
 Screenshot of the theme with CS enabled:
 
@@ -36,11 +36,11 @@ User popouts with PermissionViewer enabled (https://github.com/rauenzi/BetterDis
 
 Context menu:
 
-![alt text](https://i.imgur.com/71GOili.png) ![alt text](https://i.imgur.com/vq4iMJ0.png)
+![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/xF3XUwL.png)
 
 # more is for you to discover...
 
-The theme is specifically made to work on windows only! Tested on Discord PTB/Canary
+The theme is specifically made to work on Windows only! Tested on Discord PTB/Canary
 
 Installation of BetterDiscord:
 https://0x71.cc/bd/guide/#install
