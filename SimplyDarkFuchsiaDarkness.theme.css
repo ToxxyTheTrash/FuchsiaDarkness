@@ -47,7 +47,6 @@
   --purpleDark: #432870;
   --blurple: #e91e63;
   --nitro: #ff73fa;
-  --HSL-btns: calc(var(--HSL-size));
   --HSL-btns-SF-opened: calc(var(--HSL-btns) + 55px);
   --HSL-size: 35px !important; }
 
@@ -1762,7 +1761,7 @@ html.platform-win .container-1r6BKw {
 
 #app-mount .winButton-iRh8-Z {
   top: calc(100vh - 50px);
-  margin-top: 10px; }
+  margin-top: 10px !important; }
 
 #app-mount .popout-2iWAc- {
   box-shadow: none; }
