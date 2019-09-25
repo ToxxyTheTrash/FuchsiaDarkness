@@ -24,11 +24,11 @@ Blurple Recolor (by DevilBro): https://github.com/mwittrien/BetterDiscordAddons/
 
 Screenshot of the theme with HSL enabled:
 
-![alt text](https://i.imgur.com/HUfweB3.png)
+![alt text](https://i.imgur.com/GjaLpYI.png)
 
 Screenshot of the theme with CS enabled:
 
-![alt text](https://i.imgur.com/Iljkat1.png)
+![alt text](https://i.imgur.com/D42iALg.png)
 
 User popouts with PermissionViewer enabled (https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/PermissionsViewer):
 
@@ -36,7 +36,7 @@ User popouts with PermissionViewer enabled (https://github.com/rauenzi/BetterDis
 
 Context menu:
 
-![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/xF3XUwL.png)
+![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/zOPTC9J.png)
 
 # more is for you to discover...
 
