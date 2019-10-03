@@ -11,13 +11,17 @@ To download the theme, follow the next steps:
 
 The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
 
-# Recommended you install these themes with it!
+The theme is specifically made to work on Windows only! Tested on Discord PTB/Canary
+
+Installation of BetterDiscord:
+https://0x71.cc/bd/guide/#install
+
+Installation of themes and plugins:
+https://0x71.cc/bd/guide/#installthemesplugins
+
+# Recommended you install this with it!
 
 HorizontalServerList (by Gibbu): https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist
-
-CompactSettings (by Satoru): if you want to get the theme, you'll have to request access to https://gitlab.com/chikarathemes
-
-Blurple Recolor (by DevilBro): https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
 
 
 # Screenshots
@@ -38,12 +42,7 @@ Context menu:
 
 ![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/zOPTC9J.png)
 
-# more is for you to discover...
 
-The theme is specifically made to work on Windows only! Tested on Discord PTB/Canary
+# what's next?...
 
-Installation of BetterDiscord:
-https://0x71.cc/bd/guide/#install
-
-Installation of themes and plugins:
-https://0x71.cc/bd/guide/#installthemesplugins
+i'm deciding to implement more accents to elements that didn't need recoloring with blurplerecolor enabled
