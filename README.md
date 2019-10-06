@@ -11,6 +11,11 @@ To download the theme, follow the next steps:
 
 The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
 
+Thanks to DevilBro for allowing me to use a part of his theme (BlurpleRecolor) to be added into my SimplyDark variant!
+DevilBro's GitHub page: https://github.com/mwittrien
+BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
+I do not own any part of the code used from BlurpleRecolor!
+
 The theme is specifically made to work on Windows only! Tested on Discord PTB/Canary
 
 Installation of BetterDiscord:
@@ -45,4 +50,4 @@ Context menu:
 
 # what's next?...
 
-i'm deciding to implement more accents to elements that didn't need recoloring with blurplerecolor enabled
+will be adding even more support for elements to be recolored! i have already done a *heck* ton of recolors for most 
