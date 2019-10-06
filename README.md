@@ -1,53 +1,43 @@
-# SimplyDark - Fuchsia Darkness by Toxxy
-A theme for BetterDiscord made by Gibbu. The theme has been completely recolored and lightly re-designed by me.
-
+# SimplyDark - Fuchsia Darkness
+A BetterDiscord theme made by Gibbu, later completely recolored and re-designed by me!  
 The theme can contain lots of unintentional bugs/glitches and profanity (clearly meant as jokes)!
 
+## Installation
 
 To download the theme, follow the next steps:
-1. open `SimplyDarkFuchsiaDarkness.theme.css` in the `master` repo up there.
-2. click the `Raw` button in the top right corner of the file
-3. right click the page, click `Save as...` and save it to your themes folder for BetterDiscord (full installation guide is at the bottom of this readme!)
+  1. open `SimplyDarkFuchsiaDarkness.theme.css` in the repo.
+  2. click the `Raw` button in the top right corner of the theme file page.
+  3. once in the "raw" code view; right click the page, click `Save as...` and save it to your BetterDiscord theme folder.
+  
+   **The theme is specifically made to work on Windows only! Tested on Stable and PTB/Canary**
+ - Installation of BetterDiscord: https://0x71.cc/bd/guide/#install  
+ - Installation of themes and plugins: https://0x71.cc/bd/guide/#installthemesplugins  
 
-The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
+The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark  
 
-Thanks to DevilBro for allowing me to use a part of his theme (BlurpleRecolor) to be added into my SimplyDark variant!
-DevilBro's GitHub page: https://github.com/mwittrien
-BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor
-I do not own any part of the code used from BlurpleRecolor!
+Thanks to **DevilBro** for letting me use parts of **BlurpleRecolor** to be added into the theme!  
+DevilBro's GitHub page: https://github.com/mwittrien  
+BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor  
+**I do not own any part of the code used from BlurpleRecolor!**  
 
-The theme is specifically made to work on Windows only! Tested on Discord PTB/Canary
+## Recommended you install these mini-themes with it!
+- HorizontalServerList [by Gibbu]: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist
+- MaterialCons [by Tropical]: https://github.com/tropix126/betterDiscordStuff/tree/master/materialcons  
 
-Installation of BetterDiscord:
-https://0x71.cc/bd/guide/#install
+## Screenshots
 
-Installation of themes and plugins:
-https://0x71.cc/bd/guide/#installthemesplugins
+Chat with HorizontalServerList enabled:  
+![alt text](https://i.imgur.com/UEUB9sp.png)
 
-# Recommended you install this with it!
+Settings with CompactSettings enabled:  
+![alt text](https://i.imgur.com/t9x7cJl.png)
 
-HorizontalServerList (by Gibbu): https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist
+User popouts:  
+![alt text](https://i.imgur.com/pjPZS78.png) ![alt text](https://i.imgur.com/EUiLOfx.png)
 
+Context menu:  
+![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/zIuMbSm.png)
 
-# Screenshots
+### what's next?...
 
-Screenshot of the theme with HSL enabled:
-
-![alt text](https://i.imgur.com/GjaLpYI.png)
-
-Screenshot of the theme with CS enabled:
-
-![alt text](https://i.imgur.com/D42iALg.png)
-
-User popouts with PermissionViewer enabled (https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/PermissionsViewer):
-
-![alt text](https://i.imgur.com/Ch90J5l.png) ![alt text](https://i.imgur.com/FKFoKxz.png)
-
-Context menu:
-
-![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/zOPTC9J.png)
-
-
-# what's next?...
-
-will be adding even more support for elements to be recolored! i have already done a *heck* ton of recolors for most 
+- will be adding even more support for elements to be recolored! i have already done a *heck* ton of recolors for most 
