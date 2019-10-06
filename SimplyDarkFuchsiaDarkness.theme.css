@@ -3245,6 +3245,37 @@ button[type="button"] .contents-18-Yxp > span {
   color: rgba(var(--AccentColor), 1);
   text-decoration: none; }
 
+#app-mount .root-SR8cQa .userInfoSection-2acyCx .connectedAccount-36nQx7 .connectedAccountOpenIcon-2cNbq5 {
+  filter: none; }
+
+#app-mount .root-SR8cQa .userInfoSectionHeader-CBvMDh {
+  color: rgba(var(--AccentColor), 1);
+  font-weight: 700; }
+
+#app-mount .root-SR8cQa .userInfoSection-2acyCx textarea {
+  color: rgba(var(--AccentColor), 1);
+  font-weight: 500; }
+
+.itemBase-tz5SeC.brand-3igrJY, .itemBase-tz5SeC.brand-3igrJY:hover {
+  color: rgba(var(--AccentColor), 1);
+  animation: rainbow 5s infinite; }
+
+.callAvatarVoice-29N_wG {
+  width: 100%;
+  height: 100%;
+  border-radius: 0% !important;
+  position: inherit; }
+
+.avatarMargin-19rzTM {
+  margin: 0px 2.5px; }
+
+.callAvatarWrapper-3Ax_xH * {
+  mask: none; }
+
+.icon-3s6X1M {
+  color: rgba(var(--AccentColor), 1);
+  background-color: #111; }
+
 /* ICONS */
 img[src*="assets/521842831262875670/store/524691831728898048.png"] {
   object-position: -99999px -99999px;
