@@ -8,14 +8,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 :root {
-  --SD-bgR: 10;
-  /* RED value | 0 - 255 | DEFAULT: 10 */
-  --SD-bgG: 10;
-  /* GREEN value | 0 - 255 | DEFAULT: 10 */
-  --SD-bgB: 10;
-  /* BLUE value | 0 - 255 | DEFAULT: 10 */
-  --SD-emojipickerheight: 224px;
-  /* Height of the emojipicker. Changing this may cause issues in some places. | DEFAULT: 224px */
   --SD-roundness: 0px;
   /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 50px */
   --SD-avatar-status-width: 2.5px;
@@ -1988,9 +1980,11 @@ html.platform-win .container-1r6BKw {
         filter: grayscale(1); }
     #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:first-child {
       color: var(--nitro); }
+      #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:first-child:hover {
+        color: var(--nitro); }
     #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover {
       background: var(--bg8);
-      color: rgba(var(--AccentColor), 1) !important; }
+      color: rgba(var(--AccentColor), 1); }
 
 #app-mount .autocomplete-1vrmpx {
   background-color: var(--bg3); }
@@ -2591,35 +2585,6 @@ button[aria-label="User Settings"]:before {
   font-weight: 800;
   line-height: 20px; }
 
-.premiumGuildIcon-BhwtRn {
-  color: #f47fff !important; }
-
-.item-1GzJrl:not(:first-child):not(.leave-1DRJfn) {
-  color: rgba(var(--AccentColor), 1) !important; }
-
-.icon-2doZ3q:not(:first-child):not(.leave-1DRJfn) {
-  color: rgba(var(--AccentColor), 1) !important; }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover {
-  background: #111;
-  color: rgba(var(--AccentColor), 1) !important; }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:not(.invite-271nFU):not(:first-child):not(.leave-1DRJfn) .icon-2doZ3q {
-  filter: none !important; }
-
-.icon-2doZ3q:not(:first-child):not(.leave-1DRJfn) {
-  color: rgba(var(--AccentColor), 1); }
-
-.icon-2doZ3q:hover {
-  color: rgba(var(--AccentColor), 1); }
-
-.separator-2zcjq8 {
-  border-bottom: 1px solid #222;
-  margin: 0px 10px; }
-
-.menu-Sp6bN1 .item-1GzJrl:hover svg {
-  color: rgba(var(--AccentColor), 1); }
-
 .container-16j22k {
   background-color: #000; }
 
@@ -2950,17 +2915,17 @@ button[aria-label="User Settings"]:before {
   color: #f47fff !important; }
 
 .item-1GzJrl:not(:first-child):not(.leave-1DRJfn) {
-  color: rgba(var(--AccentColor), 1) !important; }
+  color: rgba(var(--AccentColor), 1); }
 
 .icon-2doZ3q:not(:first-child):not(.leave-1DRJfn) {
-  color: rgba(var(--AccentColor), 1) !important; }
+  color: rgba(var(--AccentColor), 1); }
 
 #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover {
   background: #111;
-  color: rgba(var(--AccentColor), 1) !important; }
+  color: rgba(var(--AccentColor), 1); }
 
 #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:not(.invite-271nFU):not(:first-child):not(.leave-1DRJfn) .icon-2doZ3q {
-  filter: none !important; }
+  filter: none; }
 
 .icon-2doZ3q:not(:first-child):not(.leave-1DRJfn) {
   color: rgba(var(--AccentColor), 1); }
@@ -2974,6 +2939,25 @@ button[aria-label="User Settings"]:before {
 
 .menu-Sp6bN1 .item-1GzJrl:hover svg {
   color: rgba(var(--AccentColor), 1); }
+
+#app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .item-1GzJrl.invite-271nFU {
+  animation: rainbow 5s infinite linear !important;
+  opacity: 1; }
+
+.premiumRetentionNotice-2F9O9e {
+  background-color: #000;
+  border-radius: 0px;
+  padding: 10px;
+  margin: 10px; }
+
+.premiumRetentionNoticeClose-13p8rf {
+  width: 15px;
+  height: 15px;
+  color: rgba(var(--AccentColor), 1); }
+
+.premiumRetentionNoticeContent-1U1AGf {
+  color: rgba(var(--AccentColor), 0.75);
+  animation: rainbow 5s linear infinite; }
 
 #permissions-modal-wrapper #permissions-modal {
   border: 2px solid rgba(var(--AccentColor), 1);
@@ -3702,9 +3686,6 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * + *:before {
   color: #fff;
   top: 5px; }
 
-.horizontal-1ae9ci > .flex-1xMQg5:first-child, .horizontal-1ae9ci > .flexChild-faoVW3:first-child {
-  color: rgba(var(--AccentColor), 1) !important; }
-
 #app-mount .wrapper-3t9DeA[style*="width: 80px;"][style*="width: 80px;"]:after {
   display: none; }
 
@@ -4008,3 +3989,53 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * + *:before {
 
 .theme-dark .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK, .theme-light .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
   border-top-color: rgba(var(--AccentColor), 1); }
+
+.theme-dark .popoutList-T9CKZQ {
+  background: #000; }
+
+#app-mount .header-2bNvm4 h3 {
+  display: none; }
+
+.item-PXvHYJ [style*="color: rgb(114, 137, 218);"] {
+  color: rgba(var(--AccentColor), 1) !important;
+  animation: rainbow 5s infinite linear; }
+
+.reactionCount-2ddRoS {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 5px;
+  color: rgba(var(--AccentColor), 0.5); }
+
+.reaction-1ELvT8 {
+  border-radius: 0px;
+  margin: 2.5px;
+  background: #111; }
+
+.reactionMe-23mbRf .reactionCount-2ddRoS, .reactionMe-23mbRf:hover .reactionCount-2ddRoS {
+  color: rgba(var(--AccentColor), 1); }
+
+.reaction-1ELvT8.reactionMe-23mbRf {
+  background-color: #222; }
+
+/* Not selected */
+[aria-label="GUILD_SETTINGS"] .item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
+  color: #f47fff !important; }
+
+/* Not selected - Hovered */
+[aria-label="GUILD_SETTINGS"] .item-PXvHYJ[style*="color: rgb(114, 137, 218);"]:hover {
+  background: rgba(255, 0, 0, 0.1) !important; }
+
+/* Selected */
+[aria-label="GUILD_SETTINGS"] .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
+  background: #f47fff55 !important;
+  color: #f47fff !important; }
+
+/* Selected - Hovered */
+[aria-label="GUILD_SETTINGS"] .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"]:hover {
+  background: #f47fff55 !important; }
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+  background-color: #e91e63 !important; }
+
+.role-3wi9Tf:not([style]) {
+  color: #b9bbbe !important; }
