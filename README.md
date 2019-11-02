@@ -27,17 +27,20 @@ BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/The
 ## Screenshots
 
 Chat with HorizontalServerList enabled:  
-![alt text](https://i.imgur.com/UEUB9sp.png)
+![alt text](https://i.imgur.com/3CSJYht.png)
 
 Settings with CompactSettings enabled:  
-![alt text](https://i.imgur.com/t9x7cJl.png)
+![alt text](https://i.imgur.com/bU4fjSl.png)
 
-User popouts:  
-![alt text](https://i.imgur.com/pjPZS78.png) ![alt text](https://i.imgur.com/EUiLOfx.png)
+User popouts with PermissionViewer enabled:  
+![alt text](https://i.imgur.com/SqxPs40.png) ![alt text](https://i.imgur.com/zizDpTD.png)
 
 Context menu:  
-![alt text](https://i.imgur.com/i1fzeR6.png) ![alt text](https://i.imgur.com/zIuMbSm.png)
+![alt text](https://i.imgur.com/aeXKw4O.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif)
+
+Emote List:  
+![alt text](https://i.imgur.com/ZYJrtmq.png)
 
 ### what's next?...
 
-- will be adding even more support for elements to be recolored! i have already done a *heck* ton of recolors for most 
+- will be adding even more support for elements to be recolored! i have already done a *heck* ton of recolors for most - having lots of problems with figuring out element.styles mainly
