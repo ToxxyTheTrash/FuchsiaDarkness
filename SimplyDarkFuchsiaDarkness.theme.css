@@ -5,14 +5,12 @@
  * @description makes discord sharp, simple and sexy.
  * @source https://github.com/ToxicMethASS/SDToxxy
 */
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://toxxythetrash.github.io/SimplyDarkFuchsiaDarkness/base.css");
 
-
 :root {
+	
   --SD-roundness: 0px;
-  /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 50px */
   --SD-avatar-status-width: 2.5px;
-  /* Width of status border around avatars (must end in px) | DEFAULT: 2px */ }
+  --AccentColor: 233, 30, 99;
