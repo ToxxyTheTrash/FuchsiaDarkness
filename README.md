@@ -1,6 +1,10 @@
 # SimplyDark - Fuchsia Darkness
-A BetterDiscord theme made by Gibbu, later completely recolored and re-designed by me!  
-The theme can contain lots of unintentional bugs/glitches and profanity (clearly meant as jokes)!
+A completely re-designed and recolored BetterDiscord theme **SimplyDark** made by **Gibbu**!   
+The purpose of the theme is to make discord look black with an accent of choice and compact in it's own way.  
+The theme can contain lots of bugs/glitches and profanity (clearly meant as jokes)!
+
+# Settings update! 💜
+I have taken my time and redone the settings ui! no more need to use an extra theme just to make the theme look beautiful!
 
 ## Installation
 
@@ -29,7 +33,7 @@ BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/The
 Chat with HorizontalServerList enabled:  
 ![alt text](https://i.imgur.com/3CSJYht.png)
 
-Settings with CompactSettings enabled:  
+Settings:  
 ![alt text](https://i.imgur.com/bU4fjSl.png)
 
 User popouts with PermissionViewer enabled:  
