@@ -1,4 +1,3 @@
-
 .theme-dark {
   --header-secondary: #bbb;
   --text-normal: #ddd;
@@ -38,7 +37,7 @@
   --nitro: #ff73fa;
   --HSL-btns-SF-opened: calc(var(--HSL-btns) + 55px);
   --HSL-size: 35px !important;
-  }
+}
 
 .platform-win .wrapper-1Rf91z .scroller-2TZvBN {
   padding-top: 10px; }
@@ -494,7 +493,7 @@
 .layer-3QrUeG[aria-label*="SETTINGS"] .toolsContainer-1edPuj, .layer-3QrUeG[aria-label*="RTC"] .toolsContainer-1edPuj {
   position: absolute;
   top: 0px;
-  left: -250px;
+  left: -260px;
   margin: 0;
   padding: 0;
   width: auto; }
@@ -817,18 +816,6 @@
   #bd-settingspane-container .bda-slist .ui-switch-item .bda-footer {
     border: none;
     background: var(--bg4); }
-
-#bd-settings-sidebar > span > div {
-  display: block;
-  position: relative; }
-  #bd-settings-sidebar > span > div:last-child {
-    padding-bottom: 10px !important; }
-    #bd-settings-sidebar > span > div:last-child:after {
-      content: "titties";
-      position: absolute;
-      left: 0;
-      top: 16.5px;
-      left: 10px; }
 
 [aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ:nth-child(2):before {
   -webkit-mask: url("https://i.imgur.com/DVOL3aX.png"); }
@@ -4186,4 +4173,182 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * + *:before {
   opacity: 0; }
 
 #app-mount .messagesPopoutWrap-1MQ1bW .footer-1K57q_ {
+  display: none; }
+
+.sidebar-CFHs9e {
+  width: 250px;
+  padding: -50px -50px 0px 0px; }
+
+.layer-3QrUeG[aria-label*="SETTINGS"] .sidebarRegion-VFTUkN .sidebar-CFHs9e, .layer-3QrUeG[aria-label*="RTC"] .sidebarRegion-VFTUkN .sidebar-CFHs9e {
+  padding-top: 75px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+
+.side-8zPYf6 .item-PXvHYJ {
+  padding-top: 2.5px;
+  padding-bottom: 5px;
+  margin-bottom: 0px; }
+
+.contentColumnDefault-1VQkGM {
+  position: relative;
+  padding: 0px 0px 0px 25px; }
+
+.sidebarRegion-VFTUkN {
+  -ms-flex: 0 0 0px;
+  flex: 0 0 0px;
+  z-index: 1; }
+
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+  max-width: 850px;
+  min-width: 500px; }
+
+.side-8zPYf6 .separator-gCa7yv {
+  margin: 5px 10px;
+  height: 1px; }
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:not(:disabled) {
+  background: #111;
+  color: #fff; }
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+  color: #111;
+  border-color: rgba(var(--AccentColor), 1); }
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:not(:disabled):hover {
+  background: #222;
+  border-color: rgba(var(--AccentColor), 1); }
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  color: #fff;
+  background-color: #222; }
+
+.subscribeTooltipWrapper-32-Ce8 {
+  max-width: 280px;
+  padding: 10px;
+  background-color: #222; }
+
+.subscribeTooltipWrapper-32-Ce8:after {
+  border-bottom-color: rgba(var(--AccentColor), 1); }
+
+.theme-dark .questionMark-CWEQZn {
+  background-color: rgba(var(--AccentColor), 1); }
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: #333; }
+
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG {
+  color: rgba(var(--AccentColor), 1); }
+
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
+  color: rgba(var(--AccentColor), 1); }
+
+.lookLink-9FtZy- .contents-18-Yxp {
+  color: rgba(var(--AccentColor), 1); }
+
+.video-2aTfcg {
+  display: none; }
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+  background-color: #222; }
+
+.wrapper-3jrx9n {
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 50%;
+  border-radius: 0px;
+  border: 2px solid rgba(var(--AccentColor), 1); }
+
+.option-n0icdO:hover {
+  background-color: #222;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0);
+  opacity: 1; }
+
+.container-CpszHS.hasValue-3pdcdm .button-34kXw5 {
+  width: 50px; }
+
+.lookGhost-2Fn_0-.colorGrey-2DXtkV {
+  color: transparent; }
+
+.container-CpszHS.hasValue-3pdcdm:not(.disabled-29eJ21):hover .button-34kXw5 {
+  width: 50px; }
+
+.button-34kXw5 {
+  width: 50px; }
+
+.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+  background-color: #222; }
+
+.theme-dark .addGamePopout-2RY8Ju {
+  background-color: #222; }
+
+.divider-3573oO {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(var(--AccentColor), 1); }
+
+.css-181m2lf-menu {
+  background-color: #000;
+  box-shadow: rgba(0, 0, 0, 0) 0 0 0 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  color: rgba(var(--AccentColor), 1);
+  border-radius: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #202225;
+  border-image: initial; }
+
+.css-15ejc46-control {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 40px;
+  position: relative;
+  box-sizing: border-box;
+  border-color: rgba(var(--AccentColor), 1);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  transition: border 0.15s ease 0s;
+  outline: 0px !important; }
+
+.css-15ejc46-control:hover {
+  border-color: rgba(var(--AccentColor), 1); }
+
+.css-mhi7q3-placeholder {
+  color: rgba(var(--AccentColor), 1);
+  margin-left: 2px;
+  margin-right: 2px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  opacity: 0.5; }
+
+.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR {
+  background-color: #333; }
+
+.theme-dark .nowPlaying-284llR .lastPlayed-3bQ7Bo, .theme-dark .nowPlaying-284llR .overlayStatusText-L2IACa, .theme-light .nowPlaying-284llR .lastPlayed-3bQ7Bo, .theme-light .nowPlaying-284llR .overlayStatusText-L2IACa {
+  color: rgba(var(--AccentColor), 1); }
+
+.overlayStatusText-L2IACa {
+  width: 150px;
+  margin-right: 0px;
+  text-transform: uppercase;
+  font-size: 15px;
+  opacity: 0; }
+
+.theme-dark .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-dark .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG {
+  fill: rgba(var(--AccentColor), 1); }
+
+.container-3JkMqB .search-MFQ5bU {
   display: none; }
