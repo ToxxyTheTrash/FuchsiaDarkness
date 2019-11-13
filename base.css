@@ -2286,10 +2286,10 @@ html.theme-light #app-mount {
   height: 500px; }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
-  width: 450px; }
+  width: 500px; }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
-  width: 7.75%; }
+  width: 7.15%; }
 
 #app-mount .chat-3bRxxu .emoji.jumboable,
 #app-mount .chat-3bRxxu .emote.jumboable {
@@ -3783,7 +3783,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
   display: none; }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
-  width: 30px;
+  width: 35px;
   border-bottom: 5px solid transparent;
   margin-right: 10px;
   cursor: crosshair; }
@@ -3793,13 +3793,16 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .emojiPicker-3m1S-j {
   border-radius: 0px;
-  min-width: 450px; }
+  min-width: 500px; }
 
 #app-mount .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
   filter: none; }
 
 .emojiPicker-3m1S-j .categories-1feg4n .categoryIcon-2gYcnP {
   color: rgba(var(--AccentColor), 1); }
+
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU .category-2U57w6 {
+  display: none; }
 
 .grid-1nZz7S {
   padding: 0px 10px 5px; }
