@@ -2283,20 +2283,7 @@ html.theme-light #app-mount {
 #app-mount .emojiPicker-3m1S-j .dimmer-3iH-5D,
 #app-mount #bda-qem-twitch-container,
 #app-mount #bda-qem-favourite-container {
-  height: 750px;
-  width: 450px; }
-
-#app-mount .emojiPicker-3m1S-j .categories-1feg4n {
-  margin: 0;
-  position: relative;
-  left: 50px; }
-
-#app-mount .emojiPicker-3m1S-j .scroller-3vODG7,
-#app-mount .emojiPicker-3m1S-j .scroller-3vODG7,
-#app-mount .emojiPicker-3m1S-j .scrollerWrap-PyxcLY,
-#app-mount .emojiPicker-3m1S-j .dimmer-3iH-5D {
-  height: 100%;
-  width: 100%; }
+  height: 500px; }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
   width: 450px; }
@@ -3752,6 +3739,67 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .bannerImage-1jOskm {
   width: 300px; }
+
+.inner-1gJC7_ {
+  width: 35px;
+  height: 35px; }
+
+.hasMore-3e72_v, .loadingMore-sPqUXZ {
+  margin: 10px 10px 10px 10px;
+  height: 50px; }
+
+.embedFull-2tM8-- {
+  border-left: 5px solid;
+  background: #111; }
+
+.embedFieldName-NFrena {
+  color: rgba(var(--AccentColor), 1); }
+
+.embedFooterText-28V_Wb {
+  font-weight: 600;
+  color: rgba(var(--AccentColor), 1); }
+
+.embedFooterSeparator-3klTIQ {
+  font-weight: 700;
+  color: #fff;
+  margin: 0 5px; }
+
+.inner-zqa7da {
+  background-color: #000; }
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+  color: rgba(var(--AccentColor), 1);
+  background-color: #222; }
+
+.emojiPicker-3m1S-j .categories-1feg4n {
+  background-color: #000;
+  padding: 0 10px; }
+
+.infoBar-U6oBFk {
+  padding: 0px 10px 10px 10px;
+  background-color: #111; }
+
+.emojiPicker-3m1S-j.da-emojiPicker .categories-1feg4n.da-categories .item-16cXuq.da-item[aria-label="favorites"] {
+  display: none; }
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+  width: 30px;
+  border-bottom: 5px solid transparent;
+  margin-right: 10px;
+  cursor: crosshair; }
+
+.infoBar-U6oBFk, .infoBarWrapper-283ttO.infoBarExpanded-2Of7UZ {
+  height: 55px; }
+
+.emojiPicker-3m1S-j {
+  border-radius: 0px;
+  min-width: 450px; }
+
+#app-mount .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+  filter: none; }
+
+.emojiPicker-3m1S-j .categories-1feg4n .categoryIcon-2gYcnP {
+  color: rgba(var(--AccentColor), 1); }
 
 /* ICONS */
 img[src*="assets/521842831262875670/store/524691831728898048.png"] {
