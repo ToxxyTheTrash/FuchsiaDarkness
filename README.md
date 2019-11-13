@@ -1,7 +1,7 @@
 # SimplyDark - Fuchsia Darkness
 A completely re-designed and recolored BetterDiscord theme **SimplyDark** made by **Gibbu**!   
 The purpose of the theme is to make discord look black with an accent of choice and compact in it's own way.  
-The theme can contain lots of bugs/glitches and profanity (clearly meant as jokes)!
+The theme can contain lots of bugs/glitches (scroller problems at most) and profanity (clearly meant as jokes).
 
 # Settings update! 💜
 I have taken my time and redone the settings ui! no more need to use an extra theme just to make the theme look beautiful!
@@ -31,20 +31,21 @@ BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/The
 ## Screenshots
 
 Chat with HorizontalServerList enabled:  
-![alt text](https://i.imgur.com/3CSJYht.png)
+![alt text](https://i.imgur.com/Dt1JzyR.png)
 
 Settings:  
-![alt text](https://i.imgur.com/bU4fjSl.png)
+![alt text](https://i.imgur.com/hn0a7mb.png)
 
 User popouts with PermissionViewer enabled:  
-![alt text](https://i.imgur.com/SqxPs40.png) ![alt text](https://i.imgur.com/zizDpTD.png)
+![alt text](https://i.imgur.com/qDkr3EH.png) ![alt text](https://i.imgur.com/qp8Revl.png)
 
 Context menu:  
 ![alt text](https://i.imgur.com/aeXKw4O.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif)
 
 Emote List:  
-![alt text](https://i.imgur.com/ZYJrtmq.png)
+![alt text](https://i.imgur.com/afpJOMl.gif)
 
 ### what's next?...
 
-- will be adding even more support for elements to be recolored! i have already done a *heck* ton of recolors for most - having lots of problems with figuring out element.styles mainly
+- most recoloring has been done! but there's still a fuckton of element.style stuff i ain't arsed to deal with.
+- making some stuff more compact. very hot.
