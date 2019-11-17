@@ -33,7 +33,7 @@ DevilBro's GitHub page: https://github.com/mwittrien
 BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor  
 
 Thanks to **Tropical** for letting me use parts of **MaterialCons** to be added into the theme!  
-Tropical's GitHub page: https://github.com/Tropix126 
+Tropical's GitHub page: https://github.com/Tropix126  
 MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materialcons  
 
 **I do not own any part of the code used from BlurpleRecolor and MaterialCons!**  
