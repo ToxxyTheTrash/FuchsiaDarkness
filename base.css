@@ -267,7 +267,7 @@
           background: linear-gradient(90deg, transparent, #000 50%); }
         #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O:hover .closeButton-2GCmT5 {
           background: transparent;
-          left: -8.5px; }
+          left: 0px; }
       #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 {
         background: #000; }
         #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .name-2WpE7M {
@@ -2306,7 +2306,7 @@ html.theme-light #app-mount {
 
 .emojiPicker-3m1S-j .categories-1feg4n {
   background-color: #000;
-  padding: 0 10px; }
+  padding: 0 25px; }
 
 .infoBar-U6oBFk {
   padding: 0px 10px 10px 10px;
@@ -3029,10 +3029,10 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
   -webkit-mask-image: url("https://i.imgur.com/ZEcR8dr.png"); }
 
 .item-16cXuq[aria-label="people"] {
-  -webkit-mask-image: url("https://i.imgur.com/IZmXcel.png"); }
+  -webkit-mask-image: url("https://i.imgur.com/Qeo2ueQ.png"); }
 
 .item-16cXuq[aria-label="nature"] {
-  -webkit-mask-image: url("https://i.imgur.com/MjzPfnJ.png"); }
+  -webkit-mask-image: url("https://i.imgur.com/v84hyJ1.png"); }
 
 .item-16cXuq[aria-label="food"] {
   -webkit-mask-image: url("https://i.imgur.com/hQi8BOu.png"); }
@@ -3041,7 +3041,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
   -webkit-mask-image: url("https://i.imgur.com/NkZVkcS.png"); }
 
 .item-16cXuq[aria-label="travel"] {
-  -webkit-mask-image: url("https://i.imgur.com/UD66jDk.png"); }
+  -webkit-mask-image: url("https://i.imgur.com/3IBmkAe.png"); }
 
 .item-16cXuq[aria-label="objects"] {
   -webkit-mask-image: url("https://i.imgur.com/9tkLDi5.png"); }
@@ -3119,7 +3119,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
   border-radius: 0%; }
 
 .containerCozy-B4noqO > * {
-  margin: 0 0 0 0; }
+  margin: 5px 0 0 0; }
 
 .buttonContainer-21MN7J > .grow-q77ONN.colorBrand-3pXr91.lookBlank-3eh9lL.button-38aScr.buttonWrapper-1ZmCpA {
   display: none; }
@@ -3988,9 +3988,13 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .theme-dark .sampleLink-KPFu3I {
   color: rgba(var(--AccentColor), 1); }
 
-.modal-3c3bKg .wrapper-3t9DeA {
+.modal-3c3bKg .wrapper-3t9DeA:not(.listAvatar-1NlAhb) {
   height: 150px !important;
   width: 150px !important; }
+
+.listAvatar-1NlAhb {
+  height: 75px !important;
+  width: 75px !important; }
 
 .membersWrap-2h-GB4 .scrollerWrap-2lJEkd {
   height: 120%; }
@@ -4064,6 +4068,9 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
   font-weight: 500;
   color: rgba(var(--AccentColor), 1); }
 
+.topSectionNormal-2-vo2m .username-3gJmXY {
+  color: var(--header-primary); }
+
 .theme-dark .activityProfile-2bJRaP .details-38sfDr {
   color: rgba(var(--AccentColor), 1); }
 
@@ -4084,9 +4091,58 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
   color: rgba(var(--AccentColor), 1);
   font-size: 20px; }
 
+.topSectionNormal-2-vo2m .username-3gJmXY {
+  color: rgba(var(--AccentColor), 1); }
+
+.topSectionNormal-2-vo2m .activityHeader-1PExlk, .topSectionNormal-2-vo2m .customStatusText-39gdCI {
+  color: rgba(var(--AccentColor), 1); }
+
 .iconWrapper-2OrFZ1[aria-roledescription*="Channel Mute Switch"],
 .toolbar-1t6TWx a {
   display: none; }
+
+.modal-3c3bKg .wrapper-3t9DeA::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: var(--popoutbg);
+  -webkit-mask-image: linear-gradient(#000, transparent); }
+
+.modal-3c3bKg .header-QKLPzZ *,
+.modal-3c3bKg .activity-1ythUs *,
+.modal-3c3bKg .body-3ND3kc * {
+  z-index: 1; }
+
+.wrapper-3t9DeA[user_by_bdfdb*="359042365970710538"] {
+  --popoutbg:url(https://cdn.discordapp.com/attachments/546244449873821705/645486399025315851/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg); }
+
+#app-mount .root-SR8cQa .tabBarContainer-1s1u-z .item-PXvHYJ:nth-child(1):before {
+  background: url("https://i.imgur.com/Ik3jSHK.png") center/20px no-repeat !important;
+  filter: invert(0); }
+
+#app-mount .root-SR8cQa .tabBarContainer-1s1u-z .item-PXvHYJ:nth-child(2):before {
+  background: url("https://i.imgur.com/DwMk1By.png") center/20px no-repeat !important;
+  filter: invert(0); }
+
+#app-mount .root-SR8cQa .tabBarContainer-1s1u-z .item-PXvHYJ:nth-child(3):before {
+  background: url("https://i.imgur.com/Qeo2ueQ.png") center/20px no-repeat !important;
+  filter: invert(0); }
+
+#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after {
+  content: "";
+  -webkit-mask: url("https://i.imgur.com/KXXn8Bl.png") center/25px no-repeat; }
+
+.icon-15YQ1T {
+  color: rgba(var(--AccentColor), 1); }
 
 /* ICONS */
 .check-2by_h9 {
