@@ -38,9 +38,8 @@ MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materi
 
 **I do not own any part of the code used from BlurpleRecolor and MaterialCons!**  
 
-## Recommended you install these mini-themes with it!
+## Recommended you install HorizontalServerList with it!
 - HorizontalServerList [by Gibbu]: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist
-- MaterialCons [by Tropical]: https://github.com/tropix126/betterDiscordStuff/tree/master/materialcons  
 
 ## Screenshots
 
