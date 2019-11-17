@@ -18,7 +18,7 @@ The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-T
 
 ## Stylus - READ FIRST!
 
-because i'm a dumb fuck and i'm handling usercss FOR THE FIRST TIME, i don't know why but it applies the theme to **EVERY WEBSITE** despite me setting it to only apply to discordapp.com, but mainly only button radiuses and masks, not colors. If you like this, you may use the usercss freely in Stylus, otherwise do not get it or exclude it on every website you visit and something fucks up. *hmu if you know how to fix this*
+because i'm a dumb fuck and i'm handling usercss FOR THE FIRST TIME, i don't know why but it applies the theme to **EVERY WEBSITE** despite me setting it to only apply to discordapp.com cause ```@-moz-document domain("discordapp.com")``` doesn't seem to work. mainly only button radiuses and masks get changed and not colors. If you like this, you may using it, otherwise dont' get it or exclude it on every website you visit and something fucks up on it. *hmu in the issues if you know how to fix this*
 
 ## Installation for Stylus
 
@@ -31,7 +31,12 @@ To download the theme for **Stylus**, follow the next steps:
 Thanks to **DevilBro** for letting me use parts of **BlurpleRecolor** to be added into the theme!  
 DevilBro's GitHub page: https://github.com/mwittrien  
 BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor  
-**I do not own any part of the code used from BlurpleRecolor!**  
+
+Thanks to **Tropical** for letting me use parts of **MaterialCons** to be added into the theme!  
+Tropical's GitHub page: https://github.com/Tropix126 
+MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materialcons  
+
+**I do not own any part of the code used from BlurpleRecolor and MaterialCons!**  
 
 ## Recommended you install these mini-themes with it!
 - HorizontalServerList [by Gibbu]: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist
@@ -45,19 +50,20 @@ Chat with HorizontalServerList enabled:
 Settings:  
 ![alt text](https://i.imgur.com/VBeiOPI.png)
 
-Profile popout:  
-![alt text](https://i.imgur.com/1PR6pE6.png)
+Profile window:  
+![alt text](https://i.imgur.com/ozTURmH.png)  
 
-Profile Window:  
-![alt text](https://i.imgur.com/ozTURmH.png)
+Profile popup:  
+![alt text](https://i.imgur.com/1PR6pE6.png)  
 
-Context menu:  
-![alt text](https://i.imgur.com/aeXKw4O.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif)
+Dropdowns and context menus:  
+![alt text](https://i.imgur.com/kakVlFk.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif) ![alt text](https://i.imgur.com/9isgY8v.png)
 
-Emote List:  
-![alt text](https://i.imgur.com/afpJOMl.gif)
+Emote and server window:  
+![alt text](https://i.imgur.com/afpJOMl.gif) ![alt text](https://i.imgur.com/6qqOv1M.png)
 
 ### what's next?...
 
-- most recoloring has been done! but there's still a fuckton of element.style stuff i ain't arsed to deal with.
-- making some stuff more compact. very hot.
+- most recoloring has been done! if there's anythign else hiding, i'll make sure to end it.
+- making more stuff compact.
+- removing more useless elements.
