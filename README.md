@@ -47,7 +47,7 @@ Chat with HorizontalServerList enabled:
 ![alt text](https://i.imgur.com/Dt1JzyR.png)
 
 Settings:  
-![alt text](https://i.imgur.com/VBeiOPI.png)
+![alt text](https://i.imgur.com/VBeiOPI.png) ![alt text](https://i.imgur.com/giPnFSy.png)
 
 Profile window:  
 ![alt text](https://i.imgur.com/ozTURmH.png)  
