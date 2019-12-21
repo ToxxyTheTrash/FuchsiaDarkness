@@ -1,4 +1,4 @@
-### Updates postponed due to many many issues that occur slowly such as my hard drive killing itself and me having trouble to get used to being without data - possible full rewrite of fuchsia darkness.
+## Rewrite is now in the works! expect v2.0 to be way lighter
 
 # SimplyDark - Fuchsia Darkness
 A completely re-designed and recolored BetterDiscord theme **SimplyDark** made by **Gibbu**! **Now available for Stylus!**   
