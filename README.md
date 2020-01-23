@@ -5,7 +5,7 @@ A completely re-designed and recolored BetterDiscord theme **SimplyDark** made b
 The purpose of the theme is to make discord look black with an accent of choice and compact in it's own way.  
 The theme can contain lots of bugs/glitches (scroller problems at most) and profanity (clearly meant as jokes).
 
-## Installation
+## BetterDiscord Installation
 
 To download the theme for **BetterDiscord**, follow the next steps:
   1. open `SimplyDarkFuchsiaDarkness.theme.css` in the repo.
@@ -18,6 +18,13 @@ To download the theme for **BetterDiscord**, follow the next steps:
 
 The link to the original theme is here: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark  
 
+## Powercord Installation
+
+To install the theme for **Powercord**, follow the next steps:
+1. [Download the theme here.](https://github.com/ToxxyTheTrash/SimplyDarkFuchsiaDarkness/raw/master/SimplyDarkFuchsiaDarkness.zip)
+2. Extract the zip to your **themes** folder in your Powercord folder.
+
+- Powercord installation: https://powercord.dev/installation
 ## Stylus - READ FIRST!
 
 because i'm a dumb fuck and i'm handling usercss FOR THE FIRST TIME, i don't know why but it applies the theme to **EVERY WEBSITE** despite me setting it to only apply to discordapp.com cause ```@-moz-document domain("discordapp.com")``` doesn't seem to work. mainly only button radiuses and masks get changed and not colors. If you like this, you may using it, otherwise dont' get it or exclude it on every website you visit and something fucks up on it. *hmu in the issues if you know how to fix this*
