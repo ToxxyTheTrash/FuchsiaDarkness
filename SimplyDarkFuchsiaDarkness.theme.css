@@ -12,10 +12,10 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css");
 
 :root {
-	
   --SD-roundness: 0px;
   --SD-avatar-status-width: 2.5px;
   --AccentColor: 233, 30, 99;
   --Font: 'Montserrat';
   --CustomSettingsHeaderText: "raincoats are hot";
   --CustomEmailBlur: "stay away from my tits"; 
+}
