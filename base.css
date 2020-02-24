@@ -617,8 +617,8 @@
 }
 
 #app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA:after {
-	content: '~';
-	color: rgba(var(--AccentColor), 0.5);
+	content: '~' !important;
+	color: rgba(var(--AccentColor), 0.5) !important;
 	font-size: 25px;
 	font-weight: 500;
 	transition: 0s;
@@ -4491,13 +4491,13 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 	border-top: 1px solid rgba(var(--AccentColor), 1) !important;
 }
 
-.attachPopout-1n-ZKM {
+.attachPopout-36hjtN {
 	border-radius: 0px;
 	min-width: 250px;
 	padding: 0px;
 	font-size: 15px;
 	font-weight: 500;
-	background-color: #000;
+	background-color: #111;
 	box-shadow: none;
 }
 
@@ -6320,7 +6320,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .icon-2Po-VO {
-	margin-left: -5.5rem;
+	margin-left: 3rem;
 }
 
 
@@ -7366,8 +7366,8 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
     font-size: 1rem;
     line-height: 1.3rem;
     width: 100%;
-    height: 20px;
-    min-height: 20px;
+    height: 35px;
+    min-height: 35px;
     padding: 10px 0px;
     color: #e91e63;
 }
@@ -7380,4 +7380,138 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
 .scrollableContainer-2NUZem {
     background-color: #000;
     max-height: 150px;
+}
+
+
+.layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx, .layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx{
+margin: 15px 0px 0px 0px;
+border: none;
+display: flex;
+align-items: center;
+padding: 10px 0px 15px 25px !important;
+transition: 0s ease;
+}
+
+
+
+
+#app-mount .scroller-2FKFPG {
+    background: #000;
+}
+.actionButton-uPB8Fs {
+    cursor: crosshair;
+    width: 35px;
+    height: 35px;
+    background-color: #111;
+}
+.emptyCard-1RJw8n {
+    background: #000;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.form-2fGMdU:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0rem;
+}
+.form-2fGMdU {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+.avatar-1BDn8e {
+    position: absolute;
+    left: -10px;
+    top: .125rem;
+    width: 50px;
+    height: 50px;
+    cursor: crosshair;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.username-1A8OIy {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.375rem;
+}
+
+.timestampCozyAlt-1Hs08c {
+    display: none;
+}
+
+.container-3FojY8 {
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+		margin-top: -10px;
+    min-height: 0rem;
+}
+
+.markup-2BOw-j {
+    line-height: 20px !important;
+}
+.container-3npvBV {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: -26px;
+    padding: 0 14px 0 32px;
+}
+.wrapper-2aW0bm {
+    background-color: #000;
+    box-shadow: 0px #000;
+    height: 35px;
+    -webkit-transition: -webkit-box-shadow 0s ease-out;
+    transition: -webkit-box-shadow 0s ease-out;
+    transition: box-shadow 0s ease-out;
+    transition: box-shadow 0s ease-out,-webkit-box-shadow 0s ease-out;
+}
+
+.isUnread-3Ef-o9 {
+    border-color: rgba(var(--AccentColor), 1);
+}
+.divider-JfaTT5 {
+    border-top: 2px solid rgba(var(--AccentColor), 1);
+		padding-bottom: 10px;
+		padding-top: 10px;
+}
+.unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
+    position: absolute;
+    height: 15px;
+}
+.unreadPillCapStroke-7rkHbg {
+    color: transparent;
+    fill: transparent;
+}
+
+.unreadPill-2HyYtt {
+    top: -10px;
+    right: 0;
+    font-size: 25px;
+    line-height: 10px;
+    font-weight: 800;
+    padding: 4.5px 5px 0 0px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+}
+.content-1o0f9g {
+    padding: 0px 0px;
+    color: rgba(var(--AccentColor), 1);
+    background: transparent;
+    line-height: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem {
+    opacity: 1;
 }
