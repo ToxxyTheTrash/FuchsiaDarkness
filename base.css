@@ -1960,14 +1960,6 @@
 	}
 }
 
-@keyframes rainbow {
-	from {
-		-webkit-filter: hue-rotate(0deg);
-	}
-	to {
-		-webkit-filter: hue-rotate(360deg);
-	}
-}
 
 [id*="bd-customcss-editor"] {
 	background: #000;
@@ -2656,7 +2648,6 @@ textarea:after {
 	transform: translateY(-50%);
 	right: -235px;
 	background: rgba(var(--AccentColor), 1);
-	animation: rainbow 5s infinite linear;
 	z-index: 1;
 }
 
@@ -3782,18 +3773,15 @@ html.theme-light #app-mount:after {
 	color: rgba(var(--AccentColor), 1) !important;
 	font-size: 25px;
 	margin: 25px 0px -10px;
-	animation: rainbow 5s infinite linear !important;
 }
 
 .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after,
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
 	border-color: rgba(var(--AccentColor), 1) !important;
-	animation: rainbow 5s infinite linear !important;
 }
 
 .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after {
 	border-color: rgba(var(--AccentColor), 1) !important;
-	animation: rainbow 5s infinite linear !important;
 }
 
 .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
@@ -3861,7 +3849,6 @@ html.theme-light #app-mount:after {
 
 .updateIconForeground-3tnNZn {
 	fill: rgba(var(--AccentColor), 1);
-	animation: rainbow infinite linear 3s !important;
 }
 
 .iconBadge-qZ4Ksk {
@@ -3871,19 +3858,16 @@ html.theme-light #app-mount:after {
 	height: 10px;
 	border-radius: 0px;
 	background-color: rgba(var(--AccentColor), 1);
-	animation: rainbow infinite linear 10s;
 }
 
 .mention-1f5kbO {
 	background-color: rgba(var(--AccentColor), 1);
 	opacity: 1;
-	animation: rainbow infinite linear 10s;
 }
 
 .numberBadge-2s8kKX {
 	border-radius: var(--HSL-roundness);
 	background-color: rgba(var(--AccentColor), 1) !important;
-	animation: rainbow infinite linear 10s !important;
 	width: var(--HSL-size) !important;
 	height: 10px !important;
 	left: 20px !important;
@@ -4810,7 +4794,6 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 #app-mount [id*="popout_"].layer-v9HyYc[style*="left"][style*="top"] .item-1GzJrl.invite-271nFU {
-	animation: rainbow 5s infinite linear !important;
 	opacity: 1;
 }
 
@@ -4829,7 +4812,6 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .premiumRetentionNoticeContent-1U1AGf {
 	color: rgba(var(--AccentColor), 0.75);
-	animation: rainbow 5s linear infinite;
 }
 
 #permissions-modal-wrapper #permissions-modal {
@@ -5227,18 +5209,15 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 	color: #43b581 !important;
 	font-size: 25px;
 	margin: 25px 0px -10px;
-	animation: rainbow 5s infinite linear;
 }
 
 .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after,
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
 	border-color: #43b581 !important;
-	animation: rainbow 5s infinite linear;
 }
 
 .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after {
 	border-color: #43b581 !important;
-	animation: rainbow 5s infinite linear;
 }
 
 .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
@@ -5627,7 +5606,6 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .itemBase-tz5SeC.brand-3igrJY,
 .itemBase-tz5SeC.brand-3igrJY:hover {
 	color: rgba(var(--AccentColor), 1);
-	animation: rainbow 5s infinite;
 }
 
 .callAvatarVoice-29N_wG {
@@ -5709,7 +5687,6 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .item-PXvHYJ [style*="color: rgb(114, 137, 218);"] {
 	color: rgba(var(--AccentColor), 1) !important;
-	animation: rainbow 5s infinite linear;
 }
 
 .reactionCount-2ddRoS {
@@ -7396,7 +7373,7 @@ transition: 0s ease;
 
 
 #app-mount .scroller-2FKFPG {
-    background: #000;
+    background: transparent;
 }
 .actionButton-uPB8Fs {
     cursor: crosshair;
@@ -7514,4 +7491,53 @@ transition: 0s ease;
 
 .channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem {
     opacity: 1;
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB {
+    color: rgba(var(--AccentColor), 1);
+}
+
+.avatar-1BDn8e {
+    left: -75px;
+    top: 55px;
+}
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-left: 75px;
+}
+.group-spacing-4 .groupStart-23k01U {
+    margin-top: -35px;
+}
+.wrapper-2a6GCs {
+    padding-right: 35px;
+    min-height: 0rem;
+}
+.roleName-1JcOmP {
+    color: rgba(var(--AccentColor), 1);
+    max-width: 250px;
+    margin-right: 5px;
+}
+.member-perms .member-perm .perm-circle {
+    border-radius: 0%;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+.group-spacing-4 .beforeGroup-1rH1F0 {
+    margin-bottom: 0px;
+    margin-top: 0;
+    top: 1.5rem;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    background-color: rgba(var(--AccentColor), 0.25);
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+    color: rgba(var(--AccentColor), 1);
+}
+
+
+
+.wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc svg:not([name="Folder"]) {
+    width: 55%;
+    height: 65%;
 }
