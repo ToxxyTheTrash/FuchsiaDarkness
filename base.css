@@ -7497,10 +7497,7 @@ transition: 0s ease;
     color: rgba(var(--AccentColor), 1);
 }
 
-.avatar-1BDn8e {
-    left: -75px;
-    top: 55px;
-}
+
 .cozy-3raOZG.wrapper-2a6GCs {
     padding-left: 75px;
 }
@@ -7540,4 +7537,22 @@ transition: 0s ease;
 .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc svg:not([name="Folder"]) {
     width: 55%;
     height: 65%;
+}
+
+.xenoLib-notification-content {
+    background: #000;
+}
+
+#app-mount .container-2lgZY8 {
+    flex-direction: column-reverse !important;
+}
+.mentioned-xhSam7 {
+    position: relative;
+    background-color: rgba(var(--AccentColor), 0.5);
+}
+.mentioned-xhSam7:before {
+    background-color: rgba(var(--AccentColor), 1);
+}
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover {
+    background-color: rgba(var(--AccentColor), 0.25);
 }
