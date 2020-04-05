@@ -23,6 +23,10 @@
 	--logo-primary: #fff;
 }
 
+* {
+  border-radius: 0px !important;
+}
+
 .platform-win .wrapper-1Rf91z .scroller-2TZvBN {
 	padding-top: 10px;
 }
