@@ -610,14 +610,6 @@
 	color: rgba(var(--AccentColor), 1);
 }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButtonDivider-3Glu60 {
-	display: none;
-}
-
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA svg {
-	display: none;
-}
-
 #app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA:after {
 	content: '~' !important;
 	color: rgba(var(--AccentColor), 0.5) !important;
@@ -626,6 +618,19 @@
 	transition: 0s;
 	padding: 0 0;
 	padding-top: 5px;
+}
+
+#app-mount .form-2fGMdU .attachWrapper-2TRKBi button {
+		  background: rgba(var(--AccentColor), 0.75);
+			margin-top: 7px;
+			margin-right: 5px;
+		  width: 30px;
+		  height: 30px;
+			clip-path: polygon(50% 35%, 35% 20%, 15% 30%, 15% 50%, 50% 85%, 85% 50%, 85% 30%, 65% 20%);
+
+}
+#app-mount .form-2fGMdU .attachWrapper-2TRKBi button div {
+		  display: none;
 }
 
 #app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA:hover:after {
@@ -637,9 +642,8 @@
 }
 
 #app-mount .chat-3bRxxu form .typing-2GQL18 {
-	padding: 0 15px;
-	box-sizing: border-box;
-	top: -30px;
+	padding: 0 0px;
+	top: -25px;
 	background: rgba(0, 0, 0, 0.5);
 }
 
@@ -1121,7 +1125,7 @@
 
 .layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .info-3LOr12,
 .layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .info-3LOr12 {
-	padding: 0px 0px 0px 50px;
+	padding: 0px 0px 0px 0px;
 	margin-left: 0;
 	transition: 0s ease;
 }
@@ -3690,11 +3694,17 @@ html.theme-light #app-mount:after {
 }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
-	width: 430px;
+	width: 500px;
 }
 
 #app-mount .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
 	width: 8%;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA>.spriteItem-2AFL7r {
+    margin-left: 10px !important;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
+    height: 35px;
 }
 
 #app-mount .chat-3bRxxu .emoji.jumboable,
@@ -3736,7 +3746,16 @@ html.theme-light #app-mount:after {
 
 .infoBar-U6oBFk,
 .infoBarWrapper-283ttO.infoBarExpanded-2Of7UZ {
-	height: 55px;
+	height: 75px;
+}
+
+.infoBar-U6oBFk .infoBarEmoji-3Ab8rZ {
+    width: 35px;
+    height: 35px;
+}
+.iconSizeSmaller-2whVAO {
+    width: 35px;
+    height: 35px;
 }
 
 .emojiPicker-3m1S-j {
@@ -7348,11 +7367,11 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
     background-color: #000;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.3rem;
+    line-height: 1rem;
     width: 100%;
-    height: 35px;
-    min-height: 35px;
-    padding: 10px 0px;
+    height: 20px;
+    min-height: 40px;
+    padding: 15px 0px;
     color: #e91e63;
 }
 .attachWrapper-2TRKBi {
@@ -7363,19 +7382,14 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
 }
 .scrollableContainer-2NUZem {
     background-color: #000;
-    max-height: 150px;
+    max-height: 275px;
 }
 
 
 .layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx, .layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx{
-margin: 15px 0px 0px 0px;
-border: none;
-display: flex;
-align-items: center;
-padding: 10px 0px 15px 25px !important;
-transition: 0s ease;
+	margin: 25px 0px 15px 0px;
+	padding: 0px 0px 15px 15px !important;
 }
-
 
 
 
@@ -7510,7 +7524,7 @@ transition: 0s ease;
 
 
 .cozy-3raOZG.wrapper-2a6GCs {
-    padding-left: 75px;
+    padding-left: 65px;
 }
 .group-spacing-4 .groupStart-23k01U {
     margin-top: -35px;
@@ -7597,5 +7611,50 @@ transition: 0s ease;
 
 #app-mount .guilds-1SWlCJ {
     height: var(--server-container) !important;
+    width: 100%;
+}
+
+.dots-3Bkt3k {
+    border-radius: 0px !important;
+}
+.dots-3Bkt3k.themed-IQiCm3 {
+    border-radius: 0px !important;
+}
+
+circle {
+    r: 10px !important;
+		clip-path: inset(30% 30% 30% 30%) !important;
+}
+
+.base-gE7OpD {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    resize: none;
+}
+.label-cywgfr {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 0 auto;
+    min-width: 0;
+}
+
+.base-gE7OpD .ellipsis-19qdx6 {
+    margin-left: 5px;
+		border-radius: 0% !important
+}
+
+.labelForward-1wfipV {
+    padding-left: 10px;
+}
+
+.title-3BE6m5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
     width: 100%;
 }
