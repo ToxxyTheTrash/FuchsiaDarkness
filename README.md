@@ -1,5 +1,3 @@
-## Rewrite is now in the works! expect v2.0 to be way lighter
-
 # SimplyDark - Fuchsia Darkness
 A completely re-designed and recolored BetterDiscord theme **SimplyDark** made by **Gibbu**! **Now available for Stylus!**   
 The purpose of the theme is to make discord look black with an accent of choice and compact in it's own way.  
