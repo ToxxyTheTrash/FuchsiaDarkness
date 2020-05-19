@@ -1,6 +1,6 @@
 /**
  * @name SimplyDark - Fuchsia Darkness
- * @author toxxylover621trash#5015 and Gibbu#1211
+ * @author toxxy the trash#5015 and Gibbu#1211
  * @version 6.2.1
  * @description makes discord sharp, compact and sexy.
  * @source https://github.com/ToxicMethASS/SDToxxy
@@ -8,15 +8,13 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://toxxythetrash.github.io/SimplyDarkFuchsiaDarkness/base.css");
-@import url("https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css");
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 
 :root {
-	
-  --SD-roundness: 0px;
-  --SD-avatar-status-width: 2.5px;
-  --AccentColor: 233, 30, 99;
-  --Font: 'Montserrat';
-  --CustomSettingsHeaderText: "raincoats are hot";
-  --CustomEmailBlur: "stay away from my tits"; 
+	--SD-roundness: 0px;
+	--SD-avatar-status-width: 2.5px;
+	--AccentColor: 233, 30, 99;
+	--Font: 'Montserrat';
+	--CustomSettingsHeaderText: "raincoats are hot";
+	--CustomEmailBlur: "stay away from my tits";
 }
