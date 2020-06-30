@@ -260,8 +260,11 @@
 }
 
 .wrapper-1Rf91z .guildSeparator-3s64Iy {
-	background: rgba(var(--PrimaryBackgroundColor));
+	background: rgba(var(--AccentColor), 1);
 	width: 50px;
+}
+.scroller-2TZvBN {
+    background-color: rgba(var(--PrimaryBackgroundColor));
 }
 
 .wrapper-1Rf91z [class*="unreadMentionsIndicator"] {
@@ -734,6 +737,10 @@
 	background: transparent;
 	padding-left: 10px;
 }
+#app-mount .membersWrap-2h-GB4 .member-3-YXUe .layout-2DM8Md:hover {
+	padding-left: 15px;
+}
+
 
 #app-mount .membersWrap-2h-GB4 .member-3-YXUe:hover {
 	background: rgba(var(--PrimaryBackgroundColor));
@@ -5027,10 +5034,9 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .container-2ax-kl {
 	text-transform: none;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 15px;
 	font-weight: 600;
-	color: #fff;
 }
 
 .actionButton-2PeQbJ,
@@ -7742,4 +7748,12 @@ foreignObject {
 }
 .emojiItem-14v6tW {
     cursor: crosshair;
+}
+
+
+.container-2Pjhx- {
+    padding: 0 0;
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: rgba(var(--PrimaryBackgroundColor));
 }
