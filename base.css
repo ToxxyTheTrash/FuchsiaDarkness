@@ -21,6 +21,8 @@
 	--interactive-active: #fff;
 	--interactive-muted: rgba(var(--AccentColor), 0.25);
 	--logo-primary: #fff;
+	--background-primary: rgba(var(--PrimaryBackgroundColor));
+	--background-secondary: rgba(var(--PrimaryBackgroundColor));
 }
 
 @keyframes rainbow {
@@ -2329,7 +2331,6 @@ textarea:after {
 
 #app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after {
 	content: "";
-	-webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4gICAgPHBhdGggZD0iTTE1LjUgMWgtOEM2LjEyIDEgNSAyLjEyIDUgMy41djE3QzUgMjEuODggNi4xMiAyMyA3LjUgMjNoOGMxLjM4IDAgMi41LTEuMTIgMi41LTIuNXYtMTdDMTggMi4xMiAxNi44OCAxIDE1LjUgMXptLTQgMjFjLS44MyAwLTEuNS0uNjctMS41LTEuNXMuNjctMS41IDEuNS0xLjUgMS41LjY3IDEuNSAxLjUtLjY3IDEuNS0xLjUgMS41em00LjUtNEg3VjRoOXYxNHoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
 	-webkit-mask-size: 25px;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
@@ -2339,9 +2340,10 @@ textarea:after {
 	height: 25px;
 	top: 50%;
 	transform: translateY(-50%);
-	right: -235px;
+	right: -285px;
 	background: rgba(var(--AccentColor), 1);
 	z-index: 1;
+	opacity: 1 !important;
 }
 
 #app-mount .wrapper-3t9DeA rect {
@@ -3127,12 +3129,12 @@ html.theme-light #app-mount:after {
 }
 
 #app-mount .root-SR8cQa .userInfoSection-2acyCx textarea:focus {
-	background: rgba(var(--PrimaryBackgroundColor));
+	background: rgba(var(--PrimaryBackgroundColor), 0.25);
 }
 
 #app-mount .root-SR8cQa .userInfoSection-2acyCx .connectedAccount-36nQx7 {
 	border: none;
-	background: rgba(var(--PrimaryBackgroundColor));
+	background: rgba(var(--PrimaryBackgroundColor), 0.25);
 }
 
 #app-mount .root-SR8cQa .userInfoSection-2acyCx .connectedAccount-36nQx7 .connectedAccountOpenIcon-2cNbq5 {
@@ -3572,7 +3574,7 @@ html.theme-light #app-mount:after {
 
 .connectedAccounts-repVzS {
 	margin-top: -20px;
-	background: rgba(var(--PrimaryBackgroundColor));
+	background: transparent;
 }
 
 #app-mount .root-SR8cQa .tabBarContainer-1s1u-z .item-PXvHYJ:nth-child(1):before {
@@ -4127,7 +4129,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .members-1998pB {
-	width: 300px;
+	width: 350px;
 	background-color: rgba(var(--PrimaryBackgroundColor));
 }
 
@@ -7756,4 +7758,11 @@ foreignObject {
 }
 .members-1998pB, .members-1998pB>div {
     background-color: rgba(var(--PrimaryBackgroundColor));
+}
+.scroller-1JbKMe {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+}
+
+.text-GwUZgS {
+    display: none;
 }
