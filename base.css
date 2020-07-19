@@ -21,8 +21,8 @@
 	--interactive-active: #fff;
 	--interactive-muted: rgba(var(--AccentColor), 0.25);
 	--logo-primary: #fff;
-	--background-primary: rgba(var(--PrimaryBackgroundColor));
-	--background-secondary: rgba(var(--PrimaryBackgroundColor));
+	--background-primary: rgba(var(--PrimaryBackgroundColor)) !important;
+	--background-secondary: rgba(var(--PrimaryBackgroundColor)) !important;
 }
 
 @keyframes rainbow {
@@ -307,6 +307,7 @@
 #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd:hover .content-3at_AU .icon-1_QxNX,
 #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd:hover .content-3at_AU .name-3_Dsmg {
 	color: rgba(var(--AccentColor), 1);
+	animation: rainbow 5s linear infinite;
 }
 
 #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX,
@@ -2440,25 +2441,26 @@ textarea:after {
 }
 
 html.theme-light #app-mount {
-	height: calc(100vh - 45px);
+	height: calc(100vh - 185px);
 	overflow: visible;
 }
 
 html.theme-light #app-mount:after {
-	content: "light theme is not made for this you fucking pretzel";
-	line-height: 25px;
+	content: "light theme is NOT made for this theme you fucking pretzel and NO i DON'T care if you're eplipetic";
+	line-height: 55px;
 	display: block;
 	text-align: center;
-	padding: 10px 0;
+	padding: 40px 0;
 	color: rgba(var(--AccentColor), 1);
-	font-weight: 700;
-	font-size: 25px;
+	font-weight: 900;
+	font-size: 50px;
 	white-space: pre-wrap;
-	background: #fff;
+	background: #000;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	transform: translateY(100%);
+	animation: rainbow 0.1s linear infinite;
 }
 
 .wordmark-2iDDfm {
@@ -3974,6 +3976,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 #app-mount .root-SR8cQa .tabBarContainer-1s1u-z .item-PXvHYJ {
 	color: rgba(var(--AccentColor), 1) !important;
+	border-color: rgba(var(--AccentColor), 1) !important;
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled {
@@ -4354,9 +4357,14 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .theme-dark .root-1gCeng {
-	background-color: rgba(var(--PrimaryBackgroundColor));
-	-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+	background-color: rgba(var(--PrimaryBackgroundColor), 0.5) !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA {
+    font-size: 15px;
+    color: rgba(var(--AccentColor), 1);
+    margin-top: 20px;
 }
 
 .theme-dark .footer-3rDWdC {
@@ -5207,6 +5215,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 #app-mount .root-SR8cQa .userInfoSection-2acyCx textarea {
 	color: rgba(var(--AccentColor), 1);
+	background: none;
 	font-weight: 500;
 }
 
@@ -5602,7 +5611,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
-	color: transparent;
+	color: rgba(var(--AccentColor), 1);
 }
 
 .container-CpszHS.hasValue-3pdcdm:not(.disabled-29eJ21):hover .button-34kXw5 {
@@ -7738,6 +7747,19 @@ foreignObject {
     background-color: rgba(var(--SecondaryBackgroundColor));
     padding: 0;
 }
+.list-donH_Z {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.guildCategorySeparator-_An-MP {
+    margin: 12px 0;
+    border: none;
+    border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+}
+.header-8ilj5e {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px;
+}
 .navItem-3Wp_oJ {
     display: none;
 }
@@ -7831,4 +7853,46 @@ foreignObject {
 
 .auto-Ge5KZx::-webkit-scrollbar {
     display: none;
+}
+
+.textarea-2r0oV8:focus {
+    background-color: transparent;
+		color: rgba(var(--AccentColor), 1);
+}
+.textarea-2r0oV8 {
+    background-color: transparent;
+		color: rgba(var(--AccentColor), 1);
+}
+
+.css-1aymab5-option {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+    color: rgba(var(--AccentColor), 1);
+    cursor: crosshair;
+    -webkit-tap-highlight-color: none;
+    min-height: 40px;
+    padding: 5px 10px;
+}
+.css-1gnr91b-option {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+    color: rgba(var(--AccentColor), 1);
+    cursor: crosshair;
+    -webkit-tap-highlight-color: none;
+    min-height: 40px;
+    padding: 10px 15px;
+		animation: rainbow 3s linear infinite;
+}
+
+.customStatus-1bh2V9 {
+    color: rgba(var(--AccentColor), 1);
+}
+#app-mount .perk-2WeBWW {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+
+.topic-TCb_qw {
+    margin: 0 0 0 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(var(--AccentColor), 1);
 }
