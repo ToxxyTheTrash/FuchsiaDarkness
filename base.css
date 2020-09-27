@@ -2435,7 +2435,7 @@ html.theme-light #app-mount {
 }
 
 html.theme-light #app-mount:after {
-	content: "light theme is NOT made for this theme you fucking pretzel and NO i DON'T care if you're eplipetic";
+	content: "light theme is NOT made for this theme you fucking pretzel and NO i DON'T care if you're epileptic";
 	line-height: 55px;
 	display: block;
 	text-align: center;
@@ -3846,6 +3846,7 @@ html.theme-light #app-mount:after {
 
 #app-mount .contents-18-Yxp {
 	background-color: transparent;
+	color: rgba(var(--AccentColor), 1);
 }
 
 #app-mount div.sprite-2iCowe {
@@ -5260,6 +5261,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .clickable-1JJAn8:hover .layout-2DM8Md {
 	background-color: rgba(var(--SecondaryBackgroundColor));
 	cursor: crosshair;
+	animation: rainbow 5s linear infinite;
 }
 
 .lookGhost-2Fn_0-.colorBrand-3pXr91 {
@@ -5762,7 +5764,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .h5-18_1nd {
 	font-size: 15px;
-	line-height: 10px;
+	line-height: 12px;
 }
 
 .defaultMarginh2-2LTaUL {
@@ -5779,7 +5781,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .wrapper-35wsBm {
-	padding: 15px 0px 0px 5px;
+	padding: 15px 15px 15px 15px;
 	width: 500px;
 }
 
@@ -7348,7 +7350,7 @@ circle {
     top: 0;
 }
 .unicodeShortcut-15J8Ck {
-    background: rgba(var(--SecondaryBackgroundColor));
+    background: #050505 !important;
     cursor: crosshair;
     height: 56px;
     width: 100%;
@@ -7359,7 +7361,7 @@ circle {
     padding: 0 5px;
     background-color: rgba(var(--SecondaryBackgroundColor));
 }
-.guildIcon-3h-1IH {
+.inspector-S2gM3e {
     background-color: rgba(var(--SecondaryBackgroundColor));
 		-webkit-mask: none !important;
 }
@@ -7391,6 +7393,7 @@ foreignObject {
 .header-8ilj5e {
     grid-column-gap: 10px;
     padding: 5px;
+		background-color: #050505 !important;
 }
 .categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
     background-color: rgba(var(--SecondaryBackgroundColor))
@@ -7492,6 +7495,9 @@ foreignObject {
 }
 
 .noticeInfo-3_iTE1 {
+		animation: 3s rainbow linear infinite !important;
+}
+.colorInfo-2URYW5 {
 		animation: 3s rainbow linear infinite !important;
 }
 .colorBrand-ROmMP1 {
@@ -7748,11 +7754,11 @@ foreignObject {
 
 
 .contentWrapper-SvZHNd {
-    background-color: rgba(var(--SecondaryBackgroundColor));
+    background-color: #0a0a0a!important;
     padding: 0;
 }
 .list-donH_Z {
-    background-color: rgba(var(--SecondaryBackgroundColor));
+    background-color: #050505 !important;
 }
 .guildCategorySeparator-_An-MP {
     margin: 12px 0;
@@ -7760,15 +7766,19 @@ foreignObject {
     border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 .header-8ilj5e {
-    -webkit-box-shadow: none;
     box-shadow: none;
-    padding: 10px;
+    padding: 15px;
+}
+.nav-7UD0KD {
+    padding: 0px 0px;
+    background-color: #050505;
+		margin-bottom: -10px;
 }
 .navItem-3Wp_oJ {
     display: none;
 }
 .wrapper-1-Fsb8 {
-    background-color: rgba(var(--SecondaryBackgroundColor));
+    background-color: #0a0a0a !important;
     height: 32px;
     padding: 0 5px;
 }
@@ -8082,9 +8092,138 @@ foreignObject {
 .flowerStar-1GeTsn path {
     fill: rgba(var(--AccentColor), 1) !important;
 }
-.flowerStar-1GeTsn {
-    animation: rainbow 5s linear infinite;
-}
 .childContainer-1wxZNh path {
   	fill: rgba(var(--PrimaryBackgroundColor));
+}
+
+
+/* BetterFriendsList */
+
+.iconContainerMasked-G-akdf.iconContainer-IBAtWs {
+    margin-right: 0px;
+    -webkit-mask: none;
+}
+.iconContainer-IBAtWs {
+    width: 45px;
+    height: 35px;
+}
+
+.selected-1Tbx07 {
+    background-color: rgba(var(--AccentColor), 1) !important;
+}
+.contentTitle-2tG_sM {
+    color: rgba(var(--AccentColor), 1) !important;
+}
+.content-Qb0rXO {
+    min-height: 15px;
+		height: 15px;
+}
+
+.diversitySelectorPopout-3FiGaM {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+    margin-left: 0px;
+    margin-top: 0px;
+    border: none;
+}
+
+.medium-2-DE5M .input-1Rv96N, .medium-2-DE5M .tag-2gHSR7 {
+    font-size: 15px;
+    line-height: 32px;
+    height: 35px;
+    padding: 0px 5px;
+}
+
+.theme-dark .categoryFadeBlurple-1j72_A, .theme-light .categoryFadeBlurple-1j72_A {
+    background-color: rgba(var(--AccentColor), 0.5) !important;
+}
+
+.container-UC8Ug1 {
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(var(--SecondaryBackgroundColor));
+    margin-bottom: 0px;
+    cursor: crosshair;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		text-align: center;
+}
+.icon-QM5383 {
+    display: none;
+}
+.arrow-hynWUl {
+    margin-left: auto;
+    margin-right: 5px;
+}
+.arrow-hynWUl[src*="/assets/69a0ea5dbf79a129c81a0cb171b60b7a.svg"] {
+		-webkit-mask: url("https://i.imgur.com/V2GSbJ6.png");
+		-webkit-mask-size: 25px;
+		-webkit-mask-position: center !important;
+		-webkit-mask-repeat: no-repeat !important;
+		background-color: rgba(var(--AccentColor), 1);
+}
+.close-hZ94c6 {
+    height: 20px;
+    padding: 0px;
+    transition: none;
+    opacity: 1;
+    cursor: crosshair;
+    color: rgba(var(--AccentColor), 1);
+}
+.close-hZ94c6:hover {
+    opacity: 0.5;
+		color: rgba(var(--AccentColor), 1);
+}
+.colorHeaderPrimary-26Jzh- {
+    color: rgba(var(--AccentColor), 1);
+}
+.colorHeaderSecondary-3Sp3Ft {
+    color: rgba(var(--AccentColor), 1);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: #333;
+}
+.container-1CE3eW {
+    width: 500px;
+    max-height: 500px;
+}
+.templatesList-2E6rTe {
+    margin-top: 24px;
+    padding: 0px 10px 0px 10px;
+    height: 275px;
+}
+
+.input-cIJ7To {
+    font-size: 13px;
+    color: rgba(var(--AccentColor), 1);
+    background-color: rgba(var(--PrimaryBackgroundColor));
+    border: none;
+    transition: none;
+}
+.uploadIcon-2IFzZU {
+    color: rgba(var(--AccentColor), 1);
+}
+.sampleLink-2NLvZg {
+    font-size: 13px;
+    color: rgba(var(--AccentColor), 1);
+}
+
+.card-3AyPWq {
+    background-color: #111;
+}
+.card-3AyPWq:hover {
+    background-color: #151515;
+}
+.circleBackgroundAlt-Eohdst {
+    fill: #0000;
+}
+
+.featureGrid-3-fNl- {
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill,200px);
+    margin-top: 15px;
+    justify-content: left;
+}
+.theme-dark .feature-2w65J5 {
+    background-color: rgba(var(--PrimaryBackgroundColor));
 }
