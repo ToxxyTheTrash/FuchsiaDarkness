@@ -8327,13 +8327,90 @@ foreignObject {
 }
 
 .button-3AYNKb {
-    padding: 5px;
+    padding: 0px;
+    padding-top: 2px;
     margin-left: 0px;
     margin-right: 0px;
-		margin-top: 5px;
+    margin-top: 0px;
 }
 
 .avatar-3EQepX {
 	width: 150px !important;
 	height: 150px !important;
+}
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: transparent;
+}
+.icon-1DeIlz {
+    color: #8e9297;
+    margin-right: 5px;
+}
+.content-1x5b-n {
+    padding: 0 5px;
+    margin-left: 5px;
+}
+.unread-2lAfLh {
+    background-color: rgba(var(--AccentColor), 1);
+}
+.modeUnread-1qO3K1 .name-23GUGE, .modeUnread-1qO3K1:hover .name-23GUGE {
+    color: rgba(var(--AccentColor), 1);
+}
+.containerDefault--pIXnN, .containerDragAfter-3Fp7LC, .containerDragBefore-3iTCc7, .containerUserOver-2mv1jO {
+    transition: none
+}
+.wrapper-2jXpOf:hover .content-1x5b-n {
+    background-color: transparent;
+		animation: rainbow 5s linear infinite;
+		cursor: crosshair;
+}
+.wrapper-2jXpOf:hover .unread-2lAfLh {
+		animation: rainbow 5s linear infinite;
+}
+.iconBase-3LOlfs {
+    margin-left: 5px;
+}
+.actionIcon-PgcMM2 {
+    width: 18px;
+    height: 18px;
+    cursor: crosshair;
+}
+.modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz {
+		color: rgba(var(--AccentColor), 1);
+}
+.modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90:hover .icon-1DeIlz {
+		color: rgba(var(--AccentColor), 1);
+}
+.unread-2lAfLh {
+    height: 10px;
+    width: 5px;
+    left: 0;
+    margin-top: -6px;
+}
+.wrapper-2jXpOf:hover .content-1x5b-n .icon-1DeIlz {
+		color: rgba(var(--AccentColor), 1);
+}
+.wrapper-2tAnRe {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    height: 20px;
+    color: rgba(var(--AccentColor), 1);
+}
+.total-i6us2n {
+    width: 25px;
+    padding: 0 0 0 0;
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.users-3kndPl {
+    width: 25px;
+    padding: 0 0 0 2px;
+    background-color: transparent;
+}
+.total-i6us2n:after {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: none
 }
