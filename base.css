@@ -5527,7 +5527,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .sidebarRegion-VFTUkN {
 	-ms-flex: 0 0 0px;
 	flex: 0 0 0px;
-	z-index: 1;
+	z-index: 0;
 }
 
 .contentColumn-2hrIYH,
@@ -8413,4 +8413,24 @@ foreignObject {
     width: 0;
     height: 0;
     border: none
+}
+
+.clickable-25tGDB .header-2V-4Sw {
+    cursor: crosshair;
+}
+.header-2V-4Sw {
+    font-weight: 500;
+    padding: 0 10px;
+    height: 48px;
+    transition: none;
+    color: rgba(var(--AccentColor), 1) !important;
+		background-color: rgba(var(--PrimaryBackgroundColor)) !important;
+    box-shadow: none;
+		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
+.animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
+    height: 145px;
+		width: 300px;
+		margin-top: 25px;
+		opacity: 0.75;
 }
