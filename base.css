@@ -42,6 +42,30 @@
     color: #faa61a;
 }
 
+.bar-g2ZMIm {
+    background-color: rgba(var(--SecondaryBackgroundColor)) !important;
+    height: 5px;
+}
+.barFill-Dhkah7 {
+	background: rgba(var(--AccentColor), 1) !important;
+}
+.timeline-UWmgAx:hover .barFill-Dhkah7 {
+    background: rgba(var(--AccentColor), 1) !important;
+}
+.barFill-23-gu- {
+	background-color: rgba(var(--AccentColor), 1) !important;
+}
+.maximizer-RVu85p {
+    background-color: rgba(var(--SecondaryBackgroundColor), 0.75) !important;
+    color: rgba(var(--AccentColor), 1) !important;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    transition: none;
+    pointer-events: none;
+}
 .wrapper-1Rf91z {
 	background-color: rgba(var(--PrimaryBackgroundColor)) !important;
 }
@@ -1097,29 +1121,12 @@
 	box-sizing: border-box;
 }
 
-.layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx,
-.layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx {
-	border: none;
-	display: flex;
-	align-items: center;
-	padding: 5px !important;
-	transition: none;
-}
-
-.layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .checkboxWrapper-SkhIWG,
-.layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .checkboxWrapper-SkhIWG {
-	height: 25px !important;
-	width: 25px !important;
-	transition: 0s linear;
-	position: absolute;
-}
-
 .layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .checkboxWrapper-SkhIWG .checkbox-1ix_J3,
 .layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .checkboxWrapper-SkhIWG .checkbox-1ix_J3 {
 	height: 100% !important;
 	width: 100% !important;
-	border: none;
-	transition: 0s linear;
+	border: none !important;
+	transition: none;
 }
 
 .layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx .info-3LOr12,
@@ -3358,7 +3365,10 @@ html.theme-light #app-mount:after {
 #app-mount .quickswitcher-3JagVE .resultFocused-3aIoYe {
 	background: rgba(var(--PrimaryBackgroundColor));
 }
-
+.theme-dark .focused-1En8bG:after, .theme-dark .result-3w1ZcL:hover:after {
+    -webkit-box-shadow: inset 0 0 0 5px rgba(var(--AccentColor), 1), inset 0 0 0 5px rgba(var(--AccentColor), 1);
+    box-shadow: inset 0 0 0 5px rgba(var(--AccentColor), 1), inset 0 0 0 5px rgba(var(--AccentColor), 1);
+}
 #app-mount .quickswitcher-3JagVE .tipsWithResults-HhTE9b {
 	padding: 15px;
 	box-sizing: border-box;
@@ -6960,8 +6970,9 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
 
 .layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx, .layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy .radioGroup-1GBvlr .item-26Dhrx{
 	margin: 0 0 0 0;
-	padding: 0 0 0 15px !important;
-	height: 45px !important;
+	padding: 0 0 0 0 !important;
+	height: 50px !important;
+	outline: none;
 }
 
 #app-mount .scroller-2FKFPG {
@@ -7221,13 +7232,15 @@ circle {
 }
 
 .labelForward-1wfipV {
-    padding-left: 15px;
+    padding-left: 0px;
+		padding-top: 0px;
+		margin-bottom: -10px;
 }
 
 .title-3BE6m5 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 10px;
+    line-height: 15px;
     width: 100%;
 }
 
@@ -7335,9 +7348,6 @@ circle {
     max-width: 100%;
     bottom: 0px;
 }
-.navItem-12Gr9H {
-	display: none;
-}
 .contentWrapper-2txmjs {
     background-color: rgba(var(--PrimaryBackgroundColor));
     height: 100%;
@@ -7350,9 +7360,9 @@ circle {
     top: 0;
 }
 .unicodeShortcut-15J8Ck {
-    background: #050505 !important;
+    background: rgba(var(--SecondaryBackgroundColor));
     cursor: crosshair;
-    height: 56px;
+    height: 48px;
     width: 100%;
 }
 .inspector-sdLnLS {
@@ -7754,7 +7764,7 @@ foreignObject {
 
 
 .contentWrapper-SvZHNd {
-    background-color: #0a0a0a!important;
+    background-color: #0a0a0a !important;
     padding: 0;
 }
 .list-donH_Z {
@@ -7770,12 +7780,9 @@ foreignObject {
     padding: 15px;
 }
 .nav-7UD0KD {
-    padding: 0px 0px;
+    padding: 5px 5px 5px 5px;
     background-color: #050505;
-		margin-bottom: -10px;
-}
-.navItem-3Wp_oJ {
-    display: none;
+		margin-bottom: -15px;
 }
 .wrapper-1-Fsb8 {
     background-color: #0a0a0a !important;
@@ -7913,14 +7920,6 @@ foreignObject {
     color: rgba(var(--AccentColor), 1);
 }
 
-.bar-g2ZMIm {
-    background-color: rgba(var(--SecondaryBackgroundColor));
-    height: 5px;
-}
-.barFill-Dhkah7 {
-	background: rgba(var(--AccentColor), 1);
-}
-
 .container-3PXSwK {
     height: 50%;
 }
@@ -7981,11 +7980,6 @@ foreignObject {
     background-color: none;
     color: rgba(var(--AccentColor), 1);
 }
-
-.timeline-UWmgAx:hover .barFill-Dhkah7 {
-    background: rgba(var(--AccentColor), 1);
-}
-
 .loading-1lSwpg {
     animation: none;
     background-image: none;
@@ -8433,4 +8427,78 @@ foreignObject {
 		width: 300px;
 		margin-top: 25px;
 		opacity: 0.75;
+}
+
+.sticker-3HpuRA {
+    cursor: crosshair;
+		width: 75px !important;
+		height: 75px !important;
+}
+.sticker-3HpuRA svg {
+    cursor: crosshair;
+}
+.mask-WB_llw {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.row-2psonc {
+    display: grid;
+    margin-bottom: 10px;
+		column-gap: 10px !important;
+}
+.stickerInspected-2EM4w- .stickerBackground-2XECKi {
+    background-color: rgba(var(--AccentColor), 0.25);
+}
+.backgroundFlash-24qWLN {
+    background-color: rgba(var(--AccentColor), 0.25) !important;
+}
+
+.repliedTextPreview-2NBljf.clickable-1bVtEA {
+    cursor: crosshair;
+}
+.repliedTextPreview-2NBljf {
+    opacity: 1;
+}
+.full-motion .repliedTextPreview-2NBljf {
+    transition: none;
+}
+.repliedMessage-VokQwo {
+    font-size: 15px;
+}
+.replyLink-nOQEG8 {
+    color: rgba(var(--AccentColor), 1);
+}
+
+.repliedMessage-VokQwo:before {
+    border-left: var(--spine-width) dashed rgba(var(--AccentColor), 1);
+    border-bottom: 0 dashed rgba(var(--AccentColor), 1);
+    border-right: 0 dashed rgba(var(--AccentColor), 1);
+    border-top: var(--spine-width) dashed rgba(var(--AccentColor), 1);
+}
+.repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK {
+    color: rgba(var(--AccentColor), 1);
+}
+
+.navButtonActive-1MkytQ {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.wrapper-3ir_7D {
+    padding: 5px 10px 5px 10px;
+}
+.stickerCategoryShopWrapper-3EnJdQ {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+    cursor: crosshair;
+    padding: 8px;
+}
+.header-2k4I2o {
+		background-color: #050505
+}
+
+.container-cMG81i {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+}
+
+.theme-dark .header-1TOWci {
+    box-shadow: none;
+		background-color: #050505;
 }
