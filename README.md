@@ -31,11 +31,11 @@ MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materi
 
 ## Screenshots  
 
-Chat with HorizontalServerList enabled:  
-![alt text](https://i.imgur.com/Dt1JzyR.png)
+Chat with HorizontalServerList and some other plugins enabled:  
+![alt text](https://i.imgur.com/dRvZPna.png)
 
 Settings:  
-![alt text](https://i.imgur.com/9iQxL5S.png) ![alt text](https://i.imgur.com/QT2whkN.png)
+![alt text](https://i.imgur.com/Mg3bkpO.png) ![alt text](https://i.imgur.com/3XGGSm8.png)
 
 Profile window:  
 ![alt text](https://i.imgur.com/Z5j2y8S.png?1)  
