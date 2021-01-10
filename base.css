@@ -4111,24 +4111,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .unread-1xRYoj {
-	background-color: rgba(var(--AccentColor), 0.5);
-	font-size: 0px;
-}
-
-.unread-1xRYoj {
-	background-color: rgba(var(--AccentColor), 0.5);
-	font-size: 0px;
-}
-
-.unread-1xRYoj:before {
-	font-size: 15px;
-	line-height: 0px;
-	font-weight: 500;
-	position: inherit;
-	content: "new stuff here";
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: none;
 }
 
 .title-eS5yk3 {
@@ -5201,7 +5184,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .base-1x0h_U {
 	font-weight: 600;
-	color: rgba(var(--AccentColor), 1);
+	color: rgba(var(--AccentColor), 1) !important;
 }
 
 .defaultColor-1_ajX0 {
@@ -7621,7 +7604,7 @@ foreignObject {
 }
 .header-ykumBX {
     padding: 10px;
-    background-color: rgba(var(--SecondaryBackgroundColor));
+    background-color: rgba(var(--PrimaryBackgroundColor));
 }
 .scroller-tlc3kG {
     padding: 0 10px;
@@ -8306,7 +8289,7 @@ foreignObject {
     color: #fff;
 }
 .theme-dark .streamPreview-2-WUWT {
-    background-color: rgba(var(--SecondaryBackgroundColor));
+    background-color: rgba(var(--SecondaryBackgroundColor)) !important;
 }
 .theme-dark .previewContainer-12UlHl {
     background-color: rgba(var(--SecondaryBackgroundColor));
@@ -8583,4 +8566,172 @@ foreignObject {
 }
 .iconContainer-1BBaeJ {
     margin: 0 0 0 0;
+}
+.theme-dark .tooltipPrimary-1d1ph4 {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+}
+.listItemTooltip-CDcY8J {
+    color: rgba(var(--AccentColor), 1) !important;
+}
+.guildNameText-74xXQn {
+    color: rgba(var(--AccentColor), 1) !important;
+}
+.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
+    border-top-color: rgba(var(--AccentColor), 1) !important;
+}
+.tooltipContent-bqVLWK {
+    padding: 5px 10px;
+	  color: rgba(var(--AccentColor), 1) !important;
+		font-weight: 600;
+}
+
+.tierHeaderLocked-1s2JJz {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+    color: rgba(var(--AccentColor), 1) !important;
+}
+.theme-dark .tierBody-16Chc9 {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.tierLock-3CSxSX {
+    display: none;
+}
+.tierUnlocked-25K6Kv {
+    background-color: transparent;
+    color: rgba(var(--AccentColor), 1) !important;
+		animation: rainbow 3s linear infinite;
+}
+.theme-dark .tooltipGrey-1hnvTt {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+    color: rgba(var(--AccentColor), 1) !important;
+}
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
+    border-top-color: rgba(var(--PrimaryBackgroundColor));
+}
+.description-22pzKs {
+    color: rgba(var(--AccentColor), 1);
+}
+.header-2Zv56X {
+    color: rgba(var(--AccentColor), 1);
+    margin-bottom: 10px;
+}
+.headerTitle-1Y0ywV:hover {
+    border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+    cursor: pointer;
+}
+.headerTitle-1Y0ywV {
+    color: rgba(var(--AccentColor), 1);
+    line-height: 20px;
+}
+.buttonColor-2Nx30V {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.buttonColor-2Nx30V:hover {
+    background-color: rgba(var(--SecondaryBackgroundColor), 0.75);
+}
+.controlIcon-35oS15 {
+    width: 22px;
+    height: 22px;
+    color: rgba(var(--AccentColor), 1);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl {
+    background: rgba(var(--SecondaryBackgroundColor));
+}
+.contextMenuNub-3yOOYo {
+    padding: 0;
+		margin-bottom: 15px;
+		margin-right: 14px;
+    width: 42px;
+    height: 15px;
+		background: transparent !important;
+		color: transparent;
+}
+.controlButton-2MhVEL {
+    margin: 0 0 0 0;
+}
+.controlButton-2MhVEL[aria-label*="Share Your Screen"] {
+    margin: 0 10px 14px 0;
+}
+.controlButton-2MhVEL[aria-label*="Disconnect"] {
+    margin: 0 0 14px 0;
+}
+.root-2sELX6 {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+}
+.root-2VTZPJ {
+    background-color: rgba(var(--PrimaryBackgroundColor)) !important;
+    padding: 10px;
+}
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    color: rgba(var(--AccentColor), 1);
+}
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ, .colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS, .colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+    color: rgba(var(--PrimaryBackgroundColor));
+}
+.icon-LYJorE, .iconContainer-2-XQPY {
+    height: 20px;
+    width: 20px;
+}
+.viewersIcon-F76mss.activeButton-374USU, .viewersIcon-F76mss:hover {
+    color: rgba(var(--AccentColor), 1);
+}
+.viewersIcon-F76mss.activeButton-374USU, .viewersIcon-F76mss {
+    color: rgba(var(--AccentColor), 1);
+}
+.overlayTitle-8IcS01 {
+    background: rgba(var(--PrimaryBackgroundColor), 0.5);
+    color: rgba(var(--AccentColor), 1);
+    padding: 5px 10px 5px;
+}
+.participantsButton-KYW-IW {
+    background: rgba(var(--SecondaryBackgroundColor));
+    padding: 5px;
+}
+.participantsButton-KYW-IW:hover {
+    background: rgba(var(--SecondaryBackgroundColor), 0.5);
+}
+.scroller-2TWLdF {
+    padding: 5px 10px;
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+
+.listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX {
+    background-color: #000;
+}
+.selectorButtonSelected-t5V9On {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+    background-color: rgba(var(--SecondaryBackgroundColor));
+}
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover .selectorText-2I7fQU {
+    color: rgba(var(--AccentColor), 1);
+}
+.backButton-3c6fw4 {
+    color: rgba(var(--AccentColor), 1);
+}
+.headerTitle-1Y0ywV:hover .backButton-3c6fw4 {
+    color: rgba(var(--AccentColor), 1);
+}
+.controlIcon-35oS15.active-1QRrIS, .controlIcon-35oS15:hover {
+    color: rgba(var(--AccentColor), 0.75);
+}
+.modeConnected-3IsKId .name-23GUGE, .modeSelected-346R90 .name-23GUGE:hover {
+    color: rgba(var(--AccentColor), 1);
+}
+
+.tipTitle-GL9qAt {
+    color: rgba(var(--AccentColor), 1);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: lowercase;
+		font-style: italic;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+.tip-2cgoli {
+    color: var(--text-normal);
+    font-size: 16px;
+    line-height: 20px;
+		text-transform: lowercase;
+		font-style: italic;
 }
