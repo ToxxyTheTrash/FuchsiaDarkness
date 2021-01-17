@@ -38,7 +38,7 @@ MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materi
 ## Screenshots  
 
 Chat with HorizontalServerList and some other plugins enabled:  
-![alt text](https://i.imgur.com/dRvZPna.png)
+![alt text](https://i.imgur.com/PqpQBpF.png)
 
 Settings:  
 ![alt text](https://i.imgur.com/Mg3bkpO.png) ![alt text](https://i.imgur.com/3XGGSm8.png)
