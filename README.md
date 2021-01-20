@@ -4,7 +4,7 @@ The purpose of the theme is to make discord darker (as in literally black), comp
 The theme can and will contain bugs.
 
 ## Theme support  
- **The theme was made to work with Windows specifically! Tested regularly on the stable branch of Discord**
+ **The theme was made to work with BetterDiscord *ONLY* and for Windows specifically. It does *NOT* support small or 4:3 resolution displays, as it *will* break certain elements. Tested regularly on the stable branch of Discord and BetterDiscord**  
 
 ## Installation
 
@@ -38,7 +38,7 @@ MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materi
 ## Screenshots  
 
 Chat with HorizontalServerList and some other plugins enabled:  
-![alt text](https://i.imgur.com/PqpQBpF.png)
+![alt text](https://i.imgur.com/Ji6glrv.png)
 
 Settings:  
 ![alt text](https://i.imgur.com/Mg3bkpO.png) ![alt text](https://i.imgur.com/3XGGSm8.png)
@@ -50,10 +50,10 @@ Profile popup:
 ![alt text](https://i.imgur.com/SPbL0od.png?2)  
 
 Dropdowns and context menus:  
-![alt text](https://i.imgur.com/kakVlFk.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif) ![alt text](https://i.imgur.com/9isgY8v.png)
+![alt text](https://i.imgur.com/kakVlFk.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif) ![alt text](https://i.imgur.com/fhoxWDh.png)
 
 Emote and server window:  
-![alt text](https://i.imgur.com/ot7xT6D.gif) ![alt text](https://i.imgur.com/0lpuJOr.png)
+![alt text](https://i.imgur.com/sREXDB5.gif) ![alt text](https://i.imgur.com/0lpuJOr.png)
 
 *woah there didn't you say you're ending development?*  
 well uh, yeah, i did- though i've decided to continue screwing around with the theme, spite it's mass of spaghetti; there might not be plans of SimplyDark v3 afterall, not to mention, my PC is a LOT stronger to withstand my theme's spaghetti, so there's that!
