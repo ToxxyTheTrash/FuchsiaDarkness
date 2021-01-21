@@ -4,7 +4,10 @@ The purpose of the theme is to make discord darker (as in literally black), comp
 The theme can and will contain bugs.
 
 ## Theme support  
- **The theme was made to work with BetterDiscord *ONLY* and for Windows specifically. It does *NOT* support small or 4:3 resolution displays, as it *will* break certain elements. Tested regularly on the stable branch of Discord and BetterDiscord**  
+- **It's made to work with BetterDiscord *ONLY*; please avoid using other client mods like PowerCord**  
+- **The theme does *NOT* support small or 4:3 resolution displays, as it *will* break elements.**  
+- **The theme supports *only* Windows and is tested regularly on the *stable* branch of Discord and BetterDiscord**  
+- **Do *NOT* use markdown mode as its unsupported and will break the chat box; disable it in `User Settings > Text & Images > Text Box`**
 
 ## Installation
 
@@ -25,7 +28,7 @@ To download the theme for **BetterDiscord**, follow the next steps:
 
 Thanks to **Gibbu** for letting me modify his theme in the first place!  
 Gibbu's GitHub page: https://github.com/Gibbu
-Source of SimplyDark: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark  
+Source of SimplyDark: https://github.com/DiscordStyles/SimplyDark  
 
 Thanks to **DevilBro** for letting me use parts of **BlurpleRecolor** to recolor certain images and change enforced discord colors for the theme!  
 DevilBro's GitHub page: https://github.com/mwittrien  
