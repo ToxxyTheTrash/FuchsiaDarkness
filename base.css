@@ -7065,6 +7065,7 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
 		padding-bottom: 0px;
 		padding-top: 0px;
 		margin-right: 15%;
+		margin-left: 6%;
 }
 .group-spacing-0 .divider-3_HH5L {
     margin-top: 2.5px;
@@ -7086,11 +7087,12 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"]+*+*:before {
 		left: 105%;
     font-size: 25px;
     line-height: 10px;
-    font-weight: 800;
-    padding: 4.5px 5px 0 0px;
+    font-weight: 700;
+    padding: 0px 5px 0 0px;
     text-transform: uppercase;
-    color: #fff;
+    color: rgba(var(--AccentColor), 1);
     background-color: transparent;
+		animation: rainbow 3s linear;
 }
 .content-1o0f9g {
     padding-right: 130%;
@@ -7305,8 +7307,20 @@ circle {
     background: rgba(var(--PrimaryBackgroundColor));
 		right: 0px;
 }
-.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+    color: rgba(var(--AccentColor), 1);
+}
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover {
     background-color: rgba(var(--AccentColor), 1);
+    color: rgba(var(--PrimaryBackgroundColor));
+}
+.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O)[role*="menuitem"][id*="message-actions"] svg {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+    color: rgba(var(--PrimaryBackgroundColor));
+}
+.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O)[role*="menuitem"][id*="message-add-reaction--other-reactions"] svg {
+    background-color: rgba(var(--PrimaryBackgroundColor));
     color: rgba(var(--PrimaryBackgroundColor));
 }
 .colorDefault-2K3EoJ .checkbox-3s5GYZ {
@@ -7326,7 +7340,8 @@ circle {
     padding: 0px 5px;
 }
 .item-1tOPte {
-    margin: 5px 0px;
+    margin: 0px 0px;
+		padding: 2px 5px 2px 5px;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -8860,15 +8875,28 @@ foreignObject {
 }
 
 /* Header stuff */
-.iconWrapper-2OrFZ1[aria-label*="Mute"] {
+.iconWrapper-2OrFZ1[aria-label*="Mute"][aria-checked*="false"] {
 	-webkit-mask: url("https://i.imgur.com/bH8EjSM.png") center/cover;
 	width: 25px;
 	height: 25px;
 	background: rgba(var(--AccentColor), 1);
-}.iconWrapper-2OrFZ1[aria-label*="Pin"] {
+}
+.iconWrapper-2OrFZ1[aria-label*="Mute"][aria-checked*="true"] {
+	-webkit-mask: url("https://i.imgur.com/qkH2qWu.png") center/cover;
+	width: 25px;
+	height: 25px;
+	background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2OrFZ1[aria-label*="Pin"] {
 	-webkit-mask: url("https://i.imgur.com/tMrxpi1.png") center/cover;
 	width: 23px;
 	height: 23px;
+	background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2OrFZ1[aria-label*="Member List"][class*="da-clickable selected-1GqIat"] {
+	-webkit-mask: url("https://i.imgur.com/fqmCpKs.png") center/cover;
+	width: 28px;
+	height: 28px;
 	background: rgba(var(--AccentColor), 1);
 }
 .iconWrapper-2OrFZ1[aria-label*="Member List"] {
@@ -8969,7 +8997,7 @@ foreignObject {
     background-color: rgba(var(--SecondaryBackgroundColor));
 }
 .button-1ZiXG9[aria-label*="Add Reaction"] svg {
-	-webkit-mask: url("https://i.imgur.com/7axe4dU.png") center/cover;
+	-webkit-mask: url("https://i.imgur.com/CEE0PM6.png") center/cover;
 	width: 20px;
 	height: 20px;
 	background: rgba(var(--AccentColor), 1);
@@ -9012,7 +9040,7 @@ foreignObject {
 	background: rgba(var(--AccentColor), 1);
 }
 .button-1ZiXG9[aria-label*="Copy ID"] svg {
-	-webkit-mask: url("https://i.imgur.com/MzEcEp9.png") center/cover;
+	-webkit-mask: url("https://i.imgur.com/S8lCQJg.png") center/cover;
 	width: 20px;
 	height: 20px;
 	background: rgba(var(--AccentColor), 1);
@@ -9035,6 +9063,12 @@ foreignObject {
 
 .item-1tOPte[id*="message-actions-edit"] svg {
 	-webkit-mask: url("https://i.imgur.com/Y5sMmp5.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1tOPte[id*="message-actions-pin"] svg {
+	-webkit-mask: url("https://i.imgur.com/tMrxpi1.png") center/cover;
 	width: 20px;
 	height: 20px;
 	background: rgba(var(--AccentColor), 1);
@@ -9083,6 +9117,13 @@ foreignObject {
 	height: 20px;
 	background: rgb(25, 103, 210);
 	color: rgb(25, 103, 210);
+}
+
+.item-1tOPte[id*="message-add-reaction--other-reactions"] svg {
+	-webkit-mask: url("https://i.imgur.com/CEE0PM6.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
 }
 
 .button-14-BFJ[aria-label*="Mute"][aria-checked*="false"] svg {
@@ -9247,4 +9288,8 @@ foreignObject {
 
 .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX {
     background-color: rgba(var(--SecondaryBackgroundColor));
+}
+
+.submenuPaddingContainer-fiOCHc {
+    margin-left: -10px;
 }
