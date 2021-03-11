@@ -13,11 +13,14 @@
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 
 :root {
-	--SD-avatar-status-width: 2.5px;
 	--AccentColor: 233, 30, 99;
 	--PrimaryBackgroundColor: 0, 0, 0;
 	--SecondaryBackgroundColor: 17, 17, 17;
+
 	--Font: 'Montserrat';
+	--SD-avatar-status-width: 2.5px;
+
 	--CustomSettingsHeaderText: "raincoats are hot";
-	--CustomEmailBlur: "this is currently broken";
+	--CustomEmailBlur: "this doesn't work anymore so don't bother changing it";
+	--SettingsSidebarSpacing: 0; /* Select a number between 0-2; going above 2 might not be recommended */
 }
