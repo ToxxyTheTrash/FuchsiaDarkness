@@ -1767,7 +1767,7 @@
      rx: calc(0px / 2) !important;
      ry: calc(0px / 2) !important;
 }
- .wrapper-3t9DeA[aria-label*="mobile"]:after {
+.wrapper-3t9DeA[aria-label*="mobile"]:after {
      content: "";
      -webkit-mask: url("https://i.imgur.com/KXXn8Bl.png") no-repeat center/cover;
      display: block;
@@ -2965,7 +2965,7 @@
  .showhiddenchannels-tooltip {
      top: unset !important;
 }
- #app-mount svg.homeIcon-tEMBK1 {
+ #app-mount svg .homeIcon-FuNwkv {
      color: transparent;
      background: url("https://i.imgur.com/kdb4zUy.png") no-repeat center/cover;
      height: 100%;
@@ -5614,10 +5614,6 @@
      width: 25px;
      height: 25px;
 }
- #app-mount .guilds-1SWlCJ {
-     height: var(--server-container) !important;
-     width: 100%;
-}
  circle {
      r: 10px !important;
      clip-path: inset(30% 30% 30% 30%) !important;
@@ -6941,7 +6937,7 @@
  .listItemTooltip-CDcY8J {
      color: rgba(var(--AccentColor), 1) !important;
 }
- .guildNameText-74xXQn {
+.guildNameText-3Zwx4p {
      color: rgba(var(--AccentColor), 1) !important;
 }
  .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
@@ -7763,4 +7759,78 @@
 
 .mainContent-u_9PKf {
     padding: 3.5px 0px;
+}
+
+/* Notification box */
+.xenoLib-notification-content {
+    padding: 10px 5px 15px 10px; /* [top], [right], [down], [left]; default: 12px 0 0 0 */
+    background: rgb(0, 0, 0); /* default: rgb(71, 71, 71) */
+    width: 400px; /* default: 20vw */
+    min-width: 300px; /* default: 330px */
+		color: rgb(255, 255, 255);
+		font-size: 14px;
+}
+/* Loading bar */
+.xenoLib-notification-loadbar {
+    bottom: 0px;
+    left: 0px;
+    width: auto;
+    background-image: rgba(var(--AccentColor), 1);
+    height: 5px; /* loading bar fat :) */
+}
+
+.PI-indicatorContainer svg {
+    margin-top: 2px;
+		margin-bottom: 0px;
+}
+.name-uJV0GL .PI-indicatorContainer svg {
+    padding-left: 5px;
+}
+.text-37NqbO .PI-indicatorContainer svg {
+    padding-left: 5px;
+		position: absolute;
+		margin: -16.5px 0 0 0;
+}
+.badgesChat-f_cbR8 {
+    top: 0px;
+}
+.discriminator-22Okc1 {
+    font-size: 13px;
+    line-height: 15px;
+    visibility: visible;
+    color: rgba(var(--AccentColor), 1);
+}
+.nameTag-m8r81H {
+    flex: 1 0 0;
+		line-height: 15px;
+		font-size: 15px;
+}
+
+.title-30qZAO {
+    margin: 10px 10px 10px 30px;
+    color: rgba(var(--AccentColor), 1);
+}
+.container-2ax-kl {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.peopleListItem-2nzedh {
+    margin: 0 10px 0 10px;
+    padding: 0px 10px 0px 10px;
+}
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover {
+    background: rgba(var(--SecondaryBackgroundColor), 0.5);
+		margin: 0 10px 0 10px;
+    padding: 0px 10px 0px 10px;
+}
+.peopleListItem-2nzedh .wrapper-3t9DeA[aria-label*="mobile"]:after {
+	left: calc(75vh - -30px);
+}
+.guilds-1SWlCJ .scrollerBase-289Jih {
+    background-color: rgba(var(--PrimaryBackgroundColor));
+}
+
+.guildSeparator-33mFX6 {
+    background-color: rgba(var(--AccentColor), 1);
 }
