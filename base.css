@@ -3667,7 +3667,7 @@
  .inner-zqa7da {
      background-color: rgba(var(--PrimaryBackgroundColor));
 }
- .lookFilled-1Gx00P.colorGrey-2DXtkV {
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
      color: rgba(var(--AccentColor), 1);
      background-color: #222;
 }
@@ -4647,7 +4647,7 @@
  .modal-3c3bKg .header-QKLPzZ *, .modal-3c3bKg .activity-1ythUs *, .modal-3c3bKg .body-3ND3kc * {
      z-index: 1;
 }
- .wrapper-3t9DeA[user_by_bdfdb*="359042365970710538"] {
+ .wrapper-3t9DeA[user_by_bdfdb*="359042365970710538"], .wrapper-3t9DeA[data-user-id*="359042365970710538"]  {
      --popoutbg: url(https://cdn.discordapp.com/attachments/546244449873821705/645486399025315851/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg);
 }
  .icon-15YQ1T {
@@ -4684,9 +4684,9 @@
      background-color: rgba(var(--PrimaryBackgroundColor)) !important;
      border-color: rgba(var(--AccentColor), 1) !important;
 }
- .theme-dark .checked-3_4uQ9 {
-     border: 1px filled rgba(var(--AccentColor), 1) !important;
-     background-color: rgba(var(--PrimaryBackgroundColor));
+ .theme-dark .checked-3_4uQ9 .checkbox-1ix_J3 {
+		 border: none;
+     background-color: rgba(var(--AccentColor), 1) !important;
 }
  .content-2M3n_H {
      margin-left: 5px;
@@ -4801,7 +4801,7 @@
  .perksModalContentWrapper-2HU6uL {
      padding: 20px 0 20px;
 }
- .header-QKLPzZ *, .tabBarItem-1b8RUP {
+ .header-QKLPzZ *, .tabBarItem-2QyJ0U {
      z-index: 2;
 }
  .perksModalContentWrapper-2HU6uL {
@@ -5997,28 +5997,29 @@
 #ML2-MENU-TABBAR .item-PXvHYJ {
      font-size: 10px;
 		 width: 55px;
+		 display: inline-block !important;
 }
-.tabBarItem-1b8RUP[id*="sent"] {
+.tabBarItem-2QyJ0U[id*="sent"] {
 	-webkit-mask: url("https://i.imgur.com/99uVToC.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-1b8RUP[id*="deleted"] {
+.tabBarItem-2QyJ0U[id*="deleted"] {
 	-webkit-mask: url("https://i.imgur.com/fJULu0p.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-1b8RUP[id*="edited"] {
+.tabBarItem-2QyJ0U[id*="edited"] {
 	-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-1b8RUP[id*="purged"] {
+.tabBarItem-2QyJ0U[id*="purged"] {
 	-webkit-mask: url("https://i.imgur.com/ucx4dBa.png") center/cover no-repeat;
 	-webkit-mask-size: 30px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-1b8RUP[id*="ghostpings"] {
+.tabBarItem-2QyJ0U[id*="ghostpings"] {
 	-webkit-mask: url("https://i.imgur.com/kPC15bq.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
@@ -6056,7 +6057,7 @@
 .questionMark-3qBhGj:hover {
      background-color: rgba(var(--AccentColor), 0.25);
 }
- .tabBarItem-1b8RUP {
+.tabBarItem-2QyJ0U{
      border-bottom: 2px dashed;
      border-color: rgba(var(--AccentColor), 1);
      margin-right: 40px;
@@ -6534,7 +6535,7 @@
      -webkit-box-shadow: none;
      box-shadow: none;
 }
- .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
      background-color: rgba(var(--SecondaryBackgroundColor));
 }
  .theme-dark .header-Hg_qNF {
@@ -6625,7 +6626,7 @@
  .colorHeaderSecondary-3Sp3Ft {
      color: rgba(var(--AccentColor), 1);
 }
- .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
      background-color: #333;
 }
  .container-1CE3eW {
@@ -6973,7 +6974,7 @@
      margin: 10px 0;
 }
  .popoutContainer-1MXdqN {
-     width: 300px;
+     width: 400px;
      background-color: rgba(var(--SecondaryBackgroundColor));
 }
  .iconContainer-1BBaeJ {
@@ -7906,4 +7907,19 @@
 }
 #sent.ml2-tab {
 	display: contents;
+}
+
+
+.emoji.jumboable {
+    width: 250px;
+    height: 100px;
+}
+
+.bd-addon-modal {
+    width: 750px;
+}
+
+.details-ntX2k5 {
+    margin-right: 0px;
+		text-align: center;
 }
