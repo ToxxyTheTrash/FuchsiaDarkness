@@ -41,19 +41,19 @@ MaterialCons: https://github.com/Tropix126/BetterDiscordStuff/tree/master/materi
 ## Screenshots  
 
 Chat with HorizontalServerList and some other plugins enabled:  
-![alt text](https://i.imgur.com/Ji6glrv.png)
+![alt text](https://i.imgur.com/25ceL1K.png)
 
 Settings:  
-![alt text](https://i.imgur.com/Mg3bkpO.png) ![alt text](https://i.imgur.com/3XGGSm8.png)
+![alt text](https://i.imgur.com/rnGZRmH.png) ![alt text](https://i.imgur.com/mXHx8Z4.png)
 
-Profile window:  
-![alt text](https://i.imgur.com/Z5j2y8S.png?1)  
+Profile:  
+![alt text](https://i.imgur.com/Ihrxybb.png)  
 
 Profile popup:  
-![alt text](https://i.imgur.com/SPbL0od.png?2)  
+![alt text](https://i.imgur.com/pklTEah.png)  
 
 Dropdowns and context menus:  
-![alt text](https://i.imgur.com/kakVlFk.gif) ![alt text](https://i.imgur.com/lB3kgBA.gif) ![alt text](https://i.imgur.com/fhoxWDh.png)
+![alt text](https://i.imgur.com/VBRY766.png) ![alt text](https://i.imgur.com/6R96mzV.png) ![alt text](https://i.imgur.com/h0I3CPw.png)
 
 Emote and server window:  
 ![alt text](https://i.imgur.com/sREXDB5.gif) ![alt text](https://i.imgur.com/0lpuJOr.png)
