@@ -1125,10 +1125,19 @@
      -webkit-mask: url("https://i.imgur.com/FPSwqR3.png");
 }
 /* Subscriptions */
- [aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ[aria-controls="discord-nitro-tab"]:before {
+ [aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ[aria-controls="subscriptions-tab"]:before {
      -webkit-mask: url("https://i.imgur.com/wt1SXnC.png");
      background: #7289DA;
 		 -webkit-mask-size: 22px !important;
+}
+[aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ[aria-controls="subscriptions-tab"] {
+     color: #7289DA !important;
+}
+/* Discord Nitro */
+ [aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ[aria-controls="discord-nitro-tab"]:before {
+     -webkit-mask: url("/assets/379d2b3171722ef8be494231234da5d1.svg");
+     background: #7289DA;
+		 -webkit-mask-size: 20px !important;
 }
 [aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ[aria-controls="discord-nitro-tab"] {
      color: #7289DA !important;
@@ -1669,7 +1678,7 @@
      height: 22px;
 }
 /* Search Icon */
- #app-mount .title-3qD0b- .search-2oPWTC .searchBar-3dMhjb[aria-expanded*="false"] .iconContainer-O4O2CN svg {
+ #app-mount .title-3qD0b- .search-2oPWTC .searchBar-3dMhjb .iconContainer-O4O2CN svg {
      -webkit-mask: url("https://i.imgur.com/ufsSysw.png") center/cover;
      content: "";
      width: 25px;
@@ -2023,7 +2032,7 @@
      font-weight: 700;
 }
  #app-mount .userPopout-xaxa6l .body-3HBlXn .note-1oo11U textarea {
-     height: 55px !important;
+     height: 20px !important;
 }
 
  #app-mount .userPopout-xaxa6l .body-3HBlXn .rolesList-22qj2L li {
@@ -2861,25 +2870,31 @@
 		filter: invert(0);
 		font-size: 0px;
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="USER_INFO-tab"] {
+.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="user_info-tab"] {
      background: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="MUTUAL_GUILDS-tab"] {
+.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="mutual_guilds-tab"] {
      background: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="MUTUAL_FRIENDS-tab"] {
+.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="mutual_friends-tab"] {
      background: url("https://i.imgur.com/Qeo2ueQ.png") center/25px no-repeat !important;
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="ACTIVITY-tab"] {
+.root-1gCeng .tabBarContainer-37hZsr .item-PXvHYJ[aria-controls="activity-tab"] {
 		background: url("https://i.imgur.com/iAB8BmS.png") center/25px no-repeat !important;
 }
-.layer-2KE1M9 .wrapper-3t9DeA:not(.listAvatar-1NlAhb, .reactor-3UBcOI) {
+.layer-2KE1M9 .wrapper-3t9DeA:not(.listAvatar-1BbvHX, .reactor-3UBcOI, .guildAvatar-3YmrtA, .marginReset-236NPn .wrapper-3t9DeA) {
      height: 150px !important;
      width: 150px !important;
 }
- .listAvatar-1NlAhb {
-     height: 75px !important;
-     width: 75px !important;
+.userPopout-xaxa6l .wrapper-3t9DeA.miniAvatar-2CIVlE {
+	height: 20px !important;
+	width: 25px !important;
+	margin-right: 0px;
+}
+.listAvatar-1BbvHX svg {
+		top: -5px;
+     height: 50px !important;
+     width: 50px !important;
 }
  .membersWrap-2h-GB4 .scrollerWrap-2lJEkd {
      height: 110%;
@@ -3108,10 +3123,7 @@
      font-weight: 800;
      line-height: 20px;
 }
- .listAvatar-1NlAhb {
-     height: 75px !important;
-     width: 75px !important;
-}
+
  .membersWrap-2h-GB4 .scrollerWrap-2lJEkd {
      height: 120%;
 }
@@ -6509,7 +6521,7 @@
 }
  .theme-dark .container-1If-HZ, .theme-dark .reactors-Blmlhw {
      background-color: rgba(var(--SecondaryBG));
-		 width: 755px;
+		 width: 695px;
 }
  .theme-dark .scroller-1-nKid {
      background: rgba(var(--PrimaryBG));
@@ -6869,10 +6881,10 @@
      border-bottom: 2px solid rgba(var(--AccentColor), 1);
 }
  .animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
-     height: 145px;
+     height: 150px;
      width: 300px;
-     margin-top: 25px;
-     opacity: 0.75;
+     margin-top: 0;
+     opacity: 1;
 }
  .sticker-3HpuRA {
      cursor: crosshair;
@@ -7530,6 +7542,12 @@
      height: 20px;
      background: rgba(var(--AccentColor), 1);
 }
+.button-14-BFJ[aria-label*="Disconnect"] svg {
+		-webkit-mask: url("https://i.imgur.com/icr6AHF.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
  .button-14-BFJ[aria-label*="Deafen"][aria-checked*="true"] svg {
      -webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
      width: 20px;
@@ -7639,6 +7657,12 @@
      width: 20px;
      height: 20px;
      background: rgba(var(--AccentColor), 1);
+}
+.iconItem-F7GRxr[aria-label*="Invite to Server"] {
+		-webkit-mask: url("https://i.imgur.com/GTLwUuW.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
 }
  .iconItem-F7GRxr[aria-label*="Edit Channel"] {
      -webkit-mask: url("https://i.imgur.com/5AZqlJo.png") center/cover;
@@ -8203,4 +8227,63 @@
 .addButton-pcyyf6 {
     padding: 2px 2px;
 		color: rgba(var(--AccentColor), 1);
+}
+
+.protip-3-1FNm {
+    display: none;
+}
+
+.member-perms {
+    max-height: 50px;
+    margin-bottom: 5px;
+}
+.theme-dark .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA, .theme-dark .list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB.active-3JUHqX {
+    background-color: rgba(var(--PrimaryBG), 0.5);
+}
+.containerDefault-3tr_sE {
+	    padding-top: 5px;
+}
+.protip-1b9XPC {
+    display: none;
+}
+.result-oB0z--[aria-selected=true] {
+    background: rgba(var(--SecondaryBG));
+}
+.arrowGroup-2imezz {
+	display: none;
+}
+
+.container-3fNISf {
+	display: none;
+}
+.bannerImg-2NHyzX {
+    object-fit: cover;
+		width: 300px;
+		height: 180px;
+}
+.bannerImage-3KhIJ6:before {
+    background: transparent
+}
+.hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover {
+    background-color: transparent !important;
+}
+.roleIcon-QSb6pw {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.roleIcon-6hK8aK {
+    margin-left: 5px;
+    margin-right: 5px;
+    top: 2px;
+    height: calc(1rem + 2px);
+    width: calc(1rem + 2px);
+}
+.discriminator-byOsvi:not(.discriminator-22Okc1) {
+    font-size: 15px;
+    align-self: baseline;
+}
+.discriminator-22Okc1 {
+    font-size: 15px;
+		align-self: center;
+		margin-top: -4px;
 }
