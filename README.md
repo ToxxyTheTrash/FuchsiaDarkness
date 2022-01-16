@@ -25,17 +25,18 @@ To download the theme for **BetterDiscord**, follow the next steps:
 - An addon for HSL to move it to the bottom [**Recommended**]: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/addons
 
 ## Sources used in the theme!  
-**Note: I do NOT own or claim any part of the code used from SimplyDark or BlurpleRecolor being mine!**  
+**Note: I do NOT own or claim any part of the code used from SimplyDark, RadialStatus or BlurpleRecolor being mine!**  
 
-Thanks to **Gibbu** for letting me modify his theme in the first place!  
-Gibbu's GitHub page: https://github.com/Gibbu
+Thanks to **Gibbu** for letting me modify his theme + the addition of radial statuses!  
+Gibbu's GitHub page: https://github.com/Gibbu  
 Source of SimplyDark: https://github.com/DiscordStyles/SimplyDark  
+Source of RadialStatus: https://github.com/DiscordStyles/RadialStatus  
 
 Thanks to **DevilBro** for letting me use parts of **BlurpleRecolor** to recolor certain images and change enforced discord colors for the theme!  
 DevilBro's GitHub page: https://github.com/mwittrien  
 BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor  
 
-## Screenshots - INNACURATE IN ALPHA!  
+## Screenshots - INACCURATE IN ALPHA!   
 
 Chat with HorizontalServerList and some other plugins enabled:  
 ![alt text](https://i.imgur.com/25ceL1K.png)
