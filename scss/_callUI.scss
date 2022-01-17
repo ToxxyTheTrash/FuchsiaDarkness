@@ -1,0 +1,67 @@
+/* Screenshare UI Mute/Deafen - Removed due to being pretty restrictive */
+ .statusContainer-1gtabC {
+     display: none;
+}
+ .slash-33-IMF {
+     display: none;
+}
+ .colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover {
+     background: rgba(var(--AccentColor), 1);
+}
+ .colorable-1bkp8v.primaryDark-3mSFDl[aria-label*="Mute"] svg {
+     -webkit-mask: url("https://i.imgur.com/uowLiRY.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgba(var(--AccentColor), 1);
+     color: rgba(var(--AccentColor), 1);
+}
+ .colorable-1bkp8v.white-3GPOIp[aria-label*="Unmute"] svg {
+     -webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
+}
+ .colorable-1bkp8v.primaryDark-3mSFDl[aria-label*="Turn On Camera"] svg {
+     -webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgba(var(--AccentColor), 1);
+     color: rgba(var(--AccentColor), 1);
+}
+ .colorable-1bkp8v.white-3GPOIp[aria-label*="Turn Off Camera"] svg {
+     -webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
+}
+ .colorable-1bkp8v.primaryDark-3mSFDl[aria-label*="Share Your Screen"] svg {
+     -webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgba(var(--AccentColor), 1);
+     color: rgba(var(--AccentColor), 1);
+}
+ .colorable-1bkp8v.white-3GPOIp[aria-label*="Stop Streaming"] svg {
+     -webkit-mask: url("https://i.imgur.com/jeh7qQQ.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
+}
+ .colorable-1bkp8v.red-33-Lnk[aria-label*="Disconnect"] svg {
+     -webkit-mask: url("https://i.imgur.com/icr6AHF.png") center/cover;
+     width: 22px;
+     height: 22px;
+     background: rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
+}
+/* Screenshare Button (kinda n/a about this one atm) */
+.titleIcon-2eloVh svg {
+		-webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
+		width: 22px;
+		height: 22px;
+		background: rgba(var(--AccentColor), 1);
+		color: white;
+}

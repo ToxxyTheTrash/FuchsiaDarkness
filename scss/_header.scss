@@ -1,0 +1,164 @@
+.customItem-a8hq58[id*="guild-header-popout-showhiddenchannels-hide-locked-channels"] {
+	display: none;
+}
+
+.item-1OdjEX[id*="guild-header-popout-premium-subscribe"] {
+	color: rgb(255, 115, 250);
+}
+.item-1OdjEX[id*="guild-header-popout-premium-subscribe"]:hover {
+	color: rgba(var(--PrimaryBG));
+}
+.item-1OdjEX[id*="guild-header-popout-premium-subscribe"]:hover svg {
+	color: rgba(var(--PrimaryBG));
+}
+.item-1OdjEX[id*="guild-header-popout-invite-people"] svg {
+	-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-settings"] svg {
+	-webkit-mask: url("https://i.imgur.com/pYqekDg.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-create-channel"] svg {
+	-webkit-mask: url("https://i.imgur.com/yUL8g58.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-create-category"] svg {
+	-webkit-mask: url("https://i.imgur.com/LZ1Cip0.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-notifications"] svg {
+	-webkit-mask: url("https://i.imgur.com/bH8EjSM.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-privacy"] svg {
+	-webkit-mask: url("https://i.imgur.com/cPWXDFI.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-change-nickname"] svg {
+	-webkit-mask: url("https://i.imgur.com/WjMmxEV.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-leave"] svg {
+	-webkit-mask: url("https://i.imgur.com/Q1iCApb.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgb(240, 71, 71)
+}
+.item-1OdjEX[id*="guild-header-popout-hide-muted-channels"][aria-checked*="false"] svg {
+	-webkit-mask: url("https://i.imgur.com/6cbtmtc.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="guild-header-popout-hide-muted-channels"][aria-checked*="true"] svg {
+	-webkit-mask: url("https://i.imgur.com/tT3ipI9.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+}
+
+/* -=-= Header =-=- */
+.container-ZMc96U {
+    border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
+.topic-11NuQZ {
+    margin: 0 0 0 5px;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(var(--AccentColor), 1);
+}
+.divider-q3P9HC {
+    width: 2px;
+    height: 25px;
+    margin: 0 5px;
+    background: rgba(var(--AccentColor), 0.25);
+}
+
+/* Header Icons */
+.children-3xh0VB .iconWrapper-2awDjA .icon-2xnN2Y {
+     -webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
+     width: 25px;
+     height: 25px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Notification Settings"] {
+     -webkit-mask: url("https://i.imgur.com/T22HBd6.png") center/cover;
+     width: 25px;
+     height: 25px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Threads"] {
+     -webkit-mask: url("https://i.imgur.com/p0vQXXG.png") center/cover;
+     width: 28px;
+     height: 28px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Pinned Messages"] {
+     -webkit-mask: url("https://i.imgur.com/tMrxpi1.png") center/cover;
+     width: 23px;
+     height: 23px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Member List"][class*="selected-1GqIat"] {
+     -webkit-mask: url("https://i.imgur.com/fqmCpKs.png") center/cover;
+     width: 28px;
+     height: 28px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Member List"] {
+     -webkit-mask: url("https://i.imgur.com/CRkYbVZ.png") center/cover;
+     width: 28px;
+     height: 28px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Update"]{
+		-webkit-mask: url("https://i.imgur.com/8Z68uCH.png") center/cover;
+		width: 25px;
+		height: 25px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Inbox"]{
+     -webkit-mask: url("https://i.imgur.com/kPC15bq.png") center/cover;
+     width: 25px;
+     height: 25px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Help"]{
+     display: none;
+}
+.iconWrapper-2awDjA[aria-label*="Start Voice Call"]{
+     -webkit-mask: url("https://i.imgur.com/QRlEKsF.png") center/cover;
+     width: 25px;
+     height: 25px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Start Video Call"]{
+     -webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+     width: 25px;
+     height: 25px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Add Friends"]{
+     -webkit-mask: url("https://i.imgur.com/yUL8g58.png") center/cover;
+     width: 25px;
+     height: 25px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="New Group DM"]{
+     display: none;
+}

@@ -1,0 +1,235 @@
+/* Channel Footer - Icons */
+button[aria-label="User Settings"] svg {
+    opacity: 0;
+}
+button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    -webkit-mask: url("https://i.imgur.com/pYqekDg.png") center/20px no-repeat !important;
+    background-color: rgba(var(--AccentColor), 1);
+}
+.button-12Fmur {
+    width: 25px;
+    height: 25px;
+    color: rgba(var(--AccentColor), 1);
+}
+
+/* Channel Header */
+.header-3OsQeK {
+    font-weight: 500;
+    padding: 0 15px;
+    color: rgba(var(--AccentColor), 1);
+		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
+/* Category/Role name */
+.container-q97qHp {
+    text-transform: none;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+    padding-top: 5px;
+}
+/* Channel List */
+.wrapper-NhbLHG {
+    padding: 0 0 0 0;
+}
+.content-1gYQeQ {
+    padding: 0 5px;
+    margin-left: 5px;
+}
+.name-28HaxV {
+    font-size: 15px;
+    font-weight: 500;
+}
+.mainContent-20q_Hp {
+    padding: 3px 0;
+    cursor: crosshair;
+}
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .wrapper-NhbLHG:hover .content-1gYQeQ {
+    background-color: rgba(var(--PrimaryBG));
+}
+.wrapper-NhbLHG:hover .content-1gYQeQ {
+	animation: rainbow 5s linear infinite;
+}
+/* Channel List - User Profile/Status */
+.panels-3wFtMD {
+    background-color: rgba(var(--PrimaryBG));;
+}
+.container-YkUktl {
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 5px 0 5px;
+    margin-bottom: 0;
+		border-top: 2px solid rgba(var(--AccentColor), 1);
+		z-index: 1;
+}
+/* Channel Unread Pill */
+.unreadRelevant-2f-VSK {
+    background-color: rgba(var(--AccentColor), 1);
+}
+.unread-36eUEm {
+    height: 10px;
+    width: 5px;
+    margin-top: -5px;
+}
+/* Channel Icons */
+.iconBase-2G48Fc {
+		margin-left: 5px;
+}
+.iconItem-1EjiK0[aria-label*="Create Invite"] {
+     -webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
+     width: 15px;
+     height: 0px;
+     background: rgba(var(--AccentColor), 1);
+}
+.iconItem-1EjiK0[aria-label*="Invite to Server"] {
+		-webkit-mask: url("https://i.imgur.com/GTLwUuW.png") center/cover;
+		width: 15px;
+		height: 0px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconItem-1EjiK0[aria-label*="Edit Channel"] {
+     -webkit-mask: url("https://i.imgur.com/5AZqlJo.png") center/cover;
+     width: 10px;
+     height: 0px;
+     background: rgba(var(--AccentColor), 1);
+}
+
+.icon-2W8DHg {
+    color: rgba(var(--AccentColor), 0.5);
+}
+.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: rgba(var(--AccentColor), 1);
+}
+.iconContainer-21RCa3 {
+    margin-right: 5px;
+}
+.iconContainer-21RCa3[aria-label*="Text"] {
+		-webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconContainer-21RCa3[aria-label*="Voice"] {
+		-webkit-mask: url("https://i.imgur.com/JEQfCHt.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconContainer-21RCa3[aria-label*="Rules"] {
+		-webkit-mask: url("https://i.imgur.com/hcQYiIs.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconContainer-21RCa3[aria-label*="Announcements"] {
+		-webkit-mask: url("https://i.imgur.com/ykbiZPl.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+
+/* Channel List Width (Counts for DM List) */
+.sidebar-1tnWFu {
+    width: 300px;
+}
+
+/* HiddenChannels Support */
+.showhiddenchannels-tooltip {
+     top: unset !important;
+}
+
+/* Status Picker (NOT FIXED) */
+.scroller-3BxosC [id*="status-picker"] {
+		padding: 0px 0px;
+		min-width: 295px;
+		width: 275px;
+		top: 0px;
+		right: -40px;
+}
+#app-mount .layer-v9HyYc[style*="bottom"] [id*="status-picker"] {
+		margin-left: -40px;
+		margin-bottom: 0px;
+}
+
+.clearStatusIcon-3-MDNF  {
+	-webkit-mask: url("https://i.imgur.com/j4viHnK.png") center/cover;
+ width: 20px;
+ height: 20px;
+ background: rgba(var(--AccentColor), 1);
+}
+#app-mount .layer-v9HyYc[style*="bottom"] [id*="status-picker"]:hover svg{
+		background: rgba(var(--PrimaryBG));
+		color: rgba(var(--PrimaryBG));
+}
+#status-picker {
+		right: -40px !important;
+}
+
+/* Voice Channel Icons */
+.button-12Fmur[aria-label*="Mute"][aria-checked*="false"] svg {
+		-webkit-mask: url("https://i.imgur.com/uowLiRY.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.button-12Fmur[aria-label*="Mute"][aria-checked*="true"] svg {
+		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(241, 86, 86);
+		color: rgb(241, 86, 86);
+}
+.button-12Fmur[aria-label*="Deafen"][aria-checked*="false"] svg {
+		-webkit-mask: url("https://i.imgur.com/kVJyJEN.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.button-12Fmur[aria-label*="Disconnect"] svg {
+	 -webkit-mask: url("https://i.imgur.com/icr6AHF.png") center/cover;
+	 width: 20px;
+	 height: 20px;
+	 background: rgba(var(--AccentColor), 1);
+}
+.button-12Fmur[aria-label*="Deafen"][aria-checked*="true"] svg {
+		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(241, 86, 86);
+		color: rgb(241, 86, 86);
+}
+.iconSpacing-3eO9xt[aria-label*="Muted"] svg {
+		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(142, 146, 151);
+		color: rgb(142, 146, 151);
+}
+.iconSpacing-3eO9xt[aria-label*="Deafened"] svg {
+		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(142, 146, 151);
+		color: rgb(142, 146, 151);
+}
+.iconSpacing-3eO9xt[aria-label*="Server Muted"] svg {
+		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(241, 86, 86);
+		color: rgb(241, 86, 86);
+}
+.iconSpacing-3eO9xt[aria-label*="Server Deafened"] svg {
+		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(241, 86, 86);
+		color: rgb(241, 86, 86);
+}

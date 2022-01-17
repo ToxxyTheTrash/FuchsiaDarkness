@@ -1,0 +1,55 @@
+/* DM List - Tabs */
+.privateChannels-oVe7HL a:not([href*="/channels/@me"]) .avatar-6qzftW, .privateChannels-oVe7HL a[href="/channels/@me"] .avatar-6qzftW {
+    position: relative;
+}
+.privateChannels-oVe7HL a:not([href*="/channels/@me"]) .avatar-6qzftW:before, .privateChannels-oVe7HL a[href="/channels/@me"] .avatar-6qzftW:before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: rgba(var(--AccentColor), 1);
+}
+.privateChannels-oVe7HL a:not([href*="/channels/@me"]) .avatar-6qzftW svg, .privateChannels-oVe7HL a[href="/channels/@me"] .avatar-6qzftW svg {
+    display: none;
+}
+
+/* Nitro Tab */
+.privateChannels-oVe7HL a[href="/store"] .avatar-6qzftW:before {
+    -webkit-mask: url(/assets/379d2b3171722ef8be494231234da5d1.svg) center/25px no-repeat;}
+/* Library Tab */
+.privateChannels-oVe7HL a[href="/library"] .avatar-6qzftW:before {
+    -webkit-mask: url("https://i.imgur.com/DVOL3aX.png") center/25px no-repeat;}
+/* Friends Tab */
+.privateChannels-oVe7HL a[href="/channels/@me"] .avatar-6qzftW:before {
+    -webkit-mask: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat;}
+
+ .selectableItem-1MP3MQ.selected-31soGA {
+     background: rgba(var(--AccentColor), 1) !important;
+}
+
+/* Friends List */
+.peopleList-2VBrVI {
+    padding-bottom: 0;
+    margin-top: 0;
+		background: rgba(var(--PrimaryBG));
+}
+
+
+/* Modals */
+.theme-dark .root-g14mjS {
+    background-color: rgba(var(--PrimaryBG));
+    box-shadow: none;
+}
+
+
+/* DM Header Icons */
+.videoBottom-2_HYXG .iconButton-3V4WS5[style*="/d47d2c5ce2dd7d5bdaee2ebd8fde61f2.svg"]:before {
+    -webkit-mask: url("https://i.imgur.com/VvlIPDy.png");}
+.videoBottom-2_HYXG .iconButton-3V4WS5[style*="/f67374a8fd6b116362596d65cc516747.svg"]:before {
+    -webkit-mask: url("https://i.imgur.com/CgkqQF0.png");}
+.videoBottom-2_HYXG .iconButton-3V4WS5[style*="/b0aeca4d2129dcbf73f05feb6bb6e61f.svg"]:before {
+    -webkit-mask: url("https://i.imgur.com/SWnquEv.png");}
+.videoBottom-2_HYXG .iconButton-3V4WS5[style*="/4bc527c257233fc69b94342d77bcb9ee.svg"]:before {
+    -webkit-mask: url("https://i.imgur.com/uowLiRY.png");}
+.videoBottom-2_HYXG .iconButton-3V4WS5[style*="/990826f372c3d1d1792e3f1df06609bb.svg"]:before {
+    -webkit-mask: url("https://i.imgur.com/SWL7qk3.png");}

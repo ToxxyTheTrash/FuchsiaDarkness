@@ -1,0 +1,142 @@
+/* Rainbow Animation */
+@keyframes rainbow {
+    from {
+    -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+		-webkit-filter: hue-rotate(360deg);
+} }
+
+/* Forced Sharp Corners */
+* {
+    border-radius: 0 !important;
+		font-family: var(--Font) !important;
+}
+*:before, *:after {
+    border-radius: 0 !important;
+		font-family: var(--Font) !important;
+}
+/* "foreignObject" Killer */
+foreignObject {
+		mask: none !important;
+}
+
+/* "display: none;" spam collection */
+.wordmark-2u86JB,
+.avatarHint-k7pYop,
+.unread-2wipsx {
+    display: none;
+}
+
+/* Transition Killer (NOT FIXED) */
+#app-mount .layer-86YKbF {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+    top: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+/* Selection */
+::selection {
+    background: rgba(var(--AccentColor), 1); }
+
+/* Light theme warning */
+html.theme-light #app-mount {
+    height: calc(100vh - 135px);
+    overflow: visible;
+}
+html.theme-light #app-mount:after {
+    content: "this theme is NOT made for light theme you fucking pretzel";
+    line-height: 55px;
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+    color: rgba(var(--AccentColor), 1);
+    font-weight: 900;
+    font-size: 50px;
+    white-space: pre-wrap;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%);
+    animation: rainbow 0.1s linear infinite;
+}
+
+/* Loading Screen (NOT FIXED) */
+ .status-1JTY3j:before {
+     font-size: 25px;
+     content: "no internet connection";
+}
+ .status-1JTY3j {
+     font-size: 0px;
+}
+ .problemsText-1Yx-Kl {
+     font-size: 0px;
+}
+ .links-3Ldd4A {
+     font-size: 0px;
+}
+ .icon-3N9Bhy {
+     width: 0px;
+     height: 0px;
+}
+
+/* Ping indicators */
+.base-3IDx3L {
+    height: 16px;
+    min-width: 15px;
+    min-height: 15px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgba(var(--PrimaryBG));
+}
+.numberBadge-37OJ3S {
+    background-color: rgba(var(--AccentColor), 1) !important;
+		width: 35px !important;
+}
+
+/* Changelog */
+.improved-2SJXHz {
+    color: rgba(var(--AccentColor), 1);
+		animation: rainbow 3s linear infinite;
+}
+
+/* Scrollbar deletion */
+.thin-31rlnD::-webkit-scrollbar, .thin-31rlnD::-webkit-scrollbar-corner, .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
+	display: none;
+}
+
+/* Scrollbar (NOT FIXED) */
+ .scroller-2FKFPG::-webkit-scrollbar {
+     width: 10px;
+     height: 10px;
+}
+ .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb {
+     background-color: rgba(var(--SecondaryBG));
+     border: 2px rgba(var(--AccentColor), 1) dashed;
+}
+ .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {
+     background-color: rgba(var(--SecondaryBG));
+     border: 2px rgba(var(--AccentColor), 1) dashed;
+}
+ .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+     background-color: rgba(var(--SecondaryBG));
+     border: 2px rgba(var(--AccentColor), 1) dashed;
+}
+ .member-perms::-webkit-scrollbar-thumb, #permissions-modal-wrapper *::-webkit-scrollbar-thumb {
+     background-color: rgba(var(--SecondaryBG));
+     border: 2px rgba(var(--AccentColor), 1) dashed;
+     border-radius: 0px !important;
+}
+ .thin-1ybCId::-webkit-scrollbar {
+     display: none;
+}
+
+circle {
+		r: 10px !important;
+		clip-path: inset(30% 30% 30% 30%) !important;
+}

@@ -1,0 +1,35 @@
+/* User Profile Tabs (NOT FIXED) */
+.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG {
+		filter: invert(0);
+		font-size: 0px;
+}
+.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="user_info-tab"] {
+     background: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
+}
+.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="mutual_guilds-tab"] {
+     background: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
+}
+.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="mutual_friends-tab"] {
+     background: url("https://i.imgur.com/Qeo2ueQ.png") center/25px no-repeat !important;
+}
+.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="activity-tab"] {
+		background: url("https://i.imgur.com/iAB8BmS.png") center/25px no-repeat !important;
+}
+
+/* Toxxy's Background (NOT FIXED) */
+.wrapper-3t9DeA[user_by_bdfdb*="359042365970710538"], .wrapper-3t9DeA[data-user-id*="359042365970710538"]  {
+		--popoutbg: url(https://cdn.discordapp.com/attachments/546244449873821705/645486399025315851/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg);
+}
+
+/* Mobile Indication */
+.root-1gCeng .wrapper-3t9DeA[aria-label*="mobile"]::before {
+     content: "currently on mobile";
+     color: rgba(var(--AccentColor), 1);
+     text-align: center;
+     font-size: 25px;
+     position: fixed;
+     margin-left: 295px;
+     margin-top: 10px;
+     font-weight: 800;
+     font-style: italic;
+}
