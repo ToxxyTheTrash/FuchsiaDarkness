@@ -2,48 +2,36 @@
 #sent.ml2-tab {
 	display: contents;
 }
-#ML2-MENU-TABBAR .item-3XjbnG {
-     font-size: 10px;
-		 width: 55px;
-}
-.tabBarItem-3dfX8P[id*="sent"] {
+.theme-dark .ml2-tab[id*="sent"] {
 	-webkit-mask: url("https://i.imgur.com/99uVToC.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-3dfX8P[id*="deleted"] {
+.theme-dark .ml2-tab[id*="deleted"] {
 	-webkit-mask: url("https://i.imgur.com/fJULu0p.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-3dfX8P[id*="edited"] {
+.theme-dark .ml2-tab[id*="edited"] {
 	-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-3dfX8P[id*="purged"] {
+.theme-dark .ml2-tab[id*="purged"] {
 	-webkit-mask: url("https://i.imgur.com/ucx4dBa.png") center/cover no-repeat;
 	-webkit-mask-size: 30px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBarItem-3dfX8P[id*="ghostpings"] {
+.theme-dark .ml2-tab[id*="ghostpings"] {
 	-webkit-mask: url("https://i.imgur.com/kPC15bq.png") center/cover no-repeat;
 	-webkit-mask-size: 25px;
 	background: rgba(var(--AccentColor), 1);
 }
-.tabBar-2MuP6- {
-    height: 45px;
+
+.MLv2-menu-root .wrapper-1HSdhi {
+    border-bottom: 2px dashed rgba(var(--AccentColor), 1) !important;
 }
-.tabBarContainer-37hZsr {
-     border-top: 2px rgba(var(--AccentColor), 1) dashed !important;
-		 align-items: center;
-}
-.theme-dark .ml2-tab {
-    color: rgba(var(--AccentColor), 1);
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-		align-items: center;
-}
+
 .theme-dark .ml2-tab-selected, .theme-dark .ml2-tab {
 	border-color: rgba(var(--AccentColor), 1);
 	color: rgba(var(--AccentColor), 1) !important;
@@ -54,14 +42,14 @@
     min-height: 500px;
     max-height: 500px;
 }
-.questionMark-3qBhGj {
+.MLv2-question-mark {
      width: 25px;
      height: 25px;
      margin-right: 0px;
      padding: 0;
 		 background-color: rgba(var(--PrimaryBG));
 }
-.questionMark-3qBhGj:hover {
+.MLv2-question-mark:hover {
      background-color: rgba(var(--AccentColor), 0.25);
 }
 .tabBarItem-1b8RUP{

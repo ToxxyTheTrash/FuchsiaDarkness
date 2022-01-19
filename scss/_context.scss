@@ -8,8 +8,29 @@
     cursor: crosshair;
 }
 .scroller-1bVxF5 {
-    padding: 5px 5px 5px 5px; }
+    padding: 0 0 0 0;
+    background-color: rgba(var(--PrimaryBG));
+}
 .labelContainer-2vJzYL {
     min-height: 25px;
     padding: 0 5px 0 5px;
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8 {
+    background-color: rgba(var(--AccentColor), 0.25);
+    color: rgba(var(--AccentColor), 1);
+}
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+    background-color: rgba(var(--AccentColor), 0.5);
+    color: rgba(var(--AccentColor), 1);
+}
+
+.submenuPaddingContainer-_k62dJ {
+    padding: 0 0 0 0;
+}
+.layer-2aCOJ3 {
+    margin-left: -5px;
+}
+.subtext-2GlkbE {
+    display: none;
 }

@@ -12,6 +12,21 @@
 .privateChannels-oVe7HL a:not([href*="/channels/@me"]) .avatar-6qzftW svg, .privateChannels-oVe7HL a[href="/channels/@me"] .avatar-6qzftW svg {
     display: none;
 }
+.channel-1Shao0 {
+    max-width: 315px;
+    margin: 0 2px;
+}
+.selected-1-Z6gm .layout-1qmrhw {
+    background-color: rgba(var(--AccentColor), 0.15);
+}
+.clickable-28SzVr:hover .layout-1qmrhw {
+    background-color: rgba(var(--AccentColor), 0.25);
+}
+.privateChannelsHeaderContainer-1UWASm {
+    padding: 2px 0 0 15px;
+    height: 25px;
+    border-top: 2px dashed rgba(var(--AccentColor), 1);
+}
 
 /* Nitro Tab */
 .privateChannels-oVe7HL a[href="/store"] .avatar-6qzftW:before {
@@ -31,16 +46,16 @@
 .peopleList-2VBrVI {
     padding-bottom: 0;
     margin-top: 0;
-		background: rgba(var(--PrimaryBG));
 }
-
+.theme-dark .container-2cd8Mz {
+    background: rgba(var(--PrimaryBG));
+}
 
 /* Modals */
 .theme-dark .root-g14mjS {
     background-color: rgba(var(--PrimaryBG));
     box-shadow: none;
 }
-
 
 /* DM Header Icons */
 .videoBottom-2_HYXG .iconButton-3V4WS5[style*="/d47d2c5ce2dd7d5bdaee2ebd8fde61f2.svg"]:before {
@@ -53,3 +68,11 @@
     -webkit-mask: url("https://i.imgur.com/uowLiRY.png");}
 .videoBottom-2_HYXG .iconButton-3V4WS5[style*="/990826f372c3d1d1792e3f1df06609bb.svg"]:before {
     -webkit-mask: url("https://i.imgur.com/SWL7qk3.png");}
+
+/* DM Search Bar */
+.searchBar-3TnChZ {
+    padding: 0 10px;
+    height: 46px;
+    box-shadow: none;
+    border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}

@@ -140,3 +140,27 @@ circle {
 		r: 10px !important;
 		clip-path: inset(30% 30% 30% 30%) !important;
 }
+
+/* PROTIP Removal */
+.block-3Xiiq7 .pro-3GwLMX, .block-3Xiiq7 .tip-Jl__cG, .tip-Jl__cG {
+    display: none;
+}
+
+/* Tooltips */
+#app-mount .tooltipPrimary-3qLMbS {
+    background-color: rgba(var(--PrimaryBG));
+    color: rgba(var(--AccentColor), 1);
+    font-weight: 700;
+    outline: 2px dashed rgba(var(--AccentColor), 0.25);
+}
+.guildNameText-jBFbNC {
+    color: rgba(var(--AccentColor), 1);
+}
+#app-mount .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
+    border-top-color: rgba(var(--AccentColor), 1);
+    margin-left: 0px;
+}
+.tooltipContent-Nejnvh {
+    padding: 5px 10px;
+    margin-left: 0px;
+}
