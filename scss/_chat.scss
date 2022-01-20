@@ -96,11 +96,12 @@
 /* Chat Avatar */
 .avatar-2e8lTP {
     left: 15px;
-    margin-top: 0;
+    margin-top: -2px;
     width: 50px;
     height: 50px;
     cursor: crosshair;
     z-index: 1;
+    image-rendering: pixelated;
 }
 /* Chat Message Bar */
 .newMessagesBar-1hF-9G {
@@ -160,10 +161,9 @@
 		margin-top: -3px;
 		padding: 0;
 }
+.iconContainer-2rPbqG .icon-JRJzJz {
+		background-image: none !important; }
 /* Pins - Chat Icons */
-.iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/1f57f1c100434d1ff6569a495ada213e.svg"] {
-		background-image: none !important;
-}
 .iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/1f57f1c100434d1ff6569a495ada213e.svg"]:before {
 		content: "";
 		width: 20px;
@@ -174,9 +174,6 @@
 		background: rgba(var(--AccentColor), 1);
 }
 /* Joins - Chat Icons */
-.iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/d1382af8d9e755bc44811b1fd92990a8.svg"] {
-		background-image: none !important;
-}
 .iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/d1382af8d9e755bc44811b1fd92990a8.svg"]:before {
 		content: "";
 		width: 25px;
@@ -186,9 +183,6 @@
 		background: #43b581;
 }
 /* Leaves - Chat Icons */
-.iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/f772d3d7eddcf3c84f710c10999479f0.svg"] {
-		background-image: none !important;
-}
 .iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/f772d3d7eddcf3c84f710c10999479f0.svg"]:before {
 		content: "";
 		width: 25px;
@@ -198,15 +192,12 @@
 		background: #f04747;
 }
 /* Boost - Chat Icons */
-.iconContainer-2rPbqG .iconWrapper-2Urb3j {
+.iconContainer-2rPbqG .iconWrapper-2_IMdZ {
 		position: relative;
 		margin-left: 5px;
 		margin-top: 5px;
 }
 /* Call - Chat Icons */
-.iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg"] {
-		background-image: none !important;
-}
 .iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg"]:before {
 		content: "";
 		width: 22px;
@@ -241,7 +232,10 @@
      padding-right: 0;
      margin-top: 0;
 }
-
+.channelTextArea-1FufC0 {
+		margin-top: 0;
+		margin-bottom: 0;
+}
 
 /* Video Player */
 .iconPlay-3weMmb {
@@ -524,4 +518,34 @@
     background-color: transparent;
     height: 0;
     border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+}
+
+/* Chat Dividers */
+.divider-2rZFJK {
+    border-top: 2px solid rgba(var(--AccentColor), 1);
+}
+.isUnread-3Lojb-[role*="separator"] {
+    border-top: 2px solid #43b581;
+}
+.content-3spvdd {
+    padding: 0 5px;
+    color: rgba(var(--AccentColor), 1);
+    background: rgba(var(--PrimaryBG));
+    line-height: 25px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+}
+.isUnread-3Lojb- .content-3spvdd {
+    color: var(--green);
+}
+.group-spacing-4 .divider-IqmEqJ.hasContent-1y12-u {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hasContent-31hcsn {
+    position: relative;
+}
+.unreadPill-3nEWYM {
+  display: none;
 }

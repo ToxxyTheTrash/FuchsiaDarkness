@@ -3,6 +3,7 @@
 .avatar-2Vndt_ {
     width: 150px !important;
 		height: 150px !important;
+    image-rendering: pixelated;
 }
 .avatarPositionNormal-2jWoC2 {
     top: 15px; }
@@ -140,4 +141,18 @@
 .note-Go5ZP2 {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+/* Bots */
+.sizeSmall-wU2dO- {
+    height: 30px;
+    min-width: 50px;
+    min-height: 30px;
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    color: rgba(var(--AccentColor), 1);
+    background-color: rgba(var(--SecondaryBG));
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background-color: rgba(var(--SecondaryBG), 0.5);
 }

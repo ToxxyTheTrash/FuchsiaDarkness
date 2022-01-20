@@ -1,19 +1,26 @@
 /* User Profile Tabs (NOT FIXED) */
-.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG {
-		filter: invert(0);
-		font-size: 0px;
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG {
+		font-size: 15px;
+		color: transparent;
+		width: 100px;
+		display: block;
+		flex: auto;
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="user_info-tab"] {
-     background: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="user_info-tab"] {
+     -webkit-mask: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
+		 background: rgba(var(--AccentColor), 1);
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="mutual_guilds-tab"] {
-     background: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="mutual_guilds-tab"] {
+     -webkit-mask: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
+		 background: rgba(var(--AccentColor), 1);
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="mutual_friends-tab"] {
-     background: url("https://i.imgur.com/Qeo2ueQ.png") center/25px no-repeat !important;
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="mutual_friends-tab"] {
+     -webkit-mask: url("https://i.imgur.com/Qeo2ueQ.png") center/25px no-repeat !important;
+		 background: rgba(var(--AccentColor), 1);
 }
-.root-1gCeng .tabBarContainer-37hZsr .item-3XjbnG[aria-controls="activity-tab"] {
-		background: url("https://i.imgur.com/iAB8BmS.png") center/25px no-repeat !important;
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="activity-tab"] {
+		-webkit-mask: url("https://i.imgur.com/iAB8BmS.png") center/25px no-repeat !important;
+		background: rgba(var(--AccentColor), 1);
 }
 
 /* Toxxy's Background (NOT FIXED) */
@@ -22,14 +29,44 @@
 }
 
 /* Mobile Indication */
-.root-1gCeng .wrapper-3t9DeA[aria-label*="mobile"]::before {
+.root-8LYsGj .wrapper-1VLyxH[aria-label*="mobile"]::before {
      content: "currently on mobile";
      color: rgba(var(--AccentColor), 1);
      text-align: center;
      font-size: 25px;
+		 text-shadow: 2px 2px rgba(var(--PrimaryBG), 0.25);;
      position: fixed;
      margin-left: 295px;
      margin-top: 10px;
      font-weight: 800;
      font-style: italic;
+}
+
+.topSection-13QKHs {
+    background-color: rgba(var(--SecondaryBG));
+}
+.body-1Ukv50 {
+    background-color: rgba(var(--PrimaryBG));
+		height: 250px;
+}
+.focusLock-2tveLW[aria-label*="User Profile Modal"] .root-8LYsGj {
+		width: 750px;
+}
+.tabBarContainer-sCZC4w {
+    border-bottom: 2px solid rgba(var(--AccentColor), 1);
+    padding-left: 0;
+}
+.tabBar-2hXqzU {
+    height: 40px;
+		background: rgba(var(--PrimaryBG));
+		border-top: 2px dashed rgba(var(--AccentColor), 1);
+}
+
+
+.connectedAccount-1xKpli {
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 225px;
+		height: 25px;
+    border: none;
 }

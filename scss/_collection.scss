@@ -7,6 +7,11 @@
 		-webkit-filter: hue-rotate(360deg);
 } }
 
+@keyframes fading {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
 /* Forced Sharp Corners */
 * {
     border-radius: 0 !important;
@@ -151,16 +156,22 @@ circle {
     background-color: rgba(var(--PrimaryBG));
     color: rgba(var(--AccentColor), 1);
     font-weight: 700;
-    outline: 2px dashed rgba(var(--AccentColor), 0.25);
+    border: 2px dashed rgba(var(--AccentColor), 0.25);
 }
 .guildNameText-jBFbNC {
     color: rgba(var(--AccentColor), 1);
 }
 #app-mount .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
     border-top-color: rgba(var(--AccentColor), 1);
-    margin-left: 0px;
+    margin: 0;
+    padding: 0;
 }
 .tooltipContent-Nejnvh {
     padding: 5px 10px;
-    margin-left: 0px;
+}
+
+/* Bot Tag */
+.botTag-2mryIa, .botTag-1NoD0B, .headerBotTagWithNickname-3DNCuU, .headerBotTag-1xw5Ck {
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--PrimaryBG));
 }
