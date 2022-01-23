@@ -1,21 +1,23 @@
-/* User Profile Tabs (NOT FIXED) */
+/* -=-= User Profile =-=- */
+/* User Profile Tabs */
 .root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG {
 		font-size: 15px;
 		color: transparent;
 		width: 100px;
 		display: block;
 		flex: auto;
+		cursor: crosshair;
 }
 .root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="user_info-tab"] {
-     -webkit-mask: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
+		 -webkit-mask: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
 		 background: rgba(var(--AccentColor), 1);
 }
 .root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="mutual_guilds-tab"] {
-     -webkit-mask: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
+		 -webkit-mask: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
 		 background: rgba(var(--AccentColor), 1);
 }
 .root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="mutual_friends-tab"] {
-     -webkit-mask: url("https://i.imgur.com/Qeo2ueQ.png") center/25px no-repeat !important;
+		 -webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/25px no-repeat !important;
 		 background: rgba(var(--AccentColor), 1);
 }
 .root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="activity-tab"] {
@@ -24,49 +26,79 @@
 }
 
 /* Toxxy's Background (NOT FIXED) */
-.wrapper-3t9DeA[user_by_bdfdb*="359042365970710538"], .wrapper-3t9DeA[data-user-id*="359042365970710538"]  {
+.wrapper-3t9DeA[user_by_bdfdb*="359042365970710538"], .wrapper-3t9DeA[data-user-id*="359042365970710538"]{
 		--popoutbg: url(https://cdn.discordapp.com/attachments/546244449873821705/645486399025315851/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg);
 }
 
 /* Mobile Indication */
 .root-8LYsGj .wrapper-1VLyxH[aria-label*="mobile"]::before {
-     content: "currently on mobile";
-     color: rgba(var(--AccentColor), 1);
-     text-align: center;
-     font-size: 25px;
-		 text-shadow: 2px 2px rgba(var(--PrimaryBG), 0.25);;
-     position: fixed;
-     margin-left: 295px;
-     margin-top: 10px;
-     font-weight: 800;
-     font-style: italic;
+		content: "currently on mobile";
+		color: rgba(var(--AccentColor), 1);
+		text-align: center;
+		font-size: 25px;
+		text-shadow: 2px 2px rgba(var(--PrimaryBG), 0.25);;
+		position: fixed;
+		margin-left: 435px;
+		margin-top: 10px;
+		font-weight: 800;
+		font-style: italic;
 }
 
 .topSection-13QKHs {
-    background-color: rgba(var(--SecondaryBG));
+		background-color: rgba(var(--SecondaryBG));
 }
 .body-1Ukv50 {
-    background-color: rgba(var(--PrimaryBG));
+		background-color: rgba(var(--PrimaryBG));
 		height: 250px;
 }
 .focusLock-2tveLW[aria-label*="User Profile Modal"] .root-8LYsGj {
 		width: 750px;
 }
 .tabBarContainer-sCZC4w {
-    border-bottom: 2px solid rgba(var(--AccentColor), 1);
-    padding-left: 0;
+		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+		padding-left: 0;
 }
 .tabBar-2hXqzU {
-    height: 40px;
+		height: 40px;
 		background: rgba(var(--PrimaryBG));
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
 }
 
-
+.userBio-2-tr00 {
+		margin-bottom: 15px;
+		font-size: 15px;
+		line-height: 20px;
+		color: rgba(var(--AccentColor), 1);
+}
+.userInfoSection-2u2hir {
+		padding: 15px 0 5px 0;
+}
+.userInfoSection-2u2hir+.userInfoSection-2u2hir {
+		border-top: 2px solid rgba(var(--AccentColor), 1);
+}
 .connectedAccount-1xKpli {
-    margin-top: 20px;
-    padding: 5px 5px 5px 5px;
-    width: 225px;
+		margin-top: 20px;
+		padding: 5px;
+		width: 225px;
 		height: 25px;
-    border: none;
+		border: none;
+}
+.connectedAccountNameInner-t24B11 svg {
+		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
+		outline: 100px solid rgba(var(--AccentColor), 1);
+		outline-offset: -500px;
+}
+.connectedAccountOpenIcon-1yfBsb {
+		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
+		background: rgba(var(--AccentColor), 1);
+		cursor: crosshair;
+}
+
+.profileBanner-1owKI5 {
+		width: 750px;
+		height: 150px;
+}
+.profileBannerPremium-KD60EB {
+		width: 750px;
+		height: 250px;
 }
