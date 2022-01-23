@@ -1,11 +1,13 @@
+/* -=-= Collection of various miscellaneous codeblocks =-=- */
 /* Rainbow Animation */
 @keyframes rainbow {
-    from {
-    -webkit-filter: hue-rotate(0deg);
-    }
-    to {
+from {
+		-webkit-filter: hue-rotate(0deg);
+}
+to {
 		-webkit-filter: hue-rotate(360deg);
-} }
+}
+}
 
 @keyframes fading {
   0%,100% { opacity: 0 }
@@ -14,11 +16,11 @@
 
 /* Forced Sharp Corners */
 * {
-    border-radius: 0 !important;
+		border-radius: 0 !important;
 		font-family: var(--Font) !important;
 }
 *:before, *:after {
-    border-radius: 0 !important;
+		border-radius: 0 !important;
 		font-family: var(--Font) !important;
 }
 /* "foreignObject" Killer */
@@ -30,115 +32,96 @@ foreignObject {
 .wordmark-2u86JB,
 .avatarHint-k7pYop,
 .unread-2wipsx {
-    display: none;
+		display: none;
 }
 
-/* Transition Killer (NOT FIXED) */
+/* Transition Killer */
 #app-mount .layer-86YKbF {
-    transform: none !important;
-    transition: none !important;
-    animation: none !important;
-    top: 0 !important;
-    padding-top: 0 !important;
+		transform: none !important;
+		transition: none !important;
+		animation: none !important;
+		top: 0 !important;
+		padding-top: 0 !important;
 }
 
+/* Font Forcing */
+::-webkit-input-placeholder, body, button, input, select, textarea {
+		font-family: var(--Font, "Montserrat");
+		-webkit-mask: none !important;
+		mask: none !important;
+}
+::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after {
+		mask: none !important;
+}
 
 /* Selection */
 ::selection {
-    background: rgba(var(--AccentColor), 1); }
+		background: rgba(var(--AccentColor), 1);
+}
 
 /* Light theme warning */
 html.theme-light #app-mount {
-    height: calc(100vh - 135px);
-    overflow: visible;
+		height: calc(100vh - 135px);
+		overflow: visible;
 }
 html.theme-light #app-mount:after {
-    content: "this theme is NOT made for light theme you fucking pretzel";
-    line-height: 55px;
-    display: block;
-    text-align: center;
-    padding: 40px 0;
-    color: rgba(var(--AccentColor), 1);
-    font-weight: 900;
-    font-size: 50px;
-    white-space: pre-wrap;
-    background: #000;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    transform: translateY(100%);
-    animation: rainbow 0.1s linear infinite;
+content: "this theme is NOT made for light theme you fucking pretzel";
+		line-height: 55px;
+		display: block;
+		text-align: center;
+		padding: 40px 0;
+		color: rgba(var(--AccentColor), 1);
+		font-weight: 900;
+		font-size: 50px;
+		white-space: pre-wrap;
+		background: #000;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		transform: translateY(100%);
+		animation: rainbow 0.1s linear infinite;
 }
 
-/* Loading Screen (NOT FIXED) */
- .status-1JTY3j:before {
-     font-size: 25px;
-     content: "no internet connection";
+/* Loading Screen */
+.container-2RRFHK video.ready-3BZNWT {
+		display: none;
 }
- .status-1JTY3j {
-     font-size: 0px;
+.tip-1AwED_ {
+		color: rgba(var(--AccentColor), 1);
+		font-size: 15px;
+		line-height: 25px;
+		font-weight: 800;
+		text-transform: lowercase;
+		font-style: italic;
 }
- .problemsText-1Yx-Kl {
-     font-size: 0px;
-}
- .links-3Ldd4A {
-     font-size: 0px;
-}
- .icon-3N9Bhy {
-     width: 0px;
-     height: 0px;
+.tipTitle-3FYEQp {
+		display: none;
 }
 
 /* Ping indicators */
 .base-3IDx3L {
-    height: 16px;
-    min-width: 15px;
-    min-height: 15px;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 600;
-    color: rgba(var(--PrimaryBG));
+		height: 15px;
+		min-width: 15px;
+		min-height: 15px;
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: 800;
+		color: rgba(var(--PrimaryBG));
 }
 .numberBadge-37OJ3S {
-    background-color: rgba(var(--AccentColor), 1) !important;
+		background-color: rgba(var(--AccentColor), 1) !important;
 		width: 35px !important;
 }
 
 /* Changelog */
 .improved-2SJXHz {
-    color: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 		animation: rainbow 3s linear infinite;
 }
 
 /* Scrollbar deletion */
 .thin-31rlnD::-webkit-scrollbar, .thin-31rlnD::-webkit-scrollbar-corner, .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
-	display: none;
-}
-
-/* Scrollbar (NOT FIXED) */
- .scroller-2FKFPG::-webkit-scrollbar {
-     width: 10px;
-     height: 10px;
-}
- .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb {
-     background-color: rgba(var(--SecondaryBG));
-     border: 2px rgba(var(--AccentColor), 1) dashed;
-}
- .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {
-     background-color: rgba(var(--SecondaryBG));
-     border: 2px rgba(var(--AccentColor), 1) dashed;
-}
- .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-     background-color: rgba(var(--SecondaryBG));
-     border: 2px rgba(var(--AccentColor), 1) dashed;
-}
- .member-perms::-webkit-scrollbar-thumb, #permissions-modal-wrapper *::-webkit-scrollbar-thumb {
-     background-color: rgba(var(--SecondaryBG));
-     border: 2px rgba(var(--AccentColor), 1) dashed;
-     border-radius: 0px !important;
-}
- .thin-1ybCId::-webkit-scrollbar {
-     display: none;
+		display: none;
 }
 
 circle {
@@ -148,26 +131,26 @@ circle {
 
 /* PROTIP Removal */
 .block-3Xiiq7 .pro-3GwLMX, .block-3Xiiq7 .tip-Jl__cG, .tip-Jl__cG {
-    display: none;
+		display: none;
 }
 
 /* Tooltips */
 #app-mount .tooltipPrimary-3qLMbS {
-    background-color: rgba(var(--PrimaryBG));
-    color: rgba(var(--AccentColor), 1);
-    font-weight: 700;
-    border: 2px dashed rgba(var(--AccentColor), 0.25);
+		background-color: rgba(var(--PrimaryBG));
+		color: rgba(var(--AccentColor), 1);
+		font-weight: 700;
+		border: 2px dashed rgba(var(--AccentColor), 0.25);
 }
 .guildNameText-jBFbNC {
-    color: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 }
 #app-mount .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
-    border-top-color: rgba(var(--AccentColor), 1);
-    margin: 0;
-    padding: 0;
+		border-top-color: rgba(var(--AccentColor), 1);
+		margin: 0;
+		padding: 0;
 }
 .tooltipContent-Nejnvh {
-    padding: 5px 10px;
+		padding: 5px 10px;
 }
 
 /* Bot Tag */
