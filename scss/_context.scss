@@ -1,36 +1,55 @@
+/* -=-= Context Menu =-=- */
 /* Context Menu - Right click */
 .item-1OdjEX {
-    margin: 0 0 0 0;
-    padding: 0px 5px 0px 5px;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20px;
-    cursor: crosshair;
+		margin: 0 0;
+		padding: 0 5px;
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 20px;
+		cursor: crosshair;
 }
 .scroller-1bVxF5 {
-    padding: 0 0 0 0;
-    background-color: rgba(var(--PrimaryBG));
+		padding: 0 0;
+		background-color: rgba(var(--PrimaryBG));
 }
 .labelContainer-2vJzYL {
-    min-height: 25px;
-    padding: 0 5px 0 5px;
+		min-height: 25px;
+		padding: 0 5px;
 }
 
+/* Context Menu Selection */
 .colorDefault-CDqZdO.focused-3qFvc8 {
-    background-color: rgba(var(--AccentColor), 0.25);
-    color: rgba(var(--AccentColor), 1);
+		background-color: rgba(var(--AccentColor), 0.25);
+		color: rgba(var(--AccentColor), 1);
 }
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-    background-color: rgba(var(--AccentColor), 0.5);
-    color: rgba(var(--AccentColor), 1);
+		background-color: rgba(var(--AccentColor), 0.5);
+		color: rgba(var(--AccentColor), 1);
 }
 
+/* Context Menu Dropdown Spacing */
 .submenuPaddingContainer-_k62dJ {
-    padding: 0 0 0 0;
+		padding: 0 0;
 }
 .layer-2aCOJ3 {
-    margin-left: -5px;
+		margin: 0 -5px;
 }
 .subtext-2GlkbE {
-    display: none;
+		display: none;
+}
+
+/* Check Boxes */
+.item-1OdjEX[role*="menuitemcheckbox"][aria-checked="false"] svg {
+		-webkit-mask: url("https://i.imgur.com/6cbtmtc.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[role*="menuitemcheckbox"][aria-checked="true"] svg {
+		-webkit-mask: url("https://i.imgur.com/tT3ipI9.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 }
