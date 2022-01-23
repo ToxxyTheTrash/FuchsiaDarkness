@@ -1,102 +1,103 @@
-/* -=-= Plugin support
-/* HiddenChannels Support */
-.showhiddenchannels-tooltip {
-		top: unset !important;
-}
-
 /* MLV2 */
 #sent.ml2-tab {
-		display: contents !important;
-}
-.theme-dark .ml2-tab {
-		-webkit-mask-size: 25px !important;
-		background: rgba(var(--AccentColor), 1);
+	display: contents;
 }
 .theme-dark .ml2-tab[id*="sent"] {
-		-webkit-mask: url("https://i.imgur.com/99uVToC.png") center/cover no-repeat;
+	-webkit-mask: url("https://i.imgur.com/99uVToC.png") center/cover no-repeat;
+	-webkit-mask-size: 25px;
+	background: rgba(var(--AccentColor), 1);
 }
 .theme-dark .ml2-tab[id*="deleted"] {
-		-webkit-mask: url("https://i.imgur.com/fJULu0p.png") center/cover no-repeat;
+	-webkit-mask: url("https://i.imgur.com/fJULu0p.png") center/cover no-repeat;
+	-webkit-mask-size: 25px;
+	background: rgba(var(--AccentColor), 1);
 }
 .theme-dark .ml2-tab[id*="edited"] {
-		-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover no-repeat;
+	-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover no-repeat;
+	-webkit-mask-size: 25px;
+	background: rgba(var(--AccentColor), 1);
 }
 .theme-dark .ml2-tab[id*="purged"] {
-		-webkit-mask: url("https://i.imgur.com/ucx4dBa.png") center/cover no-repeat;
-		-webkit-mask-size: 30px !important;
+	-webkit-mask: url("https://i.imgur.com/ucx4dBa.png") center/cover no-repeat;
+	-webkit-mask-size: 30px;
+	background: rgba(var(--AccentColor), 1);
 }
 .theme-dark .ml2-tab[id*="ghostpings"] {
-		-webkit-mask: url("https://i.imgur.com/kPC15bq.png") center/cover no-repeat;
+	-webkit-mask: url("https://i.imgur.com/kPC15bq.png") center/cover no-repeat;
+	-webkit-mask-size: 25px;
+	background: rgba(var(--AccentColor), 1);
 }
+
 .MLv2-menu-root .wrapper-1HSdhi {
-		border-bottom: 2px dashed rgba(var(--AccentColor), 1) !important;
+    border-bottom: 2px dashed rgba(var(--AccentColor), 1) !important;
 }
+
 .theme-dark .ml2-tab-selected, .theme-dark .ml2-tab {
-		border-color: rgba(var(--AccentColor), 1);
-		color: rgba(var(--AccentColor), 1) !important;
+	border-color: rgba(var(--AccentColor), 1);
+	color: rgba(var(--AccentColor), 1) !important;
 }
 .sizeLarge-2yOtf1 {
-		min-width: 1000px;
-		max-width: 1000px;
-		min-height: 500px;
-		max-height: 500px;
+    min-width: 1000px;
+    max-width: 1000px;
+    min-height: 500px;
+    max-height: 500px;
 }
 .MLv2-question-mark {
-		 width: 25px;
-		 height: 25px;
-		 margin-right: 0;
-		 padding: 0;
+     width: 25px;
+     height: 25px;
+     margin-right: 0px;
+     padding: 0;
 		 background-color: rgba(var(--PrimaryBG));
 }
 .MLv2-question-mark:hover {
-		background-color: rgba(var(--AccentColor), 0.25);
+     background-color: rgba(var(--AccentColor), 0.25);
 }
 .tabBarItem-1b8RUP{
-		border-bottom: 2px dashed;
-		border-color: rgba(var(--AccentColor), 1);
-		margin-right: 40px;
+     border-bottom: 2px dashed;
+     border-color: rgba(var(--AccentColor), 1);
+     margin-right: 40px;
 }
 .badge-2qGa_k:after {
-		width: 10px;
-		height: 10px;
-		background-color: rgba(var(--AccentColor), 1);
-		border: none;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(var(--AccentColor), 1);
+    border: none;
 }
 .header-ykumBX {
-		padding: 10px;
-		background-color: rgba(var(--PrimaryBG));
+    padding: 10px;
+    background-color: rgba(var(--PrimaryBG));
 }
 /* MLV2 Header Button */
 .icon-2xnN2Y[name*="Open Logs"] {
-		 -webkit-mask: url("https://i.imgur.com/1x47jdU.png") center/cover;
-		 width: 25px;
-		 height: 25px;
-		 display: block;
-		 background: rgba(var(--AccentColor), 1);
-		 color: rgba(var(--AccentColor), 1);
+     -webkit-mask: url("https://i.imgur.com/1x47jdU.png") center/cover;
+     width: 25px;
+     height: 25px;
+     display: block;
+     background: rgba(var(--AccentColor), 1);
+     color: rgba(var(--AccentColor), 1);
 }
 
 /* XenoLib */
 /* Notification box */
 .xenoLib-notification-content {
-		padding: 10px 5px 15px 10px;		/* [top], [right], [down], [left]; default: 12px 0 0 0 */
-		background: rgb(0, 0, 0);		/* default: rgb(71, 71, 71) */
-		width: 400px;		/* default: 20vw */
-		min-width: 300px;		/* default: 330px */
+    padding: 10px 5px 15px 10px; /* [top], [right], [down], [left]; default: 12px 0 0 0 */
+    background: rgb(0, 0, 0); /* default: rgb(71, 71, 71) */
+    width: 400px; /* default: 20vw */
+    min-width: 300px; /* default: 330px */
 		color: rgb(255, 255, 255);
 		font-size: 14px;
 }
 /* Loading bar */
 .xenoLib-notification-loadbar {
-		bottom: 0;
-		left: 0;
-		width: auto;
-		background-image: rgba(var(--AccentColor), 1);
-		height: 5px;		/* loading bar fat :) */
+    bottom: 0px;
+    left: 0px;
+    width: auto;
+    background-image: rgba(var(--AccentColor), 1);
+    height: 5px; /* loading bar fat :) */
 }
 
 /* BetterImageViewer */
 .BIV-zoom-lens {
-		cursor: crosshair;
-		border: dashed 5px rgba(var(--AccentColor), 1);
+    cursor: crosshair;
+    border: dashed 5px rgba(var(--AccentColor), 1);
 }

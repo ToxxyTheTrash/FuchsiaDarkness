@@ -1,42 +1,42 @@
-/* -=-= Title bar and window buttons =-=- */
+/* Title bar and window buttons */
 .typeWindows-2-g3UY {
-		height: 0;
-		margin-top: 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
+    height: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .winButton-3UMjdg {
-		position: relative;
-		top: 10px;
-		height: 25px;
-		width: 40px;
-		background-color: rgba(var(--PrimaryBG));
+    position: relative;
+    top: 10px;
+    height: 25px;
+    width: 40px;
+    background-color: rgba(var(--PrimaryBG));
 }
 #app-mount .winButton-3UMjdg {
-		top: calc(100vh - 50px);
-		margin-top: 10px !important;
+    top: calc(100vh - 50px);
+    margin-top: 10px !important;
 }
 #app-mount .titleBar-1it3bQ:after {
-		content: "";
-		position: relative;
-		height: 10px;
-		width: 1500px;
-		top: 0;
-		left: -120px;
-		-webkit-app-region: drag;
+    content: "";
+    position: relative;
+    height: 10px;
+    width: 1500px;
+    top: 0;
+    left: -120px;
+    -webkit-app-region: drag;
 }
 .winButton-3UMjdg {
-		position: relative;
-		top: 10px;
-		left: -25px;
-		height: 25px;
-		width: 35px;
-		background-color: rgba(var(--PrimaryBG));
-		color: rgba(var(--AccentColor), 1);
+     position: relative;
+     top: 10px;
+     left: -25px;
+     height: 25px;
+     width: 35px;
+     background-color: rgba(var(--PrimaryBG));
+     color: rgba(var(--AccentColor), 1);
 }
 .winButton-3UMjdg:hover {
-		color: rgba(var(--AccentColor), 1);
-		background: rgba(var(--SecondaryBG));
+     color: rgba(var(--AccentColor), 1);
+     background: rgba(var(--SecondaryBG));
 }

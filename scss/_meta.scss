@@ -1,29 +1,27 @@
 /**
-		* @name Fuchsia Darkness
-		* @author toxxy the trash#5015
-		* @version 6.2.1 rev2022alpha - SCSS Release
-		* @description makes discord sharp and compact.
-		* @source https://github.com/ToxxyTheTrash/SimplyDarkFuchsiaDarkness
+ * @name Fuchsia Darkness
+ * @author toxxy the trash#5015
+ * @version 6.2.1 rev2022alpha - SCSS Release
+ * @description makes discord sharp and compact.
+ * @source https://github.com/ToxxyTheTrash/SimplyDarkFuchsiaDarkness
 */
 
 /* @import url("https://toxxythetrash.github.io/SimplyDarkFuchsiaDarkness/base.css"); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
 
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://discord-custom-covers.github.io/usrbg/snippets/modals.css");
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 :root {
-		--AccentColor: 233, 30, 99;
-		--PrimaryBG: 0, 0, 0;
-		--SecondaryBG: 17, 17, 17;
+	--AccentColor: 233, 30, 99;
+	--PrimaryBG: 0, 0, 0;
+	--SecondaryBG: 17, 17, 17;
 
-		--Font: 'Montserrat';
-		--SD-avatar-status-width: 2.5px;
+	--Font: 'Montserrat';
+	--SD-avatar-status-width: 2.5px;
 
-		--CustomSettingsHeaderText: "raincoats are hot";
-		--SettingsSidebarSpacing: 0;		/* Select a number between 0-2; going above 2 might not be recommended */
-		--DisplayStageDiscovery: none;		/* remove none = stage discovery visble; add none = disable stage discovery visibility */
+	--CustomSettingsHeaderText: "raincoats are hot";
+	--SettingsSidebarSpacing: 0;  /* Select a number between 0-2; going above 2 might not be recommended */
+	--DisplayStageDiscovery: none;  /* remove none = stage discovery visble; add none = disable stage discovery visibility */
 }
