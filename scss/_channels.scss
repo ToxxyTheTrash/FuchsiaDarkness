@@ -1,3 +1,4 @@
+/* -=-= Channels =-=- */
 /* Channel Footer - Icons */
 button[aria-label="User Settings"] svg {
     opacity: 0;
@@ -148,26 +149,37 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
-/* Event Channel Entry - Unused */
-/*.mainContent-20q_Hp[data-list-item-id*="channels___upcoming-events"] svg {
-		-webkit-mask: url("") center/cover;
+.mainContent-20q_Hp[data-list-item-id*="channels___upcoming-events"] svg {
+		-webkit-mask: url("https://i.imgur.com/6cq4uJN.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
-}*/
-
+}
+.mainContent-20q_Hp[data-list-item-id*="channels___guild-active-threads"] svg {
+		-webkit-mask: url("https://i.imgur.com/iWVN2ev.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
 /* NSFW Channel Icon */
 .content-1gYQeQ .iconContainer-21RCa3[aria-label*="Text (NSFW)"] svg {
   color: (var(--red)) !important;
 }
 
+/* Thread Spine */
+.spine-29OFwR {
+    -webkit-mask: url("https://i.imgur.com/5ixlf8e.png") center/cover;
+    color: rgba(var(--AccentColor), 1);
+    background-color: rgba(var(--AccentColor), 1);
+    height: 20px;
+    width: 20px;
+    left: 15px;
+    top: 0px;
+}
+
 /* Channel List Width (Counts for DM List) */
 .sidebar-1tnWFu {
     width: 300px; }
-
-/* HiddenChannels Support */
-.showhiddenchannels-tooltip {
-     top: unset !important; }
 
 /* Status Picker */
 .menu-1AgizY[id*="status-picker"] {
