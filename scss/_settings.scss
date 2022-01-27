@@ -53,6 +53,11 @@
 		padding: 25px 5px 20px 5px;
 }
 
+/* Settings Width */
+.contentColumnDefault-3eyv5o {
+    padding: 25px;
+}
+
 /* Close Button */
 .toolsContainer-25FL6V {
 		position: absolute;
@@ -355,29 +360,12 @@
 [aria-label="USER_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/Q1iCApb.png");
 		background: var(--red);
+		-webkit-mask-size: 22px !important;
 }
 
 /* BetterDiscord stuff */
 .bd-addon-list a {
 		color: rgba(var(--AccentColor), 1);
-}
-.bd-switch {
-		background-color: #222;
-		width: 25px;
-		height: 25px;
-		box-shadow: inset 0 0 0 rgba(0,0,0,0);
-}
-.bd-switch-checked {
-		background-color: rgba(var(--AccentColor), 1) !important;
-}
-.bd-button:hover {
-		background-color: rgba(var(--AccentColor), 0.75);
-}
-.bd-switch::after {
-		display: none;
-}
-.bd-switch-body {
-		display: none;
 }
 .bd-search-wrapper>svg {
 		fill: rgba(var(--AccentColor), 1);
@@ -483,4 +471,48 @@
 .input-2XRLou {
 		bottom: 0;
 		margin: 0 0;
+}
+
+/* "My Account" Page [top to bottom] */
+.discriminator-2m-MqL {
+    color: rgba(var(--AccentColor), 0.75);
+}
+.colorHeaderPrimary-jN_yGr {
+    color: rgba(var(--AccentColor), 1);
+}
+
+.lookLink-15mFoz.colorLink-1Md3RZ {
+    color: rgba(var(--AccentColor), 0.25);
+}
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+    color: rgba(var(--AccentColor), 0.5);
+}
+.divider-_0um2u {
+    display: none;
+}
+.userSettingsSecurity-3C5Hg5 .lockIcon-1FHuKP {
+    margin-right: 5px;
+		-webkit-mask: url("https://i.imgur.com/cPWXDFI.png") no-repeat center/cover;
+		width: 18px;
+		height: 18px;
+		margin-bottom: -2px;
+		background: var(--green) !important;
+		color: var(--green) !important;
+}
+.description-30xx7u, .labelDescriptor-34wZ-z {
+    color: rgba(var(--AccentColor), 0.35);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+    color: rgba(var(--AccentColor), 1);
+		background: rgba(var(--SecondaryBG));
+    border: 1px dashed rgba(var(--AccentColor), 1);
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    color: var(--red);
+    background: var(--redDarker);
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM:hover {
+		color: rgba(var(--PrimaryBG));
+		background: var(--redDark);
 }
