@@ -1,4 +1,56 @@
 /* -=-= Emote Menu =-=- */
+/* GIF Menu */
+.theme-dark .categoryFadeBlurple-1l49_Q {
+    background-color: rgba(var(--AccentColor), 0.25);
+}
+.theme-dark .categoryFadeBlurple-1l49_Q:hover {
+    background-color: rgba(var(--AccentColor), 0.5);
+}
+.theme-dark .focused-16Owih:after, .theme-dark .result-pzZrwj:hover:after {
+    box-shadow: none;
+		outline: 2px dashed rgba(var(--AccentColor), 1);
+}
+
+/* Sticker Menu */
+.inspectedIndicator-27zwNZ {
+    mask: none;
+}
+.stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
+    background: rgba(var(--AccentColor), 0.15);
+}
+.categoryListWithSearch-2jrzH6 {
+    top: -4px;
+}
+
+/* Emote Menu - Search */
+.header-11eigE, .header-uVCAlo {
+    box-shadow: none;
+    padding: 5px !important;
+		margin-left: 48px;
+}
+.medium-13kyaW.iconLayout-SqV3nb {
+    display: none;
+}
+.medium-13kyaW .input-2FSSDe, .medium-13kyaW .tag-15zcD_ {
+    font-size: 15px;
+    line-height: 20px;
+    height: 25px;
+    padding: 0 5px;
+}
+.input-2FSSDe {
+    margin: 0;
+    color: rgba(var(--AccentColor), 1);
+}
+.navButtonActive-1EqC5l {
+    background-color: rgba(var(--SecondaryBG));
+    color: rgba(var(--AccentColor), 1);
+}
+
+/* Emote Menu - Servers */
+.categoryList-2qRrlj {
+    top: 0 !important;
+}
+
 /* Emote Menu - Categories */
 .unicodeShortcut-3N8oDe svg {
 		-webkit-mask: url("https://i.imgur.com/ZEcR8dr.png") center/30px no-repeat;
@@ -11,6 +63,10 @@
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
+.guildCategorySeparator-3QYkij {
+    margin: 5px 0;
+    border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
 
 .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku, .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
 		color: rgba(var(--AccentColor), 1) !important;
@@ -22,19 +78,25 @@
 		width: 24px;
 		padding: 4px;
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="recent"] {
+.categoryItemDefaultCategory-3haEDq[aria-label="recent"], .stickerCategory-2f6iSo[aria-label*="Frequently used"] svg {
 		-webkit-mask: url("https://i.imgur.com/0WgR6i2.png") center/cover;
 		content: "";
-		width: 20px;
-		height: 20px;
+		width: 16px;
+		height: 16px;
 		background-color: rgba(var(--AccentColor), 1);
+		margin-left: 4px;
+}
+.stickerCategory-2f6iSo[aria-label*="Frequently used"] svg {
+	width: 24px;
+	height: 24px;
+	margin-right: 3px;
+	margin-left: 0;
+}
+.stickerCategory-2f6iSo[aria-label*="Frequently used"] {
+	margin-bottom: 1px;
 }
 .categoryItemDefaultCategory-3haEDq[aria-label="favorite emojis"] {
-		-webkit-mask: url("https://i.imgur.com/MPcPaUq.png") center/cover;
-		content: "";
-		width: 20px;
-		height: 20px;
-		background-color: rgba(var(--AccentColor), 1);
+		display: none;
 }
 .categoryItemDefaultCategory-3haEDq[aria-label="people"] {
 		-webkit-mask: url("https://i.imgur.com/73n6Qkh.png") center/cover;
@@ -126,6 +188,11 @@
 		width: 250px;
 		height: 100px;
 }
+.guildSection-2Zyzy8 {
+    padding: 10px;
+    background-color: rgba(var(--PrimaryBG), 0.25);
+		border-top: 2px dashed rgba(var(--AccentColor), 1);
+}
 
 .list-obNEuP {
 		background-color: rgba(var(--PrimaryBG));
@@ -155,7 +222,7 @@
 		height: 0;
 }
 .emojiItem-277VFM.emojiItemSelected-2Lg50V {
-		background-color: rgba(var(--SecondaryBG));
+		background-color: rgba(var(--AccentColor), 0.15);
 }
 .contentWrapper-3vHNP2 {
 		box-shadow: none;
