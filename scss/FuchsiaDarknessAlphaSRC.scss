@@ -7,15 +7,19 @@
 
 @use "chat";
 @use "channels";
-@use "emotes";
 @use "header";
-@use "settings";
-@use "serverList";
 @use "memberList";
+
+@use "callUI";
+@use "emotes";
+@use "serverList";
 @use "modals";
 @use "directMessages";
-@use "pluginSupport";
 @use "userProfile";
 @use "userPopout";
 
+@use "settings";
+
+@use "pluginSupport";
+@use "BlurpleRecolor";
 @use "unsorted";
