@@ -1,28 +1,29 @@
 :root {
-     --green: #43b581;
-     --greenDark: #359066;
-     --yellow: #faa61a;
-     --yellowDark: #dc8b05;
-     --red: #f04747;
-     --redDark: #b63b3b;
-     --purple: #593695;
-     --purpleDark: #432870;
-     --nitro: #ff73fa;
+		 --green: #43b581;
+		 --greenDark: #359066;
+		 --yellow: #faa61a;
+		 --yellowDark: #dc8b05;
+		 --red: #f04747;
+		 --redDark: #b63b3b;
+		 --redDarker: #401414;
+		 --purple: #593695;
+		 --purpleDark: #432870;
+		 --nitro: #ff73fa;
 }
  .theme-dark {
-     --header-secondary: #bbb;
-     --text-normal: #fff;
-     --text-muted: rgba(var(--AccentColor), 0.5);
-     --text-link: rgba(var(--AccentColor), 1);
-     --interactive-normal: rgba(var(--AccentColor), 0.75);
-     --interactive-hover: rgba(var(--AccentColor), 1);
-     --interactive-active: #fff;
-     --interactive-muted: rgba(var(--AccentColor), 0.25);
-     --logo-primary: #fff;
-     --background-primary: rgba(var(--PrimaryBG)) !important;
-     --background-secondary: rgba(var(--PrimaryBG)) !important;
-     --focus-primary: rgba(var(--AccentColor), 0.75);
-     --background-tertiary: rgba(var(--SecondaryBG)) !important;
+		 --header-secondary: #bbb;
+		 --text-normal: #fff;
+		 --text-muted: rgba(var(--AccentColor), 0.5);
+		 --text-link: rgba(var(--AccentColor), 1);
+		 --interactive-normal: rgba(var(--AccentColor), 0.75);
+		 --interactive-hover: rgba(var(--AccentColor), 1);
+		 --interactive-active: #fff;
+		 --interactive-muted: rgba(var(--AccentColor), 0.25);
+		 --logo-primary: #fff;
+		 --background-primary: rgba(var(--PrimaryBG)) !important;
+		 --background-secondary: rgba(var(--PrimaryBG)) !important;
+		 --focus-primary: rgba(var(--AccentColor), 0.75);
+		 --background-tertiary: rgba(var(--SecondaryBG)) !important;
 }
 
 /* Radial Status */

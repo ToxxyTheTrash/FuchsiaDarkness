@@ -1,89 +1,89 @@
 /* -=-= Channels =-=- */
 /* Channel Footer - Icons */
 button[aria-label="User Settings"] svg {
-    opacity: 0;
+		opacity: 0;
 }
 button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
-    content: "";
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    -webkit-mask: url("https://i.imgur.com/pYqekDg.png") center/20px no-repeat !important;
-    background-color: rgba(var(--AccentColor), 1);
+		content: "";
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		-webkit-mask: url("https://i.imgur.com/pYqekDg.png") center/20px no-repeat !important;
+		background-color: rgba(var(--AccentColor), 1);
 }
 .button-12Fmur {
-    width: 25px;
-    height: 25px;
-    color: rgba(var(--AccentColor), 1);
+		width: 25px;
+		height: 25px;
+		color: rgba(var(--AccentColor), 1);
 }
 
 /* Channel Header */
 .header-3OsQeK {
-    font-weight: 500;
-    padding: 0 15px;
-    color: rgba(var(--AccentColor), 1);
+		font-weight: 500;
+		padding: 0 15px;
+		color: rgba(var(--AccentColor), 1);
 		border-bottom: 2px solid rgba(var(--AccentColor), 1);
 }
 
 /* Category/Role name */
 .container-q97qHp {
-    text-transform: none;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0;
-    font-weight: 600;
+		text-transform: none;
+		font-size: 15px;
+		line-height: 20px;
+		letter-spacing: 0;
+		font-weight: 600;
 }
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
-    padding-top: 5px;
+		padding-top: 5px;
 }
 
 /* Channel List */
 .wrapper-NhbLHG {
-    padding: 0 0 0 0; }
+		padding: 0 0 0 0; }
 .content-1gYQeQ {
-    padding: 0 5px;
-    margin-left: 5px;
+		padding: 0 5px;
+		margin-left: 5px;
 }
 .name-28HaxV {
-    font-size: 15px;
-    font-weight: 500;
+		font-size: 15px;
+		font-weight: 500;
 }
 .mainContent-20q_Hp {
-    padding: 3px 0;
-    cursor: crosshair;
+		padding: 3px 0;
+		cursor: crosshair;
 }
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .wrapper-NhbLHG:hover .content-1gYQeQ {
-    background-color: rgba(var(--PrimaryBG)); }
+		background-color: rgba(var(--PrimaryBG)); }
 .wrapper-NhbLHG:hover .content-1gYQeQ {
 	 animation: rainbow 5s linear infinite;
 }
 
 .modeUnread-3Cxepe .name-28HaxV,
 .modeUnread-3Cxepe:hover .name-28HaxV,  {
-    color: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 }
 
 
 /* Channel List - User Profile/Status */
 .panels-3wFtMD {
-    background-color: rgba(var(--PrimaryBG));; }
+		background-color: rgba(var(--PrimaryBG));; }
 .container-YkUktl {
-    height: 45px;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 0 5px 0 5px;
-    margin-bottom: 0;
+		height: 45px;
+		font-size: 15px;
+		font-weight: 500;
+		padding: 0 5px 0 5px;
+		margin-bottom: 0;
 		border-top: 2px solid rgba(var(--AccentColor), 1);
 		z-index: 1;
 }
 
 /* Channel Unread Pill */
 .unreadRelevant-2f-VSK {
-    background-color: rgba(var(--AccentColor), 1); }
+		background-color: rgba(var(--AccentColor), 1); }
 .unread-36eUEm {
-    height: 10px;
-    width: 5px;
-    margin-top: -5px;
+		height: 10px;
+		width: 5px;
+		margin-top: -5px;
 }
 
 /* Channel Buttons */
@@ -91,10 +91,10 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		margin-left: 5px;
 }
 .iconItem-1EjiK0[aria-label*="Create Invite"] {
-     -webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
-     width: 15px;
-     height: 0px;
-     background: rgba(var(--AccentColor), 1);
+		 -webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
+		 width: 15px;
+		 height: 0px;
+		 background: rgba(var(--AccentColor), 1);
 }
 .iconItem-1EjiK0[aria-label*="Invite to Server"] {
 		-webkit-mask: url("https://i.imgur.com/GTLwUuW.png") center/cover;
@@ -103,21 +103,21 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		background: rgba(var(--AccentColor), 1);
 }
 .iconItem-1EjiK0[aria-label*="Edit Channel"] {
-     -webkit-mask: url("https://i.imgur.com/5AZqlJo.png") center/cover;
-     width: 10px;
-     height: 0px;
-     background: rgba(var(--AccentColor), 1);
+		 -webkit-mask: url("https://i.imgur.com/5AZqlJo.png") center/cover;
+		 width: 10px;
+		 height: 0px;
+		 background: rgba(var(--AccentColor), 1);
 }
 
 /* Channel Icons */
 .icon-2W8DHg {
-    color: rgba(var(--AccentColor), 0.5);
+		color: rgba(var(--AccentColor), 0.5);
 }
 .modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
-    color: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 }
 .iconContainer-21RCa3 {
-    margin-right: 5px;
+		margin-right: 5px;
 }
 .iconContainer-21RCa3[aria-label*="Text"] {
 		-webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
@@ -164,22 +164,23 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 /* NSFW Channel Icon */
 .content-1gYQeQ .iconContainer-21RCa3[aria-label*="Text (NSFW)"] svg {
   color: (var(--red)) !important;
+	background: (var(--red)) !important;
 }
 
 /* Thread Spine */
 .spine-29OFwR {
-    -webkit-mask: url("https://i.imgur.com/5ixlf8e.png") center/cover;
-    color: rgba(var(--AccentColor), 1);
-    background-color: rgba(var(--AccentColor), 1);
-    height: 20px;
-    width: 20px;
-    left: 15px;
-    top: 0px;
+		-webkit-mask: url("https://i.imgur.com/5ixlf8e.png") center/cover;
+		color: rgba(var(--AccentColor), 1);
+		background-color: rgba(var(--AccentColor), 1);
+		height: 20px;
+		width: 20px;
+		left: 15px;
+		top: 0px;
 }
 
 /* Channel List Width (Counts for DM List) */
 .sidebar-1tnWFu {
-    width: 300px; }
+		width: 300px; }
 
 /* Status Picker */
 .menu-1AgizY[id*="status-picker"] {
@@ -190,32 +191,32 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		right: -40px;
 }
 [id*="popout_40"].layer-2aCOJ3 {
-    left: -40px !important;
-    bottom: 102px !important;
+		left: -40px !important;
+		bottom: 102px !important;
 }
 .separator-1So4YB {
-    margin: 0px;
-    border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+		margin: 0px;
+		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 .description-3Cwkxk {
   display: none;
 }
 .item-1OdjEX[id*="status-picker"] {
-    margin: 0px 0px;
-    padding: 0px 5px 0px 5px;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20px;
-    cursor: crosshair;
+		margin: 0px 0px;
+		padding: 0px 5px 0px 5px;
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 20px;
+		cursor: crosshair;
 }
 .scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt[id*="status-picker"] {
   padding: 0;
 }
 .clearStatusIcon-9SeHGZ {
-    -webkit-mask: url("https://i.imgur.com/j4viHnK.png") center/cover;
-    width: 20px;
-    height: 20px;
-    background: rgba(var(--AccentColor), 1);
+		-webkit-mask: url("https://i.imgur.com/j4viHnK.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
 }
 
 /* Voice Channel Icons */
@@ -280,7 +281,53 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		color: rgb(241, 86, 86);
 }
 
+/* Voice Chat Status Icons */
+.icons-2mwuFp {
+		margin-right: 5px;
+}
+.icons-2mwuFp .iconSpacing-3rBbgf svg {
+		width: 18px;
+		height: 18px;
+}
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label="Muted"] svg {
+		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+		background: #444;
+		color: #444;
+}
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label="Deafened"] svg {
+		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
+		background: #444;
+		color: #444;
+}
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label*="Muted by"] svg {
+		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+		background: var(--yellow);
+		color: var(--yellow);
+}
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label*="Server Muted"] svg {
+		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
+		background: var(--red);
+		color: var(--red);
+}
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label*="Server Deafened"] svg {
+		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
+		background: var(--red);
+		color: var(--red);
+}
+
+/* Category Arrow */
+.arrow-2HswgU {
+		transition: none;
+		color: rgba(var(--AccentColor), 1);
+}
+
 /* Boost Bar Removal */
 .container-1eD8xH {
-    display: none;
+		display: none;
+}
+
+/* Channel Banner */
+.bannerImg-2PzH6z {
+		width: 300px;
+		image-rendering: pixelated;
 }
