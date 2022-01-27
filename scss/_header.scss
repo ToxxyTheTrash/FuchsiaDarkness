@@ -4,7 +4,7 @@
 		cursor: crosshair;
 		box-shadow: none;
 		margin-top: -10px;
-		margin-left: 5px;
+		margin-left: 10px;
 		width: 300px;
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
 }
@@ -237,8 +237,7 @@
 /* "Follow" Button */
 #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
 		color: rgba(var(--AccentColor), 1);
-		background-color: rgba(var(--PrimaryBG));
-		outline: 2px dashed rgba(var(--AccentColor), 1);
+		background-color: rgba(var(--SecondaryBG));
 }
 .followButton-1N-GGp {
 		padding: 2px 5px;
