@@ -4,11 +4,10 @@ The purpose of the theme is to make discord darker (as in literally black), comp
 The theme can and will contain bugs, especially in its current alpha state as of 2022.
 
 ## Theme support  
-- **It's made to work with BetterDiscord *ONLY*; please avoid using other client mods like PowerCord**  
-- **The theme does *NOT* support small or 4:3 resolution displays, as it *will* break elements.**  
-- **The theme supports *only* Windows and is tested regularly on the *stable* branch of Discord and BetterDiscord.**  
-- **Do *NOT* use markdown mode as its unsupported and will break the chat box; disable it in `User Settings > Text & Images > Text Box`**
-- The theme is currently in a very broken and unfinished state. It is being slowly rewritten and sorted.
+- **It's made to work with BetterDiscord specifically; you can freely "port" the theme locally for PowerCord**  
+- **The theme is not recommended for small or 4:3 resolution displays, as it *will* break elements.**  
+- **The theme supports Windows and is tested on Discord PTB and the latest version of BetterDiscord.**  
+- **Don't use markdown mode (just yet). It'll break the chat box; disable it in `User Settings > Text & Images > Text Box`**
 
 ## Installation
 
@@ -17,8 +16,8 @@ To download the theme for **BetterDiscord**, follow the next steps:
   2. click the `Raw` button in the top right corner of the theme file page.
   3. once in the "raw" code view; right click the page, click `Save as...` and save it to your BetterDiscord theme folder.  
   
- - Installation of BetterDiscord: https://0x71.cc/bd/guide/#install  
- - Installation of themes and plugins: https://0x71.cc/bd/guide/#installthemesplugins  
+ - Installation of BetterDiscord: https://bd.zerebos.com/#install  
+ - Installation of themes and plugins: https://bd.zerebos.com/#installthemesplugins  
 
 ### Recommended theme to have installed alongside: HorizontalServerList
 - HorizontalServerList [by **Gibbu**]: https://github.com/DiscordStyles/HorizontalServerList  
@@ -36,22 +35,40 @@ Thanks to **DevilBro** for letting me use parts of **BlurpleRecolor** to recolor
 DevilBro's GitHub page: https://github.com/mwittrien  
 BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor  
 
-## Screenshots - INACCURATE IN ALPHA!   
+All Material Design icons used within the theme originate from https://github.com/google/material-design-icons  
+
+## Color Theme Presets - WIP
+Want to try out different accents but you can't decide? Here's a some presets you can set yourself within the theme file!  
+
+- Fuchsia **[DEFAULT]**: 233, 30, 99  
+![alt text](https://i.imgur.com/lSuFMkL.png)  
+- Emerald: 20, 255, 99  
+![alt text](https://i.imgur.com/ZXcSpWh.png)  
+- Lagoon: 35, 100, 255  
+![alt text](https://i.imgur.com/T4tLtc3.png)  
+- Twilight: 135, 75, 255  
+![alt text](https://i.imgur.com/wZXbb3q.png)  
+- Amber: 250, 155, 0  
+![alt text](https://i.imgur.com/Uantm9B.png)  
+
+## Theme Screenshots - WIP   
 
 Chat with HorizontalServerList and some other plugins enabled:  
-![alt text](https://i.imgur.com/25ceL1K.png)
+![alt text](https://i.imgur.com/6zuBDhN.png)
 
 Settings:  
-![alt text](https://i.imgur.com/rnGZRmH.png) ![alt text](https://i.imgur.com/mXHx8Z4.png)
+![alt text](https://i.imgur.com/pFJYDG8.png)  
 
 Profile:  
-![alt text](https://i.imgur.com/Ihrxybb.png)  
+![alt text](https://i.imgur.com/XZdyc0F.png)  
 
 Profile popup:  
-![alt text](https://i.imgur.com/pklTEah.png)  
+![alt text](https://i.imgur.com/Xxhpxz3.png)  
 
 Dropdowns and context menus:  
-![alt text](https://i.imgur.com/VBRY766.png) ![alt text](https://i.imgur.com/6R96mzV.png) ![alt text](https://i.imgur.com/h0I3CPw.png)
+![alt text](https://i.imgur.com/LcQ4UQn.gif) ![alt text](https://i.imgur.com/EZ6kKw9.png) ![alt text](https://i.imgur.com/WNUblYJ.png)
 
 Emote and server window:  
-![alt text](https://i.imgur.com/sREXDB5.gif) ![alt text](https://i.imgur.com/0lpuJOr.png)
+![alt text](https://i.imgur.com/bmJCdev.gif) ![alt text](https://i.imgur.com/JBLdmXu.png)  
+
+### more screenshots will be added soon!
