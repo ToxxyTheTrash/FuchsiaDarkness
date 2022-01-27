@@ -39,7 +39,9 @@
 
 /* Server Folders */
 .expandedFolderIconWrapper-3RwQpD svg {
-		-webkit-mask: url("https://i.imgur.com/NNsO7yc.png") center/cover;
+		outline: 100px solid;
+		outline-offset: -500px;
+		-webkit-mask: url("https://i.imgur.com/5KBdBsp.png") center/cover;
 }
 
 .iconBadge-32fMme {
@@ -57,4 +59,31 @@
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--AccentColor), 1);
+}
+
+.guilds-2JjMmN {
+    width: 50px;
+}
+.platform-win .scroller-3X7KbA {
+    padding-top: 5px;
+}
+.listItem-3SmSlK {
+    margin: 0 0 5px;
+    width: 50px;
+}
+.wrapper-28eC3z {
+    width: 35px;
+    height: 35px;
+    cursor: crosshair;
+}
+.svg-2zuE5p {
+    width: 35px;
+    height: 35px;
+}
+.wrapper-z5ab_q {
+    width: 5px;
+    height: 35px;
+}
+.wrapper-38slSD {
+    width: 50px;
 }
