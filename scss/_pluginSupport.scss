@@ -140,15 +140,15 @@
 
 /* Spotify Controls */
 .bar-g2ZMIm {
-    background-color: rgba(var(--SecondaryBG));
-    height: 5px;
-    margin-bottom: 5px;
+    background-color: rgba(var(--SecondaryBG)) !important;
+    height: 5px !important;
+    margin-bottom: 5px !important;
 }
 .barFill-Dhkah7 {
-    background: rgba(var(--AccentColor), 0.5);
+    background: rgba(var(--AccentColor), 0.5) !important;
 }
 .timeline-UWmgAx:hover .barFill-Dhkah7 {
-    background: rgba(var(--AccentColor), 1);
+    background: rgba(var(--AccentColor), 1) !important;
 }
 
 /* Join/Creation/Last Message Date */
