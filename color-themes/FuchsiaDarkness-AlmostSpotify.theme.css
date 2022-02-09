@@ -1,7 +1,7 @@
 /**
- * @name Fuchsia Darkness - Almost Spotify
+ * @name Fuchsia Darkness
  * @author toxxy the trash#5015
- * @version 6.2.1 rev2022alpha
+ * @version 6.2.1 - Almost Spotify
  * @description makes discord sharp and compact.
  * @source https://github.com/ToxxyTheTrash/SimplyDarkFuchsiaDarkness
 */
@@ -11,6 +11,7 @@
 
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 :root {
 	--AccentColor: 30, 215, 95;
