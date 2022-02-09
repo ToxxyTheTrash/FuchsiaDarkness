@@ -350,7 +350,7 @@
 }
 
 /* Edited Message Pencil */
-.edited-1v5nT8 {
+.edited-1v5nT8  {
 		-webkit-mask: url(https://i.imgur.com/TcSbNGP.png) center/cover;
 		width: 18px;
 		height: 10px;
@@ -798,4 +798,18 @@
 		margin-top: 5px;
 		background: rgba(var(--AccentColor), 1) !important;
 		color: rgba(var(--AccentColor), 1) !important;
+}
+
+/* Send Message Button */
+.separator-3ng7S5 {
+    margin-left: 0px;
+}
+.separator-3ng7S5:before {
+    border-left: 2px dashed rgba(var(--AccentColor), 1);
+    height: 50%;
+}
+.innerButton-1aF_E_ {
+    padding: 0 2px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
