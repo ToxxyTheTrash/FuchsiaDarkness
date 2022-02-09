@@ -22,7 +22,7 @@
 	--Font: 'Ubuntu';
 	--SD-avatar-status-width: 2.5px;
 
-	--CustomSettingsHeaderText: "sudo or whatever";
+	--CustomSettingsHeaderText: "> sudo or whatever_";
 	--SettingsSidebarSpacing: 0; /* Select a number between 0-2; going above 2 might not be recommended */
 	--DisplayStageDiscovery: none; /* remove none = stage discovery visble; add none = disable stage discovery visibility */
 }
