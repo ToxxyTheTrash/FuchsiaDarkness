@@ -66,7 +66,8 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 /* Channel List - User Profile/Status */
 .panels-3wFtMD {
-		background-color: rgba(var(--PrimaryBG));; }
+		background-color: rgba(var(--PrimaryBG));
+}
 .container-YkUktl {
 		height: 45px;
 		font-size: 15px;
@@ -75,6 +76,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		margin-bottom: 0;
 		border-top: 2px solid rgba(var(--AccentColor), 1);
 		z-index: 1;
+		background: rgba(var(--TertiaryBG), 1);
 }
 
 /* Channel Unread Pill */

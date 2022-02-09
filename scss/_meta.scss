@@ -7,18 +7,19 @@
 */
 
 /* @import url("https://toxxythetrash.github.io/SimplyDarkFuchsiaDarkness/base.css"); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 :root {
-	--AccentColor: 233, 30, 99;
-	--PrimaryBG: 0, 0, 0;
-	--SecondaryBG: 17, 17, 17;
+	--AccentColor: 235, 85, 30;
+	--PrimaryBG: 10, 10, 10;
+	--SecondaryBG:  40, 0, 30;
+	--TertiaryBG: 40, 0, 30 !important;
 
-	--Font: 'Montserrat';
+	--Font: 'Ubuntu';
 	--SD-avatar-status-width: 2.5px;
 
 	--CustomSettingsHeaderText: "raincoats are hot";

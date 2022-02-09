@@ -1,7 +1,7 @@
 /* =-=- Chat -=-= */
 /* Chatbox Input */
 .textArea-2CLwUE {
-		 background-color: rgba(var(--PrimaryBG));
+		 background-color: rgba(var(--TertiaryBG), 1);
 		 font-weight: 400;
 		 font-size: 1rem;
 		 line-height: 15px;
@@ -13,7 +13,7 @@
 		 color: rgba(var(--AccentColor), 1);
 }
 .scrollableContainer-15eg7h {
-		 background-color: rgba(var(--PrimaryBG));
+		 background-color: rgba(var(--TertiaryBG), 1);
 		 max-height: 300px;
 		 overflow: hidden;
 }
@@ -812,4 +812,12 @@
     padding: 0 2px;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+
+.chatContent-3KubbW {
+    background: rgba(var(--TertiaryBG), 1);
+}
+.messagesWrapper-RpOMA3 {
+	background: rgba(var(--PrimaryBG));
 }

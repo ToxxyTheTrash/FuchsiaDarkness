@@ -286,7 +286,7 @@
 		width: 35px;
 		padding: 0 5px;
 		color: rgba(var(--AccentColor), 1);
-		background-color: rgba(var(--PrimaryBG));
+		background-color: rgba(var(--TertiaryBG), 1);
 }
 .focused-8aNhVB .searchBar-zdmu7v, .open-3y3yI_ .searchBar-zdmu7v {
 		width: 320px;
@@ -366,4 +366,14 @@
 }
 .theme-dark .resultsGroup-1BPR25:before {
 		border: none;
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+    background: rgba(var(--TertiaryBG), 1);
+}
+.container-1-ERn5 {
+    background: rgba(var(--TertiaryBG), 1);
+}
+.theme-dark .children-3xh0VB:after {
+    display: none;
 }
