@@ -1,0 +1,27 @@
+/**
+ * @name Fuchsia Darkness
+ * @author toxxy the trash#5015
+ * @version 6.2.1 - Twilight
+ * @description makes discord sharp and compact.
+ * @source https://github.com/ToxxyTheTrash/SimplyDarkFuchsiaDarkness
+*/
+
+@import url("https://toxxythetrash.github.io/SimplyDarkFuchsiaDarkness/base.css");
+@import url('https://fonts.googleapis.com/css2?family=Questrial');
+
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+:root {
+	--AccentColor: 135, 75, 255;
+	--PrimaryBG: 0, 0, 0;
+	--SecondaryBG: 25, 15, 45;
+
+	--Font: 'Questrial';
+	--SD-avatar-status-width: 2.5px;
+
+	--CustomSettingsHeaderText: "welcome to the twilight forest!";
+	--SettingsSidebarSpacing: 0; /* Select a number between 0-2; going above 2 might not be recommended */
+	--DisplayStageDiscovery: none; /* remove none = stage discovery visble; add none = disable stage discovery visibility */
+}
