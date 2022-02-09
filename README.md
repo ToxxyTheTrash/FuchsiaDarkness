@@ -37,20 +37,6 @@ BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/The
 
 All Material Design icons used within the theme originate from https://github.com/google/material-design-icons  
 
-## Color Theme Presets - WIP
-Want to try out different accents but you can't decide? Here's a some presets you can set yourself within the theme file!  
-
-- Fuchsia **[DEFAULT]**: 233, 30, 99  
-![alt text](https://i.imgur.com/lSuFMkL.png)  
-- Emerald: 20, 255, 99  
-![alt text](https://i.imgur.com/ZXcSpWh.png)  
-- Lagoon: 35, 100, 255  
-![alt text](https://i.imgur.com/T4tLtc3.png)  
-- Twilight: 135, 75, 255  
-![alt text](https://i.imgur.com/wZXbb3q.png)  
-- Amber: 250, 155, 0  
-![alt text](https://i.imgur.com/Uantm9B.png)  
-
 ## Theme Screenshots - WIP   
 
 Chat with HorizontalServerList and some other plugins enabled:  
