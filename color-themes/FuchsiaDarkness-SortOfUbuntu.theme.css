@@ -1,0 +1,28 @@
+/**
+ * @name Fuchsia Darkness
+ * @author toxxy the trash#5015
+ * @version 6.2.1 - Sorta Ubuntu
+ * @description makes discord sharp and compact.
+ * @source https://github.com/ToxxyTheTrash/SimplyDarkFuchsiaDarkness
+*/
+
+@import url("https://toxxythetrash.github.io/SimplyDarkFuchsiaDarkness/base.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+:root {
+	--AccentColor: 235, 85, 30;
+	--PrimaryBG: 10, 10, 10;
+	--SecondaryBG:  40, 0, 30;
+	--TertiaryBG: 40, 0, 30 !important;
+
+	--Font: 'Ubuntu';
+	--SD-avatar-status-width: 2.5px;
+
+	--CustomSettingsHeaderText: "sudo or whatever";
+	--SettingsSidebarSpacing: 0; /* Select a number between 0-2; going above 2 might not be recommended */
+	--DisplayStageDiscovery: none; /* remove none = stage discovery visble; add none = disable stage discovery visibility */
+}
