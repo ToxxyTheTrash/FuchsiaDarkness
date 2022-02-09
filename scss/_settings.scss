@@ -355,6 +355,61 @@
 		-webkit-mask: url("https://i.imgur.com/sbghza9.png");
 		-webkit-mask-size: 20px !important;
 }
+.info-1hMolH {
+    border: 2px dashed var(--info-help-foreground);
+}
+.formNoticeBody-1GTGJa p {
+    letter-spacing: 0;
+    margin: 0 0 5px;
+}
+.theme-dark .bottomDivider-ZmTm-j {
+    border: none;
+		margin-bottom: 2px !important;
+}
+.pageActions-1crTQL {
+    padding: 5px 0;
+}
+.pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8 {
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    transition: none;
+}
+.pageIndicator-cOEPV8 {
+    padding: 5px;
+    font-size: 13px;
+    border-color: var(--interactive-muted);
+    border-style: solid;
+    border-width: 1px 0;
+}
+.flex-2S1XBF[style="flex: 1 1 auto; padding: 20px; font-weight: 600; font-size: 12px;"] {
+    padding: 10px 20px !important;
+		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
+.card-3JmxsM {
+    padding: 10px;
+    margin-bottom: 5px;
+		background: rgba(var(--SecondaryBG));
+		border: none;
+}
+.iconWrapper-1sOtkE {
+	-webkit-mask: url("https://i.imgur.com/5KBdBsp.png") center/cover;
+	width: 20px;
+	height: 20px;
+	background: rgba(var(--AccentColor), 1);
+	outline: 100px solid rgba(var(--AccentColor), 1);
+  outline-offset: -500px;
+	margin-right: -5px;
+}
+.icon-3TvnqF {
+	-webkit-mask: url("https://i.imgur.com/sbghza9.png") center/cover;
+	width: 42px;
+	height: 42px;
+	background: rgba(var(--AccentColor), 1);
+	outline: 100px solid rgba(var(--AccentColor), 1);
+	outline-offset: -500px;
+	margin-right: -5px;
+}
 /* Astra - Plugin/Theme Card */
 .card-zvpeVp {
     margin: 5px 0;
@@ -608,6 +663,7 @@
 }
 .colorHeaderPrimary-jN_yGr {
     color: rgba(var(--AccentColor), 1);
+		background: rgba(var(--SecondaryBG)) !important;
 }
 
 .lookLink-15mFoz.colorLink-1Md3RZ {
