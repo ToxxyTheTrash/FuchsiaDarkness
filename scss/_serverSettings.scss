@@ -1,0 +1,112 @@
+/* Server Settings Tabs */
+.layer-86YKbF[aria-label="GUILD_SETTINGS"] .item-3XjbnG {
+		padding: 0 5px 0 40px;
+		margin: 0 0;
+		height: 25px;
+		line-height: 25px;
+}
+.layer-86YKbF[aria-label="GUILD_SETTINGS"] .item-3XjbnG:before {
+		content: "";
+		position: absolute;
+		left: 5px;
+		top: 0;
+		width: 25px;
+		height: 25px;
+		background: rgba(var(--AccentColor), 1);
+		-webkit-mask-size: 24px !important;
+		-webkit-mask-position: center !important;
+		-webkit-mask-repeat: no-repeat !important;
+}
+
+/* -=-= Tab Icons =-=- */
+/* UNDEFINED ICONS */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG:before {
+		-webkit-mask: url("https://i.imgur.com/9r5oCHb.png");
+		-webkit-mask-size: 15px !important;
+}
+/* Overview */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="overview-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/DVOL3aX.png");
+		-webkit-mask-size: 24px !important;
+}
+/* Roles */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="roles-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/uPnlvbf.png");
+		-webkit-mask-size: 24px !important;
+}
+/* Emoji */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="emoji-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/mYbru9j.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Stickers */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="stickers-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/ZjZ0zvH.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Moderation */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="moderation-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/d9SOIPO.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Audit Log */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="audit_log-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/MYZnohc.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Integrations */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="integrations-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/5AZqlJo.png");
+		-webkit-mask-size: 20px !important;
+}
+/* Widget */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="widget-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/09n4EBi.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Server Template */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="guild_templates-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/rPuN0Ep.png");
+		-webkit-mask-size: 22px !important;
+}
+
+/* Community*/
+/* Overview */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="community-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/TG4b3I9.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Server Insights */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="community-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/TG4b3I9.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Partner Program */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="partner-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/HzaFQta.png");
+		-webkit-mask-size: 22px !important;
+}
+
+/* User Managment */
+/* Members */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="members-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/1n4ZW34.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Invites */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="instant_invites-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/jUqUct8.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Bans */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="bans-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/hcQYiIs.png");
+		-webkit-mask-size: 20px !important;
+}
+
+/* Delete Server */
+[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG[aria-controls="delete-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/j4viHnK.png");
+		-webkit-mask-size: 22px !important;
+		background: var(--red);
+}
