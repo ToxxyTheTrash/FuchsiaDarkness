@@ -531,7 +531,7 @@
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
-.button-3bklZh[aria-label*="Spoiler Attachment"] .actionBarIcon-3IdPoi[width*="16"] {
+.button-3bklZh[aria-label*="Spoiler Attachment"] .actionBarIcon-2vVzNZ[width*="16"] {
 		-webkit-mask: url("https://i.imgur.com/vkvsfXH.png") center/cover;
 		width: 20px;
 		height: 20px;
@@ -812,9 +812,14 @@
     padding: 0 2px;
     margin-left: 10px;
     margin-right: 5px;
+		margin-bottom: 3px;
+}
+.activeButtonChild-2hgLAO {
+    color: rgba(var(--AccentColor), 1);
+		animation: rainbow 3s infinite linear;
 }
 
-
+/* Tertiary Chat Background Fixes */
 .chatContent-3KubbW {
     background: rgba(var(--TertiaryBG), 1);
 }
