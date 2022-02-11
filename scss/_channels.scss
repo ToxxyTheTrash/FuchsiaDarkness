@@ -151,6 +151,12 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
+.iconContainer-21RCa3[aria-label*="Locked"] {
+		-webkit-mask: url("https://i.imgur.com/yWTYMT5.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
 .mainContent-20q_Hp[data-list-item-id*="channels___upcoming-events"] svg {
 		-webkit-mask: url("https://i.imgur.com/6cq4uJN.png") center/cover;
 		width: 20px;
@@ -324,7 +330,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 /* Boost Bar Removal */
-.container-1eD8xH {
+.container-2giAcK {
 		display: none;
 }
 
