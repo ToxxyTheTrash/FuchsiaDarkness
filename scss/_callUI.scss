@@ -31,6 +31,9 @@
 		background: rgb(0, 0, 0);
 		color: rgb(0, 0, 0);
 }
+.colorable-3rVGna.white-11auuQ.active-3D763s, .colorable-3rVGna.white-11auuQ:hover {
+    background: rgba(var(--AccentColor), 1);
+}
 .colorable-3rVGna.primaryDark-2UJt1G[aria-label*="Share Your Screen"] svg {
 		-webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
 		width: 22px;
@@ -44,6 +47,7 @@
 		height: 22px;
 		background: rgb(0, 0, 0);
 		color: rgb(0, 0, 0);
+		bottom: 5px !important;
 }
 .colorable-3rVGna.red-3T8maV[aria-label*="Disconnect"] svg {
 		-webkit-mask: url("https://i.imgur.com/icr6AHF.png") center/cover;
@@ -98,6 +102,7 @@
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--AccentColor), 1);
 }
+
 .active-3D763s svg {
   transform: rotate(180deg);
 }
@@ -249,4 +254,11 @@
 }
 .disableFlex-3I_kDH {
 		display: none;
+}
+
+.noiseCancellationPopout-2-e5Xz {
+    background: rgba(var(--SecondaryBG));
+    box-shadow: none;
+    width: 250px;
+    padding: 10px;
 }
