@@ -186,7 +186,7 @@ html.theme-light #app-mount:after {
 		min-width: 15px;
 		min-height: 15px;
 		font-size: 15px;
-		line-height: 20px;
+		line-height: 15px;
 		font-weight: 800;
 		color: rgba(var(--PrimaryBG));
 }
@@ -317,6 +317,14 @@ circle {
 		    image-rendering: -moz-crisp-edges;
 		    image-rendering: -o-pixelated;
 		    image-rendering: pixelated;
+}
+
+.item-1OdjEX[aria-checked=true] {
+		background: rgba(var(--AccentColor), 0.25);
+}
+
+.icon-E4cW1l {
+		display: none;
 }
 
 /* Title bar and window buttons */
@@ -1704,6 +1712,12 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		color: var(--red);
 }
 
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label*=Video] svg {
+		-webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+		background: var(--red);
+		color: var(--red);
+}
+
 /* Category Arrow */
 .arrow-2HswgU {
 		-webkit-transition: none;
@@ -1724,6 +1738,16 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		    image-rendering: -moz-crisp-edges;
 		    image-rendering: -o-pixelated;
 		    image-rendering: pixelated;
+}
+
+.container-8Futzw {
+		width: 350px;
+		margin-left: 10px;
+		padding: 10px;
+		max-height: 350px;
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		background: rgba(var(--SecondaryBG));
 }
 
 /* -=-= Header =-=- */
@@ -2264,6 +2288,10 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		color: black;
 }
 
+.colorable-3rVGna.white-11auuQ.active-3D763s, .colorable-3rVGna.white-11auuQ:hover {
+		background: rgba(var(--AccentColor), 1);
+}
+
 .colorable-3rVGna.primaryDark-2UJt1G[aria-label*="Share Your Screen"] svg {
 		-webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
 		width: 22px;
@@ -2278,6 +2306,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		height: 22px;
 		background: black;
 		color: black;
+		bottom: 5px !important;
 }
 
 .colorable-3rVGna.red-3T8maV[aria-label*=Disconnect] svg {
@@ -2526,6 +2555,14 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 .disableFlex-3I_kDH {
 		display: none;
+}
+
+.noiseCancellationPopout-2-e5Xz {
+		background: rgba(var(--SecondaryBG));
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		width: 250px;
+		padding: 10px;
 }
 
 /* -=-= Emote Menu =-=- */
@@ -3033,6 +3070,128 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		transition: none !important;
 		opacity: 1;
 		cursor: crosshair;
+		color: rgba(var(--AccentColor), 1);
+}
+
+.theme-dark .footer-31IekZ {
+		background-color: rgba(var(--SecondaryBG));
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+}
+
+/* Screen Share Selection */
+.sourceThumbnail-ERDcZE {
+		width: 150px;
+		height: 75px;
+		background-color: rgba(var(--PrimaryBG));
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		-webkit-transition: none;
+		transition: none;
+}
+
+.theme-dark .container-2zEtSe {
+		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
+
+.segmentControlOption-3MnJdT {
+		padding: 5px;
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 auto;
+		        flex: 1 1 auto;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+}
+
+#app-mount .selected-2xa993 {
+		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+}
+
+.art-1TvEXv {
+		display: none;
+}
+
+.segmentControlOption-3MnJdT:nth-child(1) {
+		-webkit-mask: url("https://i.imgur.com/Ogv51zn.png") center/24px no-repeat;
+		color: rgba(var(--AccentColor), 1);
+}
+
+.segmentControlOption-3MnJdT:nth-child(2) {
+		-webkit-mask: url("https://i.imgur.com/eABbEEp.png") center/24px no-repeat;
+		color: rgba(var(--AccentColor), 1);
+}
+
+.tile-3POX2m:hover .sourceThumbnail-ERDcZE, .sourceThumbnail-ERDcZE.selected-1i-g6T {
+		-webkit-box-shadow: inset 0 0 0 2px rgba(var(--AccentColor), 1);
+		        box-shadow: inset 0 0 0 2px rgba(var(--AccentColor), 1);
+}
+
+.selectorButton-3fWZ0_ {
+		min-width: 25px;
+		padding: 5px 0;
+		background: rgba(var(--PrimaryBG));
+}
+
+.selectorButtonSelected-3cQUnj, .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover {
+		background-color: rgba(var(--SecondaryBG));
+}
+
+.selectedIcon-277z4I {
+		-webkit-mask: url("https://i.imgur.com/Ogv51zn.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+
+.channelIcon-1BydE- {
+		-webkit-mask: url("https://i.imgur.com/JEQfCHt.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+
+.warningIcon-3vNf04 {
+		-webkit-mask: url("https://i.imgur.com/vkvsfXH.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		margin-left: 10px;
+}
+
+/* Create Event Modal */
+.selectedProgressBar-11z5d9 {
+		background: rgba(var(--AccentColor), 1);
+}
+
+.colorBrand-21Le_q {
+		color: rgba(var(--AccentColor), 1);
+}
+
+.theme-dark .previewCard-E137i2 {
+		background-color: rgba(var(--SecondaryBG));
+		border: 2px dashed rgba(var(--AccentColor), 1);
+}
+
+.icon-1YRytD[aria-label*="Only members who can view this channel can see this event."] {
+		-webkit-mask: url("https://i.imgur.com/mTdnED7.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+
+.channelOptionIcon-1gUI4K[width="32"] {
+		-webkit-mask: url("https://i.imgur.com/mTdnED7.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+}
+
+.channelOptionIcon-1gUI4K[width="24"] {
+		-webkit-mask: url("https://i.imgur.com/JEQfCHt.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--AccentColor), 1);
 }
 
