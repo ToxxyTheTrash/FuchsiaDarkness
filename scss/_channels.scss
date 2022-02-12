@@ -322,6 +322,11 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		background: var(--red);
 		color: var(--red);
 }
+.icons-2mwuFp .iconSpacing-3rBbgf[aria-label*="Video"] svg {
+		-webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+		background: var(--red);
+		color: var(--red);
+}
 
 /* Category Arrow */
 .arrow-2HswgU {
@@ -338,4 +343,13 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .bannerImg-2PzH6z {
 		width: 300px;
 		image-rendering: pixelated;
+}
+
+.container-8Futzw {
+    width: 350px;
+    margin-left: 10px;
+    padding: 10px;
+    max-height: 350px;
+    box-shadow: none;
+    background: rgba(var(--SecondaryBG));
 }
