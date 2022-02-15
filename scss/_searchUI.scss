@@ -98,8 +98,9 @@
 /* Fix for Chat */
 .searchResultsWrap-5RVOkx {
     width: 450px;
-    //position: absolute;
+    position: absolute;
 		display: flex;
 		right: 0;
+		max-height: 1000px;
     background-color: rgba(var(--PrimaryBG));
 }
