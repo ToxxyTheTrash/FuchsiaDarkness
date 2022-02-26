@@ -323,10 +323,6 @@ circle {
 		background: rgba(var(--AccentColor), 0.25);
 }
 
-.icon-E4cW1l {
-		display: none;
-}
-
 /* Title bar and window buttons */
 .typeWindows-2-g3UY {
 		height: 0;
@@ -900,7 +896,7 @@ circle {
 }
 
 .button-3bklZh[aria-label*=Edit] svg {
-		-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover;
+		-webkit-mask: url("https://i.imgur.com/Nkh0oQQ.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
@@ -1003,73 +999,85 @@ circle {
 }
 
 /* Shift Context Menu */
-.item-1OdjEX[id*=message-actions-edit] svg {
-		-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover;
+.item-1OdjEX[id*=message-actions-edit] svg,
+.item-1OdjEX[id*=message-edit] svg {
+		-webkit-mask: url("https://i.imgur.com/Nkh0oQQ.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-pin] svg {
+.item-1OdjEX[id*=message-actions-pin] svg,
+.item-1OdjEX[id*=message-pin] svg {
 		-webkit-mask: url("https://i.imgur.com/tMrxpi1.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-reply] svg {
+.item-1OdjEX[id*=message-actions-reply] svg,
+.item-1OdjEX[id=message-reply] svg {
 		-webkit-mask: url("https://i.imgur.com/w52Yxe5.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-thread] svg {
+.item-1OdjEX[id*=message-actions-thread] svg,
+.item-1OdjEX[id*=message-thread] svg {
 		-webkit-mask: url("https://i.imgur.com/5ixlf8e.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-mark-unread] svg {
-		-webkit-mask: url("https://i.imgur.com/plRRWkp.png") center/cover;
+.item-1OdjEX[id*=message-actions-mark-unread] svg,
+.item-1OdjEX[id*=message-mark-unread] svg {
+		-webkit-mask: url("https://i.imgur.com/m6GQJs4.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-copy-link] svg {
+.item-1OdjEX[id*=message-actions-copy-link] svg,
+.item-1OdjEX[id*=message-copy-link] svg {
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-tts] svg {
+.item-1OdjEX[id*=message-actions-tts] svg,
+.item-1OdjEX[id*=message-tts] svg {
 		-webkit-mask: url("https://i.imgur.com/Lw3MQfj.png") center/cover;
 		width: 20px;
-		height: 20px;
+		height: 16px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.item-1OdjEX[id*=message-actions-delete] svg {
+.item-1OdjEX[id*=message-actions-delete] svg,
+.item-1OdjEX[id*=message-delete] svg {
 		-webkit-mask: url("https://i.imgur.com/fJULu0p.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: #f15656;
 }
 
-.item-1OdjEX[id*=message-actions-delete]:active {
+.item-1OdjEX[id*=message-actions-delete]:active,
+.item-1OdjEX[id*=message-delete]:active {
 		background: rgba(241, 86, 86, 0.25);
 		color: #f15656;
 }
 
-.item-1OdjEX[id*=message-actions-delete]:hover {
+.item-1OdjEX[id*=message-actions-delete]:hover,
+.item-1OdjEX[id*=message-delete]:hover {
 		background: rgba(241, 86, 86, 0.15);
 		color: #f15656;
 }
 
-.item-1OdjEX[id*=message-actions-copy-id] svg {
+.item-1OdjEX[id*=message-actions-copy-id] svg,
+.item-1OdjEX[id*=message-devmode-copy-id] svg,
+.item-1OdjEX[id*=channel-context-devmode-copy-id] svg {
 		-webkit-mask: url("https://i.imgur.com/S8lCQJg.png") center/cover;
 		width: 20px;
 		height: 20px;
@@ -1320,7 +1328,7 @@ circle {
 .innerButton-1aF_E_ {
 		padding: 0 2px;
 		margin-left: 10px;
-		margin-right: 5px;
+		margin-right: 15px;
 		margin-bottom: 3px;
 }
 
@@ -1337,6 +1345,21 @@ circle {
 
 .messagesWrapper-RpOMA3 {
 		background: rgba(var(--PrimaryBG));
+}
+
+/* Reply Attachment icon */
+.repliedTextContentIcon-1LQXRB, .threadMessageAccessoryContentIcon-TRQY1x {
+		-webkit-mask: url("https://i.imgur.com/w52Yxe5.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+		margin-left: 0;
+}
+
+.repliedTextPlaceholder-1Njd47, .threadMessageAccessoryPlaceholder-2jynb2 {
+		font-weight: 700;
+		color: rgba(var(--AccentColor), 1);
 }
 
 /* -=-= Channels =-=- */
@@ -1568,7 +1591,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		right: -40px;
 }
 
-[id*=popout_40].layer-2aCOJ3 {
+[style*="position: fixed; left: 5px; bottom: 107.5px;"].layer-2aCOJ3 {
 		left: -40px !important;
 		bottom: 102px !important;
 }
@@ -1795,8 +1818,15 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		background: rgba(var(--AccentColor), 1);
 }
 
+.item-1OdjEX[id*=guild-header-popout-insights] svg {
+		-webkit-mask: url("https://i.imgur.com/VbmGX0M.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+
 .item-1OdjEX[id*=guild-header-popout-create-channel] svg {
-		-webkit-mask: url("https://i.imgur.com/yUL8g58.png") center/cover;
+		-webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
