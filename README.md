@@ -1,20 +1,20 @@
 # Fuchsia Darkness
 A completely re-designed and recolored version of the BetterDiscord theme **SimplyDark** made by **Gibbu**!  
-The purpose of the theme is to make discord darker (as in literally black), compact and lightly customizable.  
-The theme can and will contain bugs, especially in its current alpha state as of 2022.
+The purpose of the theme is to make discord more compact, customizable and debranded.  
+The theme can and will contain bugs.  
 
 ## Theme support  
 - **It's made to work with BetterDiscord specifically; you can freely "port" the theme locally for PowerCord**  
-- **The theme is not recommended for small or 4:3 resolution displays, as it *will* break elements.**  
-- **The theme supports Windows and is tested on Discord PTB and the latest version of BetterDiscord.**  
-- **Don't use markdown mode (just yet). It'll break the chat box; disable it in `User Settings > Text & Images > Text Box`**
+- **The theme is not recommended for small resolutions or 4:3 aspect ratio displays, as it *will* break elements.**  
+- **The theme supports Windows and is tested on Discord PTB and the latest version of [redacted client].**  
+- **Don't use markdown mode (just yet). It'll break the chat box; disable it in `User Settings > Text & Images > Text Box`**  
 
 ## Installation
 
 To download the theme for **BetterDiscord**, follow the next steps:
   1. open `SimplyDarkFuchsiaDarkness.theme.css` in the repo.
   2. click the `Raw` button in the top right corner of the theme file page.
-  3. once in the "raw" code view; right click the page, click `Save as...` and save it to your BetterDiscord theme folder.  
+  3. once in the "raw" code view; right click the page, click `Save as...` and save it to your theme folder.  
   
  - Installation of BetterDiscord: https://bd.zerebos.com/#install  
  - Installation of themes and plugins: https://bd.zerebos.com/#installthemesplugins  
@@ -37,6 +37,9 @@ BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/The
 
 All Material Design icons used within the theme originate from https://github.com/google/material-design-icons  
 
+## Color Themes 🎨
+In case the default accent doesn't suit your needs, you can try out some color themes [here!](https://github.com/ToxxyTheTrash/FuchsiaDarknessAlpha/tree/master/color-themes)  
+
 ## Theme Screenshots - WIP   
 
 Chat with HorizontalServerList and some other plugins enabled:  
@@ -56,5 +59,3 @@ Dropdowns and context menus:
 
 Emote and server window:  
 ![alt text](https://i.imgur.com/bmJCdev.gif) ![alt text](https://i.imgur.com/JBLdmXu.png)  
-
-### more screenshots will be added soon!
