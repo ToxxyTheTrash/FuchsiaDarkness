@@ -105,6 +105,7 @@
 /* PronounDB */
 .PronounDB-pronouns-text {
     text-transform: lowercase;
+		line-height: 11px;
 }
 .PronounDB-style-container .PronounDB-style-header {
     margin-bottom: 5px !important;
@@ -154,4 +155,9 @@
 /* Join/Creation/Last Message Date */
 .date-YN6TCS {
     margin-top: 2px;
+}
+
+/* Image Utilities */
+.altText-sAs-Ao {
+    margin: 0;
 }
