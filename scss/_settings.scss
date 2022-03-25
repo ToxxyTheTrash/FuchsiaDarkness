@@ -96,13 +96,13 @@
 }
 
 /* Settings Tabs */
-.layer-86YKbF .item-3XjbnG {
+.sidebar-nqHbhN .layer-86YKbF .item-3XjbnG {
 		padding: 0 5px 0 40px;
 		margin: 0 0;
 		height: 25px;
 		line-height: 25px;
 }
-.layer-86YKbF [aria-label="User Settings"] .item-3XjbnG:before {
+.layer-86YKbF .sidebar-nqHbhN [aria-label="User Settings"] .item-3XjbnG:before {
 		content: "";
 		position: absolute;
 		left: 5px;
@@ -470,6 +470,11 @@
 /* Dismissible Contents */
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="dismissible-content-options-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/zdtKvtF.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Payment Flow Modals */
+[aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/nladWxJ.png");
 		-webkit-mask-size: 22px !important;
 }
 
