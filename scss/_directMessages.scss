@@ -108,3 +108,38 @@
     background-color: rgba(var(--SecondaryBG));
     border: none;
 }
+
+
+/* Friends List Tabs */
+.layer-86YKbF .topPill-3DJJNV .item-3XjbnG {
+		padding: 0 5px 0 40px;
+		margin: 10px;
+		height: 25px;
+}
+/* Online */
+.item-3XjbnG[data-item-id="ONLINE"]:before {
+		-webkit-mask: url("https://i.imgur.com/9r5oCHb.png");
+		-webkit-mask-size: 20px !important;
+		background: var(--green);
+}
+/* All */
+.item-3XjbnG[data-item-id="ALL"]:before {
+		-webkit-mask: url("https://i.imgur.com/1n4ZW34.png");
+		-webkit-mask-size: 20px !important;
+}
+/* Pending */
+.item-3XjbnG[data-item-id="PENDING"]:before {
+		-webkit-mask: url("https://i.imgur.com/2WkR39r.png");
+		-webkit-mask-size: 20px !important;
+}
+/* Blocked */
+.item-3XjbnG[data-item-id="BLOCKED"]:before {
+		-webkit-mask: url("https://i.imgur.com/D8yNqkX.png");
+		-webkit-mask-size: 20px !important;
+}
+/* Add Friend */
+.item-3XjbnG[data-item-id="ADD_FRIEND"]:before {
+		-webkit-mask: url("https://i.imgur.com/M636uZa.png");
+		-webkit-mask-size: 20px !important;
+		background: black;
+}
