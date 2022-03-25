@@ -10,6 +10,9 @@
 @use "header";
 @use "memberList";
 
+@use "settings";
+@use "serverSettings";
+
 @use "callUI";
 @use "emotes";
 @use "serverList";
@@ -18,9 +21,6 @@
 @use "userProfile";
 @use "userPopout";
 @use "searchUI";
-
-@use "settings";
-@use "serverSettings";
 
 @use "pluginSupport";
 @use "BlurpleRecolor";
