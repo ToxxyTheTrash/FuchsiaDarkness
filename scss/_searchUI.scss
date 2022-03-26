@@ -101,6 +101,6 @@
     position: absolute;
 		display: flex;
 		right: 0;
-		max-height: 1000px;
+		max-height: calc(100% - 50px);
     background-color: rgba(var(--PrimaryBG));
 }
