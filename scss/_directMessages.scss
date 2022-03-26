@@ -110,17 +110,28 @@
 }
 
 
+
 /* Friends List Tabs */
 .layer-86YKbF .topPill-3DJJNV .item-3XjbnG {
 		padding: 0 5px 0 40px;
 		margin: 10px;
 		height: 25px;
 }
+.layer-86YKbF .topPill-3DJJNV .item-3XjbnG:before {
+		content: "";
+		position: absolute;
+		left: 5px;
+		width: 25px;
+		height: 25px;
+		background: rgba(var(--AccentColor), 1);
+		-webkit-mask-position: center !important;
+		-webkit-mask-repeat: no-repeat !important;
+}
 /* Online */
 .item-3XjbnG[data-item-id="ONLINE"]:before {
 		-webkit-mask: url("https://i.imgur.com/9r5oCHb.png");
-		-webkit-mask-size: 20px !important;
-		background: var(--green);
+		-webkit-mask-size: 15px !important;
+		background: var(--green) !important;
 }
 /* All */
 .item-3XjbnG[data-item-id="ALL"]:before {
@@ -141,5 +152,5 @@
 .item-3XjbnG[data-item-id="ADD_FRIEND"]:before {
 		-webkit-mask: url("https://i.imgur.com/M636uZa.png");
 		-webkit-mask-size: 20px !important;
-		background: black;
+		background: #000 !important;
 }
