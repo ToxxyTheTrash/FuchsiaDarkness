@@ -133,7 +133,11 @@
 }
 /* Chat attachment */
 .attachment-1PZZB2, .wrapperAudio-1Bzv_Z {
-		border: 2px dashed rgba(var(--AccentColor), 1) !important; }
+		border: 2px dashed rgba(var(--AccentColor), 1) !important;
+}
+.animating-2CraY5 {
+		background: rgba(var(--AccentColor), 1) !important;
+}
 
 /* Loading Icon */
 .wanderingCubesItem-3Us-UG {
@@ -724,7 +728,7 @@
 		background: rgba(0, 0, 0, 0.5);
 }
 .base-3bcbY3 .slowModeIcon-35Psjn {
-		margin: 0 5px;
+		margin: 0 15px 0 5px;
 		color: rgba(var(--AccentColor), 1);
 }
 .base-3bcbY3 .cooldownWrapper-2k1jHK {
@@ -851,4 +855,17 @@
 .repliedTextPlaceholder-1Njd47, .threadMessageAccessoryPlaceholder-2jynb2 {
 		font-weight: 700;
 		color: rgba(var(--AccentColor), 1);
+}
+
+/* Dismissable Stuff */
+/* "Try slash commands!" */
+.base-3bcbY3 {
+    bottom: 50px;
+    left: 5px;
+    height: 20px;
+		color: rgba(var(--AccentColor), 1);
+		animation: rainbow 5s linear;
+}
+.applicationCommandEducationArrow-2xKDmq {
+		display: none;
 }
