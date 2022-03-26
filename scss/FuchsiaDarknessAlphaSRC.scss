@@ -5,13 +5,13 @@
 @use "context";
 @use "titlebar";
 
+@use "settings";
+@use "serverSettings";
+
 @use "chat";
 @use "channels";
 @use "header";
 @use "memberList";
-
-@use "settings";
-@use "serverSettings";
 
 @use "callUI";
 @use "emotes";
