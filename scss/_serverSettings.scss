@@ -1,19 +1,17 @@
 /* Server Settings Tabs */
-.layer-86YKbF .sidebar-nqHbhN .item-3XjbnG {
+.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
 		padding: 0 5px 0 40px;
 		margin: 0 0;
 		height: 25px;
 		line-height: 25px;
 }
-.layer-86YKbF .item-3XjbnG:before {
+.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .item-3XjbnG:before {
 		content: "";
 		position: absolute;
 		left: 5px;
-		top: 0;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
-		-webkit-mask-size: 24px !important;
 		-webkit-mask-position: center !important;
 		-webkit-mask-repeat: no-repeat !important;
 }
@@ -77,14 +75,45 @@
 		-webkit-mask-size: 22px !important;
 }
 /* Server Insights */
-.side-2ur1Qk .item-3XjbnG[aria-controls="community-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/TG4b3I9.png");
+.side-2ur1Qk .item-3XjbnG[aria-controls="analytics-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/VbmGX0M.png");
 		-webkit-mask-size: 22px !important;
 }
 /* Partner Program */
 .side-2ur1Qk .item-3XjbnG[aria-controls="partner-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/HzaFQta.png");
 		-webkit-mask-size: 22px !important;
+}
+/* Discovery */
+.side-2ur1Qk .item-3XjbnG[aria-controls="discovery-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/wpTpSDQ.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Membership Screening */
+.side-2ur1Qk .item-3XjbnG[aria-controls="member_verification-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/CCWM2Rc.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Welcome Screen */
+.side-2ur1Qk .item-3XjbnG[aria-controls="community_welcome-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/vdEtrlV.png");
+		-webkit-mask-size: 22px !important;
+}
+
+/* Server Boost Status */
+.side-2ur1Qk .item-3XjbnG[aria-controls="guild_premium-tab"]:before {
+	-webkit-mask: url("https://i.imgur.com/Kk2I31C.png");
+	background: var(--nitro) !important;
+	-webkit-mask-size: 20px !important;
+}
+.side-2ur1Qk .item-3XjbnG[aria-controls="guild_premium-tab"] {
+		color: var(--nitro) !important;
+}
+.serverBoostTabItem-3QwA3W[aria-selected=true] {
+    background-color: rgba(var(--AccentColor), 0.25) !important;
+}
+.tabBarItemContainer-2HdIlr svg {
+		display: none;
 }
 
 /* User Managment */
@@ -109,4 +138,37 @@
 		-webkit-mask: url("https://i.imgur.com/j4viHnK.png");
 		-webkit-mask-size: 22px !important;
 		background: var(--red);
+}
+
+
+/* Roles Page */
+.emptyRoles-35rHsg, .roleRow-3LoHQ6, .tableHeader-2h-wc8 {
+    margin-left: -15px;
+    margin: 0 -5px;
+    padding: 0 2px;
+}
+.emptyRoles-35rHsg, .roleRow-3LoHQ6 {
+    padding-top: 0;
+    height: 45px;
+}
+.customScroller-m1-jZn>div {
+    margin-left: 15px;
+}
+.titleContainer-3fPic2 {
+    padding: 15px 5px 0 15px;
+    margin: 0 10px 5px 0;
+}
+.list-1AJFv_ {
+    padding: 0 0 0 10px;
+}
+.row-LoqnA5 {
+    height: 25px;
+    margin-left: 0;
+}
+.roleName-3910zV {
+    margin-left: 5px;
+}
+
+.roleNameContainer-1vRTI3 .shield-1jy4L2 {
+		-webkit-mask: url("https://i.imgur.com/9r5oCHb.png") center/cover;
 }
