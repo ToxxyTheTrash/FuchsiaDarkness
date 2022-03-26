@@ -283,8 +283,6 @@
 		width: 500px;
 }
 
-
-
 .container-ZMc96U.themed-Hp1KC_ {
     background: rgba(var(--TertiaryBG), 1);
 }
@@ -292,5 +290,16 @@
     background: rgba(var(--TertiaryBG), 1);
 }
 .theme-dark .children-3xh0VB:after {
+    display: none;
+}
+
+
+.upsellTooltipWrapper-1wqikQ {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(var(--SecondaryBG)) !important;
+    box-shadow: none;
+}
+.upsellTooltipWrapper-1wqikQ:after {
     display: none;
 }
