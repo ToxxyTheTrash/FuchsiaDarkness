@@ -96,13 +96,13 @@
 }
 
 /* Settings Tabs */
-.sidebar-nqHbhN .layer-86YKbF .item-3XjbnG {
+.layer-86YKbF [aria-label="User Settings"] .item-3XjbnG {
 		padding: 0 5px 0 40px;
 		margin: 0 0;
 		height: 25px;
 		line-height: 25px;
 }
-.layer-86YKbF .sidebar-nqHbhN [aria-label="User Settings"] .item-3XjbnG:before {
+.layer-86YKbF [aria-label="User Settings"] .item-3XjbnG:before {
 		content: "";
 		position: absolute;
 		left: 5px;
@@ -110,7 +110,6 @@
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
-		-webkit-mask-size: 24px !important;
 		-webkit-mask-position: center !important;
 		-webkit-mask-repeat: no-repeat !important;
 }
@@ -169,13 +168,13 @@
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] {
 		color: #7289DA !important;
 }
-.selectedBackground-1qyzak {
+.selectedBackground-1t6xXq {
 		background-color: transparent;
 }
-.selected-2m-n75 {
+.selected-2Uns2B {
 		color: #7289DA;
 }
-.premiumLabel-V52REm svg {
+.premiumLabel-3HPvdB svg {
 		display: none;
 }
 /* Server Boost */
@@ -412,9 +411,9 @@
 }
 /* Astra - Plugin/Theme Card */
 .card-zvpeVp {
-    margin: 5px 0;
+    margin: 5px 0 !important;
     color: rgba(var(--AccentColor), 1);
-    height: 75px;
+    height: 75px !important;
 }
 /* Astra - Buttons */
 .checkForAddons-3VocJq svg {
@@ -621,7 +620,7 @@
 		margin-top: 10px;
 }
 
-.socialLinks-2DELRE {
+.socialLinks-3ywLUf {
 		display: none;
 }
 
@@ -668,7 +667,7 @@
 }
 .colorHeaderPrimary-jN_yGr {
     color: rgba(var(--AccentColor), 1);
-		background: rgba(var(--PrimaryBG));
+		background: rgba(var(--PrimaryBG)) !important;
 }
 
 .lookLink-15mFoz.colorLink-1Md3RZ {
@@ -845,7 +844,7 @@
 }
 
 /* "Connections" Page */
-.accountList-305sx3 {
+.accountList-Wii_T5 {
     padding: 10px;
     background-color: rgba(var(--SecondaryBG));
 }
@@ -855,16 +854,16 @@
 .connectionList-1NoxUk {
     grid-gap: 5px;
 }
-.connectionHeader-2rV1ze {
+.connectionHeader-Ixbb1s {
     padding: 10px;
     background: rgba(var(--SecondaryBG));
 }
-.connectionDelete-XXTMqE {
+.connectionDelete-3YgMVq {
     cursor: crosshair;
     color: var(--red);
     margin-right: 10px;
 }
-.connectionOptionsWrapper-1ipqUo {
+.connectionOptionsWrapper-3aVWcp {
     padding: 5px 0;
 }
 .marginBottom8-emkd0_ {
