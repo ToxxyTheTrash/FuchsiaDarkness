@@ -2706,9 +2706,6 @@ circle {
 		bottom: 50px;
 		left: 5px;
 		height: 20px;
-		color: rgba(var(--AccentColor), 1);
-		-webkit-animation: rainbow 5s linear;
-		        animation: rainbow 5s linear;
 }
 
 .applicationCommandEducationArrow-2xKDmq {
@@ -2739,7 +2736,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 /* Channel Header */
 .header-3OsQeK {
 		font-weight: 500;
-		padding: 0 15px;
+		padding: 11px 15px;
 		color: rgba(var(--AccentColor), 1);
 		border-bottom: 2px solid rgba(var(--AccentColor), 1);
 }
