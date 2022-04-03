@@ -39,7 +39,8 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 /* Channel List */
 .wrapper-NhbLHG {
-		padding: 0 0 0 0; }
+		padding: 0 0;
+}
 .content-1gYQeQ {
 		padding: 0 5px;
 		margin-left: 5px;
@@ -53,7 +54,8 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		cursor: crosshair;
 }
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .wrapper-NhbLHG:hover .content-1gYQeQ {
-		background-color: rgba(var(--PrimaryBG)); }
+		background-color: rgba(var(--PrimaryBG));
+}
 .wrapper-NhbLHG:hover .content-1gYQeQ {
 	 animation: rainbow 5s linear infinite;
 }
@@ -191,14 +193,14 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		width: 300px; }
 
 /* Status Picker */
-.menu-1AgizY[id*="status-picker"] {
+.menu-1QACrS[id*="status-picker"] {
 		padding: 0px 0px;
 		min-width: 300px;
 		width:  300px;
 		top: 0px;
 		right: -40px;
 }
-[style*="position: fixed; left: 5px; bottom: 107.5px;"].layer-2aCOJ3 {
+[style*="position: fixed; bottom: 108.5px; left: 5px;"].layer-2aCOJ3 {
 		left: -40px !important;
 		bottom: 102px !important;
 }
@@ -352,4 +354,8 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
     max-height: 350px;
     box-shadow: none;
     background: rgba(var(--SecondaryBG));
+}
+
+div[style="height: 16px;"] {
+	height: 5px !important;
 }
