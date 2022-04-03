@@ -9,8 +9,7 @@
 .selected-1-Z6gm .layout-1qmrhw {
 		background-color: rgba(var(--AccentColor), 0.15);
 }
-.clickable-28SzVr:hover .layout-1qmrhw {
-		background: none;
+.clickable-28SzVr:hover .layout-1qmrhw, .interactive-iyXY_x:hover {
 		margin-left: 5px;
 }
 .privateChannelsHeaderContainer-1UWASm {
@@ -56,6 +55,19 @@
 .theme-dark .container-2cd8Mz {
 		background: rgba(var(--PrimaryBG));
 }
+.peopleListItem-u6dGxF {
+    margin-right: 10px;
+    font-size: 15px;
+    border-top: none;
+		height: 50px !important;
+}
+.peopleListItem-u6dGxF:hover {
+    margin-left: 22px;
+}
+.actions-YHvpIT {
+    display: none;
+}
+
 /* Add Friend Tab */
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
     background: rgba(var(--SecondaryBG));
