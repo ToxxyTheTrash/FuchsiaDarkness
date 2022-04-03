@@ -127,6 +127,11 @@
 		margin: 0 5px;
 }
 
+.container-ZMc96U {
+    height: 48px;
+    padding: 0 5px;
+}
+
 /* Left Header Icons - Channels */
 .container-ZMc96U.title-31SJ6t[aria-label*="Channel"] .children-3xh0VB .iconWrapper-2awDjA {
 		 -webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
@@ -302,4 +307,14 @@
 }
 .upsellTooltipWrapper-1wqikQ:after {
     display: none;
+}
+
+/* "Public" server status */
+.communityInfoPill-2Mll66 {
+    display: none;
+}
+
+/* Server name */
+.headerContent-2SNbie {
+    color: rgba(var(--AccentColor), 1);
 }
