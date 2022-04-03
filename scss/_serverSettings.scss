@@ -67,6 +67,11 @@
 		-webkit-mask: url("https://i.imgur.com/rPuN0Ep.png");
 		-webkit-mask-size: 22px !important;
 }
+/* Server Template */
+.side-2ur1Qk .item-3XjbnG[aria-controls="vanity_url-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/GTLwUuW.png");
+		-webkit-mask-size: 22px !important;
+}
 
 /* Community*/
 /* Overview */
@@ -141,7 +146,7 @@
 }
 
 
-/* Roles Page */
+/* "Roles" Page */
 .emptyRoles-35rHsg, .roleRow-3LoHQ6, .tableHeader-2h-wc8 {
     margin-left: -15px;
     margin: 0 -5px;
@@ -168,7 +173,19 @@
 .roleName-3910zV {
     margin-left: 5px;
 }
+.roleRow-3LoHQ6:before, .roleRow-3LoHQ6:last-child:after {
+    display: none;
+}
 
 .roleNameContainer-1vRTI3 .shield-1jy4L2 {
 		-webkit-mask: url("https://i.imgur.com/9r5oCHb.png") center/cover;
+}
+
+/* "Integrations" Page */
+
+/* "Permissions" Page */
+.role-3pGE29 {
+    height: 25px;
+    margin: 0 !important;
+		line-height: 23px;
 }
