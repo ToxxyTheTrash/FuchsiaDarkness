@@ -25,6 +25,9 @@
 		 --background-secondary: rgba(var(--PrimaryBG)) !important;
 		 --focus-primary: rgba(var(--AccentColor), 0.75);
 		 --background-tertiary: rgba(var(--SecondaryBG)) !important;
+		 --background-modifier-hover: rgba(var(--PrimaryBG));
+		 --background-modifier-selected: rgba(var(--SecondaryBG));
+		 --input-background: rgba(var(--SecondaryBG));
 }
 
 /* Radial Status */
