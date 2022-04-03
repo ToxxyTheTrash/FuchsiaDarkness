@@ -8,20 +8,20 @@
 		 width: 100%;
 		 height: 20px;
 		 min-height: 30px;
-		 padding: 0px 0px;
+		 padding: 0 0;
 		 margin-top: 15px;
 		 color: rgba(var(--AccentColor), 1);
 }
 .scrollableContainer-15eg7h {
 		 background-color: rgba(var(--TertiaryBG), 1);
 		 max-height: 300px;
+		 min-height: 20px;
 		 overflow: hidden;
 }
 
 /* Chat box spacing */
 .form-3gdLxP {
-		 padding-left: 0;
-		 padding-right: 0;
+		padding: 0 0;
 		 margin-top: 0;
 }
 .channelTextArea-1FufC0 {
@@ -47,15 +47,45 @@
 
 /* Chat Box - Attach Files */
 #app-mount .attachWrapper-3slhXI button {
-		background: rgba(var(--AccentColor), 0.75);
 		margin-top: 7px;
-		margin-right: 5px;
+		margin-right: 7px;
 		width: 30px;
 		height: 30px;
-		clip-path: polygon(50% 35%, 35% 20%, 15% 30%, 15% 50%, 50% 85%, 85% 50%, 85% 30%, 65% 20%);
+		//clip-path: polygon(50% 35%, 35% 20%, 15% 30%, 15% 50%, 50% 85%, 85% 50%, 85% 30%, 65% 20%);//
 }
-#app-mount .attachWrapper-3slhXI button div {
-		display: none;
+#app-mount .attachButtonInner-2mwer8 svg {
+	-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
+	-webkit-mask-size: 28px !important;
+	color: rgba(var(--AccentColor), 1);
+	background: rgba(var(--AccentColor), 1);
+}
+.attachButton-_ACFSu {
+    height: 35px;
+    padding: 10px 10px;
+}
+.attachButtonPlay-1ATmb5 {
+    display: none;
+}
+/* Upload a File */
+.item-1OdjEX[id="channel-attach-upload-file"] .optionIcon-1Ft8w0 {
+	-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
+	-webkit-mask-size: 24px !important;
+	color: rgba(var(--AccentColor), 1);
+	background: rgba(var(--AccentColor), 1);
+}
+/* Create Thread */
+.item-1OdjEX[id="channel-attach-THREAD"] .optionIcon-1Ft8w0 {
+	-webkit-mask: url("https://i.imgur.com/5ixlf8e.png");
+	-webkit-mask-size: 22px !important;
+	color: rgba(var(--AccentColor), 1);
+	background: rgba(var(--AccentColor), 1);
+}
+/* Listen to Spotify */
+.item-1OdjEX[id="channel-attach-listen"] .optionIcon-1Ft8w0 {
+	-webkit-mask: url("https://i.imgur.com/rvSGmst.png");
+	-webkit-mask-size: 22px !important;
+	color: rgba(var(--AccentColor), 1);
+	background: rgba(var(--AccentColor), 1);
 }
 
 /* Chatbox icons - Emotes */
@@ -84,13 +114,40 @@
 		cursor: crosshair;
 }
 
-/* Chatbox icon deletion (temporary until BD fix) */
+/* Chatbox icon deletion*/
 .app-2CXKsg [aria-label="Send a gift"] {
 		 display: none;
 }
 .app-2CXKsg [aria-label="Open GIF picker"] {
 		display: none;
 }
+
+/* Markdown Chatbox */
+.editor-H2NA06 {
+		color: rgba(var(--AccentColor), 1);
+		caret-color: rgba(var(--AccentColor), 1);
+		line-height: 20px;
+}
+.fontSize16Padding-XoMpjI {
+    padding: 0 0;
+}
+.placeholder-1rCBhr {
+    color: rgba(var(--AccentColor), .5);
+		margin-top: 1px;
+}
+
+/* Markdown Toolbar */
+.toolbar-37BrJ5 {
+    background: rgba(var(--SecondaryBG));
+    height: 30px;
+}
+.button-lA2rvH {
+    width: 30px;
+}
+.buttonInner-1RE0NV, .icon-3g7qdA svg {
+    width: 30px;
+}
+
 
 /* Chat Beginning */
 .base-21yXnu {
@@ -218,7 +275,8 @@
 		padding: 0;
 }
 .iconContainer-2rPbqG .icon-JRJzJz {
-		background-image: none !important; }
+		background-image: none !important;
+}
 /* Pins - Chat Icons */
 .iconContainer-2rPbqG .icon-JRJzJz[style*="/assets/1f57f1c100434d1ff6569a495ada213e.svg"]:before {
 		content: "";
