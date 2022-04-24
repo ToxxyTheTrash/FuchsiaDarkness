@@ -1,6 +1,6 @@
 /* MLV2 */
 #sent.ml2-tab {
-	display: contents;
+	display: flex !important;
 }
 .theme-dark .ml2-tab[id*="sent"] {
 	-webkit-mask: url("https://i.imgur.com/99uVToC.png") center/cover no-repeat;
