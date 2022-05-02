@@ -676,18 +676,14 @@
 		background: rgba(var(--AccentColor), 1);
 		animation: rainbow 5s linear infinite;
 }
-.item-1OdjEX[id*="message-actions-translator-translate-message"] svg {
-		-webkit-mask: url("https://i.imgur.com/QaKbQqu.png") center/cover;
-		width: 20px;
-		height: 20px;
-		background: rgb(25, 103, 210);
-		color: rgb(25, 103, 210);
-}
-.item-1OdjEX[id*="message-actions-translator-translate-message"], .item-1OdjEX[id*="message-actions-translator-translate-message"]:active {
-		color: rgb(25, 103, 210);
-}
 .item-1OdjEX[id*="message-add-reaction--other-reactions"] svg {
 		-webkit-mask: url("https://i.imgur.com/CEE0PM6.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.item-1OdjEX[id*="message-reactions"] svg {
+		-webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
