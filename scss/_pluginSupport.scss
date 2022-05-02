@@ -31,8 +31,15 @@
 .MLv2-menu-root .wrapper-1HSdhi {
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1) !important;
 }
-
-.theme-dark .ml2-tab-selected, .theme-dark .ml2-tab {
+#app-mount .MLv2-input-input {
+    font-size: 16px;
+    color: var(--text-normal);
+    background: rgba(var(--SecondaryBG));
+    border: none;
+    height: 35px;
+}
+#app-mount .ml2-tab-selected,
+#app-mount .ml2-tab {
 	border-color: rgba(var(--AccentColor), 1);
 	color: rgba(var(--AccentColor), 1) !important;
 }
@@ -42,15 +49,17 @@
 		min-height: 500px;
 		max-height: 500px;
 }
-.MLv2-question-mark {
-		 width: 25px;
-		 height: 25px;
-		 margin-right: 0px;
-		 padding: 0;
-		 background-color: rgba(var(--PrimaryBG));
+#app-mount .MLv2-question-mark {
+		 width: 30px;
+		 height: 30px;
+		 margin-right: 5px;
+		 background: rgba(var(--AccentColor), 1);
 }
-.MLv2-question-mark:hover {
-		 background-color: rgba(var(--AccentColor), 0.25);
+#app-mount .MLv2-tab-bar-item {
+    margin-right: 0;
+    border: none;
+    cursor: crosshair;
+    font-size: 15px;
 }
 .tabBarItem-1b8RUP{
 		 border-bottom: 2px dashed;
@@ -160,4 +169,25 @@
 /* Image Utilities */
 .altText-sAs-Ao {
     margin: 0;
+}
+
+/* Translator */
+.item-1OdjEX .icon-E4cW1l[name="Translate"] {
+		-webkit-mask: url("https://i.imgur.com/QaKbQqu.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(25, 103, 210);
+		color: rgb(25, 103, 210);
+}
+.icon-1d5zch[name="Translate"] {
+		-webkit-mask: url("https://i.imgur.com/QaKbQqu.png") center/cover;
+		width: 22px;
+		height: 22px;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+		margin: -1px;
+}
+.item-1OdjEX[id="message-translator-translate-message"],
+.item-1OdjEX[id="message-translator-translate-message"]:active {
+		color: rgb(25, 103, 210);
 }
