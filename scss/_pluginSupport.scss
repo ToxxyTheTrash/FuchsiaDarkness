@@ -114,7 +114,9 @@
 /* PronounDB */
 .PronounDB-pronouns-text {
     text-transform: lowercase;
-		line-height: 11px;
+    line-height: 15px !important;
+    position: absolute;
+    top: 5px;
 }
 .PronounDB-style-container .PronounDB-style-header {
     margin-bottom: 5px !important;
