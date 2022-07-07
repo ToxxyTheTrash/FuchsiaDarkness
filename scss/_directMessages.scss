@@ -132,6 +132,7 @@
 		padding: 0 5px 0 40px;
 		margin: 10px;
 		height: 25px;
+		line-height: 24px;
 }
 .layer-86YKbF .topPill-3DJJNV .item-3XjbnG:before {
 		content: "";
@@ -169,4 +170,14 @@
 		-webkit-mask: url("https://i.imgur.com/M636uZa.png");
 		-webkit-mask-size: 20px !important;
 		background: #000 !important;
+}
+
+/* Library Tabs */
+.item-3XjbnG[data-item-id="/library"]:before {
+		-webkit-mask: url("https://i.imgur.com/iAB8BmS.png");
+		-webkit-mask-size: 20px !important;
+}
+.item-3XjbnG[data-item-id="/library/settings"]:before {
+		-webkit-mask: url("https://i.imgur.com/pYqekDg.png");
+		-webkit-mask-size: 20px !important;
 }
