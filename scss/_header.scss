@@ -133,19 +133,19 @@
 }
 
 /* Left Header Icons - Channels */
-.container-ZMc96U.title-31SJ6t[aria-label*="Channel"] .children-3xh0VB .iconWrapper-2awDjA {
+.container-ZMc96U.title-31SJ6t[aria-label="Channel header"] .children-3xh0VB .iconWrapper-2awDjA {
 		 -webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
 		 width: 25px;
 		 height: 25px;
 		 background: rgba(var(--AccentColor), 1);
 }
-/* Left Header Icons - Friends */
-.children-3xh0VB .iconWrapper-2awDjA {
-		 -webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/cover;
-		 width: 22px;
-		 height: 22px;
-		 background: rgba(var(--AccentColor), 1);
-}
+/* Left Header Icons - Friends (broken) */
+//.children-3xh0VB .iconWrapper-2awDjA {
+//		 -webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/cover;
+//		 width: 22px;
+//		 height: 22px;
+//		 background: rgba(var(--AccentColor), 1);
+//}
 /* Left Header Icons - Library*/
 .libraryHeader-2loraV .children-3xh0VB .iconWrapper-2awDjA {
 		 -webkit-mask: url("https://i.imgur.com/faSUfHB.png") center/cover;
@@ -315,6 +315,6 @@
 }
 
 /* Server name */
-.headerContent-2SNbie {
+.name-3Uvkvr {
     color: rgba(var(--AccentColor), 1);
 }
