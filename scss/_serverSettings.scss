@@ -42,16 +42,6 @@
 		-webkit-mask: url("https://i.imgur.com/ZjZ0zvH.png");
 		-webkit-mask-size: 22px !important;
 }
-/* Moderation */
-.side-2ur1Qk .item-3XjbnG[aria-controls="moderation-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/d9SOIPO.png");
-		-webkit-mask-size: 22px !important;
-}
-/* Audit Log */
-.side-2ur1Qk .item-3XjbnG[aria-controls="audit_log-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/MYZnohc.png");
-		-webkit-mask-size: 22px !important;
-}
 /* Integrations */
 .side-2ur1Qk .item-3XjbnG[aria-controls="integrations-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/5AZqlJo.png");
@@ -67,10 +57,37 @@
 		-webkit-mask: url("https://i.imgur.com/rPuN0Ep.png");
 		-webkit-mask-size: 22px !important;
 }
-/* Server Template */
+/* Custom Invite Link */
 .side-2ur1Qk .item-3XjbnG[aria-controls="vanity_url-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/GTLwUuW.png");
 		-webkit-mask-size: 22px !important;
+}
+
+/* Moderation */
+/* Rules Screening */
+.side-2ur1Qk .item-3XjbnG[aria-controls="member_verification-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/CCWM2Rc.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Safety Setup */
+.side-2ur1Qk .item-3XjbnG[aria-controls="moderation-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/d9SOIPO.png");
+		-webkit-mask-size: 22px !important;
+}
+/* AutoMod */
+.side-2ur1Qk .item-3XjbnG[aria-controls="guild_automod-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/Qbj96yk.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Audit Log */
+.side-2ur1Qk .item-3XjbnG[aria-controls="audit_log-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/MYZnohc.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Bans */
+.side-2ur1Qk .item-3XjbnG[aria-controls="bans-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/hcQYiIs.png");
+		-webkit-mask-size: 20px !important;
 }
 
 /* Community*/
@@ -92,11 +109,6 @@
 /* Discovery */
 .side-2ur1Qk .item-3XjbnG[aria-controls="discovery-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/wpTpSDQ.png");
-		-webkit-mask-size: 22px !important;
-}
-/* Membership Screening */
-.side-2ur1Qk .item-3XjbnG[aria-controls="member_verification-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/CCWM2Rc.png");
 		-webkit-mask-size: 22px !important;
 }
 /* Welcome Screen */
@@ -132,11 +144,7 @@
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png");
 		-webkit-mask-size: 22px !important;
 }
-/* Bans */
-.side-2ur1Qk .item-3XjbnG[aria-controls="bans-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/hcQYiIs.png");
-		-webkit-mask-size: 20px !important;
-}
+
 
 /* Delete Server */
 .side-2ur1Qk .item-3XjbnG[aria-controls="delete-tab"]:before {
