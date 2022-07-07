@@ -38,3 +38,9 @@
 .chatContent-3KubbW {
 		padding-right: 350px;
 }
+
+/* Status text - Bold */
+.activityText-1rR-8O strong {
+		color: rgba(var(--AccentColor), 1) !important;
+		font-weight: 700;
+}
