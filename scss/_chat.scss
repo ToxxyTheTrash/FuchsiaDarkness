@@ -51,13 +51,13 @@
 		margin-right: 7px;
 		width: 30px;
 		height: 30px;
-		//clip-path: polygon(50% 35%, 35% 20%, 15% 30%, 15% 50%, 50% 85%, 85% 50%, 85% 30%, 65% 20%);//
+		/* clip-path: polygon(50% 35%, 35% 20%, 15% 30%, 15% 50%, 50% 85%, 85% 50%, 85% 30%, 65% 20%); */
 }
 #app-mount .attachButtonInner-2mwer8 svg {
-	-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
-	-webkit-mask-size: 28px !important;
-	color: rgba(var(--AccentColor), 1);
-	background: rgba(var(--AccentColor), 1);
+		-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
+		-webkit-mask-size: 28px !important;
+		color: rgba(var(--AccentColor), 1);
+		background: rgba(var(--AccentColor), 1);
 }
 .attachButton-_ACFSu {
     height: 35px;
@@ -669,7 +669,7 @@
 }
 .item-1OdjEX[id*="message-actions-copy-id"] svg,
 .item-1OdjEX[id*="message-devmode-copy-id"] svg,
-.item-1OdjEX[id*="channel-context-devmode-copy-id"] svg, {
+.item-1OdjEX[id*="channel-context-devmode-copy-id"] svg {
 		-webkit-mask: url("https://i.imgur.com/S8lCQJg.png") center/cover;
 		width: 20px;
 		height: 20px;
@@ -766,7 +766,8 @@
 }
 /* Emote Popout */
 .emojiSection-3QtaWO {
-		padding: 10px;
+		padding: 5px  5px 10px;
+		background: rgba(var(--SecondaryBG));
 }
 .popoutContainer-2wbmiM {
 		width: 350px;
