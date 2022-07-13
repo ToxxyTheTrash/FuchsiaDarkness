@@ -64,7 +64,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 .modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,  {
+.modeUnread-3Cxepe:hover .name-28HaxV  {
 		color: rgba(var(--AccentColor), 1);
 }
 
@@ -200,11 +200,11 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 /* Status Picker */
 .menu-1QACrS[id*="status-picker"] {
-		padding: 0px 0px;
+		padding: 0;
 		min-width: 300px;
 		width:  300px;
-		top: 0px;
-		right: -40px;
+		top: 5px;
+		right: 0;
 }
 [style*="position: fixed; bottom: 108.5px; left: 5px;"].layer-2aCOJ3 {
 		left: -40px !important;
@@ -233,6 +233,16 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
+}
+
+.switchAccountsIcon-36imMT {
+		-webkit-mask: url("https://i.imgur.com/pIhRo0u.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.statusItemNoPadding-3ExFcy {
+    padding: 5px;
 }
 
 /* Voice Channel Icons */
