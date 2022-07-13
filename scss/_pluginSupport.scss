@@ -1,4 +1,8 @@
 /* MLV2 */
+.MLv2-tab-bar {
+    height: 50px;
+    width: 930px;
+}
 #sent.ml2-tab {
 	display: flex !important;
 }
@@ -28,15 +32,17 @@
 	background: rgba(var(--AccentColor), 1);
 }
 
-.MLv2-menu-root .wrapper-1HSdhi {
+.MLv2-tab-bar-container {
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1) !important;
+		padding: 0 !important;
 }
-#app-mount .MLv2-input-input {
+#app-mount .MLv2-input {
     font-size: 16px;
     color: var(--text-normal);
     background: rgba(var(--SecondaryBG));
     border: none;
     height: 35px;
+		width: 930px;
 }
 #app-mount .ml2-tab-selected,
 #app-mount .ml2-tab {
@@ -52,14 +58,13 @@
 #app-mount .MLv2-question-mark {
 		 width: 30px;
 		 height: 30px;
-		 margin-right: 5px;
 		 background: rgba(var(--AccentColor), 1);
 }
 #app-mount .MLv2-tab-bar-item {
     margin-right: 0;
     border: none;
     cursor: crosshair;
-    font-size: 15px;
+    font-size: 0px;
 }
 .tabBarItem-1b8RUP{
 		 border-bottom: 2px dashed;
