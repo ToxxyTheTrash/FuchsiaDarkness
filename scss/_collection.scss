@@ -158,3 +158,43 @@ circle {
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--PrimaryBG));
 }
+
+/* Reload Screen */
+.theme-dark .image-35kDIs {
+	background: none;
+}
+.theme-dark .wrapper-3AZUiP {
+	background-image: url("https://i.imgur.com/FK87k4M.png");
+}
+.title-NjUt5y {
+	font-size: 0;
+	line-height: 0;
+	margin-bottom: 10px;
+	color: rgba(var(--AccentColor), 1);
+}
+.title-NjUt5y::before {
+	font-size: 25px;
+	content: "whoops.";
+	font-weight: 800;
+}
+
+.note-Ph806N {
+	font-size: 0;
+	color: rgba(var(--AccentColor), 1);
+}
+.note-Ph806N::before {
+	font-size: 20px;
+	content: "seems that a plugin has nuked your discord activity. here's a c7.r for now!";
+	font-weight: 700;
+}
+.errorPage-2pZ2Kq .flex-2S1XBF .buttons-228G5H .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+	background: rgba(var(--SecondaryBG), .5);
+}
+.errorPage-2pZ2Kq .flex-2S1XBF .buttons-228G5H .contents-3ca1mk {
+	font-size: 0px;
+}
+.errorPage-2pZ2Kq .flex-2S1XBF .buttons-228G5H .contents-3ca1mk::before {
+	font-size: 14px;
+	line-height: 25px;
+	content: "feel free to try again, though it'd be recommended to restart discord instead";
+}
