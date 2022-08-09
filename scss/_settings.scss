@@ -152,11 +152,11 @@
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="authorized-apps-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/ppkSB1y.png");
 		-webkit-mask-size: 24px !important;
-}
+} 
 /* Sessions */
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="sessions-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/Ox9aka7.png");
-		-webkit-mask-size: 24px !important;
+		-webkit-mask-size: 22px !important;
 }
 /* Connections */
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]:before {
@@ -165,8 +165,8 @@
 }
 /* Friend Requests (why tho) */
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="friend-requests-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/M636uZa.png");
-		-webkit-mask-size: 24px !important;
+		-webkit-mask: url("https://i.imgur.com/vdEtrlV.png");
+		-webkit-mask-size: 22px !important;
 }
 
 /* Discord Nitro */
@@ -288,6 +288,11 @@
 		-webkit-mask-size: 22px !important;
 }
 
+/* Activity Privacy */
+[aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="activity-privacy-tab"]:before {
+		-webkit-mask: url("https://i.imgur.com/zuiKdp1.png");
+		-webkit-mask-size: 22px !important;
+}
 /* Registered Games */
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[aria-controls="game-activity-tab"]:before {
 		-webkit-mask: url("https://i.imgur.com/iAB8BmS.png");
