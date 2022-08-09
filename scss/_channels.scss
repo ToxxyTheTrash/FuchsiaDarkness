@@ -16,6 +16,15 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		height: 25px;
 		color: rgba(var(--AccentColor), 1);
 }
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+		flex-grow: 2;
+}
+.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {
+	background-color: rgba(var(--PrimaryBG));
+}
+.nameTag-sc-gpq.canCopy-IgTwyV {
+	cursor: crosshair;
+}
 
 /* Channel Header */
 .header-3OsQeK {
