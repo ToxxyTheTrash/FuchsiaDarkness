@@ -41,3 +41,38 @@
 #emoji-picker-tab-panel foreignObject {
 		mask: none !important;
 }
+
+
+/* Discover Page */
+#app-mount .pageWrapper-2PwDoS {
+	background: rgba(var(--PrimaryBG));
+	color: rgba(var(--AccentColor), 1);
+}
+.headerImage-2D5D-v {
+	display: none;
+}
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+	font-size: 15px;
+	padding: 10px;
+	color: rgba(var(--AccentColor), 1);
+}
+.searchBox-pyIJJj .searchBoxInput-P0mWHW {
+	font-size: 15px;
+	padding: 10px;
+	background: rgba(var(--SecondaryBG));
+}
+.search-25t1e9 .searchBox-31Zv9h {
+	background: rgba(var(--SecondaryBG));
+}
+.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
+		display: none;
+}
+.theme-dark .searchBox-pyIJJj {
+	background-color: rgba(var(--SecondaryBG));
+	box-shadow: none;
+}
+
+/* Server Boost Fullscreen */
+.theme-dark .perksModal-CLcR1c {
+	background: transparent;
+}
