@@ -8,19 +8,19 @@
 		flex: auto;
 		cursor: crosshair;
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="user_info-tab"] {
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="USER_INFO"] {
 		 -webkit-mask: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
 		 background: rgba(var(--AccentColor), 1);
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="mutual_guilds-tab"] {
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="MUTUAL_GUILDS"] {
 		 -webkit-mask: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
 		 background: rgba(var(--AccentColor), 1);
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="mutual_friends-tab"] {
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="MUTUAL_FRIENDS"] {
 		 -webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/25px no-repeat !important;
 		 background: rgba(var(--AccentColor), 1);
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[aria-controls="activity-tab"] {
+.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="ACTIVITY"] {
 		-webkit-mask: url("https://i.imgur.com/iAB8BmS.png") center/25px no-repeat !important;
 		background: rgba(var(--AccentColor), 1);
 }
@@ -76,23 +76,27 @@
 .userInfoSection-2u2hir+.userInfoSection-2u2hir {
 		border-top: 2px solid rgba(var(--AccentColor), 1);
 }
-.connectedAccount-1xKpli {
-		margin-top: 20px;
-		padding: 5px;
-		width: 225px;
-		height: 25px;
-		border: none;
+
+.connectedAccountsColumn-2LgTkZ+.connectedAccountsColumn-2LgTkZ {
+	margin-left: 10px;
 }
-.connectedAccountNameInner-t24B11 svg {
+.connectedAccountContainer-SlCC-S {
+	margin-top: 10px;
+	padding: 10px;
+	width: 330px;
+	background: rgba(var(--SecondaryBG));
+}
+.connectedAccountVerifiedIcon-Kw2Frj svg {
 		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
 		outline: 100px solid rgba(var(--AccentColor), 1);
 		outline-offset: -500px;
 }
-.connectedAccountOpenIcon-1yfBsb {
+.connectedAccountOpenIcon-QgWKH8 {
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
+
 
 .profileBanner-1owKI5 {
 		width: 750px;
