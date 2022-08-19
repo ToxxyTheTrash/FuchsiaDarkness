@@ -237,18 +237,25 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt[id*="status-picker"] {
   padding: 0;
 }
-.clearStatusIcon-9SeHGZ {
+.hintContainer-2UwhLP svg {
 		-webkit-mask: url("https://i.imgur.com/j4viHnK.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 
-.switchAccountsIcon-36imMT {
+.caret-2MOQD6, .image-21g2ca {
+	height: 22px;
+}
+
+.item-1OdjEX[id="account-switch-account"] .iconContainerLeft-2NHJgN svg {
 		-webkit-mask: url("https://i.imgur.com/pIhRo0u.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
+}
+.activeIcon-1ykRnF {
+	display: none;
 }
 .statusItemNoPadding-3ExFcy {
     padding: 5px;
