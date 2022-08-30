@@ -202,3 +202,38 @@
 .profileBody-3QbfPe {
 	padding: 0 10px;
 }
+
+/* New User popout */
+.userPopoutInnerNonPremium-3zrFkp, .userPopoutInnerWithBanner-wsoegj {
+	background: rgba(var(--PrimaryBG));
+}
+.avatar-2OC07D {
+	height: 150px !important;
+	width: 150px !important;
+	image-rendering: pixelated;
+}
+.overlayBackground-arbZMT {
+	margin: 80px 10px 10px;
+}
+.popoutBanner-16rVDY {
+	height: 75px;
+}
+.popoutBannerPremium-2RvDNZ {
+	height: 135px;
+}
+.betaTag-2bWvGF {
+		display: none;
+}
+.avatarHint-2g3Mcd {
+	display: none;
+}
+.divider-1tWBgZ {
+	display: none;
+}
+.messageInputContainer-2rGDH8 {
+	display: none;
+}
+.roleName-2ZJJYR {
+	font-weight: 500;
+	color: rgba(var(--AccentColor), 1);;
+}
