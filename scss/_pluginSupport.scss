@@ -111,9 +111,12 @@
 }
 
 /* BetterImageViewer */
-.BIV-zoom-lens {
+#app-mount .BIV-zoom-lens {
 		cursor: crosshair;
 		border: dashed 5px rgba(var(--AccentColor), 1);
+}
+.BIV-info-extra {
+	right: 150px;
 }
 
 /* PronounDB */
