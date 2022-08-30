@@ -153,10 +153,10 @@
 		-webkit-mask: url("https://i.imgur.com/ppkSB1y.png");
 		-webkit-mask-size: 24px !important;
 } 
-/* Sessions */
-[aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[data-item-id="sessions-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/Ox9aka7.png");
-		-webkit-mask-size: 22px !important;
+/* Devices */
+[aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[data-item-id="Sessions"]:before {
+		-webkit-mask: url("https://i.imgur.com/FAvNcWS.png");
+		-webkit-mask-size: 20px !important;
 }
 /* Connections */
 [aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[data-item-id="Passport"]:before {
@@ -738,11 +738,12 @@
     margin-top: 10px;
 }
 
-/* "User Profile" Page */
+/* "Profiles" Page */
 .avatarUploaderInner-p38nm2 {
     width: 150px;
     height: 150px;
     border: 5px solid rgba(var(--SecondaryBG));
+		image-rendering: pixelated;
 }
 .popoutInfo-16MuYF {
     padding: 10px;
@@ -799,8 +800,13 @@
     padding-bottom: 5px;
     border: none;
 }
-.divider-ogkn3u {
-    display: none;
+.divider-1bpIoX, .tabBar-11FwuO {
+    border: none;
+}
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:active,
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover,
+.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {
+	border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 
 /* "Privacy & Safety" Page */
