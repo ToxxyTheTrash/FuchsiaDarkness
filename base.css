@@ -607,10 +607,10 @@ circle {
 	-webkit-mask-size: 24px !important;
 }
 
-/* Sessions */
-[aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[data-item-id=sessions-tab]:before {
-	-webkit-mask: url("https://i.imgur.com/Ox9aka7.png");
-	-webkit-mask-size: 22px !important;
+/* Devices */
+[aria-label="User Settings"].side-2ur1Qk .item-3XjbnG[data-item-id=Sessions]:before {
+	-webkit-mask: url("https://i.imgur.com/FAvNcWS.png");
+	-webkit-mask-size: 20px !important;
 }
 
 /* Connections */
@@ -1298,11 +1298,16 @@ circle {
 	margin-top: 10px;
 }
 
-/* "User Profile" Page */
+/* "Profiles" Page */
 .avatarUploaderInner-p38nm2 {
 	width: 150px;
 	height: 150px;
 	border: 5px solid rgba(var(--SecondaryBG));
+	-ms-interpolation-mode: nearest-neighbor;
+			image-rendering: -webkit-optimize-contrast;
+			image-rendering: -moz-crisp-edges;
+			image-rendering: -o-pixelated;
+			image-rendering: pixelated;
 }
 
 .popoutInfo-16MuYF {
@@ -1373,8 +1378,14 @@ circle {
 	border: none;
 }
 
-.divider-ogkn3u {
-	display: none;
+.divider-1bpIoX, .tabBar-11FwuO {
+	border: none;
+}
+
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:active,
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover,
+.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {
+	border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 
 /* "Privacy & Safety" Page */
@@ -5408,7 +5419,7 @@ div[style="height: 16px;"] {
 	vertical-align: baseline;
 }
 
-/* Status area Porifle Popup */
+/* Status area Profile Popup */
 .menu-2-eHMB {
 	bottom: -9px !important;
 }
@@ -5419,6 +5430,54 @@ div[style="height: 16px;"] {
 
 .profileBody-3QbfPe {
 	padding: 0 10px;
+}
+
+/* New User popout */
+.userPopoutInnerNonPremium-3zrFkp, .userPopoutInnerWithBanner-wsoegj {
+	background: rgba(var(--PrimaryBG));
+}
+
+.avatar-2OC07D {
+	height: 150px !important;
+	width: 150px !important;
+	-ms-interpolation-mode: nearest-neighbor;
+			image-rendering: -webkit-optimize-contrast;
+			image-rendering: -moz-crisp-edges;
+			image-rendering: -o-pixelated;
+			image-rendering: pixelated;
+}
+
+.overlayBackground-arbZMT {
+	margin: 80px 10px 10px;
+}
+
+.popoutBanner-16rVDY {
+	height: 75px;
+}
+
+.popoutBannerPremium-2RvDNZ {
+	height: 135px;
+}
+
+.betaTag-2bWvGF {
+	display: none;
+}
+
+.avatarHint-2g3Mcd {
+	display: none;
+}
+
+.divider-1tWBgZ {
+	display: none;
+}
+
+.messageInputContainer-2rGDH8 {
+	display: none;
+}
+
+.roleName-2ZJJYR {
+	font-weight: 500;
+	color: rgba(var(--AccentColor), 1);
 }
 
 /* -=-= Search UI =-=- */
@@ -5686,9 +5745,13 @@ div[style="height: 16px;"] {
 }
 
 /* BetterImageViewer */
-.BIV-zoom-lens {
+#app-mount .BIV-zoom-lens {
 	cursor: crosshair;
 	border: dashed 5px rgba(var(--AccentColor), 1);
+}
+
+.BIV-info-extra {
+	right: 150px;
 }
 
 /* PronounDB */
