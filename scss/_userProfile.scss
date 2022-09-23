@@ -77,21 +77,25 @@
 		border-top: 2px solid rgba(var(--AccentColor), 1);
 }
 
-.connectedAccountsColumn-2LgTkZ+.connectedAccountsColumn-2LgTkZ {
+/* Connections */
+.connectedAccountsColumn-1zdyyx+.connectedAccountsColumn-1zdyyx {
 	margin-left: 10px;
 }
-.connectedAccountContainer-SlCC-S {
+.connectedAccountsColumn-1zdyyx {
+	margin-left: 4px;
+}
+.connectedAccountContainer-3aLMHJ {
 	margin-top: 10px;
 	padding: 10px;
 	width: 330px;
 	background: rgba(var(--SecondaryBG));
 }
-.connectedAccountVerifiedIcon-Kw2Frj svg {
+.connectedAccountVerifiedIcon-3EPFPC svg {
 		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
 		outline: 100px solid rgba(var(--AccentColor), 1);
 		outline-offset: -500px;
 }
-.connectedAccountOpenIcon-QgWKH8 {
+.connectedAccountOpenIcon-3i81Tz {
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
