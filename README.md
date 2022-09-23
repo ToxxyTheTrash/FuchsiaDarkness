@@ -4,10 +4,9 @@ The purpose of the theme is to make discord more compact, customizable and debra
 The theme can and will contain bugs.  
 
 ## Theme support  
-- **It's made to work with BetterDiscord specifically; you can freely "port" the theme locally for PowerCord**  
 - **The theme is not recommended for small resolutions or 4:3 aspect ratio displays, as it *will* break elements.**  
-- **The theme supports Windows and is tested on Discord PTB and the latest version of [redacted client].**  
-- **Don't use markdown mode (just yet). It'll break the chat box; disable it in `User Settings > Text & Images > Text Box`**  
+- **The theme mainly supports Windows and is regulary used on Discord PTB.**  
+- **Disable "Preview emojis, mentions, and markdown syntax as you type" in `User Settings > Text & Images > Text Box` and enable "Use the legacy chat input" in `User Settings > Accessibility > Chat Input`. Having these not set properly will break the chat box.**  
 
 ## Installation
 
