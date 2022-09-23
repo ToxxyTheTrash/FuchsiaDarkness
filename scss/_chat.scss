@@ -66,26 +66,35 @@
 .attachButtonPlay-1ATmb5 {
     display: none;
 }
-/* Upload a File */
-.item-1OdjEX[id="channel-attach-upload-file"] .optionIcon-1Ft8w0 {
-	-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
+
+/* Upload options */
+.menu-1dOGCq {
+	bottom: 1px;
+}
+.item-1OdjEX .optionIcon-1Ft8w0 {
 	-webkit-mask-size: 24px !important;
 	color: rgba(var(--AccentColor), 1);
 	background: rgba(var(--AccentColor), 1);
 }
+/* Upload a File */
+.item-1OdjEX[id="channel-attach-upload-file"] .optionIcon-1Ft8w0 {
+	-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
+}
+/* Upload your message as a file */
+.item-1OdjEX[id="channel-attach-upload-text-as-file"] .optionIcon-1Ft8w0 {
+	-webkit-mask: url("https://i.imgur.com/4mbKzmy.png");
+}
 /* Create Thread */
 .item-1OdjEX[id="channel-attach-THREAD"] .optionIcon-1Ft8w0 {
 	-webkit-mask: url("https://i.imgur.com/5ixlf8e.png");
-	-webkit-mask-size: 22px !important;
-	color: rgba(var(--AccentColor), 1);
-	background: rgba(var(--AccentColor), 1);
+}
+/* Create Thread */
+.item-1OdjEX[id="channel-attach-SLASH_COMMAND"] .optionIcon-1Ft8w0 {
+	-webkit-mask: url("https://i.imgur.com/mY9Z1pB.png");
 }
 /* Listen to Spotify */
 .item-1OdjEX[id="channel-attach-listen"] .optionIcon-1Ft8w0 {
 	-webkit-mask: url("https://i.imgur.com/rvSGmst.png");
-	-webkit-mask-size: 22px !important;
-	color: rgba(var(--AccentColor), 1);
-	background: rgba(var(--AccentColor), 1);
 }
 
 /* Chatbox icons - Emotes */
@@ -921,4 +930,13 @@
 }
 .applicationCommandEducationArrow-2xKDmq {
 		display: none;
+}
+
+/* Home - Highlights */
+.homeContainer-r4Hvv1 {
+	padding: 25px 15px;
+	gap: 25px;
+}
+#app-mount .background-fkKrXt {
+	background-color: rgba(var(--PrimaryBG));
 }
