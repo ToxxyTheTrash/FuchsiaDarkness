@@ -1,12 +1,21 @@
 /* -=-= User Popouts =-=- */
 /* Avatar */
-.avatar-2Vndt_ {
+.avatarHoverTarget-l77PhT .wrapper-1VLyxH svg {
 		width: 150px !important;
 		height: 150px !important;
 		image-rendering: pixelated;
 }
-.avatarPositionNormal-2jWoC2 {
+.avatarPositionNormal-V4Mjtq {
 		top: 15px;
+		margin-left: -5px;
+}
+.avatarHint-2g3Mcd {
+	display: none;
+}
+.profileBadges-31rDHI {
+	top: 10px;
+	right: 10px;
+	background: transparent
 }
 
 /* Banner */
@@ -16,7 +25,7 @@
 .popoutBannerPremium-3i5EEI {
 		width: 320px;
 }
-.pencilIcon-z04-c5 {
+.pencilIcon-1MUmnO {
 		-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover;
 		width: 20px;
 		height: 20px;
@@ -44,8 +53,11 @@
 }
 
 /* About Me */
-.divider-1wtgZ3 {
-		display: none;
+.divider-1tWBgZ {
+	margin: 10px 0 0;
+	height: 0;
+	border-top: 2px dashed #e91e63;
+	background-color: transparent;
 }
 .aboutMeSection-PUghFQ {
 		margin-bottom: 10px;
@@ -65,39 +77,42 @@
 }
 
 /* Custom Status */
-.customStatus-3XAoF9 {
-		margin-bottom: 10px;
+.customStatus-3Bvsdb {
 		font-size: 15px;
 		line-height: 20px;
 		color: rgba(var(--AccentColor), 1);
-		padding: 0 5px;
 }
 
 /* Media Playback/Activity */
-#app-mount .newPopoutActivityStyles .activityName-3YXl6e,
-#app-mount .newPopoutActivityStyles .content-tXPNDw,
-#app-mount .newPopoutActivityStyles .details-2-ciHo,
-#app-mount .newPopoutActivityStyles .name-1-Q7l2,
-#app-mount .newPopoutActivityStyles .nameNormal-2fPMD2,
-#app-mount .newPopoutActivityStyles .nameWrap-3TyM52,
-#app-mount .newProfileActivityStyles .activityName-3YXl6e,
-#app-mount .newProfileActivityStyles .content-tXPNDw,
-#app-mount .newProfileActivityStyles .details-2-ciHo,
-#app-mount .newProfileActivityStyles .name-1-Q7l2,
-#app-mount .newProfileActivityStyles .nameNormal-2fPMD2,
-#app-mount .newProfileActivityStyles .nameWrap-3TyM52e {
+#app-mount .activityProfile-1712BN .activityName-3YXl6e,
+#app-mount .activityProfile-1712BN .content-tXPNDw,
+#app-mount .activityProfile-1712BN .details-2-ciHo,
+#app-mount .activityProfile-1712BN .name-1-Q7l2,
+#app-mount .activityProfile-1712BN .nameNormal-2fPMD2,
+#app-mount .activityProfile-1712BN .nameWrap-3TyM52,
+#app-mount .activityUserPopout-2MzGCj .activityName-3YXl6e,
+#app-mount .activityUserPopout-2MzGCj .content-tXPNDw,
+#app-mount .activityUserPopout-2MzGCj .details-2-ciHo,
+#app-mount .activityUserPopout-2MzGCj .name-1-Q7l2,
+#app-mount .activityUserPopout-2MzGCj .nameNormal-2fPMD2,
+#app-mount .activityUserPopout-2MzGCj .nameWrap-3TyM52,
+#app-mount .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
+#app-mount .activityUserPopoutV2-3eKqzY .content-tXPNDw,
+#app-mount .activityUserPopoutV2-3eKqzY .details-2-ciHo,
+#app-mount .activityUserPopoutV2-3eKqzY .name-1-Q7l2,
+#app-mount .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
+#app-mount .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52 {
 		color: rgba(var(--AccentColor), 1);
 }
-#app-mount .newPopoutActivityStyles .headerText-3g1XK9,
-#app-mount .newProfileActivityStyles .headerText-3g1XK9 {
+#app-mount .headerText-3g1XK9 {
 		color: rgba(var(--AccentColor), 1);
 }
 .text-31kWmP {
 		font-weight: 600;
-		color: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1) !important;
 }
 .barInner-3dHef4 {
-		background-color: rgba(var(--AccentColor), 1);
+		background-color: rgba(var(--AccentColor), 1) !important;
 		min-width: 5px;
 }
 .bar-1GpknY {
@@ -105,16 +120,10 @@
 		height: 5px;
 		margin-bottom: 5px;
 }
-#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B {
-		color: rgba(var(--AccentColor), 1);
-		background-color: rgba(var(--PrimaryBG));
-		border: 2px dashed rgba(var(--AccentColor), 1);
-}
-#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-		background-color: rgba(var(--SecondaryBG));
-}
-#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:disabled {
-		background-color: rgba(var(--PrimaryBG));
+
+.buttonColor-XIRMbp {
+	background-color: rgba(var(--SecondaryBG));
+	color: rgba(var(--AccentColor), 1);
 }
 
 .listenAlongIcon-aXq1MH {
@@ -133,7 +142,7 @@
 		height: 20px;
 		margin: 0 3px 3px 0;
 		padding: 0;
-		border: 1px solid;
+		border: 1px solid rgba(var(--AccentColor), 1);
 }
 .actionButton-1YKTU0 {
 		color: #555;
@@ -162,6 +171,9 @@
 .note-Go5ZP2 {
 		margin-left: 0;
 		margin-right: 0;
+}
+.messageInputContainer-2rGDH8 {
+	display: none;
 }
 
 /* Bots */
@@ -192,28 +204,10 @@
 		vertical-align: baseline;
 }
 
-/* Status area Profile Popup */
-.menu-2-eHMB {
-	bottom: -9px !important;
-}
-.item-1OdjEX.hideInteraction-2jPGL_ {
-	bottom: 4px;
-}
-.profileBody-3QbfPe {
-	padding: 0 10px;
-}
-
 /* New User popout */
-.userPopoutInnerNonPremium-3zrFkp, .userPopoutInnerWithBanner-wsoegj {
-	background: rgba(var(--PrimaryBG));
-}
-.avatar-2OC07D {
-	height: 150px !important;
-	width: 150px !important;
-	image-rendering: pixelated;
-}
-.overlayBackground-arbZMT {
-	margin: 80px 10px 10px;
+.userPopoutInnerNonPremium-1EOFgI,
+.userPopoutInnerWithBanner-wsoegj {
+	background: rgba(var(--SecondaryBG));
 }
 .popoutBanner-16rVDY {
 	height: 75px;
@@ -221,19 +215,19 @@
 .popoutBannerPremium-2RvDNZ {
 	height: 135px;
 }
-.betaTag-2bWvGF {
-		display: none;
-}
-.avatarHint-2g3Mcd {
-	display: none;
-}
-.divider-1tWBgZ {
-	display: none;
-}
-.messageInputContainer-2rGDH8 {
-	display: none;
-}
 .roleName-2ZJJYR {
 	font-weight: 500;
 	color: rgba(var(--AccentColor), 1);;
+}
+
+.section-3FmfOT {
+	padding: 5px 15px 0px;
+}
+
+.overlayBackground-2Zjm9f {
+	margin: 55px 0px 0px;
+	background-color: rgba(var(--SecondaryBG));
+}
+.overlayBackground-2Zjm9f .scroller-1jBQYo {
+	background: rgba(var(--PrimaryBG));
 }
