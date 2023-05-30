@@ -1,0 +1,106 @@
+/* -=-= Search UI =-=- */
+
+/* Search Popout */
+.search-39IXmY {
+		margin: 0 0;
+}
+.searchBar-jGtisZ {
+		height: 25px;
+		width: 35px;
+		padding: 0 5px;
+		color: rgba(var(--AccentColor), 1);
+		background-color: rgba(var(--TertiaryBG), 1);
+}
+.focused-1xh-wG .searchBar-jGtisZ, .open-1F8u2c .searchBar-jGtisZ {
+		width: 320px;
+}
+.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root {
+		color: rgba(var(--AccentColor), 0.75);
+		padding-left: 0;
+}
+.iconLayout-SqV3nb[aria-hidden*="true"] {
+		-webkit-mask: url("https://i.imgur.com/IhEjlHK.png") center/cover;
+		width: 25px;
+		height: 25px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconLayout-SqV3nb[aria-hidden*="false"] {
+		-webkit-mask: url("https://i.imgur.com/dtAqBih.png") center/cover;
+		margin-top: 2px;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+#app-mount .container-2McqkF {
+		background-color: rgba(var(--PrimaryBG));
+}
+.theme-dark .resultsGroup-cfY57t .header-3A13BX,
+.theme-dark .resultsGroup-cfY57t .plusIcon-1RVszG,
+.theme-dark .resultsGroup-cfY57t .searchClearHistory-2Be-92 {
+		color: rgba(var(--AccentColor), 1);
+}
+.option-ayUoaq {
+		font-size: 15px;
+		margin: 0 10px;
+		padding: 0 10px;
+		height: 25px;
+		cursor: crosshair;
+}
+.option-ayUoaq:after {
+		display: none;
+}
+.resultsGroup-cfY57t .searchLearnMore-7__o_n {
+		display: none;
+}
+.theme-dark .focused-2FU0YH {
+		background-color: rgba(var(--PrimaryBG));
+		margin-top: 2px;
+		border-top: 2px dashed rgba(var(--AccentColor), 1);
+}
+.queryContainer-ZunrLZ {
+    padding: 5px 15px;
+    border: none;
+}
+.theme-dark .elevationBorderHigh-3drnJX {
+		box-shadow: none;
+}
+.theme-dark .searchOption-3u1gRt .filter-2QaH9y, .theme-dark .option-ayUoaq.user-23VtPS .displayedNick-2dDbfG {
+		color: rgba(var(--AccentColor), 1);
+}
+.theme-dark .option-ayUoaq.user-23VtPS .displayUsername-14aOpK {
+		color: rgba(var(--AccentColor), 0.5);
+}
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
+		background-color: rgba(var(--SecondaryBG));
+}
+.searchFilter-2UfsDk {
+		color: rgba(var(--AccentColor), 1);
+}
+.searchAnswer-23w-CH {
+		color: rgba(var(--AccentColor), 0.75);
+}
+
+#app-mount .container-2McqkF {
+		background-color: rgba(var(--PrimaryBG));
+		margin-top: 2px;
+		margin-right: 25px;
+		border-top: 2px dashed rgba(var(--AccentColor), 1);
+}
+.resultsGroup-cfY57t {
+		padding-top: 5px;
+		padding-bottom: 0;
+		margin-top: 0;
+}
+.theme-dark .resultsGroup-cfY57t:before {
+		border: none;
+}
+
+/* Fix for Chat */
+.searchResultsWrap-5RVOkx {
+    width: 450px;
+    position: absolute;
+		display: flex;
+		right: 0;
+		max-height: calc(100% - 50px);
+    background-color: rgba(var(--PrimaryBG));
+}

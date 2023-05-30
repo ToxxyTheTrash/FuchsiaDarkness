@@ -1,0 +1,197 @@
+/* -=-= Collection of various miscellaneous codeblocks =-=- */
+/* Rainbow Animation */
+@keyframes rainbow {
+from {
+		-webkit-filter: hue-rotate(0deg);
+}
+to {
+		-webkit-filter: hue-rotate(360deg);
+}
+}
+
+@keyframes fading {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+/* Forced Sharp Corners */
+* {
+		border-radius: 0 !important;
+		font-family: var(--Font) !important;
+}
+*:before, *:after {
+		border-radius: 0 !important;
+		font-family: var(--Font) !important;
+}
+/* "foreignObject" Killer */
+foreignObject {
+		mask: none !important;
+}
+
+/* "display: none;" spam collection */
+.wordmark-2u86JB,
+.avatarHint-k7pYop,
+.unread-2wipsx {
+		display: none;
+}
+
+/* Transition Killer */
+#app-mount .layer-86YKbF {
+		transform: none !important;
+		transition: none !important;
+		animation: none !important;
+		top: 0 !important;
+		padding-top: 0 !important;
+}
+
+/* Font Forcing */
+::-webkit-input-placeholder, body, button, input, select, textarea {
+		font-family: var(--Font, "Montserrat");
+		-webkit-mask: none !important;
+		mask: none !important;
+}
+
+/* Selection */
+::selection {
+		background: rgba(var(--AccentColor), 1);
+}
+
+/* Light theme warning */
+html.theme-light #app-mount {
+		height: calc(100vh - 135px);
+		overflow: visible;
+}
+html.theme-light #app-mount:after {
+content: "this theme is NOT made for light theme you fucking pretzel";
+		line-height: 55px;
+		display: block;
+		text-align: center;
+		padding: 40px 0;
+		color: rgba(var(--AccentColor), 1);
+		font-weight: 900;
+		font-size: 50px;
+		white-space: pre-wrap;
+		background: #000;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		transform: translateY(100%);
+		animation: rainbow 0.1s linear infinite;
+}
+
+/* Loading Screen */
+.container-2RRFHK video.ready-3BZNWT {
+		display: none;
+}
+.tip-1AwED_ {
+		color: rgba(var(--AccentColor), 1);
+		font-size: 15px;
+		line-height: 25px;
+		font-weight: 800;
+		text-transform: lowercase;
+		font-style: italic;
+}
+.tipTitle-3FYEQp {
+		display: none;
+}
+
+/* Ping indicators */
+.base-3IDx3L {
+		height: 15px;
+		min-width: 15px;
+		min-height: 15px;
+		font-size: 15px;
+		line-height: 15px;
+		font-weight: 800;
+		color: rgba(var(--PrimaryBG));
+}
+.numberBadge-37OJ3S {
+		background-color: rgba(var(--AccentColor), 1) !important;
+		width: 35px !important;
+}
+
+/* Changelog */
+.improved-2SJXHz {
+		color: rgba(var(--AccentColor), 1);
+		animation: rainbow 3s linear infinite;
+}
+
+/* Scrollbar deletion */
+.thin-31rlnD::-webkit-scrollbar, .thin-31rlnD::-webkit-scrollbar-corner, .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
+		display: none;
+}
+
+circle {
+		r: 10px !important;
+		clip-path: inset(30% 30% 30% 30%) !important;
+}
+
+/* PROTIP Removal */
+.block-3Xiiq7 .pro-3GwLMX, .block-3Xiiq7 .tip-Jl__cG, .tip-Jl__cG {
+		display: none;
+}
+
+/* Tooltips */
+#app-mount .tooltipPrimary-3qLMbS {
+		background-color: rgba(var(--PrimaryBG));
+		color: rgba(var(--AccentColor), 1);
+		font-weight: 700;
+		border: 2px dashed rgba(var(--AccentColor), 0.25);
+}
+.guildNameText-jBFbNC {
+		color: rgba(var(--AccentColor), 1);
+}
+#app-mount .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
+		border-top-color: rgba(var(--AccentColor), 1);
+		margin: 0;
+		padding: 0;
+}
+.tooltipContent-Nejnvh {
+		padding: 5px 10px;
+}
+
+/* Bot Tag */
+.botTag-2mryIa, .botTag-1NoD0B, .headerBotTagWithNickname-3DNCuU, .headerBotTag-1xw5Ck {
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--PrimaryBG));
+}
+
+/* Reload Screen */
+.theme-dark .image-35kDIs {
+	background: none;
+}
+.theme-dark .wrapper-3AZUiP {
+	background-image: url("https://i.imgur.com/FK87k4M.png");
+}
+.title-NjUt5y {
+	font-size: 0;
+	line-height: 0;
+	margin-bottom: 10px;
+	color: rgba(var(--AccentColor), 1);
+}
+.title-NjUt5y::before {
+	font-size: 25px;
+	content: "whoops.";
+	font-weight: 800;
+}
+
+.note-Ph806N {
+	font-size: 0;
+	color: rgba(var(--AccentColor), 1);
+}
+.note-Ph806N::before {
+	font-size: 20px;
+	content: "seems that a plugin has nuked your discord activity. here's a c7.r for now!";
+	font-weight: 700;
+}
+.errorPage-2pZ2Kq .flex-2S1XBF .buttons-228G5H .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+	background: rgba(var(--SecondaryBG), .5);
+}
+.errorPage-2pZ2Kq .flex-2S1XBF .buttons-228G5H .contents-3ca1mk {
+	font-size: 0px;
+}
+.errorPage-2pZ2Kq .flex-2S1XBF .buttons-228G5H .contents-3ca1mk::before {
+	font-size: 14px;
+	line-height: 25px;
+	content: "feel free to try again, though it'd be recommended to restart discord instead";
+}

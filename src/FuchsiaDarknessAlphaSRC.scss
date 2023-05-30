@@ -1,0 +1,29 @@
+@use 'meta';
+@use 'root';
+
+@use "collection";
+@use "context";
+@use "titlebar";
+
+@use "settings";
+@use "serverSettings";
+
+@use "chat";
+@use "channels";
+@use "header";
+@use "memberList";
+
+@use "callUI";
+@use "emotes";
+@use "serverList";
+@use "modals";
+@use "directMessages";
+@use "userProfile";
+@use "userPopout";
+@use "searchUI";
+
+@use "pluginSupport";
+@use "BlurpleRecolor";
+@use "HorizontalServerList";
+@use "unsorted";
+
