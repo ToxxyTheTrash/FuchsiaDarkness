@@ -391,3 +391,17 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 div[style="height: 16px;"] {
 	height: 5px !important;
 }
+
+
+/* temp fixes */
+.theme-dark .panel-2ZFCRb {
+    background: rgba(var(--PrimaryBG));
+}
+.container-1zzFcN {
+		padding: 10px;
+		border: none;
+		background: rgba(var(--PrimaryBG));
+}
+.activityPanel-9icbyU {
+    border: none;
+}
