@@ -5,7 +5,7 @@ The theme can and will contain bugs.
 
 ## Theme support  
 - **The theme is not recommended for small resolutions or 4:3 aspect ratio displays, as it *will* break elements.**  
-- **The theme mainly supports Windows and is regulary used on Discord PTB.**  
+- **The theme mainly supports Windows.**  
 - **Disable "Preview emojis, mentions, and markdown syntax as you type" in `User Settings > Text & Images > Text Box` and enable "Use the legacy chat input" in `User Settings > Accessibility > Chat Input`. Having these not set properly will break the chat box.**  
 
 ## Installation
@@ -18,17 +18,18 @@ To download the theme for **BetterDiscord**, follow the next steps:
  - Installation of BetterDiscord: https://bd.zerebos.com/#install  
  - Installation of themes and plugins: https://bd.zerebos.com/#installthemesplugins  
 
-### Recommended theme to have installed alongside: HorizontalServerList
-- HorizontalServerList [by **Gibbu**]: https://github.com/DiscordStyles/HorizontalServerList  
-- An addon for HSL to move it to the bottom [**Recommended**]: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/addons
+To download the theme for **Replugged**, follow the next steps:
+  1. navigate to your Replugged `themes` folder.
+  2. open a terminal of your choice, then run the following command: `git clone https://github.com/ToxxyTheTrash/FuchsiaDarkness`
 
 ## Sources used in the theme!  
 **Note: I do NOT own or claim any part of the code used from SimplyDark, RadialStatus or BlurpleRecolor being mine!**  
 
-Thanks to **Gibbu** for letting me modify his theme + the addition of radial statuses!  
+Thanks to **Gibbu** for letting me initially modify SimplyDark and add in RadialStatus + HorizontalServerList  
 Gibbu's GitHub page: https://github.com/Gibbu  
 Source of SimplyDark: https://github.com/DiscordStyles/SimplyDark  
 Source of RadialStatus: https://github.com/DiscordStyles/RadialStatus  
+Source of HorizontalServerList: https://github.com/DiscordStyles/HorizontalServerList  
 
 Thanks to **DevilBro** for letting me use parts of **BlurpleRecolor** to recolor certain images and change enforced discord colors for the theme!  
 DevilBro's GitHub page: https://github.com/mwittrien  
@@ -37,9 +38,9 @@ BlurpleRecolor: https://github.com/mwittrien/BetterDiscordAddons/tree/master/The
 All Material Design icons used within the theme originate from https://github.com/google/material-design-icons  
 
 ## Color Themes 🎨
-In case the default accent doesn't suit your needs, you can try out some color themes [here!](https://github.com/ToxxyTheTrash/FuchsiaDarknessAlpha/tree/master/color-themes)  
+In case the default accent doesn't suit your needs, you can try out some color themes [here!](https://github.com/ToxxyTheTrash/FuchsiaDarknessAlpha/tree/master/color-themes) [unsupported for Replugged]  
 
-## Theme Screenshots - WIP   
+## Theme Screenshots - OUTDATED  
 
 Chat with HorizontalServerList and some other plugins enabled:  
 ![alt text](https://i.imgur.com/6zuBDhN.png)
