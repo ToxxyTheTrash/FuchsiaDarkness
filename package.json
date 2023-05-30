@@ -1,5 +1,26 @@
 {
-  "name": "prepros-project",
-  "version": "1.0.0",
-  "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information."
+  "name": "Fuchsia Darkness",
+  "version": "v6.2.1 rev2023",
+  "description": "makes discord sharp and compact.",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
+  },
+  "keywords": [],
+  "author": "ToxxyTheTrash",
+  "license": "CC BY-ND",
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7",
+    "replugged": "^4.2.6"
+  }
 }
