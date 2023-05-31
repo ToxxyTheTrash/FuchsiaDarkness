@@ -1,7 +1,3 @@
-
 desktop.ini
 prepros.config
-package.json
-.parcel-cache/
-dist/
-node_modules/
+package-lock.json
