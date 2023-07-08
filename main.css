@@ -5338,7 +5338,7 @@ div[style="height: 16px;"] {
   background-color: rgba(var(--PrimaryBG));
   display: flex;
   position: absolute;
-  right: -110px;
+  right: 0;
 }
 
 .MLv2-tab-bar {
