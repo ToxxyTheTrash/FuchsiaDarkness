@@ -241,6 +241,18 @@
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
+.iconWrapper-2awDjA[aria-label*="Show User Profile"]{
+		-webkit-mask: url("https://i.imgur.com/uTP0O8K.png") center/cover;
+		width: 25px;
+		height: 25px;
+		background: rgba(var(--AccentColor), 1);
+}
+.iconWrapper-2awDjA[aria-label*="Hide User Profile"]{
+		-webkit-mask: url("https://i.imgur.com/ctWX4nh.png") center/cover;
+		width: 25px;
+		height: 25px;
+		background: rgba(var(--AccentColor), 1);
+}
 .iconWrapper-2awDjA[aria-label*="New Group DM"]{
 		display: none;
 }
@@ -320,4 +332,17 @@
 }
 .headerChildren-2qV9P8 {
     color: rgba(var(--AccentColor), 1);
+}
+
+/* Discord Birthday Header Icon */
+.activitiesBirthdayIcon-vp7oVk {
+    -webkit-mask: url("https://i.imgur.com/9x79mXI.png") center/cover;
+		color: rgb(255, 255, 0);
+		background: rgb(255, 255, 0);
+		animation: fading 2s infinite;
+}
+
+/* Badge */
+.iconBadge-3Mmg92 {
+    display: none;
 }
