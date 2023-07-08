@@ -53,9 +53,14 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .wrapper-NhbLHG {
 		padding: 0 0;
 }
-.content-1gYQeQ {
-		padding: 0 5px;
-		margin-left: 5px;
+.link-1_kTxV {
+    cursor: crosshair;
+    padding: 2px 5px;
+    margin-left: 8px;
+}
+.wrapper-NhbLHG:hover .link-1_kTxV {
+		padding: 2px 5px;
+    margin-left: 8px;
 }
 .name-28HaxV {
 		font-size: 15px;
@@ -65,7 +70,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		padding: 3px 0;
 		cursor: crosshair;
 }
-.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .wrapper-NhbLHG:hover .content-1gYQeQ {
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH .link-1_kTxV, .modeSelected-3DmyhH:hover .content-1gYQeQ, .wrapper-NhbLHG:hover .content-1gYQeQ {
 		background-color: rgba(var(--PrimaryBG));
 }
 .wrapper-NhbLHG:hover .content-1gYQeQ {
@@ -99,7 +104,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 .unread-36eUEm {
 		height: 10px;
 		width: 5px;
-		margin-top: -5px;
+		margin-top: 3px;
 }
 
 /* Channel Buttons */
@@ -108,24 +113,24 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 .iconItem-1EjiK0[aria-label*="Create Invite"] {
 		 -webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
-		 width: 15px;
-		 height: 0px;
+		 width: 16px;
+		 height: 16px;
 		 background: rgba(var(--AccentColor), 1);
 }
 .iconItem-1EjiK0[aria-label*="Invite to Server"] {
 		-webkit-mask: url("https://i.imgur.com/GTLwUuW.png") center/cover;
-		width: 15px;
-		height: 0px;
+		 width: 12px;
+		 height: 12px;
 		background: rgba(var(--AccentColor), 1);
 }
 .iconItem-1EjiK0[aria-label*="Edit Channel"] {
 		 -webkit-mask: url("https://i.imgur.com/5AZqlJo.png") center/cover;
-		 width: 10px;
-		 height: 0px;
+		 width: 12px;
+		 height: 12px;
 		 background: rgba(var(--AccentColor), 1);
 }
 [aria-label="Open Chat"].iconItem-1EjiK0 {
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 /* Channel Icons */
@@ -174,23 +179,43 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
-.mainContent-20q_Hp[data-list-item-id*="channels___upcoming-events"] svg {
+.iconContainer-21RCa3[aria-label*="Forum"] {
+		-webkit-mask: url("https://i.imgur.com/DjtCQDi.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+/* Channels & Roles */
+.iconContainer-21RCa3 .icon-2W8DHg[xmlns*="http://www.w3.org/2000/svg"] {
+		-webkit-mask: url("https://i.imgur.com/ztvQmGy.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.containerDefault-YUSmu3[data-list-item-id*="channels___home"] svg {
+		-webkit-mask: url("https://i.imgur.com/NIgY5sU.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.containerDefault-YUSmu3[data-list-item-id*="channels___upcoming-events"] svg {
 		-webkit-mask: url("https://i.imgur.com/6cq4uJN.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
-.mainContent-20q_Hp[data-list-item-id*="channels___guild-active-threads"] svg {
+.containerDefault-YUSmu3[data-list-item-id*="channels___guild-active-threads"] svg {
 		-webkit-mask: url("https://i.imgur.com/iWVN2ev.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
 /* NSFW Channel Icon */
-.content-1gYQeQ .iconContainer-21RCa3[aria-label*="Text (NSFW)"] svg {
+.iconContainer-21RCa3[aria-label*="Text (Age-Restricted)"] svg {
   color: (var(--red)) !important;
 	background: (var(--red)) !important;
 }
+
 
 /* Thread Spine */
 .spine-29OFwR {
