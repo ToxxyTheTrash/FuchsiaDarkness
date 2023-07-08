@@ -35,7 +35,7 @@
 }
 /* Nitro Tab */
 .link-39sEB3[href="/store"] .avatar-1HDIsL svg {
-		-webkit-mask: url(/assets/379d2b3171722ef8be494231234da5d1.svg) center/25px no-repeat;
+		//-webkit-mask: url(/assets/379d2b3171722ef8be494231234da5d1.svg) center/25px no-repeat;
 }
 /* Library Tab */
 .link-39sEB3[href="/library"] .avatar-1HDIsL svg {
@@ -44,6 +44,13 @@
 /* Friends Tab */
 .link-39sEB3[href="/channels/@me"] .avatar-1HDIsL svg {
 		-webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/25px no-repeat;
+}
+/* Birthday */
+.link-39sEB3[href="/activities"] .avatar-1HDIsL svg {
+	-webkit-mask: url("https://i.imgur.com/9x79mXI.png") center/25px no-repeat;
+		color: rgb(255, 255, 0);
+		background: rgb(255, 255, 0);
+		animation: fading 2s infinite;
 }
 
 
