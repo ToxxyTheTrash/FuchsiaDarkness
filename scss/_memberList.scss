@@ -23,7 +23,7 @@
 .members-3WRCEx, .members-3WRCEx>div {
 		background: rgba(var(--PrimaryBG));
 }
-/* Chatbox goes "over" member list, thanks to Gibbu#1211! */
+/* Chatbox goes "over" member list, thanks gibbu! */
 .container-2o3qEW, .membersWrap-3NUR2t {
 		display: flex;
 		right: 0;
@@ -43,4 +43,14 @@
 .activityText-1rR-8O strong {
 		color: rgba(var(--AccentColor), 1) !important;
 		font-weight: 700;
+}
+
+/* Forum fix, once again thanks gibbu */
+.container-3wLKDe {
+    max-width: calc(100% - 350px);
+		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+		margin-bottom: 45px;
+}
+.container-3wLKDe:only-child {
+  max-width: 100%;
 }
