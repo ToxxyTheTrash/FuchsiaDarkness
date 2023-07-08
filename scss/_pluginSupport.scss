@@ -136,22 +136,31 @@
 		margin-top: 2px;
 }
 
-/* Spotify Controls */
-.bar-g2ZMIm {
-    background-color: rgba(var(--SecondaryBG)) !important;
-    height: 5px !important;
-    margin-bottom: 5px !important;
-}
-.barFill-Dhkah7 {
-    background: rgba(var(--AccentColor), 0.5) !important;
-}
-.timeline-UWmgAx:hover .barFill-Dhkah7 {
-    background: rgba(var(--AccentColor), 1) !important;
+/* Typing Indicator */
+.pulsingEllipsis-S-xTiX .item-2VgEex {
+    width: 5px;
+    height: 5px;
+    margin-right: 0px;
+    background-color: rgba(var(--AccentColor));
+    opacity: .3;
 }
 
-/* Image Utilities */
-.altText-sAs-Ao {
-    margin: 0;
+/* Copier */
+.copr-button {
+    color: rgba(var(--AccentColor), 1) !important;
+    margin-top: -2px !important;
+}
+.wrapper-2vIMkT [aria-label="Copy RAW Message"] .button-3bklZh svg {
+		-webkit-mask: url("https://i.imgur.com/hPNd9do.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+}
+.wrapper-2vIMkT [aria-label="Copy Message (Custom)"] .button-3bklZh svg {
+		-webkit-mask: url("https://i.imgur.com/hPNd9do.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgb(8, 112, 243);
 }
 
 /* Translator */
@@ -173,4 +182,37 @@
 .item-1OdjEX[id="message-translator-translate-message"],
 .item-1OdjEX[id="message-translator-translate-message"]:active {
 		color: rgb(25, 103, 210);
+}
+
+.platform-indicators {
+    margin-left: 3px;
+    top: -5px;
+}
+.content-1U25dZ .platform-indicators {
+    margin-left: 0;
+    top: 0;
+}
+.platform-indicators .profileBadge24-sH1efV {
+    width: 15px !important;
+    height: 15px !important;
+}
+.profileBadges-2pItdR.profileBadges-2pItdR .platform-indicators {
+    margin-right: 2px;
+    top: 0px;
+}
+.profileBadges-2pItdR.profileBadges-2pItdR .platform-indicators .profileBadge24-sH1efV {
+    width: 20px !important;
+    height: 20px !important;
+}
+.badgeList-2aoHPw .platform-indicators {
+    margin-right: 2px;
+    top: 0px;
+}
+.badgeList-2aoHPw .platform-indicators .profileBadge24-sH1efV {
+    width: 20px !important;
+    height: 20px !important;
+}
+.nameAndDecorators-2A8Bbk .platform-indicators {
+    margin-right: 2px;
+    top: -2px;
 }
