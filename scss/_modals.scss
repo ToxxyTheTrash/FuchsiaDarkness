@@ -42,17 +42,23 @@
 
 /* Add Server Popup */
 .container-x8Y1ix {
-		border: none;
 		background-color: rgba(var(--PrimaryBG));
 		margin-bottom: 0px;
 		cursor: crosshair;
 		width: 100%;
 		padding: 0;
+        border: none;
 }
-.colorStandard-21JIj7, .colorHeaderSecondary-g5teka, .defaultColor-24IHKz {
+#app-mount .rootWithShadow-2hdL2J {
+    box-shadow: none;
+}
+.root-1CAIjD {
+    background-color: rgba(var(--PrimaryBG));
+}
+.colorStandard-21JIj7, .colorHeaderSecondary-g5teka, .defaultColor-1GKx81 {
 		color: rgba(var(--AccentColor), 1);
 }
-#app-mount .footer-31IekZ {
+#app-mount .footer-IubaaS {
 		background-color: rgba(var(--SecondaryBG));
 		box-shadow: none;
 }
@@ -111,10 +117,6 @@
 }
 .close-1mLglB:hover {
     color: rgba(var(--AccentColor), 0.5);
-}
-#app-mount .footer-31IekZ {
-    background-color: rgba(var(--SecondaryBG));
-    box-shadow: none;
 }
 .templatesList-uohY49 {
     margin-top: 20px;
@@ -306,10 +308,20 @@
     height: 450px;
 }
 
-/* Channel Ropic Modal */
+/* Channel Topic Modal */
 .small-23Atuv {
     min-height: 75px;
 }
 .modal-3Hrb0S {
-		border: 2px dashed rgba(var(--AccentColor), 1);
+    border: 2px dashed rgba(var(--AccentColor), 1);
+    width: 500px;
+    min-height: 100px;
+    max-height: unset;
+}
+.footer-IubaaS, .header-1ffhsl {
+    padding: 10px 15px;
+}
+.heading-lg-semibold-14ouVv {
+    font-size: 20px;
+    line-height: 30px;
 }
