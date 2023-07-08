@@ -1,6 +1,6 @@
 /* -=-= Context Menu =-=- */
 /* Context Menu - Right click */
-.item-1OdjEX {
+.item-5ApiZt {
 		margin: 0 0;
 		padding: 0 5px;
 		font-size: 15px;
@@ -8,13 +8,18 @@
 		line-height: 20px;
 		cursor: crosshair;
 }
-.scroller-1bVxF5 {
+.labelContainer-35-WEd {
+    min-height: 25px;
+    padding: 0px 5px;
+}
+.scroller-nxCRu_ {
 		padding: 0 0;
+		overflow: hidden;
 		background-color: rgba(var(--PrimaryBG));
 }
-.labelContainer-2vJzYL {
-		min-height: 25px;
-		padding: 0 5px;
+.flexible-3B4jwn {
+    min-width: 220px;
+    max-width: 320px;
 }
 
 /* Context Menu Selection */
