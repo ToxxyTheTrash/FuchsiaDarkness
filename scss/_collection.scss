@@ -50,9 +50,6 @@ foreignObject {
 		-webkit-mask: none !important;
 		mask: none !important;
 }
-::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after {
-		mask: none !important;
-}
 
 /* Selection */
 ::selection {
