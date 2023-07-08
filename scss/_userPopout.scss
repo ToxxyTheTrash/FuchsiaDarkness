@@ -1,11 +1,17 @@
 /* -=-= User Popouts =-=- */
 /* Avatar */
-.avatarHoverTarget-l77PhT .wrapper-1VLyxH svg {
+.avatarHoverTarget-1zzfRL .wrapper-3Un6-K svg {
 		width: 150px !important;
 		height: 150px !important;
 		image-rendering: pixelated;
 }
-.avatarPositionNormal-V4Mjtq {
+.avatarWrapper-eenWra {
+    left: 20px;
+}
+.avatarPositionPremiumNoBanner-2u3xDC {
+    top: 35px;
+}
+.avatarPositionNormal-2jWoC2 {
 		top: 15px;
 		margin-left: -5px;
 }
@@ -20,15 +26,23 @@
 
 /* Banner */
 .popoutBanner-3cqRD9 {
-		width: 315px;
+		width: 340px;
 }
 .popoutBannerPremium-3i5EEI {
-		width: 320px;
+		width: 340px;
 }
 .pencilIcon-1MUmnO {
 		-webkit-mask: url("https://i.imgur.com/TcSbNGP.png") center/cover;
 		width: 20px;
 		height: 20px;
+}
+
+.userProfileInnerThemedNonPremium-2AJg-H {
+    background: rgba(var(--SecondaryBG));
+}
+.scroller-15bIdk {
+    background: rgba(var(--PrimaryBG));
+    padding: 0 10px;
 }
 
 /* Info */
@@ -53,7 +67,7 @@
 }
 
 /* About Me */
-.divider-1tWBgZ {
+.divider-2dDziJ {
 	margin: 10px 0 0;
 	height: 0;
 	border-top: 2px dashed #e91e63;
@@ -121,7 +135,7 @@
 		margin-bottom: 5px;
 }
 
-.buttonColor-XIRMbp {
+.buttonColor-_0gSD_ {
 	background-color: rgba(var(--SecondaryBG));
 	color: rgba(var(--AccentColor), 1);
 }
@@ -155,8 +169,8 @@
 }
 
 /* Message Footer */
-.footer-3naVBw {
-		display: none;
+.section-1TK4Q0 {
+    display: none;
 }
 
 /* Note */
@@ -224,10 +238,18 @@
 	padding: 5px 15px 0px;
 }
 
-.overlayBackground-2Zjm9f {
-	margin: 55px 0px 0px;
+.overlayBackground-2aa7wt {
+	margin: 65px 0px 0px;
 	background-color: rgba(var(--SecondaryBG));
 }
-.overlayBackground-2Zjm9f .scroller-1jBQYo {
+.overlayBackground-2aa7wt .scroller-1jBQYo {
 	background: rgba(var(--PrimaryBG));
+}
+
+
+.divider-MZkkle {
+    height: 20px;
+    width: 2px;
+    border-radius: 50%;
+    background: rgba(var(--AccentColor), 1);;
 }
