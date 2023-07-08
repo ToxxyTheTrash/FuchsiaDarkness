@@ -1,28 +1,24 @@
 /* -=-= User Profile =-=- */
-/* User Profile Tabs */
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG {
-		font-size: 15px;
-		color: transparent;
-		width: 100px;
-		display: block;
-		flex: auto;
-		cursor: crosshair;
+.root-8LYsGj .tabBar-2hXqzU {
+    gap: 0;
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="USER_INFO"] {
-		 -webkit-mask: url("https://i.imgur.com/Ik3jSHK.png") center/25px no-repeat !important;
-		 background: rgba(var(--AccentColor), 1);
+.root-8LYsGj .tabBarItem-30Te4- {
+    flex: 1;
+    text-align: center;
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="MUTUAL_GUILDS"] {
-		 -webkit-mask: url("https://i.imgur.com/aidoNOF.png") center/25px no-repeat !important;
-		 background: rgba(var(--AccentColor), 1);
+.root-8LYsGj .userProfileModalOuter-2wdWjU {
+    width: 750px;
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="MUTUAL_FRIENDS"] {
-		 -webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/25px no-repeat !important;
-		 background: rgba(var(--AccentColor), 1);
+
+.pronouns-RGQpyK {
+    display: block;
+    text-align: end;
+    margin-top: -50px;
+    pointer-events: none;
 }
-.root-g14mjS .tabBarContainer-sCZC4w .item-3XjbnG[data-item-id="ACTIVITY"] {
-		-webkit-mask: url("https://i.imgur.com/iAB8BmS.png") center/25px no-repeat !important;
-		background: rgba(var(--AccentColor), 1);
+.nameTag-35jqbZ .discriminator-hnHkyt {
+    white-space: normal;
+    padding-bottom: 25px;
 }
 
 /* Toxxy's Background (NOT FIXED) */
@@ -30,22 +26,9 @@
 		--popoutbg: url(https://cdn.discordapp.com/attachments/546244449873821705/645486399025315851/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg);
 }
 
-/* Mobile Indication */
-.root-8LYsGj .wrapper-1VLyxH[aria-label*="mobile"]::before {
-		content: "currently on mobile";
-		color: rgba(var(--AccentColor), 1);
-		text-align: center;
-		font-size: 25px;
-		text-shadow: 2px 2px rgba(var(--PrimaryBG), 0.25);;
-		position: fixed;
-		margin-left: 435px;
-		margin-top: 10px;
-		font-weight: 800;
-		font-style: italic;
-}
-
 .topSection-13QKHs {
 		background-color: rgba(var(--SecondaryBG));
+		margin-bottom: 0;
 }
 .body-1Ukv50 {
 		background-color: rgba(var(--PrimaryBG));
@@ -57,11 +40,20 @@
 .tabBarContainer-sCZC4w {
 		border-bottom: 2px solid rgba(var(--AccentColor), 1);
 		padding-left: 0;
+		margin: 10px 5px 0;
 }
 .tabBar-2hXqzU {
-		height: 40px;
+		height: 30px;
 		background: rgba(var(--PrimaryBG));
-		border-top: 2px dashed rgba(var(--AccentColor), 1);
+		gap: 5px;
+}
+
+.tabBarItem-30Te4- {
+	text-transform: uppercase !important;
+  border: none;
+  height: 30px;
+  font-size: 18px;
+	font-weight: 700;
 }
 
 .userBio-2-tr00 {
@@ -82,12 +74,13 @@
 	margin-left: 10px;
 }
 .connectedAccountsColumn-1zdyyx {
-	margin-left: 4px;
+	margin-left: 0px;
+	width: calc(50% - 5px);
 }
 .connectedAccountContainer-3aLMHJ {
 	margin-top: 10px;
 	padding: 10px;
-	width: 330px;
+	width: 260px;
 	background: rgba(var(--SecondaryBG));
 }
 .connectedAccountVerifiedIcon-3EPFPC svg {
@@ -101,18 +94,6 @@
 		cursor: crosshair;
 }
 
-
-.profileBanner-1owKI5 {
-		width: 750px;
-		max-width: 750px;
-		height: 150px;
-}
-.profileBannerPremium-KD60EB {
-		width: 750px;
-		max-width: 750px;
-		height: 250px;
-}
-
 .tabBarItem-30Te4- {
     margin: 0;
 }
@@ -124,7 +105,21 @@
     transition: none;
 }
 .headerTop-1PNKck {
-    top: 35px;
+    top: 15px;
+    left: 150px;
     right: 10px;
-    left: 155px;
+}
+
+.avatar-3QF_VA {
+    top: -75px;
+    left: 20px;
+}
+
+/* Profile Badges */
+.badgeList-2aoHPw {
+    padding: 5px 5px;
+}
+.profileBadge24-sH1efV {
+    width: 20px;
+    height: 20px;
 }
