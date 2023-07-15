@@ -51,16 +51,16 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 /* Channel List */
 .wrapper-NhbLHG {
-		padding: 0 0;
+		padding: 0;
 }
 .link-1_kTxV {
     cursor: crosshair;
     padding: 2px 5px;
-    margin-left: 8px;
+    margin-left: 0;
 }
 .wrapper-NhbLHG:hover .link-1_kTxV {
 		padding: 2px 5px;
-    margin-left: 8px;
+    margin-left: 2px;
 }
 .name-28HaxV {
 		font-size: 15px;
@@ -70,7 +70,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		padding: 3px 0;
 		cursor: crosshair;
 }
-.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH .link-1_kTxV, .modeSelected-3DmyhH:hover .content-1gYQeQ, .wrapper-NhbLHG:hover .content-1gYQeQ {
+.modeSelected-3DmyhH .link-1_kTxV, .modeSelected-3DmyhH:hover .link-1_kTxV, .wrapper-NhbLHG:active .link-1_kTxV {
 		background-color: rgba(var(--PrimaryBG));
 }
 .wrapper-NhbLHG:hover .content-1gYQeQ {
@@ -100,11 +100,12 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 
 /* Channel Unread Pill */
 .unreadRelevant-2f-VSK {
-		background-color: rgba(var(--AccentColor), 1); }
+		background-color: rgba(var(--AccentColor), 1); 
+}
 .unread-36eUEm {
 		height: 10px;
 		width: 5px;
-		margin-top: 3px;
+		margin-top: -5px;
 }
 
 /* Channel Buttons */
