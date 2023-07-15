@@ -26,6 +26,9 @@
 		--popoutbg: url(https://cdn.discordapp.com/attachments/546244449873821705/645486399025315851/nebula-3840x2160-pink-galaxy-stars-4k-13210.jpg);
 }
 
+.infoScroller-1QMpon {
+    padding: 0px 10px;
+}
 .topSection-13QKHs {
 		background-color: rgba(var(--SecondaryBG));
 		margin-bottom: 0;
@@ -38,7 +41,7 @@
 		width: 750px;
 }
 .tabBarContainer-sCZC4w {
-		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 		padding-left: 0;
 		margin: 10px 5px 0;
 }
@@ -46,6 +49,11 @@
 		height: 30px;
 		background: rgba(var(--PrimaryBG));
 		gap: 5px;
+}
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy {
+    color: rgba(var(--AccentColor), 1);
+		border-color: rgba(var(--AccentColor), 1);
+    animation: rainbow 3s linear infinite;
 }
 
 .tabBarItem-30Te4- {
@@ -68,6 +76,10 @@
 .userInfoSection-2u2hir+.userInfoSection-2u2hir {
 		border-top: 2px solid rgba(var(--AccentColor), 1);
 }
+.note-3M15gE textarea {
+    padding: 5px;
+    line-height: 14px;
+}
 
 /* Connections */
 .connectedAccountsColumn-1zdyyx+.connectedAccountsColumn-1zdyyx {
@@ -80,7 +92,7 @@
 .connectedAccountContainer-3aLMHJ {
 	margin-top: 10px;
 	padding: 10px;
-	width: 260px;
+	width: 335px;
 	background: rgba(var(--SecondaryBG));
 }
 .connectedAccountVerifiedIcon-3EPFPC svg {
@@ -93,7 +105,9 @@
 		background: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
-
+.connectedAccount-1oLIrm {
+    gap: 10px;
+}
 .tabBarItem-30Te4- {
     margin: 0;
 }
