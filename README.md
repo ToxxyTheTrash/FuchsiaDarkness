@@ -1,4 +1,4 @@
-# Fuchsia Darkness <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>
+# Fuchsia Darkness 
 A completely re-designed and recolored version of the BetterDiscord theme **SimplyDark** made by **Gibbu**!  
 The purpose of this theme is to make Discord compact, customizable and debranded.  
 The theme can and will contain bugs.  
