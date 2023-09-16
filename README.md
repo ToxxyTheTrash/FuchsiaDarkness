@@ -1,14 +1,15 @@
 # Fuchsia Darkness 
 A completely re-designed and recolored version of the BetterDiscord theme **SimplyDark** made by **Gibbu**!  
 The purpose of this theme is to make Discord compact, customizable and debranded.  
-The theme can and will contain bugs.  
+
 
 ## Theme support  
-- **The theme is not recommended for small resolutions or 4:3 aspect ratio displays, as it *will* break elements.**  
+- **The theme can and will contain bugs.**  
+- **The theme is not designed for small resolutions or 4:3 aspect ratios, it *will* break elements.**  
 - **The theme mainly supports Windows.**  
 - **Disable "Preview emojis, mentions, and markdown syntax as you type" in `User Settings > Text & Images > Text Box` and enable "Use the legacy chat input" in `User Settings > Accessibility > Chat Input`. Having these not set properly will break the chat box.**  
 
-## Installation
+## Installation 
 
 To install the theme on **BetterDiscord**, follow the next steps:
   1. open `SimplyDarkFuchsiaDarkness.theme.css` in the repo.
@@ -30,14 +31,14 @@ To install the theme on **Vencord** follow the next steps (local):
 ## Sources used in the theme!  
 **I do NOT own or claim any part of the code used from these projects!**  
 
-Thanks to **[Gibbu](https://github.com/Gibbu)** for letting me initially modify [SimplyDark](https://github.com/DiscordStyles/SimplyDark) and add in [RadialStatus](https://github.com/DiscordStyles/RadialStatus) + [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList)   
+Thanks to **[Gibbu](https://github.com/Gibbu)** for letting me initially modify [**SimplyDark**](https://github.com/DiscordStyles/SimplyDark) and add in [**RadialStatus**](https://github.com/DiscordStyles/RadialStatus) + [**HorizontalServerList**](https://github.com/DiscordStyles/HorizontalServerList)  
 
 Thanks to **[DevilBro](https://github.com/mwittrien)** for letting me use parts of **[BlurpleRecolor](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor)** to recolor certain images and change enforced discord colors for the theme!  
 
 All icons in these themes come from Google's [**Material Design**](https://github.com/google/material-design-icons).
 
 ## Color Themes 🎨
-In case the default accent doesn't suit your needs, you can try out some color themes [here!](https://github.com/ToxxyTheTrash/FuchsiaDarknessAlpha/tree/master/color-themes) [unsupported for Replugged]  
+In case the default accent doesn't suit your needs, you can try out some [color themes](https://github.com/ToxxyTheTrash/FuchsiaDarknessAlpha/tree/master/color-themes) (unsupported on Replugged)  
 
 ## Theme Screenshots 📸  
 
