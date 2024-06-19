@@ -2,11 +2,11 @@
 .root-8LYsGj .tabBar-2hXqzU {
     gap: 0;
 }
-.root-8LYsGj .tabBarItem-30Te4- {
+.root-8LYsGj .tabBarItem_b9fccc {
     flex: 1;
     text-align: center;
 }
-.root-8LYsGj .userProfileModalOuter-2wdWjU {
+.root-8LYsGj .userProfileModalOuter_c69a7b {
     width: 750px;
 }
 
@@ -50,13 +50,13 @@
 		background: rgba(var(--PrimaryBG));
 		gap: 5px;
 }
-.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy {
+.top_a0 .selected_a0.themed_a0.item_a0 {
     color: rgba(var(--AccentColor), 1);
 		border-color: rgba(var(--AccentColor), 1);
     animation: rainbow 3s linear infinite;
 }
 
-.tabBarItem-30Te4- {
+.tabBarItem_b9fccc {
 	text-transform: uppercase !important;
   border: none;
   height: 30px;
@@ -82,37 +82,37 @@
 }
 
 /* Connections */
-.connectedAccountsColumn-1zdyyx+.connectedAccountsColumn-1zdyyx {
+.connectedAccountsColumn_f3eb60+.connectedAccountsColumn_f3eb60 {
 	margin-left: 10px;
 }
-.connectedAccountsColumn-1zdyyx {
+.connectedAccountsColumn_f3eb60 {
 	margin-left: 0px;
 	width: calc(50% - 5px);
 }
-.connectedAccountContainer-3aLMHJ {
+.connectedAccountContainer_f3eb60 {
 	margin-top: 10px;
 	padding: 10px;
 	width: 335px;
 	background: rgba(var(--SecondaryBG));
 }
-.connectedAccountVerifiedIcon-3EPFPC svg {
+.connectedAccountVerifiedIcon_f3eb60 svg {
 		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
 		outline: 100px solid rgba(var(--AccentColor), 1);
 		outline-offset: -500px;
 }
-.connectedAccountOpenIcon-3i81Tz {
+.connectedAccountOpenIcon_f3eb60 {
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
-.connectedAccount-1oLIrm {
+.connectedAccount_f3eb60 {
     gap: 10px;
 }
-.tabBarItem-30Te4- {
+.tabBarItem_b9fccc {
     margin: 0;
 }
 
-.pencilContainer-18TrEJ {
+.pencilContainer_c3e427 {
     cursor: crosshair;
     padding: 5px;
     background-color: rgba(var(--SecondaryBG), 0.25);
@@ -133,7 +133,7 @@
 .badgeList-2aoHPw {
     padding: 5px 5px;
 }
-.profileBadge24-sH1efV {
+.profileBadge24_b64375 {
     width: 20px;
     height: 20px;
 }

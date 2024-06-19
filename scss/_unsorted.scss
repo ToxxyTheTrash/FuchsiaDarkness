@@ -8,7 +8,7 @@
 		color: rgba(var(--AccentColor), 1);
 }
 
-.icon-2xnN2Y {
+.icon_e44302 {
 		color: rgba(var(--AccentColor), 1) !important;
 }
 
@@ -23,7 +23,7 @@
 		background-color: rgba(var(--AccentColor), 1);
 }
 
-.app-2CXKsg button {
+.app_a01fb1 button {
 		color: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
@@ -44,7 +44,7 @@
 
 
 /* Discover Page */
-#app-mount .pageWrapper-2PwDoS {
+#app-mount .pageWrapper_a3a4ce {
 	background: rgba(var(--PrimaryBG));
 	color: rgba(var(--AccentColor), 1);
 }
@@ -56,7 +56,7 @@
 	padding: 10px;
 	color: rgba(var(--AccentColor), 1);
 }
-.searchBox-pyIJJj .searchBoxInput-P0mWHW {
+.searchBox__56feb .searchBoxInput__56498 {
 	font-size: 15px;
 	padding: 10px;
 	background: rgba(var(--SecondaryBG));
@@ -67,7 +67,7 @@
 .search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
 		display: none;
 }
-.theme-dark .searchBox-pyIJJj {
+.theme-dark .searchBox__56feb {
 	background-color: rgba(var(--SecondaryBG));
 	box-shadow: none;
 }
@@ -75,4 +75,17 @@
 /* Server Boost Fullscreen */
 .theme-dark .perksModal-CLcR1c {
 	background: transparent;
+}
+
+/* Remove Vencord Images in Vencord settings */
+.vc-settings-card {
+    display: none;
+}
+
+// no there's no new unreads shoo
+.container_eba0ba {
+    display: none;
+}
+.unreadMentionsIndicatorBottom_fea3ef {
+    display: none;
 }

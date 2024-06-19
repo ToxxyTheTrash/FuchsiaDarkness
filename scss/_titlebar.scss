@@ -1,5 +1,5 @@
 /* Title bar and window buttons */
-.typeWindows-2-g3UY {
+.typeWindows_a934d8 {
 		height: 0;
 		margin-top: 0;
 		position: absolute;
@@ -7,18 +7,18 @@
 		left: 0;
 		width: 100%;
 }
-.winButton-3UMjdg {
+.winButton_a934d8 {
 		position: relative;
 		top: 10px;
 		height: 25px;
 		width: 40px;
 		background-color: rgba(var(--PrimaryBG));
 }
-#app-mount .winButton-3UMjdg {
+#app-mount .winButton_a934d8 {
 		top: calc(100vh - 50px);
 		margin-top: 10px !important;
 }
-#app-mount .titleBar-1it3bQ:after {
+#app-mount .titleBar_a934d8:after {
 		content: "";
 		position: relative;
 		height: 10px;
@@ -27,7 +27,7 @@
 		left: -120px;
 		-webkit-app-region: drag;
 }
-.winButton-3UMjdg {
+.winButton_a934d8 {
 		 position: relative;
 		 top: 10px;
 		 left: -25px;
@@ -36,7 +36,7 @@
 		 background-color: rgba(var(--PrimaryBG));
 		 color: rgba(var(--AccentColor), 1);
 }
-.winButton-3UMjdg:hover {
+.winButton_a934d8:hover {
 		 color: rgba(var(--AccentColor), 1);
 		 background: rgba(var(--SecondaryBG));
 }

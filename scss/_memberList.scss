@@ -1,46 +1,31 @@
 /* =-=- Member List -=-= */
 /* Member Width */
-.member-2gU6Ar {
+.member_a31c43 {
 		max-width: 325px;
 		margin-left: 5px;
 }
-.container-1oeRFJ {
+.container_e9f61e {
 		padding: 0 0 0 5px;
 }
 /* Role spacing */
-.membersGroup-2eiWxl {
+.membersGroup_cbd271 {
 		padding: 0 8px 0 16px;
 		height: 20px;
 }
 
 /* Status Activity Icon */
-.icon-Lupfh- {
+.icon_ad923e {
 		color: rgba(var(--AccentColor), 1);
 }
-.members-3WRCEx {
+.members_cbd271 {
 		width: 350px;
 }
-.members-3WRCEx, .members-3WRCEx>div {
+.members_cbd271, .members_cbd271>div {
 		background: rgba(var(--PrimaryBG));
-}
-/* Chatbox goes "over" member list, thanks gibbu! */
-.container-2o3qEW, .membersWrap-3NUR2t {
-		display: flex;
-		right: 0;
-		top: 0;
-		bottom: 45px;
-		position: absolute;
-		border-bottom: 2px solid rgba(var(--AccentColor), 1);
-}
-.chatContent-3KubbW:only-child {
-		padding-right: 0;
-}
-.chatContent-3KubbW {
-		padding-right: 350px;
 }
 
 /* Status text - Bold */
-.activityText-1rR-8O strong {
+.activityText_a31c43 strong {
 		color: rgba(var(--AccentColor), 1) !important;
 		font-weight: 700;
 }

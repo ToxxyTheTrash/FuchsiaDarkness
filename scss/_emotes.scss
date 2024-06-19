@@ -1,21 +1,21 @@
 /* -=-= Emote Menu =-=- */
 /* GIF Menu */
-.theme-dark .categoryFadeBlurple-1l49_Q {
+.theme-dark .categoryFadeBlurple_af1167 {
     background-color: rgba(var(--AccentColor), 0.25);
 }
-.theme-dark .categoryFadeBlurple-1l49_Q:hover {
+.theme-dark .categoryFadeBlurple_af1167:hover {
     background-color: rgba(var(--AccentColor), 0.5);
 }
-.theme-dark .focused-16Owih:after, .theme-dark .result-pzZrwj:hover:after {
+.theme-dark .focused_bad108:after, .theme-dark .result_bad108:hover:after {
     box-shadow: none;
 		outline: 2px dashed rgba(var(--AccentColor), 1);
 }
 
 /* Sticker Menu */
-.inspectedIndicator-27zwNZ {
+.inspectedIndicator_a708c4 {
     mask: none;
 }
-.stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
+.stickerInspected_a708c4 .inspectedIndicator_a708c4 {
     background: rgba(var(--AccentColor), 0.15);
 }
 .categoryListWithSearch-2jrzH6 {
@@ -23,62 +23,62 @@
 }
 
 /* Emote Menu - Search */
-.header-11eigE, .header-uVCAlo {
+.header_c6ee36, .header_d8cdac {
     box-shadow: none;
     padding: 5px !important;
 		margin-left: 48px;
 }
-.medium-13kyaW.iconLayout-SqV3nb {
+.medium_effbe2.iconLayout_effbe2 {
     display: none;
 }
-.medium-13kyaW .input-2FSSDe, .medium-13kyaW .tag-15zcD_ {
+.medium_effbe2 .input_effbe2, .medium_effbe2 .tag_effbe2 {
     font-size: 15px;
     line-height: 20px;
     height: 25px;
     padding: 0 5px;
 }
-.input-2FSSDe {
+.input_effbe2 {
     margin: 0;
     color: rgba(var(--AccentColor), 1);
 }
-.navButtonActive-1EqC5l {
+.navButtonActive_af5dbb {
     background-color: rgba(var(--SecondaryBG));
     color: rgba(var(--AccentColor), 1);
 }
 
 /* Emote Menu - Servers */
-.categoryList-2qRrlj {
+.categoryList_c6ee36 {
     top: 0 !important;
 }
 
 /* Emote Menu - Categories */
-.unicodeShortcut-3N8oDe svg {
+.unicodeShortcut_dfa278 svg {
 		-webkit-mask: url("https://i.imgur.com/ZEcR8dr.png") center/30px no-repeat;
 		width: 40px;
 		background-color: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
-.unicodeShortcut-3N8oDe {
+.unicodeShortcut_dfa278 {
 		height: 41px;
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
-.guildCategorySeparator-3QYkij {
+.guildCategorySeparator_dfa278 {
     margin: 5px 0;
     border-bottom: 2px solid rgba(var(--AccentColor), 1);
 }
 
-.categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku, .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
+.categoryItemDefaultCategorySelected_dfa278 .categoryIcon_dfa278, .categoryItemDefaultCategorySelected_dfa278:hover .categoryIcon_dfa278 {
 		color: rgba(var(--AccentColor), 1) !important;
 }
-.categoryItemDefaultCategory-3haEDq {
+.categoryItemDefaultCategory_dfa278 {
 		margin-left: 3px;
 		margin-bottom: 5px !important;
 		height: 24px;
 		width: 24px;
 		padding: 4px;
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="recent"], .stickerCategory-2f6iSo[aria-label*="Frequently used"] svg {
+.categoryItemDefaultCategory_dfa278[aria-label="recent"], .stickerCategory_a7a485[aria-label*="Frequently used"] svg {
 		-webkit-mask: url("https://i.imgur.com/0WgR6i2.png") center/cover;
 		content: "";
 		width: 16px;
@@ -86,96 +86,96 @@
 		background-color: rgba(var(--AccentColor), 1);
 		margin-left: 4px;
 }
-.stickerCategory-2f6iSo[aria-label*="Frequently used"] svg {
+.stickerCategory_a7a485[aria-label*="Frequently used"] svg {
 	width: 24px;
 	height: 24px;
 	margin-right: 3px;
 	margin-left: 0;
 }
-.stickerCategory-2f6iSo[aria-label*="Frequently used"] {
+.stickerCategory_a7a485[aria-label*="Frequently used"] {
 	margin-bottom: 1px;
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="favorite emojis"] {
+.categoryItemDefaultCategory_dfa278[aria-label="favorite emojis"] {
 		display: none;
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="people"] {
+.categoryItemDefaultCategory_dfa278[aria-label="people"] {
 		-webkit-mask: url("https://i.imgur.com/73n6Qkh.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategorySelected-2YeRUu[aria-label="people"] {
+.categoryItemDefaultCategorySelected_dfa278[aria-label="people"] {
 		-webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="nature"] {
+.categoryItemDefaultCategory_dfa278[aria-label="nature"] {
 		-webkit-mask: url("https://i.imgur.com/8XoLzrD.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="food"] {
+.categoryItemDefaultCategory_dfa278[aria-label="food"] {
 		-webkit-mask: url("https://i.imgur.com/4mhbqkP.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="activity"] {
+.categoryItemDefaultCategory_dfa278[aria-label="activity"] {
 		-webkit-mask: url("https://i.imgur.com/ieJmUPP.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategorySelected-2YeRUu[aria-label="activity"] {
+.categoryItemDefaultCategorySelected_dfa278[aria-label="activity"] {
 		-webkit-mask: url("https://i.imgur.com/TcF8PtA.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="travel"] {
+.categoryItemDefaultCategory_dfa278[aria-label="travel"] {
 		-webkit-mask: url("https://i.imgur.com/1Ao6KoO.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategorySelected-2YeRUu[aria-label="travel"] {
+.categoryItemDefaultCategorySelected_dfa278[aria-label="travel"] {
 		-webkit-mask: url("https://i.imgur.com/QkZUjPR.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="objects"] {
+.categoryItemDefaultCategory_dfa278[aria-label="objects"] {
 		-webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="symbols"] {
+.categoryItemDefaultCategory_dfa278[aria-label="symbols"] {
 		-webkit-mask: url("https://i.imgur.com/z3OI1Uv.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="flags"] {
+.categoryItemDefaultCategory_dfa278[aria-label="flags"] {
 		-webkit-mask: url("https://i.imgur.com/uIDMWSy.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory-3haEDq[aria-label="blacklist"] {
+.categoryItemDefaultCategory_dfa278[aria-label="blacklist"] {
 		-webkit-mask: url("https://i.imgur.com/qhf4i2G.png") center/cover;
 		content: "";
 		width: 20px;
@@ -188,7 +188,7 @@
 		width: 150px;
 		height: 75px;
 }
-.guildSection-2Zyzy8 {
+.guildSection_e58351 {
     padding: 10px;
     background-color: rgba(var(--PrimaryBG), 0.25);
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
@@ -198,7 +198,7 @@
 		background-color: rgba(var(--PrimaryBG));
 }
 
-.inspector-DFKXwB {
+.inspector_c3120f {
 		height: 45px;
 		padding: 0 10px;
 		background-color: rgba(var(--SecondaryBG));
@@ -206,25 +206,25 @@
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 
-.headerIcon-2Gk2OH {
+.headerIcon_e06857 {
 		display: none;
 }
-.wrapper-1NNaWG {
+.wrapper_e06857 {
 		height: 25px;
 		padding: 0 0;
 }
-.header-1XpmZs {
+.header_e06857 {
 		color: rgba(var(--AccentColor), 1);
 		font-size: 13px;
 		transition: none;
 }
-.wrapper-1NNaWG:after {
+.wrapper_e06857:after {
 		height: 0;
 }
-.emojiItem-277VFM.emojiItemSelected-2Lg50V {
+.emojiItem_fbfedd.emojiItemSelected_fbfedd {
 		background-color: rgba(var(--AccentColor), 0.15);
 }
-.contentWrapper-3vHNP2 {
+.contentWrapper_af5dbb {
 		box-shadow: none;
 		padding-top: 0;
 		margin-bottom: 0;
