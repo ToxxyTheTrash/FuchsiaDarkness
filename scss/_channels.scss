@@ -130,6 +130,12 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		 height: 12px;
 		 background: rgba(var(--AccentColor), 1);
 }
+.iconItem_f6f816[aria-label*="Open Chat"] {
+		 -webkit-mask: url("https://i.imgur.com/DjtCQDi.png") center/cover;
+		 width: 12px;
+		 height: 12px;
+		 background: rgba(var(--AccentColor), 1);
+}
 [aria-label="Open Chat"].iconItem_f6f816 {
     padding: 2px 0;
 }
@@ -187,11 +193,69 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		background: rgba(var(--AccentColor), 1);
 }
 /* Channels & Roles */
+.basicChannelRowLink_d8bfb3 {
+    min-height: 25px;
+}
+.content_cc29d1 {
+    margin-left: 20px;
+}
 .iconContainer_d8bfb3 .icon_d8bfb3[xmlns*="http://www.w3.org/2000/svg"] {
+		display: none;
+}
+.wrapper_d8bfb3:hover .link_d8bfb3 {
+    background: transparent;
+		border-left: solid 2px rgba(var(--AccentColor), 1);
+}
+.modeSelected_d8bfb3 .link_d8bfb3 {
+    background: transparent;
+}
+.wrapper_d8bfb3 .focusTarget_dc8280[id*="upcoming-events"] {
+		-webkit-mask: url("https://i.imgur.com/6cq4uJN.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		position: absolute;
+		left: 2px;
+		top: 2px;
+}
+.wrapper_d8bfb3:hover .focusTarget_dc8280[id*="upcoming-events"] {
+		left: 7px;
+}
+.wrapper_d8bfb3 .focusTarget_dc8280[id*="channels"] {
 		-webkit-mask: url("https://i.imgur.com/ztvQmGy.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
+		position: absolute;
+		left: 2px;
+		top: 2px;
+}
+.wrapper_d8bfb3:hover .focusTarget_dc8280[id*="channels"] {
+		left: 7px;
+}
+.wrapper_d8bfb3 .focusTarget_dc8280[id*="members"] {
+		-webkit-mask: url("https://i.imgur.com/ctWX4nh.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		position: absolute;
+		left: 2px;
+		top: 2px;
+}
+.wrapper_d8bfb3:hover .focusTarget_dc8280[id*="members"] {
+		left: 7px;
+}
+.wrapper_d8bfb3 .focusTarget_dc8280[id*="home"] {
+		-webkit-mask: url("https://i.imgur.com/NIgY5sU.png") center/cover;
+		width: 20px;
+		height: 20px;
+		background: rgba(var(--AccentColor), 1);
+		position: absolute;
+		left: 2px;
+		top: 2px;
+}
+.wrapper_d8bfb3:hover .focusTarget_dc8280[id*="home"] {
+		left: 7px;
 }
 .containerDefault_f6f816[data-list-item-id*="channels___home"] svg {
 		-webkit-mask: url("https://i.imgur.com/NIgY5sU.png") center/cover;
@@ -227,6 +291,9 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		width: 20px;
 		left: 15px;
 		top: 0px;
+}
+.spine_e1e976[style*="transform: rotateX(180deg) translateY(-9px)"], .spineBorder_e1e976 {
+		display: none;
 }
 
 /* Channel List Width [Counts for DM List] */
