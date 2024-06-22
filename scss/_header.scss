@@ -342,6 +342,17 @@
 		animation: fading 2s infinite;
 }
 
+.discordLogo_d8354c g {
+    display: none;
+}
+.discordLogo_d8354c {
+    -webkit-mask: url("https://i.imgur.com/BS0NzL3.png") center/cover;
+		width: 30px;
+		height: 30px;
+		background: rgba(var(--AccentColor), 1);
+		margin-right: 5px;
+}
+
 /* Badge */
 .iconBadge_e44302 {
     display: none;
