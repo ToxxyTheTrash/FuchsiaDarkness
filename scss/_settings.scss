@@ -173,6 +173,11 @@
 		-webkit-mask: url("https://i.imgur.com/FPSwqR3.png");
 		-webkit-mask-size: 24px !important;
 }
+/* Clips */
+[aria-label="User Settings"].side_a0 .item_a0[aria-label="Clips"]:before {
+		-webkit-mask: url("https://i.imgur.com/U6qtcWY.png");
+		-webkit-mask-size: 24px !important;
+}
 /* Friend Requests */
 [aria-label="User Settings"].side_a0 .item_a0[data-tab-id="Friend Requests"]:before {
 		-webkit-mask: url("https://i.imgur.com/vdEtrlV.png");
@@ -297,6 +302,11 @@
 		-webkit-mask: url("https://i.imgur.com/qcdeaXb.png");
 		-webkit-mask-size: 22px !important;
 }
+/* OpenAsar */
+[aria-label="User Settings"].side_a0 .item_a0[id="openasar-item"]:before {
+		-webkit-mask: url("https://i.imgur.com/BcvgEQU.png");
+		-webkit-mask-size: 22px !important;
+}
 
 /* Activity Privacy */
 [aria-label="User Settings"].side_a0 .item_a0[data-tab-id="Activity Privacy"]:before {
@@ -346,33 +356,6 @@
 		-webkit-mask-size: 22px !important;
 }
 
-/* BetterDiscord Support - Deprecated */
-/* BD - Settings */
-[aria-label="User Settings"].side_a0 .item_a0[aria-label="settings-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/pYqekDg.png");
-		-webkit-mask-size: 20px !important;
-}
-/* BD - Emotes */
-[aria-label="User Settings"].side_a0 .item_a0[aria-label="emotes-tab"]:before {
-		-webkit-mask: url("https://i.imgur.com/mYbru9j.png");
-		-webkit-mask-size: 20px !important;
-}
-/* BD - Custom CSS */
-[aria-label="User Settings"].side_a0 .item_a0[aria-label="customcss-tab"]:before{
-		-webkit-mask: url("https://i.imgur.com/WD5qMxa.png");
-		-webkit-mask-size: 20px !important;
-}
-/* BD - Plugins */
-[aria-label="User Settings"].side_a0 .item_a0[aria-label="Plugins"]:before {
-		-webkit-mask: url("https://i.imgur.com/CB6mfdr.png");
-		-webkit-mask-size: 20px !important;
-}
-/* BD - Themes */
-[aria-label="User Settings"].side_a0 .item_a0[aria-label="Themes"]:before{
-		-webkit-mask: url("https://i.imgur.com/6Rv7VNd.png");
-		-webkit-mask-size: 20px !important;
-}
-
 /* Experiments */
 [aria-label="User Settings"].side_a0 .item_a0[data-tab-id="Experiments"]:before {
 		-webkit-mask: url("https://i.imgur.com/70TrvzT.png");
@@ -407,6 +390,11 @@
 /* HypeSquad */
 [aria-label="User Settings"].side_a0 .item_a0[data-tab-id="Hypesquad Online"]:before {
 		-webkit-mask: url("https://i.imgur.com/lSJh47D.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Merch */
+[aria-label="User Settings"].side_a0 .item_a0[data-tab-id="merchandise"]:before {
+		-webkit-mask: url("https://i.imgur.com/SkBBk3x.png");
 		-webkit-mask-size: 22px !important;
 }
 /* Log Out */
