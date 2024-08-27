@@ -8,7 +8,7 @@
 		color: rgba(var(--AccentColor), 1);
 }
 
-.icon_e44302 {
+.icon_fc4f04 {
 		color: rgba(var(--AccentColor), 1) !important;
 }
 
@@ -87,5 +87,32 @@
     display: none;
 }
 .unreadMentionsIndicatorBottom_fea3ef {
+    display: none;
+}
+
+.descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
+  -webkit-line-clamp: unset;
+  max-height: 400px;
+}
+.viewFullBio_fc5c48{display: none;
+}
+
+/* nuke activities in server tooltips */
+.row_a6ae3c+.row_a6ae3c {
+    display: none;
+}
+
+/* nuke voice chat popups */
+.container_e88961, .streamPreview_adbea6, .popout_d201be {
+    display: none;
+}
+
+/* activity names */
+.activityUserPopout_c1d9fd .content_c1d9fd, .activityUserPopout_c1d9fd .name_c1d9fd, .activityUserPopout_c1d9fd .details_c1d9fd, .activityUserPopout_c1d9fd .activityName_c1d9fd, .activityUserPopout_c1d9fd .nameNormal_c1d9fd, .activityUserPopout_c1d9fd .nameWrap_c1d9fd, .activityProfile_c1d9fd .content_c1d9fd, .activityProfile_c1d9fd .name_c1d9fd, .activityProfile_c1d9fd .details_c1d9fd, .activityProfile_c1d9fd .activityName_c1d9fd, .activityProfile_c1d9fd .nameNormal_c1d9fd, .activityProfile_c1d9fd .nameWrap_c1d9fd, .activityProfileV2_c1d9fd .content_c1d9fd, .activityProfileV2_c1d9fd .name_c1d9fd, .activityProfileV2_c1d9fd .details_c1d9fd, .activityProfileV2_c1d9fd .activityName_c1d9fd, .activityProfileV2_c1d9fd .nameNormal_c1d9fd, .activityProfileV2_c1d9fd .nameWrap_c1d9fd, .activitySimplifiedProfile_c1d9fd .content_c1d9fd, .activitySimplifiedProfile_c1d9fd .name_c1d9fd, .activitySimplifiedProfile_c1d9fd .details_c1d9fd, .activitySimplifiedProfile_c1d9fd .activityName_c1d9fd, .activitySimplifiedProfile_c1d9fd .nameNormal_c1d9fd, .activitySimplifiedProfile_c1d9fd .nameWrap_c1d9fd, .activityUserPopoutV2_c1d9fd .content_c1d9fd, .activityUserPopoutV2_c1d9fd .name_c1d9fd, .activityUserPopoutV2_c1d9fd .details_c1d9fd, .activityUserPopoutV2_c1d9fd .activityName_c1d9fd, .activityUserPopoutV2_c1d9fd .nameNormal_c1d9fd, .activityUserPopoutV2_c1d9fd .nameWrap_c1d9fd, .activityBiteSizePopout_c1d9fd .content_c1d9fd, .activityBiteSizePopout_c1d9fd .name_c1d9fd, .activityBiteSizePopout_c1d9fd .details_c1d9fd, .activityBiteSizePopout_c1d9fd .activityName_c1d9fd, .activityBiteSizePopout_c1d9fd .nameNormal_c1d9fd, .activityBiteSizePopout_c1d9fd .nameWrap_c1d9fd {
+    color: rgba(var(--AccentColor), 1);
+		text-decoration: none;
+}
+
+.channelAppLauncher_df39bd {
     display: none;
 }

@@ -37,7 +37,7 @@
   left: 50%;
   translate: -50% 0;
 }
-#app-mount .guilds_a4d4d9 .wrapper_fd07a3 {
+#app-mount .guilds_a4d4d9 .wrapper_c4cd66 {
   height: var(--server-size) !important;
 }
 #app-mount .guilds_a4d4d9 .wrapper_bc7085 {
@@ -381,7 +381,7 @@ body #app-mount .guilds_a4d4d9.content-Pph8t6:not(.closed-j55_T-) + .base_a4d4d9
 body #app-mount [class*=listItemTooltip] {
   position: absolute;
   white-space: nowrap;
-  top: calc(var(--server-size) / -1 - 30px) !important;
+  top: calc(var(--server-size) / -1 - 50px) !important;
   margin-left: calc(var(--server-size) / -1 - 20px);
 }
 body #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
@@ -440,7 +440,7 @@ html.platform-osx #app-mount .base_a4d4d9 {
   x: 1;
   y: 1;
 }
-#app-mount .wrapper_c51b4e img, #app-mount .wrapper_c51b4e.avatar_e9f61e {
+#app-mount .wrapper_c51b4e img, #app-mount .wrapper_c51b4e.avatar_d808b0 {
   border-radius: var(--rs-avatar-shape);
 }
 #app-mount .wrapper_c51b4e svg[width="25"][height="15"] > rect {

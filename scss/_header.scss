@@ -107,7 +107,7 @@
 		display: none;
 }
 
-.container_e44302 {
+.container_fc4f04 {
 		border-bottom: 2px solid rgba(var(--AccentColor), 1);
 }
 .topic_bf3bbb {
@@ -116,52 +116,52 @@
 		line-height: 20px;
 		color: rgba(var(--AccentColor), 1);
 }
-.divider_e44302 {
+.divider_fc4f04 {
 		width: 2px;
 		height: 25px;
 		margin: 0 5px;
 		background: rgba(var(--AccentColor), 0.25);
 }
-.iconWrapper_e44302 {
+.iconWrapper_fc4f04 {
 		height: 25px;
 		margin: 0 5px;
 }
 
-.container_e44302 {
+.container_fc4f04 {
     height: 48px;
     padding: 0 5px;
 }
 
 /* Left Header Icons - Channels */
-.container_e44302.title_a7d72e[aria-label="Channel header"] .children_e44302 .iconWrapper_e44302 {
+.container_fc4f04.title_a7d72e[aria-label="Channel header"] .children_fc4f04 .iconWrapper_fc4f04 {
 		 -webkit-mask: url("https://i.imgur.com/mXDdMKg.png") center/cover;
 		 width: 25px;
 		 height: 25px;
 		 background: rgba(var(--AccentColor), 1);
 }
 /* Left Header Icons - Friends (broken) */
-//.children_e44302 .iconWrapper_e44302 {
+//.children_fc4f04 .iconWrapper_fc4f04 {
 //		 -webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/cover;
 //		 width: 22px;
 //		 height: 22px;
 //		 background: rgba(var(--AccentColor), 1);
 //}
 /* Left Header Icons - Library*/
-.libraryHeader_cb9493 .children_e44302 .iconWrapper_e44302 {
+.libraryHeader_cb9493 .children_fc4f04 .iconWrapper_fc4f04 {
 		 -webkit-mask: url("https://i.imgur.com/faSUfHB.png") center/cover;
 		 width: 24px;
 		 height: 24px;
 		 background: rgba(var(--AccentColor), 1);
 }
 /* Left Header Icons - Voice Chat */
-.headerWrapper_d880dc .container_e44302.transparent_e44302 .children_e44302 .iconWrapper_e44302 {
+.headerWrapper_d880dc .container_fc4f04.transparent_fc4f04 .children_fc4f04 .iconWrapper_fc4f04 {
 		 -webkit-mask: url("https://i.imgur.com/JEQfCHt.png") center/cover;
 		 width: 25px;
 		 height: 25px;
 		 background: rgba(var(--AccentColor), 1);
 }
 /* Left Header Icons - Threads */
-.container_e44302[aria-label*="Thread header"] .children_e44302 .iconWrapper_e44302 {
+.container_fc4f04[aria-label*="Thread header"] .children_fc4f04 .iconWrapper_fc4f04 {
 		 -webkit-mask: url("https://i.imgur.com/iWVN2ev.png") center/cover;
 		 width: 22px;
 		 height: 22px;
@@ -169,91 +169,91 @@
 }
 
 /* Right Header Icons*/
-.iconWrapper_e44302[aria-label*="Threads"] {
+.iconWrapper_fc4f04[aria-label*="Threads"] {
 		-webkit-mask: url("https://i.imgur.com/iWVN2ev.png") center/cover;
 		width: 28px;
 		height: 28px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Notification Settings"] {
+.iconWrapper_fc4f04[aria-label*="Notification Settings"] {
 		-webkit-mask: url("https://i.imgur.com/bH8EjSM.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Pinned Messages"] {
+.iconWrapper_fc4f04[aria-label*="Pinned Messages"] {
 		-webkit-mask: url("https://i.imgur.com/tMrxpi1.png") center/cover;
 		width: 23px;
 		height: 23px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Hide Member List"]{
+.iconWrapper_fc4f04[aria-label*="Hide Member List"]{
 		-webkit-mask: url("https://i.imgur.com/fqmCpKs.png") center/cover;
 		width: 28px;
 		height: 28px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Show Member List"] {
+.iconWrapper_fc4f04[aria-label*="Show Member List"] {
 		-webkit-mask: url("https://i.imgur.com/CRkYbVZ.png") center/cover;
 		width: 28px;
 		height: 28px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="More"] {
+.iconWrapper_fc4f04[aria-label*="More"] {
 		-webkit-mask: url("https://i.imgur.com/XK8F1QZ.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.selected_e44302[aria-label*="More"] {
+.selected_fc4f04[aria-label*="More"] {
 		transform: rotate(180deg);
 }
-.iconWrapper_e44302[aria-label*="Update"]{
+.iconWrapper_fc4f04[aria-label*="Update"]{
 		-webkit-mask: url("https://i.imgur.com/8Z68uCH.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: var(--green);
 }
-.iconWrapper_e44302[aria-label*="Inbox"]{
+.iconWrapper_fc4f04[aria-label*="Inbox"]{
 		-webkit-mask: url("https://i.imgur.com/kPC15bq.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Help"]{
+.iconWrapper_fc4f04[aria-label*="Help"]{
 		display: none;
 }
-.iconWrapper_e44302[aria-label*="Start Voice Call"]{
+.iconWrapper_fc4f04[aria-label*="Start Voice Call"]{
 		-webkit-mask: url("https://i.imgur.com/QRlEKsF.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Start Video Call"]{
+.iconWrapper_fc4f04[aria-label*="Start Video Call"]{
 		-webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Add Friends"]{
+.iconWrapper_fc4f04[aria-label*="Add Friends"]{
 		-webkit-mask: url("https://i.imgur.com/yUL8g58.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Show User Profile"]{
+.iconWrapper_fc4f04[aria-label*="Show User Profile"]{
 		-webkit-mask: url("https://i.imgur.com/uTP0O8K.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="Hide User Profile"]{
+.iconWrapper_fc4f04[aria-label*="Hide User Profile"]{
 		-webkit-mask: url("https://i.imgur.com/ctWX4nh.png") center/cover;
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
 }
-.iconWrapper_e44302[aria-label*="New Group DM"]{
+.iconWrapper_fc4f04[aria-label*="New Group DM"]{
 		display: none;
 }
 
@@ -300,13 +300,13 @@
 		width: 500px;
 }
 
-.container_e44302.themed_e44302 {
+.container_fc4f04.themed_fc4f04 {
     background: rgba(var(--TertiaryBG), 1);
 }
 .container_fd6364 {
     background: rgba(var(--TertiaryBG), 1);
 }
-.theme-dark .children_e44302:after {
+.theme-dark .children_fc4f04:after {
     display: none;
 }
 
@@ -354,6 +354,6 @@
 }
 
 /* Badge */
-.iconBadge_e44302 {
+.iconBadge_fc4f04 {
     display: none;
 }

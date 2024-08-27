@@ -31,7 +31,7 @@ foreignObject {
 /* "display: none;" spam collection */
 .wordmark_a934d8,
 .avatarHint_f89da9,
-.unread_c10249 {
+.unread_edf32f {
 		display: none;
 }
 
@@ -76,7 +76,7 @@ content: "this theme is NOT made for light theme you fucking pretzel";
 		bottom: 0;
 		width: 100%;
 		transform: translateY(100%);
-		animation: rainbow 0.1s linear infinite;
+		animation: rainbow 10s linear infinite;
 }
 
 /* Loading Screen */
@@ -126,11 +126,6 @@ circle {
 		clip-path: inset(30% 30% 30% 30%) !important;
 }
 
-/* PROTIP Removal */
-.block_dcc874 .pro_dcc874, .block_dcc874 .tip_dcc874, .tip_dcc874 {
-		display: none;
-}
-
 /* Tooltips */
 #app-mount .tooltipPrimary-3qLMbS {
 		background-color: rgba(var(--PrimaryBG));
@@ -151,46 +146,46 @@ circle {
 }
 
 /* Bot Tag */
-.botTag_a31c43, .botTag_ec86aa, .headerBotTagWithNickname-3DNCuU, .headerBotTag-1xw5Ck {
+.botTag_a31c43, .botTag_f9f2ca, .headerBotTagWithNickname-3DNCuU, .headerBotTag-1xw5Ck {
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--PrimaryBG));
 }
 
 /* Reload Screen */
-.theme-dark .image_b06619 {
+.theme-dark .image_a2a7b5 {
 	background: none;
 }
-.theme-dark .wrapper_b06619 {
+.theme-dark .wrapper_a2a7b5 {
 	background-image: url("https://i.imgur.com/FK87k4M.png");
 }
-.title_b06619 {
+.title_a2a7b5 {
 	font-size: 0;
 	line-height: 0;
 	margin-bottom: 10px;
 	color: rgba(var(--AccentColor), 1);
 }
-.title_b06619::before {
+.title_a2a7b5::before {
 	font-size: 25px;
 	content: "whoops.";
 	font-weight: 800;
 }
 
-.note_b06619 {
+.note_a2a7b5 {
 	font-size: 0;
 	color: rgba(var(--AccentColor), 1);
 }
-.note_b06619::before {
+.note_a2a7b5::before {
 	font-size: 20px;
 	content: "something has nuked your discord activity. here's a c7.r for now.";
 	font-weight: 700;
 }
-.errorPage_dd2aa2 .flex_bba380 .buttons_dd2aa2 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.errorPage_dd2aa2 .flex_dc333f .buttons_dd2aa2 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
 	background: rgba(var(--SecondaryBG), .5);
 }
-.errorPage_dd2aa2 .flex_bba380 .buttons_dd2aa2 .contents-3ca1mk {
+.errorPage_dd2aa2 .flex_dc333f .buttons_dd2aa2 .contents-3ca1mk {
 	font-size: 0px;
 }
-.errorPage_dd2aa2 .flex_bba380 .buttons_dd2aa2 .contents-3ca1mk::before {
+.errorPage_dd2aa2 .flex_dc333f .buttons_dd2aa2 .contents-3ca1mk::before {
 	font-size: 14px;
 	line-height: 25px;
 	content: "try again, though it's recommended to restart discord instead";

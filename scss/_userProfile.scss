@@ -91,9 +91,10 @@
 }
 .connectedAccountContainer_f3eb60 {
 	margin-top: 10px;
-	padding: 10px;
-	width: 335px;
-	background: rgba(var(--SecondaryBG));
+	padding: 8px;
+	width: 250px;
+	border: 1px solid rgba(var(--AccentColor), 1);
+	background: transparent;
 }
 .connectedAccountVerifiedIcon_f3eb60 svg {
 		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
@@ -136,4 +137,32 @@
 .profileBadge24_b64375 {
     width: 20px;
     height: 20px;
+}
+
+
+
+.custom-profile-theme .color_f9d37d.text_f1cdcc, .custom-profile-theme .color_f9d37d.icon_f9d37d {
+    background: transparent;
+    color: rgba(var(--AccentColor), 1);
+    transition: none;
+		opacity: 1;
+}
+
+:where(.buttonInner_f9d37d).icon_f9d37d {
+    min-width: 25px;
+    min-height: 25px;
+}
+[aria-label="Add Friend"].button_f9d37d .icon_f9d37d {
+	-webkit-mask: url("https://i.imgur.com/kqeqvXb.png") center/cover;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+}
+[aria-label="Friends"].button_f9d37d .icon_f9d37d {
+	-webkit-mask: url("https://i.imgur.com/dGBAHCS.png") center/cover;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+}
+.wrapper_cb78f1.biteSize_cb78f1 .button_dd4f85 {
+    padding: 0;
+		margin: 0 0 !important;
 }

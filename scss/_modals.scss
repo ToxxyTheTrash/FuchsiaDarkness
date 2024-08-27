@@ -56,46 +56,51 @@
     background-color: rgba(var(--PrimaryBG));
 }
 .colorStandard-21JIj7, .colorHeaderSecondary-g5teka, .defaultColor_e9e35f {
-		color: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1) !important;
+}
+.text-xs\/semibold_dc00ef {
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
 }
 #app-mount .footer_f9a4c9 {
 		background-color: rgba(var(--SecondaryBG));
 		box-shadow: none;
 }
-.icon-AynerZ {
-		margin: 5px 5px 5px 5px;
+.icon_a47d49 {
+		margin: 5px;
 		height: 20px;
 		width: 20px;
 		outline: 100px solid rgba(var(--AccentColor), 1);
 		outline-offset: -500px;
 }
 /* Create My Own */
-.icon-AynerZ[src*="/assets/f303eeb986430817ee8a52a9b81aea45.svg"] {
+.icon_a47d49[src*="/assets/c4b7801fb3f0df337861.svg"] {
   -webkit-mask: url("https://i.imgur.com/9VtXjxt.png") center/20px no-repeat;
 }
 /* Templates */
 /* Gaming */
-.icon-AynerZ[src*="/assets/a053c2e82b0c5e6a4cc853ca846cc000.svg"] {
+.icon_a47d49[src*="/assets/4e83e03c728ff6263b47.svg"] {
   -webkit-mask: url("https://i.imgur.com/iAB8BmS.png") center/20px no-repeat;
 }
 /* School Club */
-.icon-AynerZ[src*="/assets/fde233b6899a1a0fac64c419724e668b.svg"] {
+.icon_a47d49[src*="/assets/1351814d99a389aad23c.svg"] {
   -webkit-mask: url("https://i.imgur.com/lymqJgE.png") center/20px no-repeat;
 }
 /* Study Group */
-.icon-AynerZ[src*="/assets/b7b57e9fa6377409691f498d5d48714e.svg"] {
+.icon_a47d49[src*="/assets/9ab631e1d1a164dc7ef0.svg"] {
   -webkit-mask: url("https://i.imgur.com/E2Bcqeo.png") center/20px no-repeat;
 }
 /* Friends */
-.icon-AynerZ[src*="/assets/2cb8e7219e1554e094c4a0316e0ab2c2.svg"] {
+.icon_a47d49[src*="/assets/a740255d036707212416.svg"] {
   -webkit-mask: url("https://i.imgur.com/73n6Qkh.png") center/20px no-repeat;
 }
 /* Artists & Creators */
-.icon-AynerZ[src*="/assets/45d6946387a0c66f4eb4e62a6e7758ea.svg"] {
+.icon_a47d49[src*="/assets/2072f15a7a61e7d69c05.svg"] {
   -webkit-mask: url("https://i.imgur.com/6Rv7VNd.png") center/20px no-repeat;
 }
 /* Local Community */
-.icon-AynerZ[src*="/assets/5d8898dd9356f25901bae20fc8c980d9.svg"] {
+.icon_a47d49[src*="/assets/2ad98741f87bb58786cf.svg"] {
   -webkit-mask: url("https://i.imgur.com/NIgY5sU.png") center/20px no-repeat;
 }
 /* Arrow */
@@ -275,12 +280,12 @@
     max-height: 250px;
     background: rgba(var(--PrimaryBG));
 }
-.content_f14193 {
+.content_e3c1c6 {
     padding: 0 5px;
     height: 35px;
     line-height: 35px;
 }
-.result_f14193 {
+.result_e3c1c6 {
     height: 35px;
 }
 .miscContainer_f4e139 {
@@ -324,4 +329,22 @@
 .heading-lg-semibold__85c17 {
     font-size: 20px;
     line-height: 30px;
+}
+
+
+.scroller_c2dcc6 {
+    gap: 5px;
+    padding: 10px;
+}
+.tabBar_c1519f {
+    gap: 25px; 
+    margin: 5px 5px;
+    border: none;
+}
+.theme-dark.custom-profile-theme .biteSizeOverlayBackground_c69a7b, .theme-dark.custom-profile-theme .fullSizeOverlayBackground_c69a7b {
+    background: transparent;
+    border: none;
+}
+.thin_c49869::-webkit-scrollbar-track {
+    display: none !important;
 }

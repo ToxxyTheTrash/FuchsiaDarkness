@@ -7,13 +7,6 @@
 		left: 0;
 		width: 100%;
 }
-.winButton_a934d8 {
-		position: relative;
-		top: 10px;
-		height: 25px;
-		width: 40px;
-		background-color: rgba(var(--PrimaryBG));
-}
 #app-mount .winButton_a934d8 {
 		top: calc(100vh - 50px);
 		margin-top: 10px !important;
@@ -33,12 +26,12 @@
 		 left: -25px;
 		 height: 25px;
 		 width: 35px;
-		 background-color: rgba(var(--PrimaryBG));
+		 background-color: rgba(var(--TetriaryBG));
 		 color: rgba(var(--AccentColor), 1);
 }
 .winButton_a934d8:hover {
 		 color: rgba(var(--AccentColor), 1);
-		 background: rgba(var(--SecondaryBG));
+		 background: rgba(var(--AccentColor), 0.25);
 }
 
 .colorNotification-24Qhr6 {

@@ -11,7 +11,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		-webkit-mask: url("https://i.imgur.com/pYqekDg.png") center/20px no-repeat !important;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.button_f67531 {
+.button_adca65 {
 		width: 25px;
 		height: 25px;
 		color: rgba(var(--AccentColor), 1);
@@ -38,7 +38,7 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 /* Category/Role name */
-.container_cc72c1 {
+.container_a5ad5c {
 		text-transform: none;
 		font-size: 15px;
 		line-height: 20px;
@@ -355,32 +355,32 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 /* Voice Channel Icons */
-.button_f67531[aria-label*="Mute"][aria-checked*="false"] svg {
+.button_adca65[aria-label*="Mute"][aria-checked*="false"] svg {
 		-webkit-mask: url("https://i.imgur.com/uowLiRY.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
-.button_f67531[aria-label*="Mute"][aria-checked*="true"] svg {
+.button_adca65[aria-label*="Mute"][aria-checked*="true"] svg {
 		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgb(241, 86, 86);
 		color: rgb(241, 86, 86);
 }
-.button_f67531[aria-label*="Deafen"][aria-checked*="false"] svg {
+.button_adca65[aria-label*="Deafen"][aria-checked*="false"] svg {
 		-webkit-mask: url("https://i.imgur.com/kVJyJEN.png") center/cover;
 		width: 20px;
 		height: 20px;
 		background: rgba(var(--AccentColor), 1);
 }
-.button_f67531[aria-label*="Disconnect"] svg {
+.button_adca65[aria-label*="Disconnect"] svg {
 	 -webkit-mask: url("https://i.imgur.com/icr6AHF.png") center/cover;
 	 width: 20px;
 	 height: 20px;
 	 background: rgba(var(--AccentColor), 1);
 }
-.button_f67531[aria-label*="Deafen"][aria-checked*="true"] svg {
+.button_adca65[aria-label*="Deafen"][aria-checked*="true"] svg {
 		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
 		width: 20px;
 		height: 20px;
@@ -417,39 +417,39 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 }
 
 /* Voice Chat Status Icons */
-.icons_cdc675 {
+.icons_d80634 {
 		margin-right: 5px;
 }
-.icons_cdc675 .iconSpacing_cdc675 svg {
+.icons_d80634 .iconSpacing_d80634 svg {
 		width: 18px;
 		height: 18px;
 }
-.icons_cdc675 .iconSpacing_cdc675[aria-label="Muted"] svg {
+.icons_d80634 .iconSpacing_d80634[aria-label="Muted"] svg {
 		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
 		background: #444;
 		color: #444;
 }
-.icons_cdc675 .iconSpacing_cdc675[aria-label="Deafened"] svg {
+.icons_d80634 .iconSpacing_d80634[aria-label="Deafened"] svg {
 		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
 		background: #444;
 		color: #444;
 }
-.icons_cdc675 .iconSpacing_cdc675[aria-label*="Muted by"] svg {
+.icons_d80634 .iconSpacing_d80634[aria-label*="Muted by"] svg {
 		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
 		background: var(--yellow);
 		color: var(--yellow);
 }
-.icons_cdc675 .iconSpacing_cdc675[aria-label*="Server Muted"] svg {
+.icons_d80634 .iconSpacing_d80634[aria-label*="Server Muted"] svg {
 		-webkit-mask: url("https://i.imgur.com/SWL7qk3.png") center/cover;
 		background: var(--red);
 		color: var(--red);
 }
-.icons_cdc675 .iconSpacing_cdc675[aria-label*="Server Deafened"] svg {
+.icons_d80634 .iconSpacing_d80634[aria-label*="Server Deafened"] svg {
 		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
 		background: var(--red);
 		color: var(--red);
 }
-.icons_cdc675 .iconSpacing_cdc675[aria-label*="Video"] svg {
+.icons_d80634 .iconSpacing_d80634[aria-label*="Video"] svg {
 		-webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
 		background: var(--red);
 		color: var(--red);

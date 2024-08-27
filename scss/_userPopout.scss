@@ -98,38 +98,38 @@
 }
 
 /* Media Playback/Activity */
-#app-mount .activityProfile_d5089b .activityName_d5089b,
-#app-mount .activityProfile_d5089b .content_d5089b,
-#app-mount .activityProfile_d5089b .details_d5089b,
-#app-mount .activityProfile_d5089b .name_d5089b,
-#app-mount .activityProfile_d5089b .nameNormal_d5089b,
-#app-mount .activityProfile_d5089b .nameWrap_d5089b,
-#app-mount .activityUserPopout_d5089b .activityName_d5089b,
-#app-mount .activityUserPopout_d5089b .content_d5089b,
-#app-mount .activityUserPopout_d5089b .details_d5089b,
-#app-mount .activityUserPopout_d5089b .name_d5089b,
-#app-mount .activityUserPopout_d5089b .nameNormal_d5089b,
-#app-mount .activityUserPopout_d5089b .nameWrap_d5089b,
-#app-mount .activityUserPopoutV2_d5089b .activityName_d5089b,
-#app-mount .activityUserPopoutV2_d5089b .content_d5089b,
-#app-mount .activityUserPopoutV2_d5089b .details_d5089b,
-#app-mount .activityUserPopoutV2_d5089b .name_d5089b,
-#app-mount .activityUserPopoutV2_d5089b .nameNormal_d5089b,
-#app-mount .activityUserPopoutV2_d5089b .nameWrap_d5089b {
+#app-mount .activityProfile_c1d9fd .activityName_c1d9fd,
+#app-mount .activityProfile_c1d9fd .content_c1d9fd,
+#app-mount .activityProfile_c1d9fd .details_c1d9fd,
+#app-mount .activityProfile_c1d9fd .name_c1d9fd,
+#app-mount .activityProfile_c1d9fd .nameNormal_c1d9fd,
+#app-mount .activityProfile_c1d9fd .nameWrap_c1d9fd,
+#app-mount .activityUserPopout_c1d9fd .activityName_c1d9fd,
+#app-mount .activityUserPopout_c1d9fd .content_c1d9fd,
+#app-mount .activityUserPopout_c1d9fd .details_c1d9fd,
+#app-mount .activityUserPopout_c1d9fd .name_c1d9fd,
+#app-mount .activityUserPopout_c1d9fd .nameNormal_c1d9fd,
+#app-mount .activityUserPopout_c1d9fd .nameWrap_c1d9fd,
+#app-mount .activityUserPopoutV2_c1d9fd .activityName_c1d9fd,
+#app-mount .activityUserPopoutV2_c1d9fd .content_c1d9fd,
+#app-mount .activityUserPopoutV2_c1d9fd .details_c1d9fd,
+#app-mount .activityUserPopoutV2_c1d9fd .name_c1d9fd,
+#app-mount .activityUserPopoutV2_c1d9fd .nameNormal_c1d9fd,
+#app-mount .activityUserPopoutV2_c1d9fd .nameWrap_c1d9fd {
 		color: rgba(var(--AccentColor), 1);
 }
-#app-mount .headerText_d5089b {
+#app-mount .headerText_c1d9fd {
 		color: rgba(var(--AccentColor), 1);
 }
-.text_aa267a {
+.text_ec2fa7 {
 		font-weight: 600;
 		color: rgba(var(--AccentColor), 1) !important;
 }
-.barInner_aa267a {
+.barInner_ec2fa7 {
 		background-color: rgba(var(--AccentColor), 1) !important;
 		min-width: 5px;
 }
-.bar_aa267a {
+.bar_ec2fa7 {
 		background-color: rgba(var(--SecondaryBG));
 		height: 5px;
 		margin-bottom: 5px;
@@ -152,11 +152,15 @@
 /* Roles */
 .role_f9575e {
 		font-weight: 600;
-		background: rgba(var(--PrimaryBG));
+		background: rgba(var(--PrimaryBG)) !important;
 		height: 20px;
-		margin: 0 3px 3px 0;
+		margin: 0;
 		padding: 0;
-		border: 1px solid rgba(var(--AccentColor), 1);
+		border: 1px solid rgba(var(--AccentColor), 1) !important;
+}
+.role_f9575e>:first-child {
+    margin-right: 5px;
+    margin-left: 2px;
 }
 .actionButton_e4010c {
 		color: #555;
@@ -175,7 +179,7 @@
 
 /* Note */
 .textarea_dde0a8, .textarea_dde0a8:focus{
-		background-color: rgba(var(--PrimaryBG));
+		background: transparent;
 		color: rgba(var(--AccentColor), 1);
 		font-size: 14px;
 		line-height: 15px;
@@ -239,8 +243,8 @@
 }
 
 .overlayBackground_c69a7b {
-	margin: 65px 0px 0px;
-	background-color: rgba(var(--SecondaryBG));
+	margin: 0;
+	background: rgba(var(--SecondaryBG));
 }
 .overlayBackground_c69a7b .scroller-1jBQYo {
 	background: rgba(var(--PrimaryBG));
@@ -254,6 +258,105 @@
     background: rgba(var(--AccentColor), 1);;
 }
 
-.avatar_c51b4e[src*="https://cdn.discordapp.com/avatar-decoration"] {
+/*.avatar_c51b4e[src*="https://cdn.discordapp.com/avatar-decoration"] {
     display: none;
+}*/
+
+.body_b07019 {
+    padding: 0 10px 5px;
+    gap: 5px;
+}
+
+.activity_cd74cc {
+    padding: 0px;
+}
+.theme-dark.custom-profile-theme .activity_cd74cc {
+    background: transparent;
+}
+
+.userPopoutInner_c69a7b .container_e5a42d {
+    position: absolute;
+    top: -140px;
+    margin: 0;
+    padding: 6px;
+    background: rgba(var(--SecondaryBG), 0.75);
+    border: none;
+}
+.body_b07019 {
+  overflow: visible !important;
+}
+.header_b07019 {
+  z-index: 0;
+}
+.bannerSVGWrapper_b32cc2 {
+    z-index: 0;
+	min-height: 125px !important;
+}
+.container_c32acf {
+  z-index: 9000;
+}
+
+.statusBubbleEmojiOnlyPadding_d0a252 {
+    padding: 5px;
+		top: -55px;
+}
+.statusBubble_d0a252 {
+    background: rgba(var(--SecondaryBG), 0.75);
+}
+.statusBubbleOuter_d0a252 {
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+.statusBubbleWithTextPadding_d0a252 {
+    padding: 5px;
+		top: -55px;
+}
+.statusText_d0a252 {
+    display: inline-block;
+    color: rgba(var(--AccentColor), 1);
+}
+.statusBubbleWithTextMinWidth_d0a252 {
+    min-width: 0;
+    width: 230px;
+}
+.statusBubble_d0a252 .statusBubbleWithTextMinWidth_d0a252 {
+    min-width: 0;
+    width: 230px;
+		font-weight: 500;
+		background: transparent;
+}
+
+.custom-profile-theme.theme-dark .statusBubbleOuter_d0a252 {
+    border: none;
+}
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d {
+    color: rgba(var(--AccentColor), 1);
+    background: transparent;
+}
+
+.userProfileOuterThemed_c69a7b.userPopoutOuter_c69a7b {
+    width: 350px;
+}
+
+.statusBubbleWithTextPadding_d0a252 .content_d0a252 {
+    font-size: 14px;
+		overflow: unset;
+		word-wrap: unset;
+		min-width: 235px;
+		padding: 1px;
+}
+.statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after {
+    display: none;
+}
+
+.custom-profile-theme .invisibleContainer_d0a252.biteSize_d0a252 {
+    top: 0;
+    left: 0;
+		display: none;
+}
+.visibleContainer_d0a252.biteSize_d0a252 {
+    left: 105px;
+    top: 135px !important;
 }
