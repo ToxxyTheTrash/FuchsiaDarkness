@@ -69,15 +69,13 @@
 .attachButtonPlay_f298d4 {
     display: none;
 }
-.attachButtonInner_f298d4 {
-    height: 42px;
-}
 
 /* Upload options */
 .menu_ec5137 {
-	bottom: 10px !important;
+	bottom: -1px !important;
 	position: relative;
 	box-shadow: none;
+	border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 .tipSubtext_d3460f {
     display: none;
