@@ -380,6 +380,12 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 	 height: 20px;
 	 background: rgba(var(--AccentColor), 1);
 }
+.button_adca65[aria-label*="Noise Suppression"] svg {
+	 display: none;
+}
+.horizontal_dc333f>.flex_dc333f {
+    margin-left: -25px;
+}
 .button_adca65[aria-label*="Deafen"][aria-checked*="true"] svg {
 		-webkit-mask: url("https://i.imgur.com/biVJGEE.png") center/cover;
 		width: 20px;
@@ -414,6 +420,72 @@ button[aria-label="User Settings"]:not(.actionButton-3WMLvV):before {
 		height: 20px;
 		background: rgb(241, 86, 86);
 		color: rgb(241, 86, 86);
+}
+
+/* Voice Chat and Streaming */
+.button_adca65[aria-label*="Stream"] svg {
+	 -webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
+	 width: 20px;
+	 height: 20px;
+	 background: rgba(var(--AccentColor), 1);
+}
+.button_adca65[aria-label*="Stop Streaming"] svg {
+	 -webkit-mask: url("https://i.imgur.com/jeh7qQQ.png") center/cover;
+	 width: 20px;
+	 height: 20px;
+	 background: rgba(var(--AccentColor), 1);
+}
+.ping_c02c63 {
+    display: none;
+}
+.popoutText_c73c22.popoutTextDetails_c73c22 {
+    display: none;
+}
+.graphContainer_c73c22 {
+    margin-bottom: 5px;
+    padding: 0;
+}
+.separator_c73c22 {
+    border: none;
+		margin-bottom: 0;
+}
+
+.actionButtons_adcaac {
+    grid-gap: 5px;
+    padding-top: 0;
+}
+.actionButtons_adcaac .button_dd4f85 .contents_dd4f85 svg {
+	 width: 24px !important;
+		height: 24px !important;
+}
+.actionButtons_adcaac .button_dd4f85 .contents_dd4f85 .lottieIcon_f73ef7 {
+	display: contents !important;
+}
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
+    background: rgba(var(--AccentColor), 0.75);
+    color: rgba(var(--AccentColor), 1);
+}
+.button_dd4f85[aria-label*="Turn On Camera"] svg {
+	 -webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+	 background: rgba(var(--AccentColor), 1);
+}
+.button_dd4f85[aria-label*="Turn Off Camera"] svg {
+	 -webkit-mask: url("https://i.imgur.com/CgkqQF0.png") center/cover;
+	 background: rgba(var(--AccentColor), 1);
+}
+.button_dd4f85[aria-label*="Share Your Screen"] svg {
+	 -webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
+	 background: rgba(var(--AccentColor), 1);
+}
+.button_dd4f85[aria-label*="Start An Activity"] svg {
+	 -webkit-mask: url("https://i.imgur.com/iAB8BmS.png") center/cover;
+	 background: rgba(var(--AccentColor), 1);
+}
+.button_dd4f85[aria-label*="Open Soundboard"] svg {
+	 -webkit-mask: url("https://i.imgur.com/Z8tem8F.png") center/cover;
+	 background: rgba(var(--AccentColor), 1);
+	 color: rgba(var(--AccentColor), 1);
+    --__lottieIconColor: rgba(var(--AccentColor), 1);
 }
 
 /* Voice Chat Status Icons */
