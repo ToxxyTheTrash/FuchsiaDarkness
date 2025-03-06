@@ -1,59 +1,59 @@
 /* -=-= Server List =-=- */
 /* Server List - Home */
-#app-mount .guilds_a4d4d9 .wrapper_c5f96a [data-list-item-id*="guildsnav___home"] svg {
+#app-mount .guilds_c48ade .wrapper_cc5dd2 [data-list-item-id*="guildsnav___home"] svg {
 		color: transparent;
 		background: url("https://i.imgur.com/kdb4zUy.png") no-repeat center/cover;
 		height: 100%;
 		width: 100%;
 }
-.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+.wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
 		background-color: rgba(var(--AccentColor), 0.25);
 }
 
 /* Server Pills */
-.item_c4cd66 {
+.item__58105 {
 		background-color: rgba(var(--AccentColor), 1) !important;
 }
 
 /* DM Divider */
-.guildSeparator_d0c57e {
+.guildSeparator__252b6 {
 		height: 2px;
 		width: 25px;
 		background-color: rgba(var(--AccentColor), 1);
 }
 
 /* Add Server + Server Discovery */
-.wrapper-28eC3z .circleIconButton_db6521 svg {
+.wrapper-28eC3z .circleIconButton__5bc7e svg {
 		width: 30px;
 		height: 30px;
 		color: #fff;
 }
-.wrapper-28eC3z .circleIconButton_db6521[data-list-item-id*="guildsnav___create-join-button"] svg {
+.wrapper-28eC3z .circleIconButton__5bc7e[data-list-item-id*="guildsnav___create-join-button"] svg {
 		-webkit-mask: url("https://i.imgur.com/Mm7wgGi.png") center/cover;
 		background: white;
 }
-.wrapper-28eC3z .circleIconButton_db6521[data-list-item-id*="guildsnav___guild-discover-button"] svg {
+.wrapper-28eC3z .circleIconButton__5bc7e[data-list-item-id*="guildsnav___guild-discover-button"] svg {
 		-webkit-mask: url("https://i.imgur.com/wpTpSDQ.png") center/cover;
 		background: white;
 }
 
 /* Server Folders */
-.expandedFolderIconWrapper_bc7085 svg {
+.expandedFolderIconWrapper__48112 svg {
 		outline: 100px solid;
 		outline-offset: -500px;
 		-webkit-mask: url("https://i.imgur.com/5KBdBsp.png") center/cover;
 }
 
-.iconBadge_c96c45 {
+.iconBadge__650eb {
 		background-color: rgba(var(--SecondaryBG));
 		color: rgba(var(--AccentColor), 1);
 }
 
-.scroller_fea3ef {
+.scroller_ef3116 {
 		background-color: rgba(var(--PrimaryBG));
 }
 
-.activityIcon_a6ae3c[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
+.activityIcon_b1f768[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
 		-webkit-mask: url("https://i.imgur.com/IYrkNiU.png") center/cover;
 		width: 25px;
 		height: 25px;
@@ -61,13 +61,13 @@
 		color: rgba(var(--AccentColor), 1);
 }
 
-.guilds_a4d4d9 {
+.guilds_c48ade {
     width: 50px;
 }
-.platform-win .scroller_fea3ef {
+.platform-win .scroller_ef3116 {
     padding-top: 5px;
 }
-.listItem_c96c45 {
+.listItem__650eb {
     margin: 0 0 5px;
     width: 50px;
 }
@@ -80,21 +80,21 @@
     width: 35px;
     height: 35px;
 }
-.wrapper_c4cd66 {
+.wrapper__58105 {
     width: 5px;
     height: 35px;
 }
-.wrapper_bc7085 {
+.wrapper__48112 {
     width: 50px;
 }
 
 
-.guilds_a4d4d9 .scroller_fea3ef {
+.guilds_c48ade .scroller_ef3116 {
     background: rgba(var(--TertiaryBG), 1);
 }
 
 
-.expandedFolderBackground_bc7085 {
+.expandedFolderBackground__48112 {
     position: absolute;
     top: 0;
     left: 0;

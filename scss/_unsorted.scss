@@ -8,7 +8,7 @@
 		color: rgba(var(--AccentColor), 1);
 }
 
-.icon_fc4f04 {
+.icon__9293f {
 		color: rgba(var(--AccentColor), 1) !important;
 }
 
@@ -23,7 +23,7 @@
 		background-color: rgba(var(--AccentColor), 1);
 }
 
-.app_a01fb1 button {
+.app__160d8 button {
 		color: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
@@ -83,36 +83,67 @@
 }
 
 // no there's no new unreads shoo
-.container_eba0ba {
+.container__7aaec {
     display: none;
 }
-.unreadMentionsIndicatorBottom_fea3ef {
+.unreadMentionsIndicatorBottom_ef3116 {
     display: none;
 }
 
-.descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
+.descriptionClamp_f5f93a:not(.headerText_faa96b .descriptionClamp_f5f93a) {
   -webkit-line-clamp: unset;
   max-height: 400px;
 }
-.viewFullBio_fc5c48{display: none;
+.viewFullBio_f5f93a{display: none;
 }
 
 /* nuke activities in server tooltips */
-.row_a6ae3c+.row_a6ae3c {
+.row_b1f768+.row_b1f768 {
     display: none;
 }
 
 /* nuke voice chat popups */
-.container_e88961, .streamPreview_adbea6, .popout_d201be {
+.container__4e30a, .streamPreview__6da2d, .popout__7fe3a {
     display: none;
 }
 
 /* activity names */
-.activityUserPopout_c1d9fd .content_c1d9fd, .activityUserPopout_c1d9fd .name_c1d9fd, .activityUserPopout_c1d9fd .details_c1d9fd, .activityUserPopout_c1d9fd .activityName_c1d9fd, .activityUserPopout_c1d9fd .nameNormal_c1d9fd, .activityUserPopout_c1d9fd .nameWrap_c1d9fd, .activityProfile_c1d9fd .content_c1d9fd, .activityProfile_c1d9fd .name_c1d9fd, .activityProfile_c1d9fd .details_c1d9fd, .activityProfile_c1d9fd .activityName_c1d9fd, .activityProfile_c1d9fd .nameNormal_c1d9fd, .activityProfile_c1d9fd .nameWrap_c1d9fd, .activityProfileV2_c1d9fd .content_c1d9fd, .activityProfileV2_c1d9fd .name_c1d9fd, .activityProfileV2_c1d9fd .details_c1d9fd, .activityProfileV2_c1d9fd .activityName_c1d9fd, .activityProfileV2_c1d9fd .nameNormal_c1d9fd, .activityProfileV2_c1d9fd .nameWrap_c1d9fd, .activitySimplifiedProfile_c1d9fd .content_c1d9fd, .activitySimplifiedProfile_c1d9fd .name_c1d9fd, .activitySimplifiedProfile_c1d9fd .details_c1d9fd, .activitySimplifiedProfile_c1d9fd .activityName_c1d9fd, .activitySimplifiedProfile_c1d9fd .nameNormal_c1d9fd, .activitySimplifiedProfile_c1d9fd .nameWrap_c1d9fd, .activityUserPopoutV2_c1d9fd .content_c1d9fd, .activityUserPopoutV2_c1d9fd .name_c1d9fd, .activityUserPopoutV2_c1d9fd .details_c1d9fd, .activityUserPopoutV2_c1d9fd .activityName_c1d9fd, .activityUserPopoutV2_c1d9fd .nameNormal_c1d9fd, .activityUserPopoutV2_c1d9fd .nameWrap_c1d9fd, .activityBiteSizePopout_c1d9fd .content_c1d9fd, .activityBiteSizePopout_c1d9fd .name_c1d9fd, .activityBiteSizePopout_c1d9fd .details_c1d9fd, .activityBiteSizePopout_c1d9fd .activityName_c1d9fd, .activityBiteSizePopout_c1d9fd .nameNormal_c1d9fd, .activityBiteSizePopout_c1d9fd .nameWrap_c1d9fd {
+.activityUserPopout_c1d9fd .content__2ef49, .activityUserPopout_c1d9fd .name__2ef49, .activityUserPopout_c1d9fd .details__2ef49, .activityUserPopout_c1d9fd .activityName__2ef49, .activityUserPopout_c1d9fd .nameNormal__2ef49, .activityUserPopout_c1d9fd .nameWrap__2ef49, .activityProfile_c1d9fd .content__2ef49, .activityProfile_c1d9fd .name__2ef49, .activityProfile_c1d9fd .details__2ef49, .activityProfile_c1d9fd .activityName__2ef49, .activityProfile_c1d9fd .nameNormal__2ef49, .activityProfile_c1d9fd .nameWrap__2ef49, .activityProfileV2_c1d9fd .content__2ef49, .activityProfileV2_c1d9fd .name__2ef49, .activityProfileV2_c1d9fd .details__2ef49, .activityProfileV2_c1d9fd .activityName__2ef49, .activityProfileV2_c1d9fd .nameNormal__2ef49, .activityProfileV2_c1d9fd .nameWrap__2ef49, .activitySimplifiedProfile_c1d9fd .content__2ef49, .activitySimplifiedProfile_c1d9fd .name__2ef49, .activitySimplifiedProfile_c1d9fd .details__2ef49, .activitySimplifiedProfile_c1d9fd .activityName__2ef49, .activitySimplifiedProfile_c1d9fd .nameNormal__2ef49, .activitySimplifiedProfile_c1d9fd .nameWrap__2ef49, .activityUserPopoutV2_c1d9fd .content__2ef49, .activityUserPopoutV2_c1d9fd .name__2ef49, .activityUserPopoutV2_c1d9fd .details__2ef49, .activityUserPopoutV2_c1d9fd .activityName__2ef49, .activityUserPopoutV2_c1d9fd .nameNormal__2ef49, .activityUserPopoutV2_c1d9fd .nameWrap__2ef49, .activityBiteSizePopout_c1d9fd .content__2ef49, .activityBiteSizePopout_c1d9fd .name__2ef49, .activityBiteSizePopout_c1d9fd .details__2ef49, .activityBiteSizePopout_c1d9fd .activityName__2ef49, .activityBiteSizePopout_c1d9fd .nameNormal__2ef49, .activityBiteSizePopout_c1d9fd .nameWrap__2ef49 {
     color: rgba(var(--AccentColor), 1);
 		text-decoration: none;
 }
 
-.channelAppLauncher_df39bd {
+.channelAppLauncher_e6e74f {
     display: none;
+}
+
+/* Voice Messages */
+.container_a8e786 {
+    background: rgba(var(--AccentColor), 0.25);
+    padding: 10px;
+		border: 2px dashed rgba(var(--AccentColor), 0.25);
+}
+.ripple_a8e786 {
+    background: rgba(var(--AccentColor), 0.75) !important;
+}
+.playing_a8e786 .playButtonContainer_a8e786 {
+    cursor: crosshair;
+    background: rgba(var(--PrimaryBG));
+}
+#app-mount .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+	background: rgba(var(--AccentColor), 1) !important;
+}
+.playIcon_a8e786 {
+		color: rgba(var(--PrimaryBG)) !important;
+}
+.playing_a8e786 .playIcon_a8e786 {
+		color: rgba(var(--AccentColor), 1) !important;
+}
+.playing_a8e786 .duration_a8e786 {
+    color: rgba(var(--PrimaryBG));
+		font-weight: 600;
+}
+
+#app-mount .waveform_a8e786, #app-mount .canvas__0efdf {
+    color: rgba(var(--AccentColor), 1) !important;
 }

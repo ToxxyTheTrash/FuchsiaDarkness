@@ -53,17 +53,17 @@
 }
 
 /* Blurple Recolor - Chat */
-.image_faf5ab[src="/assets/60ea1d16163c13845ccf31e70fd6528b.svg"] {
+.image__44df5[src="/assets/60ea1d16163c13845ccf31e70fd6528b.svg"] {
 		object-position: -999999px -999999px;
 		background: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/chatnotice_followchannel_bg.svg) center/contain no-repeat;
 		width: 47px;
 		height: 60px;
 		margin-bottom: -8px;
 }
-.image_faf5ab[src="/assets/60ea1d16163c13845ccf31e70fd6528b.svg"] + * {
+.image__44df5[src="/assets/60ea1d16163c13845ccf31e70fd6528b.svg"] + * {
 		overflow: visible;
 }
-.image_faf5ab[src="/assets/60ea1d16163c13845ccf31e70fd6528b.svg"] + *::after {
+.image__44df5[src="/assets/60ea1d16163c13845ccf31e70fd6528b.svg"] + *::after {
 		content: "";
 		position: absolute;
 		bottom: 8px;
@@ -74,17 +74,17 @@
 		background: rgba(var(--AccentColor), 1);
 		-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/chatnotice_followchannel_accent.svg) center/contain no-repeat;
 }
-.image_faf5ab[src="/assets/0e33fc3f60b69ba9b0247df60d589439.svg"] {
+.image__44df5[src="/assets/0e33fc3f60b69ba9b0247df60d589439.svg"] {
 		object-position: -999999px -999999px;
 		background: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/chatnotice_verifyemail_bg.svg) center/contain no-repeat;
 		width: 65px;
 		height: 60px;
 		margin-bottom: -16px;
 }
-.image_faf5ab[src="/assets/0e33fc3f60b69ba9b0247df60d589439.svg"] + * {
+.image__44df5[src="/assets/0e33fc3f60b69ba9b0247df60d589439.svg"] + * {
 		overflow: visible;
 }
-.image_faf5ab[src="/assets/0e33fc3f60b69ba9b0247df60d589439.svg"] + *::after {
+.image__44df5[src="/assets/0e33fc3f60b69ba9b0247df60d589439.svg"] + *::after {
 		content: "";
 		position: absolute;
 		bottom: 0px;
@@ -95,17 +95,17 @@
 		background: rgba(var(--AccentColor), 1);
 		-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/chatnotice_verifyemail_accent.svg) center/contain no-repeat;
 }
-.image_faf5ab[src="/assets/45372ebbfad1c491747d6f5b7117fd88.svg"] {
+.image__44df5[src="/assets/45372ebbfad1c491747d6f5b7117fd88.svg"] {
 		object-position: -999999px -999999px;
 		background: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/chatnotice_verifyemail_bg.svg) center/contain no-repeat;
 		width: 65px;
 		height: 60px;
 		margin-bottom: -16px;
 }
-.image_faf5ab[src="/assets/45372ebbfad1c491747d6f5b7117fd88.svg"] + * {
+.image__44df5[src="/assets/45372ebbfad1c491747d6f5b7117fd88.svg"] + * {
 		overflow: visible;
 }
-.image_faf5ab[src="/assets/45372ebbfad1c491747d6f5b7117fd88.svg"] + *::after {
+.image__44df5[src="/assets/45372ebbfad1c491747d6f5b7117fd88.svg"] + *::after {
 		content: "";
 		position: absolute;
 		bottom: 0px;
@@ -122,10 +122,10 @@
 #app-mount .activeButton-LRWFC_:hover {
 		background-color: rgba(var(--AccentColor), 1);
 }
-.noResultsImage_c2b47d.alt_c2b47d {
+.noResultsImage_a9e706.alt_a9e706 {
 		display: flex;
 }
-.noResultsImage_c2b47d.alt_c2b47d::before {
+.noResultsImage_a9e706.alt_a9e706::before {
 		content: "";
 		position: absolute;
 		width: 160px;
@@ -148,27 +148,27 @@
 .crossBlurple_b0f0f9 {
 		background-image: url(https://discord.com/assets/c13a0b03a798023c27155fad5f0c7a61.png);
 }
-.background_f3801e[style*="background-color: rgb(92, 100, 244)"],
-.background_f3801e[style*="background-color: hsl(235, "],
-.background_f3801e[style*="background-color: hsl(227, "] {
+.background_fb62e2[style*="background-color: rgb(92, 100, 244)"],
+.background_fb62e2[style*="background-color: hsl(235, "],
+.background_fb62e2[style*="background-color: hsl(227, "] {
 		background-color: rgba(var(--AccentColor), 1) !important;
 }
 
 /* Blurple Recolor - Keyboard Shortcuts */
-.ddrArrows_ad95dc .arrow_ad95dc,
-.ddrArrows_ad95dc .arrow_ad95dc::after {
+.ddrArrows_f061f6 .arrow_f061f6,
+.ddrArrows_f061f6 .arrow_f061f6::after {
 		height: 50px;
 		width: 50px;
 }
-.ddrArrows_ad95dc .arrow_ad95dc.active_ad95dc {
+.ddrArrows_f061f6 .arrow_f061f6.active_f061f6 {
 		filter: brightness(50%);
 }
-.ddrArrows_ad95dc .arrow_ad95dc {
+.ddrArrows_f061f6 .arrow_f061f6 {
 		position: relative;
 		animation: none !important;
 		background: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/keybinds_arrows_bg.svg) center/contain no-repeat !important;
 }
-.ddrArrows_ad95dc .arrow_ad95dc::after {
+.ddrArrows_f061f6 .arrow_f061f6::after {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -177,13 +177,13 @@
 		background: rgba(var(--AccentColor), 1);
 		-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/keybinds_arrows_accent.svg) center/contain no-repeat;
 }
-.ddrArrows_ad95dc .arrow_ad95dc.down_ad95dc {
+.ddrArrows_f061f6 .arrow_f061f6.down_f061f6 {
 		transform: rotate(270deg);
 }
-.ddrArrows_ad95dc .arrow_ad95dc.up_ad95dc {
+.ddrArrows_f061f6 .arrow_f061f6.up_f061f6 {
 		transform: rotate(90deg);
 }
-.ddrArrows_ad95dc .arrow_ad95dc.right_ad95dc {
+.ddrArrows_f061f6 .arrow_f061f6.right_f061f6 {
 		transform: rotate(180deg);
 }
 

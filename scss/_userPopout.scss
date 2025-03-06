@@ -1,6 +1,6 @@
 /* -=-= User Popouts =-=- */
 /* Avatar */
-.avatarHoverTarget_f89da9 .wrapper_c51b4e svg {
+.avatarHoverTarget_f89da9 .wrapper__44b0c svg {
 		width: 150px !important;
 		height: 150px !important;
 		image-rendering: pixelated;
@@ -98,38 +98,38 @@
 }
 
 /* Media Playback/Activity */
-#app-mount .activityProfile_c1d9fd .activityName_c1d9fd,
-#app-mount .activityProfile_c1d9fd .content_c1d9fd,
-#app-mount .activityProfile_c1d9fd .details_c1d9fd,
-#app-mount .activityProfile_c1d9fd .name_c1d9fd,
-#app-mount .activityProfile_c1d9fd .nameNormal_c1d9fd,
-#app-mount .activityProfile_c1d9fd .nameWrap_c1d9fd,
-#app-mount .activityUserPopout_c1d9fd .activityName_c1d9fd,
-#app-mount .activityUserPopout_c1d9fd .content_c1d9fd,
-#app-mount .activityUserPopout_c1d9fd .details_c1d9fd,
-#app-mount .activityUserPopout_c1d9fd .name_c1d9fd,
-#app-mount .activityUserPopout_c1d9fd .nameNormal_c1d9fd,
-#app-mount .activityUserPopout_c1d9fd .nameWrap_c1d9fd,
-#app-mount .activityUserPopoutV2_c1d9fd .activityName_c1d9fd,
-#app-mount .activityUserPopoutV2_c1d9fd .content_c1d9fd,
-#app-mount .activityUserPopoutV2_c1d9fd .details_c1d9fd,
-#app-mount .activityUserPopoutV2_c1d9fd .name_c1d9fd,
-#app-mount .activityUserPopoutV2_c1d9fd .nameNormal_c1d9fd,
-#app-mount .activityUserPopoutV2_c1d9fd .nameWrap_c1d9fd {
+#app-mount .activityProfile_c1d9fd .activityName__2ef49,
+#app-mount .activityProfile_c1d9fd .content__2ef49,
+#app-mount .activityProfile_c1d9fd .details__2ef49,
+#app-mount .activityProfile_c1d9fd .name__2ef49,
+#app-mount .activityProfile_c1d9fd .nameNormal__2ef49,
+#app-mount .activityProfile_c1d9fd .nameWrap__2ef49,
+#app-mount .activityUserPopout_c1d9fd .activityName__2ef49,
+#app-mount .activityUserPopout_c1d9fd .content__2ef49,
+#app-mount .activityUserPopout_c1d9fd .details__2ef49,
+#app-mount .activityUserPopout_c1d9fd .name__2ef49,
+#app-mount .activityUserPopout_c1d9fd .nameNormal__2ef49,
+#app-mount .activityUserPopout_c1d9fd .nameWrap__2ef49,
+#app-mount .activityUserPopoutV2_c1d9fd .activityName__2ef49,
+#app-mount .activityUserPopoutV2_c1d9fd .content__2ef49,
+#app-mount .activityUserPopoutV2_c1d9fd .details__2ef49,
+#app-mount .activityUserPopoutV2_c1d9fd .name__2ef49,
+#app-mount .activityUserPopoutV2_c1d9fd .nameNormal__2ef49,
+#app-mount .activityUserPopoutV2_c1d9fd .nameWrap__2ef49 {
 		color: rgba(var(--AccentColor), 1);
 }
-#app-mount .headerText_c1d9fd {
+#app-mount .headerText__2ef49 {
 		color: rgba(var(--AccentColor), 1);
 }
-.text_ec2fa7 {
+.text_c8b06d {
 		font-weight: 600;
 		color: rgba(var(--AccentColor), 1) !important;
 }
-.barInner_ec2fa7 {
+.barInner_c8b06d {
 		background-color: rgba(var(--AccentColor), 1) !important;
 		min-width: 5px;
 }
-.bar_ec2fa7 {
+.bar_c8b06d {
 		background-color: rgba(var(--SecondaryBG));
 		height: 5px;
 		margin-bottom: 5px;
@@ -150,7 +150,7 @@
 }
 
 /* Roles */
-.role_f9575e {
+.role_dfa8b6 {
 		font-weight: 600;
 		background: rgba(var(--PrimaryBG)) !important;
 		height: 20px;
@@ -158,15 +158,15 @@
 		padding: 0;
 		border: 1px solid rgba(var(--AccentColor), 1) !important;
 }
-.role_f9575e>:first-child {
+.role_dfa8b6>:first-child {
     margin-right: 5px;
     margin-left: 2px;
 }
-.actionButton_e4010c {
+.actionButton__48c1c {
 		color: #555;
 		width: 20px;
 }
-.addButtonIcon_e4010c {
+.addButtonIcon__48c1c {
 		cursor: crosshair;
 		width: 20px;
 		height: 20px;
@@ -233,7 +233,7 @@
 .popoutBannerPremium-2RvDNZ {
 	height: 135px;
 }
-.roleName_e4010c {
+.roleName__48c1c {
 	font-weight: 500;
 	color: rgba(var(--AccentColor), 1);;
 }
@@ -258,23 +258,23 @@
     background: rgba(var(--AccentColor), 1);;
 }
 
-/*.avatar_c51b4e[src*="https://cdn.discordapp.com/avatar-decoration"] {
+/*.avatar__44b0c[src*="https://cdn.discordapp.com/avatar-decoration"] {
     display: none;
 }*/
 
-.body_b07019 {
+.body__5be3e {
     padding: 0 10px 5px;
     gap: 5px;
 }
 
-.activity_cd74cc {
+.activity_f00225 {
     padding: 0px;
 }
-.theme-dark.custom-profile-theme .activity_cd74cc {
+.theme-dark.custom-profile-theme .activity_f00225 {
     background: transparent;
 }
 
-.userPopoutInner_c69a7b .container_e5a42d {
+.userPopoutInner_c69a7b .container__8061a {
     position: absolute;
     top: -140px;
     margin: 0;
@@ -282,56 +282,56 @@
     background: rgba(var(--SecondaryBG), 0.75);
     border: none;
 }
-.body_b07019 {
+.body__5be3e {
   overflow: visible !important;
 }
-.header_b07019 {
+.header__5be3e {
   z-index: 0;
 }
 .bannerSVGWrapper_b32cc2 {
     z-index: 0;
 	min-height: 125px !important;
 }
-.container_c32acf {
+.container__63ed3 {
   z-index: 9000;
 }
 
-.statusBubbleEmojiOnlyPadding_d0a252 {
+.statusBubbleEmojiOnlyPadding_af9888 {
     padding: 5px;
 		top: -55px;
 }
-.statusBubble_d0a252 {
+.statusBubble_af9888 {
     background: rgba(var(--SecondaryBG), 0.75);
 }
-.statusBubbleOuter_d0a252 {
+.statusBubbleOuter_af9888 {
     position: relative;
     background: transparent;
     box-shadow: none;
     border: none;
 }
-.statusBubbleWithTextPadding_d0a252 {
+.statusBubbleWithTextPadding_af9888 {
     padding: 5px;
 		top: -55px;
 }
-.statusText_d0a252 {
+.statusText_ab8609 {
     display: inline-block;
     color: rgba(var(--AccentColor), 1);
 }
-.statusBubbleWithTextMinWidth_d0a252 {
+.statusBubbleWithTextMinWidth_af9888 {
     min-width: 0;
     width: 230px;
 }
-.statusBubble_d0a252 .statusBubbleWithTextMinWidth_d0a252 {
+.statusBubble_af9888 .statusBubbleWithTextMinWidth_af9888 {
     min-width: 0;
     width: 230px;
 		font-weight: 500;
 		background: transparent;
 }
 
-.custom-profile-theme.theme-dark .statusBubbleOuter_d0a252 {
+.custom-profile-theme.theme-dark .statusBubbleOuter_af9888 {
     border: none;
 }
-.custom-profile-theme .themeColor_f9d37d.primary_f9d37d {
+.custom-profile-theme .themeColor_fb7f94.primary_fb7f94 {
     color: rgba(var(--AccentColor), 1);
     background: transparent;
 }
@@ -340,23 +340,23 @@
     width: 350px;
 }
 
-.statusBubbleWithTextPadding_d0a252 .content_d0a252 {
+.statusBubbleWithTextPadding_af9888 .content_ab8609 {
     font-size: 14px;
 		overflow: unset;
 		word-wrap: unset;
 		min-width: 235px;
 		padding: 1px;
 }
-.statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after {
+.statusBubbleOuter_af9888:before, .statusBubbleOuter_af9888:after {
     display: none;
 }
 
-.custom-profile-theme .invisibleContainer_d0a252.biteSize_d0a252 {
+.custom-profile-theme .invisibleContainer_af9888.biteSize_ab8609 {
     top: 0;
     left: 0;
 		display: none;
 }
-.visibleContainer_d0a252.biteSize_d0a252 {
+.visibleContainer_af9888.biteSize_ab8609 {
     left: 105px;
     top: 135px !important;
 }

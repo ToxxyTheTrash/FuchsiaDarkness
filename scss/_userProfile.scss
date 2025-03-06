@@ -50,7 +50,7 @@
 		background: rgba(var(--PrimaryBG));
 		gap: 5px;
 }
-.top_a0 .selected_a0.themed_a0.item_a0 {
+.top_b3f026 .selected_b3f026.themed_b3f026.item_b3f026 {
     color: rgba(var(--AccentColor), 1);
 		border-color: rgba(var(--AccentColor), 1);
     animation: rainbow 3s linear infinite;
@@ -82,31 +82,31 @@
 }
 
 /* Connections */
-.connectedAccountsColumn_f3eb60+.connectedAccountsColumn_f3eb60 {
+.connectedAccountsColumn_e6abe8+.connectedAccountsColumn_e6abe8 {
 	margin-left: 10px;
 }
-.connectedAccountsColumn_f3eb60 {
+.connectedAccountsColumn_e6abe8 {
 	margin-left: 0px;
 	width: calc(50% - 5px);
 }
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_e6abe8 {
 	margin-top: 10px;
 	padding: 8px;
 	width: 250px;
 	border: 1px solid rgba(var(--AccentColor), 1);
 	background: transparent;
 }
-.connectedAccountVerifiedIcon_f3eb60 svg {
+.connectedAccountVerifiedIcon_e6abe8 svg {
 		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
 		outline: 100px solid rgba(var(--AccentColor), 1);
 		outline-offset: -500px;
 }
-.connectedAccountOpenIcon_f3eb60 {
+.connectedAccountOpenIcon_e6abe8 {
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
-.connectedAccount_f3eb60 {
+.connectedAccount_e6abe8 {
     gap: 10px;
 }
 .tabBarItem_b9fccc {
@@ -141,28 +141,28 @@
 
 
 
-.custom-profile-theme .color_f9d37d.text_f1cdcc, .custom-profile-theme .color_f9d37d.icon_f9d37d {
+.custom-profile-theme .color_f9d37d.text_f1cdcc, .custom-profile-theme .color_f9d37d.icon_fb7f94 {
     background: transparent;
     color: rgba(var(--AccentColor), 1);
     transition: none;
 		opacity: 1;
 }
 
-:where(.buttonInner_f9d37d).icon_f9d37d {
+:where(.buttonInner_fb7f94).icon_fb7f94 {
     min-width: 25px;
     min-height: 25px;
 }
-[aria-label="Add Friend"].button_f9d37d .icon_f9d37d {
+[aria-label="Add Friend"].button_fb7f94 .icon_fb7f94 {
 	-webkit-mask: url("https://i.imgur.com/kqeqvXb.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--AccentColor), 1);
 }
-[aria-label="Friends"].button_f9d37d .icon_f9d37d {
+[aria-label="Friends"].button_fb7f94 .icon_fb7f94 {
 	-webkit-mask: url("https://i.imgur.com/dGBAHCS.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--AccentColor), 1);
 }
-.wrapper_cb78f1.biteSize_cb78f1 .button_dd4f85 {
+.wrapper_da5890.biteSize_da5890 .button__201d5 {
     padding: 0;
 		margin: 0 0 !important;
 }
