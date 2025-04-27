@@ -1,15 +1,19 @@
 /* -=-= Search UI =-=- */
-
+.visual-refresh {
 /* Search Popout */
 .search__49676 {
-		margin: 0 0;
+		margin: 0;
 }
 .searchBar__97492 {
 		height: 25px;
-		width: 35px;
-		padding: 0 5px;
+		width: 25px;
+		padding: 0 0;
 		color: rgba(var(--AccentColor), 1);
 		background-color: rgba(var(--TertiaryBG), 1);
+		border: none;
+}
+.search__97492 .DraftEditor-root {
+    padding: 0;
 }
 .focused__97492 .searchBar__97492, .open__97492 .searchBar__97492 {
 		width: 320px;
@@ -23,6 +27,10 @@
 		width: 25px;
 		height: 25px;
 		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
+}
+.iconLayout_fea832 svg {
+		display: none;
 }
 .iconLayout_fea832[aria-hidden*="false"] {
 		-webkit-mask: url("https://i.imgur.com/dtAqBih.png") center/cover;
@@ -103,4 +111,6 @@
 		right: 0;
 		max-height: calc(100% - 50px);
     background-color: rgba(var(--PrimaryBG));
+}
+
 }

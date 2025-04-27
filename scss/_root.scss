@@ -11,10 +11,10 @@
 		 --purpleDark: #432870;
 		 --nitro: #ff73fa;
 }
- .theme-dark {
+.theme-dark {
 		 --header-secondary: #bbb;
 		 --text-normal: #fff;
-		 --text-muted: rgba(var(--AccentColor), 0.5);
+		 --text-muted: rgba(var(--AccentColor), 0.5) !important;
 		 --text-link: rgba(var(--AccentColor), 1);
 		 --interactive-normal: rgba(var(--AccentColor), 0.75);
 		 --interactive-hover: rgba(var(--AccentColor), 1);
@@ -28,6 +28,10 @@
 		 --background-modifier-hover: rgba(var(--PrimaryBG));
 		 --background-modifier-selected: rgba(var(--SecondaryBG));
 		 --input-background: rgba(var(--SecondaryBG));
+		 --custom-guild-list-padding: 5px;
+		 --chat-text-muted: rgba(var(--AccentColor), 0.75) !important;
+		 --brand-360: rgba(var(--AccentColor), 1);
+		 --text-brand: rgba(var(--AccentColor), 1);
 }
 
 /* Radial Status */

@@ -108,8 +108,16 @@
 		display: none;
 }
 
-.container__9293f {
+.visual-refresh .title_f75fb0 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+}
+.visual-refresh .container__9293f {
 		border-bottom: 2px solid rgba(var(--AccentColor), 1);
+}
+.visual-refresh .chat_f75fb0[data-has-border=true] {
+    border-top: none;
 }
 .topic__6ec1a {
 		margin-left: 5px;

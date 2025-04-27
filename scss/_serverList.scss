@@ -1,4 +1,5 @@
 /* -=-= Server List =-=- */
+.visual-refresh {
 /* Server List - Home */
 #app-mount .guilds_c48ade .wrapper_cc5dd2 [data-list-item-id*="guildsnav___home"] svg {
 		color: transparent;
@@ -7,19 +8,24 @@
 		width: 100%;
 }
 .wrapper__6e9f8:hover .childWrapper__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
-		background-color: rgba(var(--AccentColor), 0.25);
+		background: rgba(var(--AccentColor), 0.25) !important;
+}
+.childWrapperNoHoverBg__6e9f8 {
+    background: rgba(var(--PrimaryBG)) !important;
 }
 
 /* Server Pills */
 .item__58105 {
-		background-color: rgba(var(--AccentColor), 1) !important;
+		background: rgba(var(--AccentColor), 1) !important;
+		width: 10px;
+		margin: 0;
 }
 
 /* DM Divider */
 .guildSeparator__252b6 {
 		height: 2px;
 		width: 25px;
-		background-color: rgba(var(--AccentColor), 1);
+		background: rgba(var(--AccentColor), 1);
 }
 
 /* Add Server + Server Discovery */
@@ -28,13 +34,15 @@
 		height: 30px;
 		color: #fff;
 }
-.wrapper-28eC3z .circleIconButton__5bc7e[data-list-item-id*="guildsnav___create-join-button"] svg {
+.wrapper_cc5dd2 .circleIconButton__5bc7e[data-list-item-id*="guildsnav___create-join-button"] svg {
 		-webkit-mask: url("https://i.imgur.com/Mm7wgGi.png") center/cover;
-		background: white;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 }
-.wrapper-28eC3z .circleIconButton__5bc7e[data-list-item-id*="guildsnav___guild-discover-button"] svg {
+.wrapper_cc5dd2 .circleIconButton__5bc7e[data-list-item-id*="guildsnav___guild-discover-button"] svg {
 		-webkit-mask: url("https://i.imgur.com/wpTpSDQ.png") center/cover;
-		background: white;
+		background: rgba(var(--AccentColor), 1);
+		color: rgba(var(--AccentColor), 1);
 }
 
 /* Server Folders */
@@ -68,7 +76,7 @@
     padding-top: 5px;
 }
 .listItem__650eb {
-    margin: 0 0 5px;
+    margin: 0;
     width: 50px;
 }
 .wrapper-28eC3z {
@@ -82,7 +90,7 @@
 }
 .wrapper__58105 {
     width: 5px;
-    height: 35px;
+    height: 40px;
 }
 .wrapper__48112 {
     width: 50px;
@@ -99,4 +107,13 @@
     top: 0;
     left: 0;
     background-color: rgba(var(--TertiaryBG), 1);
+}
+
+.unreadMentionsIndicatorBottom_ef3116, .visual-refresh .unreadMentionsIndicatorTop_ef3116 {
+    display: none;
+}
+.guilds_c48ade {
+    width: 50px;
+}
+
 }

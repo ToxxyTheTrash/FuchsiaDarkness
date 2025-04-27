@@ -7,9 +7,11 @@
 		left: 0;
 		width: 100%;
 }
-#app-mount .winButton__421ed {
-		top: calc(100vh - 50px);
-		margin-top: 10px !important;
+.bar_c38106 {
+    gap: 0;
+    min-height: 0;
+		height: 5px;
+    padding: 0;
 }
 #app-mount .titleBar__421ed:after {
 		content: "";
@@ -20,20 +22,32 @@
 		left: -120px;
 		-webkit-app-region: drag;
 }
-.winButton__421ed {
-		 position: relative;
-		 top: 10px;
-		 left: -25px;
-		 height: 25px;
-		 width: 35px;
-		 background-color: rgba(var(--TetriaryBG));
-		 color: rgba(var(--AccentColor), 1);
+.winButtons_c38106 {
+		position: relative;
+		right: 15px;
+		height: 25px;
+		width: 75px;
+		top: calc(100vh - 25px);
+		margin-top: 0 !important;
+		gap: unset;
+		background: rgba(var(--TetriaryBG)) !important;
+		color: rgba(var(--AccentColor), 1);
 }
-.winButton__421ed:hover {
+.winButtons_c38106 .winButtonMinMax_c38106 {
+		 color: rgba(var(--AccentColor), 1);
+		 background: rgba(var(--TetriaryBG));
+}
+.winButtons_c38106 .winButtonMinMax_c38106[aria-label^="Minimize"]:hover {
 		 color: rgba(var(--AccentColor), 1);
 		 background: rgba(var(--AccentColor), 0.25);
 }
-
+.winButtons_c38106 .winButtonMinMax_c38106[aria-label^="Maximize"]:hover {
+		 color: rgba(var(--AccentColor), 1);
+		 background: rgba(var(--AccentColor), 0.25);
+}
+.winButtonsWithDivider_c38106:before {
+    display: none;
+}
 .colorNotification-24Qhr6 {
     background-color: rgba(var(--SecondaryBG));
     color: rgba(var(--AccentColor), 1);

@@ -1,4 +1,5 @@
 /* =-=- Chat -=-= */
+.visual-refresh {
 /* Chatbox Input */
 .textArea__74017 {
 		 background-color: rgba(var(--TertiaryBG), 1);
@@ -29,10 +30,23 @@
 		margin-bottom: 0;
 }
 .channelTextArea_f75fb0 {
-		border-top: 2px rgba(var(--AccentColor), 1) solid;
+		border-top: 2px rgba(var(--AccentColor), 1) solid !important;
 }
 .channelTextArea_f75fb0 {
 		background-color: rgba(var(--PrimaryBG));
+}
+:where(.visual-refresh) .channelTextArea__74017 {
+    border: none;
+}
+:where(.visual-refresh) .textArea__74017:not(.textAreaSlate__74017) {
+    box-sizing: border-box;
+    min-height: 41px;
+    padding: 0;
+}
+.visual-refresh .form_f75fb0 {
+    margin-top: 0;
+		padding-left: 0;
+		padding-right: 0;
 }
 /* Border when having longer messages written, thanks to Gibbu#1211! */
 .channelTextArea_f75fb0::before {
@@ -54,20 +68,23 @@
 		/* clip-path: polygon(50% 35%, 35% 20%, 15% 30%, 15% 50%, 50% 85%, 85% 50%, 85% 30%, 65% 20%); */
 }
 #app-mount .attachButtonInner__0923f svg {
-		-webkit-mask: url("https://i.imgur.com/tfdUDNN.png");
+		-webkit-mask: url("https://i.imgur.com/tfdUDNN.png") center/cover !important;
 		-webkit-mask-size: 28px !important;
 		color: rgba(var(--AccentColor), 1);
 		background: rgba(var(--AccentColor), 1);
+}
+.attachButtonInner__0923f {
+    height: 10px;
 }
 .attachButton__0923f {
     height: 35px;
     padding: 10px 10px;
 }
-.attachButton__74017 {
-    margin-left: -20px;
-}
 .attachButtonPlay__0923f {
     display: none;
+}
+.sansAttachButton__74017 {
+    padding-left: 15px !important;
 }
 
 /* Upload options */
@@ -133,33 +150,35 @@
 #app-mount div.sprite__04eed {
 		-webkit-mask: url("https://i.imgur.com/mYbru9j.png") no-repeat center/cover;
 		background: rgba(var(--AccentColor), 1);
-		margin-bottom: 0;
-		margin-right: 5px;
+		width: 24px;
+		margin: 0;
 }
 .spriteContainer__04eed {
 	transform: none !important;
 }
-
-/* Chatbox icons - Stickers */
-.stickerButton__74017 {
-		padding: 2px 0 0 0;
-		margin: 0;
-		-webkit-mask: url("https://i.imgur.com/ZjZ0zvH.png") center/cover;
-		width: 22px;
-		height: 22px;
-		background: rgba(var(--AccentColor), 1) !important;
+[aria-label^="Select emoji"].button__201d5 svg {
+		color: rgba(var(--AccentColor), 1) !important;
+		cursor: crosshair;
 }
-.active__24af7 .buttonWrapper__24af7, .buttonWrapper__24af7:hover {
+/* Chatbox buttons - Stickers */
+.stickerButton__74017 {
+		padding: 0;
+		margin: 0;
+		-webkit-mask: url("https://i.imgur.com/ZjZ0zvH.png") no-repeat center/cover;
+		background: rgba(var(--AccentColor), 1) !important;
+		color: rgba(var(--AccentColor), 1) !important;
+		width: 20px;
+}
+[aria-label^="Open sticker picker"].button__201d5 svg {
 		color: rgba(var(--AccentColor), 1) !important;
 		cursor: crosshair;
 }
 
-/* Chatbox icon deletion*/
-.app__160d8 [aria-label="Send a gift"] {
+/* Chatbox bloatware killer */
+.app__160d8 [aria-label="Send a gift"],
+.app__160d8 [aria-label="Open GIF picker"],
+.app__160d8 [aria-label="Apps"] {
 		 display: none;
-}
-.app__160d8 [aria-label="Open GIF picker"] {
-		display: none;
 }
 
 /* Markdown Chatbox */
@@ -243,7 +262,7 @@
 /* Chat Username */
 .username_c19a55 {
 		font-size: 20px;
-		font-weight: 500;
+		font-weight: 600;
 		vertical-align: baseline;
 }
 /* Chat Avatar */
@@ -253,7 +272,6 @@
 		width: 50px;
 		height: 50px;
 		cursor: crosshair;
-		z-index: 1;
 		image-rendering: pixelated;
 }
 .avatarDecoration_c19a55 {
@@ -928,11 +946,11 @@
 }
 
 /* Send Message Button */
-.separator_aa63ab {
-    margin-left: 0px;
+.visual-refresh .separator_aa63ab {
+    margin-left: 0;
 }
-.separator_aa63ab:before {
-    border-left: 2px dashed rgba(var(--AccentColor), 1);
+.visual-refresh .separator_aa63ab:before {
+    border-left: 2px dashed rgba(var(--AccentColor), 1) !important;
     height: 50%;
 }
 .innerButton_aa63ab {
@@ -954,6 +972,11 @@
 	background: rgba(var(--PrimaryBG));
 }
 
+/* Chat Load Fix */
+.visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 {
+    background: rgba(var(--PrimaryBG));
+}
+
 /* Reply Attachment icon */
 .repliedTextContentIcon_da8b30, .threadMessageAccessoryContentIcon_af7460 {
 		-webkit-mask: url("https://i.imgur.com/w52Yxe5.png") center/cover;
@@ -968,17 +991,6 @@
 		color: rgba(var(--AccentColor), 1);
 }
 
-/* Dismissable Stuff */
-/* "Try slash commands!" */
-.base_b88801 {
-    bottom: 50px;
-    left: 5px;
-    height: 20px;
-}
-.applicationCommandEducationArrow-2xKDmq {
-		display: none;
-}
-
 /* Home - Highlights */
 .homeContainer__73533 {
 	padding: 25px 15px;
@@ -987,7 +999,6 @@
 #app-mount .background_c54132 {
 	background-color: rgba(var(--PrimaryBG));
 }
-
 
 
 /* temp stuff */
@@ -1025,4 +1036,14 @@
 }
 .page_c791b2 {
     background: rgba(var(--PrimaryBG)) !important;
+}
+
+/* Reply Mention Size Fix */
+.repliedMessage_c19a55 .username_c19a55 {
+		font-size: 15px;
+		text-decoration-line: underline;
+		font-weight: 600;
+    opacity: 1;
+}
+
 }

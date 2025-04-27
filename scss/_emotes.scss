@@ -1,4 +1,5 @@
 /* -=-= Emote Menu =-=- */
+.visual-refresh {
 /* GIF Menu */
 .theme-dark .categoryFadeBlurple_d02962 {
     background-color: rgba(var(--AccentColor), 0.25);
@@ -229,4 +230,6 @@
 		padding-top: 0;
 		margin-bottom: 0;
 		bottom: -10px;
+}
+
 }

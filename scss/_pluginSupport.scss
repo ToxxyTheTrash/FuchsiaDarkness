@@ -1,49 +1,4 @@
-/* XenoLib - Deprecated */
-/* Notification box */
-.xenoLib-notification-content {
-		padding: 10px 5px 15px 10px; /* [top], [right], [down], [left]; default: 12px 0 0 0 */
-		background: rgb(0, 0, 0); /* default: rgb(71, 71, 71) */
-		width: 400px; /* default: 20vw */
-		min-width: 300px; /* default: 330px */
-		color: rgb(255, 255, 255);
-		font-size: 14px;
-}
-/* Loading bar */
-.xenoLib-notification-loadbar {
-		bottom: 0px;
-		left: 0px;
-		width: auto;
-		background-image: rgba(var(--AccentColor), 1);
-		height: 5px; /* loading bar fat :) */
-}
-
-/* BetterImageViewer - Deprecated */
-#app-mount .BIV-zoom-lens {
-		cursor: crosshair;
-		border: dashed 5px rgba(var(--AccentColor), 1);
-}
-.BIV-info-extra {
-	right: 150px !important;
-}
-
-/* PronounDB */
-.PronounDB-pronouns-text {
-    text-transform: lowercase;
-    line-height: 15px !important;
-    position: absolute;
-    top: 5px;
-}
-.PronounDB-style-container .PronounDB-style-header {
-    margin-bottom: 5px !important;
-    color: rgba(var(--AccentColor), 1) !important;
-}
-.PronounDB-style-container .PronounDB-style-tag {
-    color: rgba(var(--AccentColor), 1) !important;
-		text-transform: lowercase;
-		margin-top: 2px;
-}
-
-/* Spotify - Vencord */
+/* SpotifyControls - Vencord */
 .theme-dark #vc-spotify-player {
     background: rgba(var(--PrimaryBG));
 }
@@ -52,4 +7,18 @@
 }
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
     color: rgba(var(--AccentColor), 1) !important;
+}
+.vc-spotify-button-row {
+    display: none !important;
+}
+
+/* ShowMeYourName - Vencord */
+.vc-smyn-suffix {
+    font-size: 15px;
+}
+.vc-smyn-suffix:before {
+    content: "• ";
+}
+.vc-smyn-suffix:after {
+    content: " ";
 }

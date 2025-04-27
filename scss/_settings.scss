@@ -58,6 +58,15 @@
 .defaultMarginh1-EURXsm, .defaultMarginh2-t7G-2y {
     margin-bottom: 5px;
 }
+.title_ace4f5 {
+    margin-bottom: 0;
+}
+.h5_b717a1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: capitalize;
+}
 
 /* Settings Width */
 .contentColumnDefault__23e6b {
@@ -86,6 +95,20 @@
 }
 #app-mount .keybind_c2b141 {
 		display: none;
+}
+
+/* Main Side */
+.contentRegion__23e6b {
+    flex: 1 1 1000px;
+}
+.visual-refresh.platform-win .contentRegionScroller__23e6b {
+    margin-top: 0;
+}
+.visual-refresh .contentRegionScroller__23e6b {
+    background: rgba(var(--PrimaryBG));
+}
+.visual-refresh .sidebarRegionScroller__23e6b {
+    background: rgba(var(--PrimaryBG));
 }
 
 /* Sliders */
@@ -118,6 +141,25 @@
 .side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
     margin-left: 2px;
 }
+.tabBar_f8303a {
+    border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+    max-width: 100%;
+}
+:where(.visual-refresh) .top_b3f026 .item_b3f026 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.top_b3f026 .brand_b3f026.item_b3f026:active, .top_b3f026 .brand_b3f026.selected_b3f026.item_b3f026 {
+    border: none;
+		color: rgba(var(--AccentColor), 1);
+}
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after, 
+:where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
+    display: none;
+}
 
 .side_b3f026 .item_b3f026{
 		padding-top: 0;
@@ -148,8 +190,13 @@
 		-webkit-mask: url("https://i.imgur.com/ctWX4nh.png");
 		-webkit-mask-size: 24px !important;
 }
-/* Privacy & Safety */
-[aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="Privacy & Safety"]:before {
+/* Content & Social */
+[aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="Content & Social"]:before {
+		-webkit-mask: url("https://i.imgur.com/vdEtrlV.png");
+		-webkit-mask-size: 22px !important;
+}
+/* Data & Privacy */
+[aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="Data & Privacy"]:before {
 		-webkit-mask: url("https://i.imgur.com/cPWXDFI.png");
 		-webkit-mask-size: 20px !important;
 }
@@ -177,11 +224,6 @@
 [aria-label="User Settings"].side_b3f026 .item_b3f026[aria-label="Clips"]:before {
 		-webkit-mask: url("https://i.imgur.com/U6qtcWY.png");
 		-webkit-mask-size: 24px !important;
-}
-/* Friend Requests */
-[aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="Friend Requests"]:before {
-		-webkit-mask: url("https://i.imgur.com/vdEtrlV.png");
-		-webkit-mask-size: 22px !important;
 }
 
 /* Discord Nitro */
@@ -325,32 +367,42 @@
 }
 
 /* Vencord Settings */
-/* VC - Vencord */
+/* Vencord */
 [aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="VencordSettings"]:before {
 		-webkit-mask: url("https://i.imgur.com/pYqekDg.png");
 		-webkit-mask-size: 22px !important;
 }
-/* VC - Updater */
+.vc-special-card-special {
+    display: none !important;
+}
+.vc-settings-quickActions-card {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+/* Updater */
 [aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="VencordUpdater"]:before {
 		-webkit-mask: url("https://i.imgur.com/IYrkNiU.png");
 		-webkit-mask-size: 22px !important;
 }
-/* VC - Cloud */
+/* Cloud */
 [aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="VencordCloud"]:before {
 		-webkit-mask: url("https://i.imgur.com/RIFzsBJ.png");
 		-webkit-mask-size: 22px !important;
 }
-/* VC - Backup & Restore */
+/* Backup & Restore */
 [aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="VencordSettingsSync"]:before {
 		-webkit-mask: url("https://i.imgur.com/Fnc1wVJ.png");
 		-webkit-mask-size: 22px !important;
 }
-/* VC - Plugins */
+/* Plugins */
 [aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="VencordPlugins"]:before {
 		-webkit-mask: url("https://i.imgur.com/CB6mfdr.png");
 		-webkit-mask-size: 22px !important;
 }
-/* VC - Themes */
+/* Themes */
 [aria-label="User Settings"].side_b3f026 .item_b3f026[data-tab-id="VencordThemes"]:before {
 		-webkit-mask: url("https://i.imgur.com/6Rv7VNd.png");
 		-webkit-mask-size: 22px !important;
@@ -438,8 +490,8 @@
 		image-rendering: pixelated;
 }
 .avatar__1fed1 svg {
-		top: 25px;
-		left: 15px;
+		top: 10px;
+		left: 10px;
 		width: 150px !important;
 		height: 150px !important;
 		image-rendering: pixelated;
@@ -625,6 +677,9 @@
 .spinningAvatar_abf1df {
     animation: rainbow 3s infinite linear;
 }
+.container__8279f {
+    display: none;
+}
 
 /* "Privacy & Safety" Page */
 .radioBar-3w9XY- {
@@ -804,6 +859,10 @@
 /* Search Box */
 .searchBar_c7e907 {
     margin-bottom: 0;
+}
+.visual-refresh .container_fea832 {
+    background: transparent;
+    border: none;
 }
 .side_b3f026 [style="margin-bottom: 8px;"] {
 		margin-bottom: 0 !important;

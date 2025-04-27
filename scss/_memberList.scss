@@ -1,11 +1,16 @@
 /* =-=- Member List -=-= */
 /* Member Width */
+.visual-refresh  {
 .member__5d473 {
 		max-width: 325px;
 		margin-left: 5px;
+		background: rgba(var(--PrimaryBG));
 }
 .container__91a9d {
 		padding: 0 0 0 5px;
+}
+.container_c8ffbb {
+    border-left: none;
 }
 /* Role spacing */
 .membersGroup_c8ffbb {
@@ -38,4 +43,9 @@
 }
 .container-3wLKDe:only-child {
   max-width: 100%;
+}
+
+.childContainer__91a9d {
+    padding: 0 0;
+}
 }

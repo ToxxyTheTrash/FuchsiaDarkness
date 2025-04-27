@@ -147,3 +147,41 @@
 #app-mount .waveform_a8e786, #app-mount .canvas__0efdf {
     color: rgba(var(--AccentColor), 1) !important;
 }
+
+/* Improved Timestamps */
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
+/* Title Bar Killer */
+.visual-refresh {
+div.page_c48ade {
+&:not(:has(> div.chat_f75fb0)) {
+}}
+div.base_c48ade {
+grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+.div.videoControls_bfe55a .topControls_bfe55a {
+z-index: -1;
+}}}
+
+/* "Activity" bar killer */
+.headerContainer__095fe {
+		display: none;
+}
+
+/* Input Fields */
+.input__0f084 {
+    border: none;
+		border-bottom: 1px solid rgba(var(--AccentColor), 0.75);
+    height: 35px;
+    padding: 5px;
+		transition: none;
+}
+.input__0f084:hover {
+    border: none;
+		border-bottom: 1px solid rgba(var(--AccentColor), 1);
+}
